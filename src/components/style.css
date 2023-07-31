@@ -1,0 +1,81 @@
+
+/* .container-fluid{
+  position: fixed;
+  top: 2px;
+} */
+a.navbar-brand {
+    margin: 20px; /* Add 10 pixels of space on all sides */
+    margin-top: 2px;
+    font-size: 50px;
+    margin-right: 50px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    font-family:Montserrat,sans-serif;
+    font-weight: bold;
+  }
+  .btn{
+   margin-right: 80px;
+   background-color: #6EBF72;
+   color: aliceblue;
+   border-radius:0px ;
+   -webkit-border-radius:0px ;
+   -moz-border-radius:0px ;
+   -ms-border-radius:0px ;
+   -o-border-radius:0px ;
+   width: 20%;
+   font-family:Montserrat,sans-serif;
+  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width:2000px; /* Adjust the width as per your requirement */
+  margin:auto;
+  padding:200px;
+  border: 7px solid #ccc;
+  border-left: transparent;
+  border-right: transparent;
+  border-top:transparent;
+}
+
+.container h1 {
+  font-size: 24px;
+  margin: 0;
+  margin-right: 380px;
+  font-family:Montserrat,sans-serif;
+
+}
+
+.container p {
+  margin: 5px 0;
+  margin-right: 380px;
+  font-family:Montserrat,sans-serif;
+
+}
+
+.btn2 {
+  padding: 10px 20px;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.body11 {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
