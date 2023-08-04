@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  section {
+    width: 100%;
+    height: 400px;
+    background-color: antiquewhite;
+  }
+  .sec1 {
+    display: flex;
+    margin: 0px 200px 0px 200px;
+  }
+  .sec1-box1 {
+    width: 550px;
+    height: 300px;
+  }
+  .sec1-box2 {
+    width: 550px;
+    height: 300px;
+  }
+  
+  header {
+    height: 500px;
+    width: 100%;
+  }
+  #footer {
+    font-family: "HCo Gotham SSm", "Montserrat", sans-serif;
+    background-color: #144947;
+    width: 100%;
+    height: 600px;
+    font-size: 19px;
+  }
+  #mainul1 {
+    display: flex;
+  }
+  #mainfoot1 {
+    height: 350px;
+    display: flex;
+    margin: 0 100px 0 100px;
+    padding: 70px 0;
+  }
+  #mainfooter2-first {
+    height: 20%;
+  }
+  #mainul1 li {
+    list-style: none;
+    width: 170px;
+  }
+  #mainul1 .li-first {
+    height: 170px;
+  }
+  #mainul1 li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  #mainul1 > li > a {
+    letter-spacing: 1.17px;
+    color: #6fc073;
+    font-weight: 500;
+  }
+  #mainul1 > li > ul {
+    /* color: yellow; */
+    /* margin-bottom: 30px; */
+    margin-top: 20px;
+  }
+  #mainul1 > li > ul > li {
+    margin-bottom: 5px;
+    letter-spacing: normal;
+    font-weight: 400;
+  }
+  #mainul1 > li > ul > li > a > i {
+    /* margin-bottom: 5px; */
+    margin-right: 8px;
+  }
+  #mainul1 > li > ul > li > a:hover {
+    color: #6fc073;
+  }
+  .footer1 {
+    height: 180px;
+    width: 730px;
+    margin-left: 100px;
+  }
+  .footer2 {
+    height: 180px;
+    width: 370px;
+  }
+  .footer2 h6 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 7px;
+    color: #6fc073;
+  }
+  
+  .footer2 p {
+    font-size: 13px;
+    margin-bottom: 15px;
+    color: white;
+    color: #387576;
+  }
+  .input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+  }
+  .btn4 {
+    width: 100%;
+    background-color: #6FC073;
+    color: wheat;
+    font-weight: blod;
+    border: #6FC073;
+  }
+  .btn4:hover {
+    background-color:  #144947;
+  }
+  .footer2 input {
+    padding: 8px 13px;
+    margin-bottom: 12px;
+  }
+  
+  .btn {
+    width: 100%;
+    height: 30px;
+    padding: 7px;
+    border: none;
+    background-color: #6fc073;
+    color: white;
+  }
+  
+  .mainfooter2-first {
+    padding-top: 38px;
+    padding-bottom: 40px;
+  }
+  .mainfooter2-second {
+    margin: 0px 48px 0px 170px;
+    padding: 0px 30px;
+  }
+  .mainfooter2-second-first {
+    width: 710px;
+    height: 69px;
+    font-size: 14px;
+  }
+  
+  .mainfooter2-second-first .para1 {
+    height: 36px;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #4c8182;
+  }
+  .para2 {
+    color: #4c8182;
+  }
