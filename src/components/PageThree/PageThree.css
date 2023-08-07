@@ -1,0 +1,130 @@
+
+body {
+  box-sizing: border-box;
+  font-family: "HCo Gotham SSm", "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f1ddc0;
+}
+.p2main {
+  height: 2600px;
+  background-color: #f1ddc0;
+  width:100%;
+  margin-left:88px;
+}
+.p2main-div {
+  height: 1550px;
+  width: 730px;
+  margin: 0px 200px 30px 200px;
+  padding-top: 90px;
+}
+.p2main-div-first {
+  margin-bottom: 20px;
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  border: 2px solid black;
+}
+.p2main-div-second {
+  height: 300px;
+  width: 100%;
+  display: flex;
+}
+.p2main-div-second-first {
+  height: 100%;
+  width: 400px;
+}
+.p2main-div-second-second {
+  height: 100%;
+  width: 300px;
+}
+.p2main-div-third {
+  height: 400px;
+}
+.p2main-div-third-first {
+  height: 100%;
+  width: 450px;
+}
+.div-third-first-a {
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: rgb(115, 150, 62);
+}
+.p2main-div-fourth {
+  height: 470px;
+  display: flex;
+}
+.p2main-div-fourth-first {
+  height: 100%;
+  width: 415px;
+}
+.div-fourth-a {
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: rgb(115, 150, 62);
+}
+.p2main-div-fourth-second {
+  height: 100%;
+  width: 290px;
+}
+.card {
+  width: 18rem;
+  height: 100%;
+}
+.p2main-div-five-first {
+  display: flex;
+}
+.main-section-cards > div > a > img {
+  object-fit: cover;
+  padding-top: 20px;
+  height: 200px;
+  width: 180px;
+  display: block;
+}
+.main-section-cards {
+  height: 330px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 212px;
+  display: block;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+.main-section-cards-h5 {
+  border-bottom: 1px dotted;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #94ada5;
+  font-size: 11px;
+  margin-top: 9px;
+  text-align: center;
+}
+.product-name {
+  text-align: center;
+  margin-top: 10px;
+  color: #718c93;
+  font-size: 16px;
+  font-weight: normal;
+}
+.star > img {
+  height: 30px;
+  width: 100px;
+  margin-left: 40px;
+}
+.star1 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 23px;
+  display: flex;
+}
+.star2 {
+  text-align: center;
+  font-size: 23px;
+  display: flex;
+}
+.star3 {
+  margin-top: -20px;
+  text-align: center;
+  font-size: 23px;
+  display: flex;
+}

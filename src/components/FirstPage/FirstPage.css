@@ -43,10 +43,14 @@
   .heada{
     color:#144749;
     font-weight: bold;
-    margin-left: 200px;
+    /* margin-left: 200px; */
+    text-align: center;
   }
   .para{
-    margin-left: 200px;
+    text-align:center;
+    /* margin-left: 100px;
+    margin-right: 1px; */
+    /* line-height: 2px; */
   
   }
   .info1{
@@ -67,7 +71,7 @@
   .card-container {
     display: flex;
     justify-content: space-between; /* Adjust this as per your layout requirements */
-  margin: 2px;
+    margin: 5px;
   }
   
   
@@ -80,32 +84,34 @@
     -ms-border-radius: 0px;
     -o-border-radius: 0px;
   }
-  .navbar-nav{
-    margin-left: 500px;
-  }
+  
   .card-body{
     margin-top: 200px;
     width: max-content;
   }
   .card-title{
-  margin-left: 120px;
-  color: #6EBF72;
+    text-align:start;
+    margin-left: -9px;
+     color: #6EBF72;
   }
   .ct1{
-    margin-left:50px;
+    text-align: justify;
+    margin-left:6px;
     font-weight:bold;
     font-size:medium;
   }
   .card-text{
-    margin-left: 30px;
-  font-size:17px;
-    line-height:8px;
+    text-align:start;
+    margin-left:-10px;
+    font-size:17px;
+    line-height:15px;
   }
   .card-text1{
-    margin-left: 120px;
-  font-size:13px;
-  line-height:8px;
-   font-size: medium;
+    /* text-align: justify; */
+    margin-left: 245px;
+    font-size:13px;
+    line-height:15px;
+    font-size: medium;
   }
   /* Apply basic styling for the outer box */
   .outer-box {
@@ -135,8 +141,8 @@
   text-align: center;
   }
   .container1{
-    text-align: center;
-    max-width:2000px; /* Adjust the width as per your requirement */
+    /* text-align: center; */
+    max-width:3000px; /* Adjust the width as per your requirement */
     margin:auto;
     margin-top: -2px;
     padding:200px; 
@@ -145,27 +151,26 @@
     border-bottom:solid #6EBF72;
   }
   .container1 h4 {
-    margin-right: 5px;
-    font-family:Montserrat,sans-serif;
-   color:#144749;
-   font-weight:800;
-    
-  
-  }
-  
+    margin-right: 20px;
+    font-family: Montserrat, sans-serif;
+    color: #144749;
+    font-weight: 800;
+}
+
   .container1 h2 {
-    margin-left: 85px;
-    font-family:Montserrat,sans-serif;
-    color:#144749;
-    font-weight: bold;
-  
-  }
-  .container1 p {
-    margin: 5px 0;
     margin-right: 380px;
-    font-family:Montserrat,sans-serif;
-  
-  }
+    font-family: Montserrat, sans-serif;
+    color: #144749;
+    font-weight: bold;
+}
+
+
+
+.container1 p {
+    margin: 5px 0;
+    margin-right: 80px;
+    font-family: Montserrat, sans-serif;
+}
   br{
     background-color: #F3FFE9;
   }

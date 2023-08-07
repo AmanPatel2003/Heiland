@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    box-sizing: border-box;
+    font-family: "HCo Gotham SSm", "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f1ddc0;
+  }
+  .p5main {
+    height: 1050px;
+    width: 100%;
+  }
+  .p5main-div {
+    display: flex;
+    height: 950px;
+    width: 1200px;
+    margin: 100px 150px 20px 150px;
+  }
+  .p5main-div1 {
+    height: 810px;
+    width: 850px;
+  }
+  .p5main-div1-1 {
+    display: flex;
+    height: 270px;
+    width: 850px;
+  }
+  .p5main-div1-1-first {
+    border: 2px solid black;
+    height: 250px;
+    width: 40%;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+  }
+  .p5main-div1-1-second {
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+    width: 60%;
+  }
+  .p5main-div1-2 {
+    display: flex;
+    height: 270px;
+    width: 850px;
+  }
+  .p5main-div1-2-first {
+    border: 2px solid black;
+    height: 250px;
+    width: 40%;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+  }
+  .p5main-div1-2-second {
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+    width: 60%;
+  }
+  .p5main-div1-3 {
+    display: flex;
+    height: 270px;
+    width: 850px;
+  }
+  .p5main-div1-3-first {
+    border: 2px solid black;
+    height: 250px;
+    width: 40%;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+  }
+  .p5main-div1-3-second {
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+    width: 60%;
+  }
+  
+  .p5main-div2 {
+    height: 810px;
+    width: 350px;
+  }
+  .p5main-div2-div {
+    height: 790px;
+    width: 300px;
+    margin: 10px 25px;
+  }
+  
+  .p5main-div2-first {
+    height: 390px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(204, 245, 204);
+  }
+  .p5main-div2-second {
+    height: 370px;
+    width: 90%;
+    padding: 15px 5% 15px 5%;
+  }
+  .p5main-div2-second > h2 {
+    display: inline-block;
+  }
+  .headding-green {
+    color: green;
+  }
+  .card-container {
+    height: 90px;
+    width: 100%;
+    display: flex;
+  }
+  .container {
+    border: 1px solid black;
+  }
+  
+  .card {
+    height: 86px;
+    width: 33%;
+    margin: 5px 5px 5px 5px;
+  }

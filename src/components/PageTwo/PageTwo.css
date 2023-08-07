@@ -1,16 +1,19 @@
 
    .container3{
-    width:100%;
+     width:100%;
      background-color:#E6F6DC;
      margin:0;
      padding:220px;
+     padding-left: 160px;
      border-bottom: 1px solid #75B0B8;
      border-left: #C5E2C4; 
      border-right: #C5E2C4;
    }
    
    .container3 h1 {
-     font-size: 24px;
+    text-align: start;
+    margin-left: 200px;
+    font-size: 30px;
      margin: 0;
      font-family:Montserrat,sans-serif;
    
@@ -21,4 +24,37 @@
      font-family:Montserrat,sans-serif;
    
    }
- 
+.container4{
+  background-color: #F3FFE9;
+  padding-bottom: 200px;
+  margin-bottom: -500px;
+}
+   
+   .feature-container {
+    display: flex;
+    max-width: 600px;
+    max-height:1200px;
+    margin: auto;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #F3FFE9;
+}
+
+.column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.column p {
+    margin: 5px 0;
+    position: relative; /* Add relative positioning for pseudo-elements */
+    font-family: Montserrat, sans-serif;
+    color: #144749;
+}
+
+.column p::before {
+    content: "\2022"; /* Bullet point character */
+    position: absolute;
+    left: -20px; /* Adjust the position of the bullet point */
+    color: #6EBF72;
+    font-weight: bold;
+}

@@ -9,7 +9,7 @@ export default function Pageeleven() {
     <section className="section-1">
       <div className="section-1-div">
         <div className="section-1-div1">
-          <img src="" alt="" />
+          <img src="https://www.pngall.com/wp-content/uploads/2/Medicine-Pills-Free-PNG.png"   height={"500px"} alt="" />
         </div>
         <div className="section-1-div2">
           <h1>
@@ -19,7 +19,7 @@ export default function Pageeleven() {
           </h1>
           <div className="logo">
             <div>              
-             <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/295fb76c-7179-4c70-a508-a1cce61a876f/dc5bdn1-ad4c205b-31da-4d55-b6df-399712cb0d14.png/v1/fill/w_462,h_914/avengers_infinity_war___iron_man_png_by_davidbksandrade_dc5bdn1-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTE0IiwicGF0aCI6IlwvZlwvMjk1ZmI3NmMtNzE3OS00YzcwLWE1MDgtYTFjY2U2MWE4NzZmXC9kYzViZG4xLWFkNGMyMDViLTMxZGEtNGQ1NS1iNmRmLTM5OTcxMmNiMGQxNC5wbmciLCJ3aWR0aCI6Ijw9NDYyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.7KDaKSxfpmUnd4hiw4GHJtpD1PDtQ8vXrkagzifu2HI" height={"400px"} style={{float:"right "}}/>
+             <img src="" />
               {/* <span>NON-GMO</span> */}
             </div>
             <div>
@@ -54,17 +54,11 @@ export default function Pageeleven() {
           </p>
           <p>One Solgar" Vitamin D# softgel taken daily helps maintain:</p>
           <ul>
-            <li>
-              a healthy <strong>immune system</strong> and good general health*
-            </li>
-            <li>
-              <strong>strong bones</strong> and <strong>teeth*</strong>
-            </li>
-            <li>
-              optimal <strong>nerve</strong> and
-              <strong>muscle</strong> function*
-            </li>
+           <li class="point-wise-list">a healthy <strong>immune system</strong> and good general health*</li>
+          <li class="point-wise-list"><strong>strong bones</strong> and <strong>teeth*</strong></li>
+          <li class="point-wise-list">optimal <strong>nerve</strong> and <strong>muscle</strong> function*</li>
           </ul>
+
           <p>
             Since Vitamin D is fat soluble, our convenient, oil-based softgels
             are <strong>easy to swallow and absorb.</strong>
@@ -72,23 +66,23 @@ export default function Pageeleven() {
           <button>BUY ONLINE</button>
         </div>
       </div>
-    </section>
+    </section><br /><br /><br /><br /><br /><br /><br /><br />
     <section className="section-2">
       <div style={{ marginLeft: 320, display: "flex" }}>
         <div className="section-2-div-1">
-          <h1>THE GOLD STANDARD SINCE 1947</h1>
-          <p style={{ marginBottom: 10 }}>
+          <h1 style={{ marginRight: "240px", color:"#144749", fontWeight:"700" }}>THE GOLD STANDARD SINCE 1947</h1>
+          <p style={{ marginRight: "260px",color:"#144749" }}>
             For 75 years Solgar* has been committed to quality, and well-being.
-            Our ongoing mission is tocreate the finest nutrition supplements in
+            Our ongoing mission is tocreate the finest nutrition supplements in 
             small batches , made possible through tireless research , using only
             the finest raw naterials.
           </p>
-          <h5 style={{ color: "rgb(63, 96, 63)" }}>
-            When it comes to qulity, Solgar* is The Gold Standard.
+          <h5 style={{ color: "#6EBF72", marginLeft: "-20px" ,fontWeight:"800" }}>
+          When it comes to qulity, Solgar* is The Gold Standard.
           </h5>
         </div>
         <div className="section-2-div-2">
-          <img src="" alt="" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjJ_m8HT6Nzvvcc2rKb6w-sPnWY4biyACdgg&usqp=CAU" height={"300px"} style={{marginRight:"8px"}} alt="" />
         </div>
       </div>
     </section>
@@ -115,10 +109,44 @@ export default function Pageeleven() {
       <div className="section-4-div1">
         <h1>YOU MIGHT ALSO LIKE</h1>
       </div>
-      <div className="section-4-div2">
+      <div class="card-container">
+      <div class="card" style={{  width:" 18rem"}}>
+      <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+     </div>
+     </div>
+     <div class="card" style={{  width:" 18rem"}}>
+      <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+     </div>
+     </div>
+     <div class="card" style={{  width:" 18rem"}}>
+      <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+     </div>
+     </div>
+     <div class="card" style={{  width:" 18rem"}}>
+      <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+     </div>
+     </div>
+
+
+
+
+
+      {/* <div className="section-4-div2">
         <div className="section-4-div2-div">
           <div className="section-4-1">
-            <div id="img">
+            <div id='img11'>
               <img src="" alt="" />
             </div>
             <h5>BONE &amp; JOINT SUPPORT</h5>
@@ -130,7 +158,7 @@ export default function Pageeleven() {
             </p>
           </div>
           <div className="section-4-2">
-            <div id="img">
+            <div id='img12'>
               <img src="" alt="" />
             </div>
             <h5>BONE &amp; JOINT SUPPORT</h5>
@@ -142,7 +170,7 @@ export default function Pageeleven() {
             </p>
           </div>
           <div className="section-4-3">
-            <div id="img">
+            <div id='img13'>
               <img src="" alt="" />
             </div>
             <h5>BONE &amp; JOINT SUPPORT</h5>
@@ -154,7 +182,7 @@ export default function Pageeleven() {
             </p>
           </div>
           <div className="section-4-4">
-            <div id="img">
+            <div id='img14'>
               <img src="" alt="" />
             </div>
             <h5>BONE &amp; JOINT SUPPORT</h5>
@@ -166,6 +194,7 @@ export default function Pageeleven() {
             </p>
           </div>
         </div>
+      </div> */}
       </div>
     </section>
   </main>
