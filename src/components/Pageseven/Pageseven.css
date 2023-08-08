@@ -1,53 +1,54 @@
-
-
 body {
-    font-family: "HCo Gotham SSm", "Montserrat", sans-serif;
-    color: #568385;
-    font-size: 16px;
-    line-height: 1.6;
-    background-color: #f3ffed;
-  }
-  
-  .pri-main {
-    width: 100%;
-    height: 100%;
-    /* background-color: cadetblue; */
-    padding: 200px 250px 0px 250px;
-  }
-  .pri-main-div {
-    width: 100%;
-    height: 200%;
-    padding-left: 16%;
-    padding-right: 16%;
-    /* background-color: cornflowerblue; */
-  }
-  .pri-main-h1 {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
-  }
-  .wp-block-group__inner-container > p {
-    padding-bottom: 20px;
-    /* letter-spacing: 0.7px; */
-  }
-  .wp-block-heading {
-    text-transform: uppercase;
-    padding-bottom: 10px;
-    color: #315641;
-  }
-  .wp-block-group__inner-container > ul {
-    padding-left: 20px;
-  }
-  .wp-block-group__inner-container > ul > li {
-    /* padding-bottom: 10px; */
-    padding-bottom: 15px;
-  }
-  .wp-block-group__inner-container > ul > li > ul {
-    padding-left: 18px;
-  }
-  .wp-block-group__inner-container > ul > li > ul > li {
-    padding-bottom: 10px;
-  }
-  strong {
-    font-weight: bold;
-  }
+  font-family: "HCo Gotham SSm", "Montserrat", sans-serif;
+  color: #568385;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f3ffed;
+}
+
+.pri-main {
+  width: 100%;
+  height: 100%;
+  padding: 120px 250px 0px 250px;
+  background-color: #ede5d2;
+}
+.pri-main-div {
+  width: 100%;
+  height: 200%;
+  padding-left: 16%;
+  padding-right: 16%;
+  /* background-color: cornflowerblue; */
+}
+.pri-main-h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.wp-block-group__inner-container > p {
+  padding-bottom: 20px;
+  /* letter-spacing: 0.7px; */
+}
+.wp-block-heading {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color: #315641;
+}
+.wp-block-group__inner-container > ul {
+  padding-left: 20px;
+}
+.wp-block-group__inner-container > ul > li {
+  /* padding-bottom: 10px; */
+  padding-bottom: 15px;
+}
+.wp-block-group__inner-container > ul > li > ul {
+  padding-left: 18px;
+}
+.wp-block-group__inner-container > ul > li > ul > li {
+  padding-bottom: 10px;
+}
+strong {
+  font-weight: bold;
+}
+.anchor {
+  color: green;
+}

@@ -1,180 +1,170 @@
 .container {
-    max-width:2000px; /* Adjust the width as per your requirement */
-    margin:auto;
-    margin-top: -2px;
-    padding:180px;
-    border-bottom: 7px solid #75B0B8;
-    border-left: #C5E2C4; 
-    border-right: #C5E2C4;
-  
-  }
-  
-  .container h1 {
-    font-size: 24px;
-    margin: 0;
-    margin-right: 380px;
-    font-family:Montserrat,sans-serif;
-    background-color: #C5E2C4;
-  
-  }
-  
-  .container p {
-    margin: 5px 0;
-    margin-right: 380px;
-    font-family:Montserrat,sans-serif;
-    background-color: #C5E2C4;
-  
-  }
-  
-  .btn2 {
-    padding: 10px 20px;
-    background-color:transparent;
-    color:#000;
-    border: 1px solid #6EBF72;
-    cursor: pointer;
-  }
-  .body11 {
-    width:100%;
-    margin: 50px auto;
-    padding: 20px;
-    background-color:white;
-  
-  }
-  .heada{
-    color:#144749;
-    font-weight: bold;
-    /* margin-left: 200px; */
-    text-align: center;
-  }
-  .para{
-    text-align:center;
-    /* margin-left: 100px;
-    margin-right: 1px; */
-    /* line-height: 2px; */
-  
-  }
-  .info1{
-    margin-left: 200px;
-    line-height: 4px;
-    font-weight: 400;
-  }
-  .bgc{
-    background-color: #C5E2C4;
-    
-  }
-  .no-margin {
-    margin: 0;
-  } 
-  .no-padding {
-    padding: 0;
-  }
-  .card-container {
-    display: flex;
-    justify-content: space-between; /* Adjust this as per your layout requirements */
-    margin: 5px;
-  }
-  
-  
-  .card{
-    margin:5px;
-    border-radius: 0px;
-    align-items: center;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
-  }
-  
-  .card-body{
-    margin-top: 200px;
-    width: max-content;
-  }
-  .card-title{
-    text-align:start;
-    margin-left: -9px;
-     color: #6EBF72;
-  }
-  .ct1{
-    text-align: justify;
-    margin-left:6px;
-    font-weight:bold;
-    font-size:medium;
-  }
-  .card-text{
-    text-align:start;
-    margin-left:-10px;
-    font-size:17px;
-    line-height:15px;
-  }
-  .card-text1{
-    /* text-align: justify; */
-    margin-left: 245px;
-    font-size:13px;
-    line-height:15px;
-    font-size: medium;
-  }
-  /* Apply basic styling for the outer box */
-  .outer-box {
-    border: 1px solid #ccc;
-    padding: 60px;
-    background-color: #6FC073;
-    width: 105%;
-    margin-right:800px;
-    box-sizing: border-box;
-    /* This ensures the padding is included in the width */
-  }
-  
-  /* Apply styling for the inner box */
-  .inner-box {
-    background-color:#6FC073;
-    padding: 1px;
-    width: 100%;
-  }
-  
-  /* Apply styling for the heading */
-  .inner-box h6 {
-    margin: 0;
-    color: #E6F9E7;
-    text-align: center;
-  }
-  .icons{
+  max-width: 2000px; /* Adjust the width as per your requirement */
+  margin: auto;
+  margin-top: -2px;
+  padding: 180px;
+  border-bottom: 7px solid #75b0b8;
+  border-left: #c5e2c4;
+  border-right: #c5e2c4;
+}
+
+.container h1 {
+  font-size: 24px;
+  margin: 0;
+  margin-right: 380px;
+  font-family: Montserrat, sans-serif;
+  background-color: #c5e2c4;
+}
+
+.container p {
+  margin: 5px 0;
+  margin-right: 380px;
+  font-family: Montserrat, sans-serif;
+  background-color: #c5e2c4;
+}
+
+.btn2 {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #6ebf72;
+  cursor: pointer;
+}
+.body11 {
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+}
+.heada {
+  color: #144749;
+  font-weight: bold;
+  /* margin-left: 200px; */
   text-align: center;
-  }
-  .container1{
-    /* text-align: center; */
-    max-width:3000px; /* Adjust the width as per your requirement */
-    margin:auto;
-    margin-top: -2px;
-    padding:200px; 
-    background-color: #F3FFE9;
-    border: 1px;
-    border-bottom:solid #6EBF72;
-  }
-  .container1 h4 {
-    margin-right: 20px;
-    font-family: Montserrat, sans-serif;
-    color: #144749;
-    font-weight: 800;
+}
+.para {
+  text-align: center;
+  /* margin-left: 100px;
+    margin-right: 1px; */
+  /* line-height: 2px; */
+}
+.info1 {
+  margin-left: 200px;
+  line-height: 4px;
+  font-weight: 400;
+}
+.bgc {
+  background-color: #c5e2c4;
+}
+.no-margin {
+  margin: 0;
+}
+.no-padding {
+  padding: 0;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Adjust this as per your layout requirements */
+  margin: 5px;
 }
 
-  .container1 h2 {
-    margin-right: 380px;
-    font-family: Montserrat, sans-serif;
-    color: #144749;
-    font-weight: bold;
+.card {
+  margin: 5px;
+  border-radius: 0px;
+  align-items: center;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
 }
 
+.card-body {
+  margin-top: 200px;
+  width: max-content;
+}
+.card-title {
+  text-align: start;
+  margin-left: -9px;
+  color: #6ebf72;
+}
+.ct1 {
+  text-align: justify;
+  margin-left: 6px;
+  font-weight: bold;
+  font-size: medium;
+}
+.card-text {
+  text-align: start;
+  margin-left: -10px;
+  font-size: 17px;
+  line-height: 15px;
+}
+.card-text1 {
+  /* text-align: justify; */
+  margin-left: 245px;
+  font-size: 13px;
+  line-height: 15px;
+  font-size: medium;
+}
+/* Apply basic styling for the outer box */
+.outer-box {
+  border: 1px solid #ccc;
+  padding: 60px;
+  background-color: #6fc073;
+  width: 100%;
+  margin-right: 800px;
+  box-sizing: border-box;
+  /* This ensures the padding is included in the width */
+}
 
+/* Apply styling for the inner box */
+.inner-box {
+  background-color: #6fc073;
+  padding: 1px;
+  width: 100%;
+}
+
+/* Apply styling for the heading */
+.inner-box h6 {
+  margin: 0;
+  color: #e6f9e7;
+  text-align: center;
+}
+.icons {
+  text-align: center;
+}
+.container1 {
+  /* text-align: center; */
+  max-width: 3000px; /* Adjust the width as per your requirement */
+  margin: auto;
+  margin-top: -2px;
+  padding: 200px;
+  background-color: #f3ffe9;
+  border: 1px;
+  border-bottom: solid #6ebf72;
+}
+.container1 h4 {
+  margin-right: 20px;
+  font-family: Montserrat, sans-serif;
+  color: #144749;
+  font-weight: 800;
+}
+
+.container1 h2 {
+  margin-right: 380px;
+  font-family: Montserrat, sans-serif;
+  color: #144749;
+  font-weight: bold;
+}
 
 .container1 p {
-    margin: 5px 0;
-    margin-right: 80px;
-    font-family: Montserrat, sans-serif;
+  margin: 5px 0;
+  margin-right: 80px;
+  font-family: Montserrat, sans-serif;
 }
-  br{
-    background-color: #F3FFE9;
-  }
-  .card{
-   align-items:start; 
-  }
-  
+br {
+  background-color: #f3ffe9;
+}
+.card {
+  align-items: start;
+}

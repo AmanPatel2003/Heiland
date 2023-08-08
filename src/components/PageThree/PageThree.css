@@ -1,4 +1,3 @@
-
 body {
   box-sizing: border-box;
   font-family: "HCo Gotham SSm", "Montserrat", sans-serif;
@@ -9,13 +8,12 @@ body {
 .p2main {
   height: 2600px;
   background-color: #f1ddc0;
-  width:100%;
-  margin-left:88px;
+  width: 100%;
 }
 .p2main-div {
   height: 1550px;
-  width: 730px;
-  margin: 0px 200px 30px 200px;
+  width: 50%;
+  margin: 0px 25% 30px 25%;
   padding-top: 90px;
 }
 .p2main-div-first {
@@ -43,7 +41,7 @@ body {
 }
 .p2main-div-third-first {
   height: 100%;
-  width: 450px;
+  width: 100%;
 }
 .div-third-first-a {
   text-decoration: underline;
@@ -67,9 +65,20 @@ body {
   height: 100%;
   width: 290px;
 }
-.card {
-  width: 18rem;
-  height: 100%;
+/* .card-imgss {
+  height: 300px;
+  background-color: aqua;
+} */
+/* .cards {
+  width: 16rem;
+  height: 200px;
+  background-color: aqua;
+} */
+.card2-bodys {
+  width: 100%;
+}
+.p2main-div-fourth {
+  display: flex;
 }
 .p2main-div-five-first {
   display: flex;

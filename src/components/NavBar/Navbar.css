@@ -1,50 +1,51 @@
-.navbar navbar-expand-lg bg-body-tertiary{
-    background-color:#C5E2C4;
-  
-  }
-  .nav-item{
-    margin:3px 55px;
-    margin-left: -50px;
-  }
-  .container-fluid{
-    background-color:#C5E2C4;
-    position: fixed;
-    width: 100%;
-    top:0px;
-    z-index: 1;
-    border-bottom:1px solid #6EBF72;
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar navbar-expand-lg bg-body-tertiary {
+  background-color: #c5e2c4;
+}
+.nav-item {
+  margin: 3px 55px;
+  margin-left: -50px;
+}
+.container-fluid {
+  background-color: #c5e2c4;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0;
+  z-index: 1;
+  border-bottom: 1px solid #6ebf72;
+}
+a.navbar-brand {
+  /* margin-top:200px; */
+  font-size: 50px;
+  /* margin-right:0px; */
+  margin-left: 140px;
+  /* margin-bottom: 80px; */
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  background-color: #c5e2c4;
+}
+.btnn {
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: #6fc073;
+  color: aliceblue;
+  border-radius: 0px;
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  transition: background-color 0.3s ease; /* Adding smooth transition */
+}
 
-  }
-  a.navbar-brand {
-      /* margin-top:200px; */
-      font-size: 50px;
-      /* margin-right:0px; */
-      margin-left: 140px;
-      /* margin-bottom: 80px; */
-      font-family:Montserrat,sans-serif;
-      font-weight: bold;
-      background-color:#C5E2C4;
-    
-    }
-    .btnn {
-        margin-left: 120px;
-        margin-right: 120px;
-        background-color: #6fc073;
-        color: aliceblue;
-        border-radius: 0px;
-        width: 100%;
-        font-family: Montserrat, sans-serif;
-        -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-        -ms-border-radius: 0px;
-        -o-border-radius: 0px;
-        transition: background-color 0.3s ease; /* Adding smooth transition */
-    }
-    
-    .btnn:hover {
-        background-color: #C5E2C4;
-    }
-    .navbar-nav{
-      margin-left: 350px;
-    }
-    
+.btnn:hover {
+  background-color: #c5e2c4;
+}
+.navbar-nav {
+  margin-left: 350px;
+}

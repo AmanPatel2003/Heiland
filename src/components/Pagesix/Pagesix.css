@@ -1,81 +1,82 @@
-
 body {
-    font-family: "HCo Gotham SSm", "Montserrat", sans-serif;
-    letter-spacing: 0.7px;
-  }
-  
-  .main {
-    background-color: #f9fff5;
-    width: 120%;
-   height: 100%;
-  }
-  li {
-    list-style:none;
-  }
-  label {
-    font-size: 16px;
-    color: #718c93;
-  }
-  input {
-    height: 15px;
-    width: 15px;
-    border-radius: none;
-  }
-  .parent {
-    height: 32px;
-  }
-  #main-div1 {
-    margin: 100px 140px 0px 140px;
-    padding: 20px 35px 0px 35px;
-    height: 100%;
-  }
-  #main-div2 {
-    width:500px;
-    padding: 95px 40px 75px 50px;
-    margin-right: 2px;
-    margin-top: 20px;
-  }
-  #main-div3 {
-    width: 820px;
-    background-color:#F9FFF5;
-    /* background-color: blueviolet; */
-    padding-top: 85px;
-  }
-  section {
-    height: 100%;
-    width: 100%;
-    background-color:#F9FFF5;
-    /* padding: 10px; */
-  }
-  
-  .main-section-cards {
-    height: 330px;
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 212px;
-    display: block;
-    margin-bottom: 40px;
-    margin-right: 20px;
-  }
-  .product-name {
-    text-align: center;
-    margin-top: 10px;
-    color: #718c93;
-    font-size: 16px;
-    font-weight: normal;
-  }
-  .main-section-cards-h5 {
-    border-bottom: 1px dotted;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: #94ada5;
-    font-size: 11px;
-    margin-top: 9px;
-  }
-  .main-section-cards > div > a > img {
-    object-fit: cover;
-    padding-top: 20px;
-    height: 200px;
-    width: 180px;
-    display: block;
-  }
+  font-family: "HCo Gotham SSm", "Montserrat", sans-serif;
+  letter-spacing: 0.7px;
+}
+
+.main {
+  background-color: #f9fff5;
+  width: 100%;
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+label {
+  font-size: 16px;
+  color: #718c93;
+  margin-left: 10px;
+}
+input {
+  height: 15px;
+  width: 15px;
+  border-radius: none;
+}
+.parent {
+  height: 32px;
+}
+#main-div1 {
+  margin: 70px 140px 0px 140px;
+  padding: 20px 35px 0px 35px;
+  height: 100%;
+}
+#main-div2 {
+  width: 500px;
+  padding: 70px 0px 0px 0px;
+  margin-right: 2px;
+  margin-top: 20px;
+}
+
+#main-div3 {
+  width: 820px;
+  background-color: #f9fff5;
+  /* background-color: blueviolet; */
+  padding-top: 85px;
+}
+section {
+  height: 92%;
+  width: 100%;
+  background-color: #f9fff5;
+  /* padding: 10px; */
+}
+
+.main-section-cards {
+  height: 330px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 212px;
+  display: block;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+.product-name {
+  text-align: center;
+  margin-top: 10px;
+  color: #718c93;
+  font-size: 16px;
+  font-weight: normal;
+}
+.main-section-cards-h5 {
+  border-bottom: 1px dotted;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #94ada5;
+  font-size: 11px;
+  margin-top: 9px;
+}
+.main-section-cards > div > a > img {
+  object-fit: cover;
+  padding-top: 20px;
+  height: 200px;
+  width: 180px;
+  display: block;
+}
