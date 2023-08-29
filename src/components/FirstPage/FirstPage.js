@@ -1,390 +1,235 @@
 import React from "react";
-import "./FirstPage.css";
+import { BsStarFill } from "react-icons/bs";
 
-const Box = ({ title, content }) => {
-  return (
-    <div className="box">
-      <h2>{title}</h2>
-      <p>{content}</p>
-    </div>
-  );
-};
 export default function FirstPage() {
   return (
-    <>
-      <div className="bgc">
-        <div className="container">
-          <h1 class="h11">THE GOLD STANDARDS IN</h1>
-          <h1 class="h12">VITAMINS</h1>
-          <br />
-          <p class="no-margin">
-            For 75 years solgar has been committed to quality.
+    <div className=" ">
+      <section className="py-[7%]  px-[20%]  border-b-8">
+        <div className="mr-[55%]">
+          <h1 className="text-2xl font-bold mb-[1%]">
+            THE GOLD STANDARD IN VITAMINS.
+          </h1>
+          <p className="font-medium">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+            ullam corporis, laborum voluptate sit veniam. Inventore aspernatur
+            exercitationem possimus perspiciatis.
           </p>
-          <p class="no-margin">
-            Health, and well-being. Our mission is to create the
-          </p>
-          <p class="no-margin">
-            Finest nutritional supplements in small batches.
-          </p>
-          <p class="no-margin">
-            Made possible through tireless research, using only
-          </p>
-          <p class="no-margin p1">the finest raw materials.</p>
-          <br />
-
-          <button class="btn2" type="submit">
+          <button className="mt-[2%] py-[1%] px-[2%] bg-transparent text-[#568385] font-medium border border-black">
             BROWSE PRODUCTS
           </button>
         </div>
-      </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <div class="bodyy">
-        <div className="body11">
-          <div class="info1">
-            <h1 class="heada">INNOVAVITE PRODUCTS MADE WITH YOU</h1>
-            <br />
-            <br />
-            <p class="para">
-              As a gold standard in vitamins , solgar is commited to creation of
-              unique bjdsf sfhshfhsfhs shfhsfhsvh bfskjdfskabfh
-            </p>
-            <p class="para">
-              {" "}
-              As a gold standard in vitamins , solgar is commited to creation of
-              unique bjdsf sfhshfhsfhs jkfjskdj
-            </p>
-          </div>
-          <br />
-          <br />
-          <br />
-          <div class="card-container">
-            <div
-              class="card"
-              style={{
-                width: "25%",
-                height: "200px",
-                marginLeft: "190px",
-                paddingRight: "20px",
-              }}
-            >
-              <div class="card-body">
-                <h6 class="card-title">DIGESTIVE HEALTH</h6>
-                <h5 class="ct1">WOMEN'S COMPLETE PROBIOTIC</h5>
-                <br />
-                <p class="card-text">
-                  A Science-backend women's probiotic that
+      </section>
+      <section className=" pt-[3%] pb-[6%] px-[20%] text-center">
+        <div className="">
+          <h1 className=" font-bold text-xl">
+            INNOVATIVE PRODUCTS MADE WITH YOU IN MIND
+          </h1>
+          <p className="my-[1%]">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
+            architecto molestias pariatur optio quos blanditiis libero nostrum
+            perspiciatis cum possimus vero laborum modi.
+          </p>
+          <div className="w-full h-[60%] flex justify-between">
+            <div className="w-[32%] h-[350px] py-[2%]">
+              <div className="h-[60%] w-full border-2 "></div>
+              <div className="py-[4%]">
+                <h1 className="text-xs font-semibold">DIGESTIVE HEALTH</h1>
+                <h1 className="font-bold text-sm">
+                  WOMEN'S COMPLETE PROBIOTIC
+                </h1>
+                <p className="text-sm font-semibold pt-[5%]">
+                  Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
+                  facere iure!
                 </p>
-                <p class="card-text">supports gut health,bone health,vaginal</p>
-                <p class="card-text1">pH,and more.*</p>
               </div>
             </div>
-            <div
-              class="card"
-              style={{
-                width: "25%",
-                height: "200px",
-                marginLeft: "0px",
-                paddingRight: "20px",
-              }}
-            >
-              <div class="card-body">
-                <h6 class="card-title">DIGESTIVE HEALTH</h6>
-                <h5 class="ct1">WOMEN'S COMPLETE PROBIOTIC</h5>
-                <br />
-                <p class="card-text">
-                  A Science-backend women's probiotic that
+            <div className="w-[32%] h-[350px] py-[2%]">
+              <div className="h-[60%] w-full border-2 "></div>
+              <div className="py-[4%]">
+                <h1 className="text-xs font-semibold">DIGESTIVE HEALTH</h1>
+                <h1 className="font-bold text-sm">
+                  WOMEN'S COMPLETE PROBIOTIC
+                </h1>
+                <p className="text-sm font-semibold pt-[5%]">
+                  Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
+                  facere iure!
                 </p>
-                <p class="card-text">supports gut health,bone health,vaginal</p>
-                <p class="card-text1">pH,and more.*</p>
               </div>
             </div>
-            <div
-              class="card"
-              style={{
-                width: "25%",
-                height: "20px",
-                marginRight: "20px",
-                paddingRight: "10px",
-              }}
-            >
-              <div class="card-body">
-                <h6 class="card-title">DIGESTIVE HEALTH</h6>
-                <h5 class="ct1">WOMEN'S COMPLETE PROBIOTIC</h5>
-                <br />
-                <p class="card-text">
-                  A Science-backend women's probiotic that
+            <div className="w-[32%] h-[350px] py-[2%]">
+              <div className="h-[60%] w-full border-2 "></div>
+              <div className="py-[4%]">
+                <h1 className="text-xs font-semibold">DIGESTIVE HEALTH</h1>
+                <h1 className="font-bold text-sm">
+                  WOMEN'S COMPLETE PROBIOTIC
+                </h1>
+                <p className="text-sm font-semibold pt-[5%]">
+                  Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
+                  facere iure!
                 </p>
-                <p class="card-text">supports gut health,bone health,vaginal</p>
-                <p class="card-text1">pH,and more.*</p>
               </div>
             </div>
           </div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <div class="card-container">
-            <div
-              class="card"
-              style={{
-                width: "25%",
-                height: "200px",
-                marginLeft: "190px",
-                paddingRight: "20px",
-              }}
-            >
-              <div class="card-body">
-                <h6 class="card-title">DIGESTIVE HEALTH</h6>
-                <h5 class="ct1">WOMEN'S COMPLETE PROBIOTIC</h5>
-                <br />
-                <p class="card-text">
-                  A Science-backend women's probiotic that
+          <div className="w-full h-[60%] flex justify-between">
+            <div className="w-[32%] h-[350px] py-[2%]">
+              <div className="h-[60%] w-full border-2 "></div>
+              <div className="py-[4%]">
+                <h1 className="text-xs font-semibold">DIGESTIVE HEALTH</h1>
+                <h1 className="font-bold text-sm">
+                  WOMEN'S COMPLETE PROBIOTIC
+                </h1>
+                <p className="text-sm font-semibold pt-[5%]">
+                  Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
+                  facere iure!
                 </p>
-                <p class="card-text">supports gut health,bone health,vaginal</p>
-                <p class="card-text1">pH,and more.*</p>
               </div>
             </div>
-            <div
-              class="card"
-              style={{
-                width: "25%",
-                height: "200px",
-                marginLeft: "0px",
-                paddingRight: "20px",
-              }}
-            >
-              <div class="card-body">
-                <h6 class="card-title">DIGESTIVE HEALTH</h6>
-                <h5 class="ct1">WOMEN'S COMPLETE PROBIOTIC</h5>
-                <br />
-                <p class="card-text">
-                  A Science-backend women's probiotic that
+            <div className="w-[32%] h-[350px] py-[2%]">
+              <div className="h-[60%] w-full border-2 "></div>
+              <div className="py-[4%]">
+                <h1 className="text-xs font-semibold">DIGESTIVE HEALTH</h1>
+                <h1 className="font-bold text-sm">
+                  WOMEN'S COMPLETE PROBIOTIC
+                </h1>
+                <p className="text-sm font-semibold pt-[5%]">
+                  Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
+                  facere iure!
                 </p>
-                <p class="card-text">supports gut health,bone health,vaginal</p>
-                <p class="card-text1">pH,and more.*</p>
               </div>
             </div>
-            <div
-              class="card"
-              style={{
-                width: "25%",
-                height: "200px",
-                marginRight: "20px",
-                paddingRight: "10px",
-              }}
-            >
-              <div class="card-body">
-                <h6 class="card-title">DIGESTIVE HEALTH</h6>
-                <h5 class="ct1">WOMEN'S COMPLETE PROBIOTIC</h5>
-                <br />
-                <p class="card-text">
-                  A Science-backend women's probiotic that
+            <div className="w-[32%] h-[350px] py-[2%]">
+              <div className="h-[60%] w-full border-2 "></div>
+              <div className="py-[4%]">
+                <h1 className="text-xs font-semibold">DIGESTIVE HEALTH</h1>
+                <h1 className="font-bold text-sm">
+                  WOMEN'S COMPLETE PROBIOTIC
+                </h1>
+                <p className="text-sm font-semibold pt-[5%]">
+                  Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
+                  facere iure!
                 </p>
-                <p class="card-text">supports gut health,bone health,vaginal</p>
-                <p class="card-text1">pH,and more.*</p>
-              </div>
-            </div>
-          </div>{" "}
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <div class="outer-box">
-            <div class="inner-box">
-              <h6>MANY OF OUR PRODUCTS ARE</h6>
-
-              <div class="icons">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiLOPthog7dtvWx7S3EVfT_sZKWWFbRx07pA&usqp=CAU"
-                  width={"60px"}
-                  height={"60px"}
-                  style={{ margin: "40px", marginTop: "200px" }}
-                />
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiLOPthog7dtvWx7S3EVfT_sZKWWFbRx07pA&usqp=CAU"
-                  width={"60px"}
-                  height={"60px"}
-                  style={{ margin: "40px", marginTop: "200px" }}
-                />
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiLOPthog7dtvWx7S3EVfT_sZKWWFbRx07pA&usqp=CAU"
-                  width={"60px"}
-                  height={"60px"}
-                  style={{ margin: "40px", marginTop: "200px" }}
-                />
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiLOPthog7dtvWx7S3EVfT_sZKWWFbRx07pA&usqp=CAU"
-                  width={"60px"}
-                  height={"60px"}
-                  style={{ margin: "40px", marginTop: "200px" }}
-                />
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiLOPthog7dtvWx7S3EVfT_sZKWWFbRx07pA&usqp=CAU"
-                  width={"60px"}
-                  height={"60px"}
-                  style={{ margin: "40px", marginTop: "200px" }}
-                />
-
-                {/* <!-- Add more images here if needed --> */}
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <br />
-      <div className="container1">
-        <div
-          class="card"
-          style={{
-            width: "40%",
-            height: "250px",
-            marginRight: "1px",
-            paddingRight: "0px",
-            float: "right",
-          }}
-        ></div>
-        <h2 class="h11">WHAT PEOPLE ARE SAYING</h2>
-        <br />
-        <img
-          src="https://t3.ftcdn.net/jpg/02/80/19/54/360_F_280195423_r80UDE5XqMCJv9rf3ygR9FuAX2BY2xGj.jpg"
-          width={"102px"}
-          height={"30px"}
-          style={{ marginRight: "375px" }}
-        />
-        <br />
-        <br />
-        <h4 class="h12">GREAT MAGNESIUM SOURCE</h4>
-        <br />
-
-        <p class="no-margin" style={{ marginLeft: "0px" }}>
-          Solgar Magnesium Citrate was recommend to me by a
-        </p>
-        <p class="no-margin" style={{ marginLeft: "0px" }}>
-          nutritionist,and has been a staple in my viramins rotuine for
-        </p>
-        <p class="no-margin" style={{ marginLeft: "0px" }}>
-          manys years.I love it! i have tried others brands when these
-        </p>
-        <p class="no-margin" style={{ marginLeft: "0px" }}>
-          Have been solds out,but i always returns to solgar brand.
-        </p>
-        <br />
-        <p class="no-margin p1" style={{ marginRight: "0px" }}>
-          An Amazone Customer
-        </p>
-        <p class="no-margin p1" style={{ marginRight: "0px" }}>
-          about Magnesium Citrate.
-        </p>
-      </div>
-      <br />
-      <br />
-      <div class="container2">
-        <h1
-          style={{ color: "#144749", fontWeight: "bold", textAlign: "center" }}
-        >
-          LASTEST ARTICLES
-        </h1>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <div class="card-container">
-          <div
-            class="card"
-            style={{ width: "100%", height: "200px", marginLeft: "120px" }}
-          >
-            <div class="card-body">
-              <h7
-                class="card-title"
-                style={{ color: "#144749", fontWeight: "bold" }}
-              >
-                JULY 11,2023
-              </h7>
-              <br />
-              <br />
-              <h2
-                class="card-text"
-                style={{ color: "#144749", fontWeight: "bold" }}
-              >
-                5 THINGS TO LOOK FOR WHEN
-              </h2>
-              <h2
-                class="card-text"
-                style={{ color: "#144749", fontWeight: "bold" }}
-              >
-                CHOOSING A PROBIOTIC
-              </h2>
+      </section>
+      <section className="px-[20%] text-center bg-green-200 pb-[3%]">
+        <h1 className="font-bold">MANY OF OUR PRODUCTS ARE</h1>
+        <div className="py-[5%] flex justify-between px-[4%]">
+          <div className="h-[80px] w-[80px]">
+            <img
+              src="/photos/logo.png"
+              alt=""
+              className="h-full w-full rounded-full"
+            />
+            <h1 className="text-xs font-bold py-[10%] text-white">NON-GMO</h1>
+          </div>
+          <div className="h-[80px] w-[80px]">
+            <img
+              src="/photos/logo.png"
+              alt=""
+              className="h-full w-full rounded-full"
+            />
+            <h1 className="text-xs font-bold py-[10%] text-white">VEGAN</h1>
+          </div>
+          <div className="h-[80px] w-[80px]">
+            <img
+              src="/photos/logo.png"
+              alt=""
+              className="h-full w-full rounded-full"
+            />
+            <h1 className="text-xs font-bold py-[10%] text-white">
+              GLUTEN-FREE
+            </h1>
+          </div>
+          <div className="h-[80px] w-[80px]">
+            <img
+              src="/photos/logo.png"
+              alt=""
+              className="h-full w-full rounded-full"
+            />
+            <h1 className="text-xs font-bold py-[10%] text-white">
+              DAIRY-FREE
+            </h1>
+          </div>
+          <div className="h-[80px] w-[80px]">
+            <img
+              src="/photos/logo.png"
+              alt=""
+              className="h-full w-full rounded-full"
+            />
+            <h1 className="text-xs font-bold py-[10%] text-white">KOSHER</h1>
+          </div>
+          <div className="h-[80px] w-[80px]">
+            <img
+              src="/photos/logo.png"
+              alt=""
+              className="h-full w-full rounded-full"
+            />
+            <h1 className="text-xs font-bold py-[10%] text-white">HALAL</h1>
+          </div>
+        </div>
+      </section>
+      <section className="px-[20%] py-[5%] flex">
+        <div className="w-[50%] h-full">
+          <h1 className="font-bold text-xl">WHAT PEOPLE ARE SAYING</h1>
+          <div className="flex py-[2%] ">
+            <BsStarFill />
+            <BsStarFill />
+            <BsStarFill />
+            <BsStarFill />
+            <BsStarFill />
+          </div>
+          <h1 className="font-bold py-[2%]">GREAT MAGNESIUM SOURCE</h1>
+          <p className="font-medium">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+            doloribus ipsum voluptatibus rerum nulla magnam laudantium,
+            reiciendis obcaecati fugit molestias ullam.
+          </p>
+          <p className=" pt-[4%] font-medium text-sm">An Amawon Customer</p>
+          <p className="font-medium text-sm">about Magnesium Citrate</p>
+        </div>
+        <div className="w-[50%] h-[265px] bg-white border"></div>
+      </section>
+      <hr />
+      <section className="px-[17%] text-center py-[3%]">
+        <h1 className="font-bold pb-[1%]">LATEST ARTICLES</h1>
+        <div className="w-full h-[60%] flex justify-between">
+          <div className="w-[32%] h-[350px] py-[2%]">
+            <div className="h-[60%] w-full border-2 "></div>
+            <div className="py-[4%]">
+              <h1 className="text-xs font-semibold">DIGESTIVE HEALTH</h1>
+              <h1 className="font-bold text-sm">WOMEN'S COMPLETE PROBIOTIC</h1>
+              <p className="text-sm font-semibold pt-[5%]">
+                Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
+                facere iure!
+              </p>
             </div>
           </div>
-          <div class="card" style={{ width: "100%", height: "200px" }}>
-            <div class="card-body">
-              <h7
-                class="card-title"
-                style={{ color: "#144749", fontWeight: "bold" }}
-              >
-                JULY 11,2023
-              </h7>
-              <br />
-              <br />
-              <h2
-                class="card-text"
-                style={{ color: "#144749", fontWeight: "bold" }}
-              >
-                5 THINGS TO LOOK FOR WHEN
-              </h2>
-              <h2
-                class="card-text"
-                style={{ color: "#144749", fontWeight: "bold" }}
-              >
-                CHOOSING A PROBIOTIC
-              </h2>
+          <div className="w-[32%] h-[350px] py-[2%]">
+            <div className="h-[60%] w-full border-2 "></div>
+            <div className="py-[4%]">
+              <h1 className="text-xs font-semibold">DIGESTIVE HEALTH</h1>
+              <h1 className="font-bold text-sm">WOMEN'S COMPLETE PROBIOTIC</h1>
+              <p className="text-sm font-semibold pt-[5%]">
+                Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
+                facere iure!
+              </p>
             </div>
           </div>
-          <div
-            class="card"
-            style={{ width: "100%", height: "200px", marginRight: "120px" }}
-          >
-            <div class="card-body">
-              <h7
-                class="card-title"
-                style={{ color: "#144749", fontWeight: "bold" }}
-              >
-                JULY 11,2023
-              </h7>
-              <br />
-              <br />
-              <h2
-                class="card-text"
-                style={{ color: "#144749", fontWeight: "bold" }}
-              >
-                5 THINGS TO LOOK FOR WHEN
-              </h2>
-              <h2
-                class="card-text"
-                style={{ color: "#144749", fontWeight: "bold" }}
-              >
-                CHOOSING A PROBIOTIC
-              </h2>
+          <div className="w-[32%] h-[350px] py-[2%]">
+            <div className="h-[60%] w-full border-2 "></div>
+            <div className="py-[4%]">
+              <h1 className="text-xs font-semibold">DIGESTIVE HEALTH</h1>
+              <h1 className="font-bold text-sm">WOMEN'S COMPLETE PROBIOTIC</h1>
+              <p className="text-sm font-semibold pt-[5%]">
+                Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
+                facere iure!
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </>
+      </section>
+    </div>
   );
 }
