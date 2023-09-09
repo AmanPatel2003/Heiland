@@ -21,6 +21,7 @@ export default function Navbar() {
   const handeleMenu = () => {
     setopen((prev) => !prev);
     // console.log(open);
+    // console.log(open);
   };
 
   return (
