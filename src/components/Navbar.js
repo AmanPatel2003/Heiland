@@ -175,6 +175,7 @@ export default function Navbar() {
                       <a
                         onClick={toggleLearnDropdown}
                         // onMouseLeave={toggleLearnDropdown}
+                        // onMouseLeave={toggleLearnDropdown}
                         href="/story"
                         className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
                       >
