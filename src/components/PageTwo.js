@@ -15,7 +15,7 @@ export default function PageTwo() {
         <div className="w-[50%] border xs:h-[250px] sm:h-[250px] md:h-[250px] md:w-[70%] sm:w-[70%] xs:w-[80%] md:m-auto sm:m-auto xs:m-auto  bg-white">
           <a href="/contact" className="">
             <img
-              src="/photos/box2_image.webp"
+              src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
               alt=""
               className="h-full w-full"
             />
@@ -27,7 +27,7 @@ export default function PageTwo() {
         <div className="xs:h-[250px] sm:h-[250px] md:h-[250px] w-[35%] md:w-[80%] sm:w-[80%] xs:w-[90%] md:m-auto sm:m-auto xs:m-auto border bg-white">
           <a href="/contact" className="">
             <img
-              src="/photos/img1.webp"
+              src="https://tse2.mm.bing.net/th?id=OIP.eofsRGZNUdnUmcL1mRfQUAHaHa&pid=Api&P=0&h=180"
               alt=""
               className="h-full w-full"
             />

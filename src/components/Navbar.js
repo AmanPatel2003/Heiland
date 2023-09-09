@@ -57,7 +57,7 @@ export default function Navbar() {
             <ul className="flex justify-between h-full  w-full mr-[1%]">
               <li className="relative w-full h-full  text-center hover:bg-[#d2e7c7]">
                 <button
-                  onMouseEnter={toggleProductsDropdown}
+                 onClick={toggleProductsDropdown}
                   className=" w-full h-full text-black"
                 >
                   PRODUCTS
@@ -100,7 +100,7 @@ export default function Navbar() {
             <ul className="flex justify-between w-full h-full  mr-[1%]">
               <li className="relative w-full h-full text-center hover:bg-[#d2e7c7]">
                 <button
-                  onMouseEnter={toggleCompanyDropdown}
+                 onClick={toggleCompanyDropdown}
                   className=" text-black h-full w-full"
                 >
                   COMPANY
@@ -142,7 +142,7 @@ export default function Navbar() {
             <ul className="flex justify-between w-full h-full mr-[1%]">
               <li className="relative w-full text-center h-full hover:bg-[#d2e7c7]">
                 <button
-                  onMouseEnter={toggleLearnDropdown}
+                 onClick={toggleLearnDropdown}
                   className=" text-black w-full h-full"
                 >
                   LEARN
@@ -174,7 +174,7 @@ export default function Navbar() {
                     <li>
                       <a
                         onClick={toggleLearnDropdown}
-                        onMouseLeave={toggleLearnDropdown}
+                        // onMouseLeave={toggleLearnDropdown}
                         href="/story"
                         className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
                       >
@@ -206,7 +206,7 @@ export default function Navbar() {
               <ul className="flex justify-between h-full  w-full">
                 <li className="relative w-full h-full text-center hover:bg-[#d2e7c7]">
                   <button
-                    onMouseEnter={toggleProductsDropdown}
+                   onClick={toggleProductsDropdown}
                     className=" text-black h-full"
                   >
                     PRODUCTS

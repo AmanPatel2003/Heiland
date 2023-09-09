@@ -16,10 +16,22 @@ export const PageNine = () => {
             a regular basis.
           </p>
         </div>
-        <div className="w-[50%] sm:hidden xs:hidden border-4 bg-white"></div>
+        <div className="w-[50%] sm:hidden xs:hidden border-4 bg-white">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
+            alt=""
+            className="h-full w-full"
+          />
+        </div>
       </section>
       <section className="flex h-full bg-[#e3f0dc]">
-        <div className="w-[40%] sm:hidden xs:hidden border-4 bg-white"></div>
+        <div className="w-[40%] sm:hidden xs:hidden border-4 bg-white">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.iZkeXyXRw9LyhLTU7naQYgHaEK&pid=Api&P=0&h=180"
+            alt=""
+            className="h-full w-full"
+          />
+        </div>
         <div className="w-[60%] sm:w-full xs:w-full pl-[6%] pr-[7%] py-[3%]">
           <p className="font-semibold pb-[2%]">
             In the United States, 1 in 6 children face hunger. Your neighbor,
@@ -79,9 +91,36 @@ export const PageNine = () => {
           </p>
         </div>
         <div className="flex md:flex-col  sm:flex-col  xs:flex-col  lg:flex-wrap  lg:justify-center mt-[8%]">
-          <div className="w-[33.3%] lg:w-[50%] md:w-[50%] sm:w-[50%] xs:w-[95%] h-[200px] md:m-auto sm:m-auto xs:m-auto bg-white border-4 "></div>
-          <div className="w-[33.3%] lg:w-[50%] md:w-[50%] sm:w-[50%] xs:w-[95%] h-[200px] md:m-auto sm:m-auto xs:m-auto bg-white border-4 "></div>
-          <div className="w-[33.3%] lg:w-[50%] md:w-[50%] sm:w-[50%] xs:w-[95%] h-[200px] md:m-auto sm:m-auto xs:m-auto bg-white border-4 "></div>
+          <div className="w-[33.3%] lg:w-[50%] md:w-[50%] sm:w-[50%] xs:w-[95%] h-[200px] md:m-auto sm:m-auto xs:m-auto bg-white border-4 ">
+            <a href="/" className="">
+              {" "}
+              <img
+                src="https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180"
+                alt=""
+                className="h-full w-full"
+              />
+            </a>
+          </div>
+          <div className="w-[33.3%] lg:w-[50%] md:w-[50%] sm:w-[50%] xs:w-[95%] h-[200px] md:m-auto sm:m-auto xs:m-auto bg-white border-4 ">
+            <a href="/" className="">
+              {" "}
+              <img
+                src="https://tse4.mm.bing.net/th?id=OIP.zGC3CQDxdhM4X7f8UE78mQHaEe&pid=Api&P=0&h=180"
+                alt=""
+                className="h-full w-full"
+              />
+            </a>
+          </div>
+          <div className="w-[33.3%] lg:w-[50%] md:w-[50%] sm:w-[50%] xs:w-[95%] h-[200px] md:m-auto sm:m-auto xs:m-auto bg-white border-4 ">
+            <a href="/" className="">
+              {" "}
+              <img
+                src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
+                alt=""
+                className="h-full w-full"
+              />
+            </a>
+          </div>
         </div>
         <div className="px-[4%] mt-[8%] font-semibold  mb-[5%]">
           <p className="text-center">

@@ -8,7 +8,7 @@ export default function Pageeleven() {
         <div className="flex xs:block sm:block pb-[10%]">
           <div className="w-[60%] md:w-[55%] sm:w-full xs:w-full px-[10%] md:px-[5%] sm:px-[15%] xs:px-[15%] ">
             <img
-              src="https://www.pngall.com/wp-content/uploads/2/Medicine-Pills-Free-PNG.png"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/606d2082874849.5d2b473f01d4f.jpg"
               className="h-[80%]"
               alt=""
             />
@@ -23,7 +23,7 @@ export default function Pageeleven() {
               <div className="w-[20% px-[3%]">
                 <img
                   className="h-[50px] w-[50px] rounded-3xl"
-                  src="	/photos/logo.png"
+                  src="	https://tse2.mm.bing.net/th?id=OIP.ImmrkgATgNztf4RXyUBb8wHaFj&pid=Api&P=0&h=180"
                   alt=""
                 />
                 <span className="text-xs text-center w-[50px] text-green-600 flex  font-semibold">
@@ -33,7 +33,7 @@ export default function Pageeleven() {
               <div className="w-[20% px-[3%]">
                 <img
                   className="h-[50px] w-[50px] rounded-3xl"
-                  src="	/photos/logo.png"
+                  src="	https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180"
                   alt=""
                 />
                 <span className="text-xs text-center w-[50px] text-green-600 flex  font-semibold">
@@ -43,7 +43,7 @@ export default function Pageeleven() {
               <div className="w-[20% px-[3%] ">
                 <img
                   className="h-[50px] w-[50px] rounded-3xl"
-                  src="	/photos/logo.png"
+                  src="	https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180photos/logo.png"
                   alt=""
                 />
                 <span className="text-xs text-center w-[50px] text-green-600 flex  font-semibold">
@@ -87,10 +87,7 @@ export default function Pageeleven() {
               <button className="w-[35%] bg-green-400 text-white text-base py-[2%] ">
                 BUY ONLINE{" "}
               </button>
-              <FaAmazon
-               
-                className="text-white text-5xl xs:text-5xl sm:text-5xl bg-green-400 ml-[1px] px-[3%] xs:px-[2%] sm:px-[2%] py-[2%] "
-              />
+              <FaAmazon className="text-white text-5xl xs:text-5xl sm:text-5xl bg-green-400 ml-[1px] px-[3%] xs:px-[2%] sm:px-[2%] py-[2%] " />
             </div>
           </div>
         </div>
@@ -110,14 +107,21 @@ export default function Pageeleven() {
         </div>
         <div className="w-[50%] xs:w-full sm:w-full pl-[1%] xs:pr-[3%] sm:pr-[3%] ">
           <img
-            className="h-full"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjJ_m8HT6Nzvvcc2rKb6w-sPnWY4biyACdgg&usqp=CAU"
+            className="h-full "
+            src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
             alt=""
           />
         </div>
       </section>
       <section className="flex xs:block sm:block h-full bg-[#f3ffed] ">
-        <div className="w-[50%] xs:w-full sm:w-full xs:h-[200px] sm:h-[200px] border-4 bg-white" />
+        <div className="w-[50%] xs:w-full sm:w-full xs:h-[200px] sm:h-[200px] border-4 bg-white">
+          {" "}
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.uyNuEIgO-59-hBvBR7dEUAHaD2&pid=Api&P=0&h=180"
+            alt=""
+            className="h-full w-full"
+          />
+        </div>
         <div className="w-[50%]  xs:w-full sm:w-full px-[8%] sm:px-[5%] xs:px-[5%] py-[4%] xs:py-[10%] sm:py-[10%] md:py-[10%]">
           <h1 className="font-semibold text-3xl">
             WE CONTINUOUSLY PUSH OURSELVES TO DELIVER TO
@@ -150,7 +154,13 @@ export default function Pageeleven() {
           </h1>
           <div className="w-full flex xs:flex-wrap sm:flex-wrap justify-center">
             <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white"></div>
+              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
+                <img
+                  src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
+                  alt=""
+                  className="h-full w-full"
+                />
+              </div>
               <a
                 href="/"
                 className="text-xs text-green-500 font-semibold block mt-[2%]"
@@ -168,7 +178,13 @@ export default function Pageeleven() {
               </p>
             </div>
             <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white "></div>
+              <div className="h-[180px]  mx-[5%]  border-2 bg-white ">
+                <img
+                  src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
+                  alt=""
+                  className="h-full w-full"
+                />
+              </div>
               <a
                 href="/"
                 className="text-xs text-green-500 font-semibold block mt-[2%] "
@@ -186,7 +202,13 @@ export default function Pageeleven() {
               </p>
             </div>
             <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white"></div>
+              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
+                <img
+                  src="https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180"
+                  alt=""
+                  className="h-full w-full"
+                />
+              </div>
               <a
                 href="/"
                 className="text-xs text-green-500 font-semibold block mt-[2%]"
@@ -204,7 +226,14 @@ export default function Pageeleven() {
               </p>
             </div>
             <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white"></div>
+              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
+                {" "}
+                <img
+                  src="https://tse2.mm.bing.net/th?id=OIP.ImmrkgATgNztf4RXyUBb8wHaFj&pid=Api&P=0&h=180"
+                  alt=""
+                  className="h-full w-full"
+                />
+              </div>
               <a
                 href="/"
                 className="text-xs text-green-500 font-semibold block mt-[2%]"
