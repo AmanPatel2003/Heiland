@@ -1,17 +1,20 @@
 import React from "react";
-import "./App.css"
+import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FirstPage from "./components/FirstPage/FirstPage";
-import Footer from "./components/Footer/Footer";
-import Navbar from "./components/NavBar/Navbar";
-import PageTwo from "./components/PageTwo/PageTwo";
-import PageThree from "./components/PageThree/PageThree";
-import PageFour from "./components/PageFour/PageFour";
-import PageFive from "./components/PageFive/PageFive";
-import Pagesix from "./components/Pagesix/Pagesix";
-import Pageseven from "./components/Pageseven/Pageseven";
-import PageEight from "./components/PageEight/PageEight";
-import Pageeleven from "./components/PageEleven/Pageeleven";
+import FirstPage from "./components/FirstPage";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import PageTwo from "./components/PageTwo";
+import PageThree from "./components/PageThree";
+import PageFour from "./components/PageFour";
+import PageFive from "./components/PageFive";
+import Pagesix from "./components/Pagesix";
+import Pageseven from "./components/Pageseven";
+import PageEight from "./components/PageEight";
+import { PageNine } from "./components/PageNine";
+import Pageeleven from "./components/Pageeleven";
+import { WhereToBay } from "./components/WhereToBay";
+
 function App() {
   return (
     <Router>
@@ -19,15 +22,16 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<FirstPage />} />
-          <Route path="/2" element={<PageTwo />} />
-          <Route path="/3" element={<PageThree />} />
-          <Route path="/4" element={<PageFour />} />
-          <Route path="/5" element={<PageFive />} />
-          <Route path="/6" element={<Pagesix />} />
-          <Route path="/7" element={<Pageseven />} />
-          <Route path="/8" element={<PageEight />} />
-          <Route path="/11" element={<Pageeleven />} />
-
+          <Route path="/1" element={<PageThree />} />
+          <Route path="/about" element={<PageTwo />} />
+          <Route path="/story" element={<PageFour />} />
+          <Route path="/articles" element={<PageFive />} />
+          <Route path="/shop" element={<Pagesix />} />
+          <Route path="/privacy" element={<Pageseven />} />
+          <Route path="/contact" element={<PageEight />} />
+          <Route path="/impact" element={<PageNine />} />
+          <Route path="/products" element={<Pageeleven />} />
+          <Route path="/WhereToBuy" element={<WhereToBay   />} />
         </Routes>
         <Footer />
       </div>
