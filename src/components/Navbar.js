@@ -57,38 +57,38 @@ export default function Navbar() {
             <ul className="flex justify-between h-full  w-full mr-[1%]">
               <li className="relative w-full h-full  text-center hover:bg-[#d2e7c7]">
                 <button
-                 onClick={toggleProductsDropdown}
+                  onClick={toggleProductsDropdown}
                   className=" w-full h-full text-black"
                 >
                   PRODUCTS
                 </button>
                 {productsDropdownOpen && (
                   <ul className="absolute bg-[#d2e7c7] top-full left-0 pt-2 w-full text-left">
-                    <li className="w-full">
+                    <li className="w-full ">
                       <a
-                        href="/"
+                        href="/products"
                         onClick={toggleProductsDropdown}
-                        className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
+                        className="bg-[#d2e7c7]  pr-[40%] pl-[6%]"
                       >
-                        1
+                        Products
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={toggleProductsDropdown}
+                        href="/1"
+                        className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
+                      >
+                        PageTwo
                       </a>
                     </li>
                     <li>
                       <a
                         onClick={toggleProductsDropdown}
                         href="/about"
-                        className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
+                        className="bg-[#d2e7c7] pr-[40%]  pl-[6%]"
                       >
-                        2
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        onClick={toggleProductsDropdown}
-                        href="/story"
-                        className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
-                      >
-                        3
+                        About
                       </a>
                     </li>
                   </ul>
@@ -100,38 +100,38 @@ export default function Navbar() {
             <ul className="flex justify-between w-full h-full  mr-[1%]">
               <li className="relative w-full h-full text-center hover:bg-[#d2e7c7]">
                 <button
-                 onClick={toggleCompanyDropdown}
+                  onClick={toggleCompanyDropdown}
                   className=" text-black h-full w-full"
                 >
                   COMPANY
                 </button>
                 {companyDropdownOpen && (
-                  <ul className="absolute bg-[#d2e7c7] top-full left-0 pt-2 w-full text-center">
+                  <ul className="absolute bg-[#d2e7c7] top-full left-0 pt-2 w-full text-left">
                     <li>
                       <a
-                        href="/"
-                        onClick={toggleCompanyDropdown}
-                        className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
-                      >
-                        1
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        onClick={toggleCompanyDropdown}
-                        href="/about"
-                        className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
-                      >
-                        2
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        onClick={toggleCompanyDropdown}
                         href="/story"
-                        className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
+                        onClick={toggleCompanyDropdown}
+                        className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
                       >
-                        3
+                        Story
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={toggleCompanyDropdown}
+                        href="/articles"
+                        className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
+                      >
+                        Articles
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        onClick={toggleCompanyDropdown}
+                        href="/shop"
+                        className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
+                      >
+                        Shop
                       </a>
                     </li>
                   </ul>
@@ -142,47 +142,47 @@ export default function Navbar() {
             <ul className="flex justify-between w-full h-full mr-[1%]">
               <li className="relative w-full text-center h-full hover:bg-[#d2e7c7]">
                 <button
-                 onClick={toggleLearnDropdown}
+                  onClick={toggleLearnDropdown}
                   className=" text-black w-full h-full"
                 >
                   LEARN
                 </button>
                 {learnDropdownOpen && (
-                 <div className="">
-                   <ul
-                    // onMouseOut={toggleLearnDropdown}
-                    className="absolute bg-[#d2e7c7]  left-0 pt-2 w-full text-center"
-                  >
-                    <li>
-                      <a
-                        href="/"
-                        onClick={toggleLearnDropdown}
-                        className="bg-[#d2e7c7] pr-[85%] pl-[6%] "
-                      >
-                        1
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        onClick={toggleLearnDropdown}
-                        href="/about"
-                        className="bg-[#d2e7c7] pr-[85%] pl-[6%] "
-                      >
-                        2
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        onClick={toggleLearnDropdown}
-                        // onMouseLeave={toggleLearnDropdown}
-                        href="/story"
-                        className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
-                      >
-                        3
-                      </a>
-                    </li>
-                  </ul>
-                 </div>
+                  <div className="">
+                    <ul
+                      // onMouseOut={toggleLearnDropdown}
+                      className="absolute bg-[#d2e7c7]  left-0 pt-2 w-full text-left"
+                    >
+                      <li>
+                        <a
+                          href="/privacy"
+                          onClick={toggleLearnDropdown}
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
+                        >
+                          Privacy
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          onClick={toggleLearnDropdown}
+                          href="/contact"
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
+                        >
+                          Contact
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          onClick={toggleLearnDropdown}
+                          // onMouseLeave={toggleLearnDropdown}
+                          href="/impact"
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
+                        >
+                          Impact
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 )}
               </li>
               {/* Repeat this pattern for Company and Learn dropdowns */}
@@ -200,44 +200,45 @@ export default function Navbar() {
         </div>
         <hr />
 
-        <div className="   xl:hidden 2xl:hidden px-[20%] xs:px-[10%] h-full bg-[#f3ffed] ">
+        <div className="   xl:hidden 2xl:hidden px-[20%] xs:px-[10%] sm:px-[10%] md:px-[10%] h-full bg-[#f3ffed] ">
           {open ? (
             <div className="flex pt-[20px w-full h-full ">
               <ul className="flex justify-between h-full  w-full">
                 <li className="relative w-full h-full text-center hover:bg-[#d2e7c7]">
                   <button
-                   onClick={toggleProductsDropdown}
+                    onClick={toggleProductsDropdown}
                     className=" text-black h-full"
                   >
                     PRODUCTS
                   </button>
                   {productsDropdownOpen && (
-                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-full text-center">
+                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[95%] text-left
+                    ">
                       <li>
                         <a
-                          href="/"
+                          href="/products"
                           onClick={toggleProductsDropdown}
-                          className="bg-[#d2e7c7] pr-[85%] pl-[6%] "
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
                         >
-                          1
+                          Products
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          onClick={toggleProductsDropdown}
+                          href="/1"
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
+                        >
+                          PateTwo
                         </a>
                       </li>
                       <li>
                         <a
                           onClick={toggleProductsDropdown}
                           href="/about"
-                          className="bg-[#d2e7c7] pr-[85%] pl-[6%] "
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
                         >
-                          2
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          onClick={toggleProductsDropdown}
-                          href="/story"
-                          className="bg-[#d2e7c7] pr-[85%] pl-[6%] "
-                        >
-                          3
+                          About
                         </a>
                       </li>
                     </ul>
@@ -252,32 +253,32 @@ export default function Navbar() {
                 <li className="relative w-full text-center hover:bg-[#d2e7c7]">
                   <button className=" text-black">COMPANY</button>
                   {companyDropdownOpen && (
-                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-full text-center">
-                      <li>
-                        <a
-                          onClick={toggleCompanyDropdown}
-                          href="/"
-                          className="bg-[#d2e7c7] pr-[85%] pl-[6%]  "
-                        >
-                          1
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          onClick={toggleCompanyDropdown}
-                          href="/about"
-                          className="bg-[#d2e7c7] pr-[85%] pl-[6%] "
-                        >
-                          2
-                        </a>
-                      </li>
+                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[95%] text-left">
                       <li>
                         <a
                           onClick={toggleCompanyDropdown}
                           href="/story"
-                          className="bg-[#d2e7c7] pr-[85%] pl-[6%]  "
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%]  "
                         >
-                          3
+                          Story
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          onClick={toggleCompanyDropdown}
+                          href="/articles"
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
+                        >
+                          Articles
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          onClick={toggleCompanyDropdown}
+                          href="/shop"
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%]  "
+                        >
+                          Shop
                         </a>
                       </li>
                     </ul>
@@ -290,34 +291,34 @@ export default function Navbar() {
                 className="flex justify-between w-full"
               >
                 <li className="relative w-full text-center hover:bg-[#d2e7c7]">
-                  <button className=" text-black">LEARN</button>
+                  <button className=" text-black w-full ">LEARN</button>
                   {learnDropdownOpen && (
-                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-full text-center">
+                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[95%] text-left">
                       <li>
                         <a
                           onClick={toggleLearnDropdown}
-                          href="/"
-                          className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
+                          href="/privacy"
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
                         >
-                          1
+                          Privacy
                         </a>
                       </li>
                       <li>
                         <a
                           onClick={toggleLearnDropdown}
-                          href="/about"
-                          className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
+                          href="/contact"
+                          className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
                         >
-                          2
+                          Contact
                         </a>
                       </li>
                       <li>
                         <a
                           onClick={toggleLearnDropdown}
-                          href="/story"
-                          className="bg-[#d2e7c7] pr-[85%] pl-[6%]"
+                          href="/impact"
+                          className="bg-[#d2e7c7]pr-[40%] pl-[6%]"
                         >
-                          3
+                          Impact
                         </a>
                       </li>
                     </ul>
