@@ -8,7 +8,7 @@ export default function FirstPage() {
   return (
     <div className="w-full bg-[#fcfce4] ">
       <section
-        className="pt-[18%] pb-[15%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%] w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]  border-b-8 h-full bg-[#f3ffed bg-cover bg-center "
+        className="pt-[18%] pb-[15%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%] w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-full bg-[#f3ffed bg-cover bg-center "
         // style={{
         //   backgroundImage:
         //   "/public/photos/1.jpg"

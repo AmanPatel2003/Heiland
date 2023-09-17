@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import img1 from "../img/story_img.jpg";
-import img2 from "../img/story_img2.jpeg";
-import img3 from "../img/story-3.jpg";
+import img1 from "../img/story_img1.png";
+import img2 from "../img/story_img22.png";
+import img3 from "../img/story-33.jpg";
 
 export default function PageFour() {
   const [border, setBorder] = useState(false);
@@ -9,7 +9,7 @@ export default function PageFour() {
     setBorder = true;
   };
   return (
-    <div className="py-[8%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%]  bg-[#f3ffed] ">
+    <div className="py-[8%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%]  bg-[#fcfce4] ">
       <section className="flex justify-between px-[30%] mb-[3%]">
         <a href="/story" onClick={SetBorder}>
           <p className="font-semibold text-lg">OUR STORY</p>
@@ -29,7 +29,7 @@ export default function PageFour() {
         ABOUT US
       </section>
       <section className="flex xs:block  h-full bg-[#789977] ">
-        <div className="w-[30%] sm:w-[40%] md:w-[35%] xs:w-full xs:h-[230px] border-4 bg-white">
+        <div className="w-[30%] sm:w-[40%] md:w-[35%] xs:w-full xs:h-[230px] ">
           <img src={img1} alt="" className="h-full w-full" />
         </div>
         <div className="w-[70%] sm:w-[60%] md:w-[65%] xs:w-full  px-[12%] sm:px-[8%] md:px-[9%] py-[7%]">
@@ -45,7 +45,7 @@ export default function PageFour() {
         </div>
       </section>
       <section className=" flex xs:block bg-[#e2f3e2]  ">
-        <div className="w-[45%] xs:w-full px-[8%] xs:px-[2%] md:px-[5%] sm:px-[4%] py-[7%] md:py-[6%] sm:py-[6%] xs:py-[8%]">
+        <div className="w-[60%] xs:w-full px-[8%] xs:px-[2%] md:px-[5%] sm:px-[4%] py-[7%] md:py-[6%] sm:py-[6%] xs:py-[8%]">
           <h2 className="text-2xl font-bold text-green-800 pb-[3%]">
             DISCOVER OUR PURPOSE
           </h2>
@@ -66,15 +66,15 @@ export default function PageFour() {
           </p>
         </div>
 
-        <div className="w-[55%]  xs:w-full xs:h-[250px] ] border-4 bg-white">
+        <div className="w-[40%] h-[460px] xs:w-full xs:h-[250px] ">
           <img src={img2} alt="" className="h-full w-full" />
         </div>
       </section>
-      <section className="flex xs:block bg-[#e2f3e2] ">
-        <div className="xs:h-[250px] w-[45%] xs:w-full border-4 bg-white">
+      <section className="flex xs:block bg-[#fcfce4] ">
+        <div className="xs:h-[250px] w-[40%] h-[500px] xs:w-full ">
           <img src={img3} alt="" className="h-full w-full" />
         </div>
-        <div className="w-[55%] xs:w-full pl-[8%] sm:pl-[8%] pr-[22%] sm:pr-[8%] md:pr-[15%] lg:pr-[15%]  pt-[7%] pb-[13%] md:pb-[8%] lg:pb-[8%]">
+        <div className="w-[60%] xs:w-full px-[5%] sm:pl-[8%]  sm:pr-[8%] md:pr-[15%] lg:pr-[15%]  pt-[7%] pb-[11%] md:pb-[8%] lg:pb-[8%]">
           <h3 className="text-xl font-bold text-green-800 mb-[2%]">
             EMPOWERING LIVES, ENRICHING FUTURES.
           </h3>
