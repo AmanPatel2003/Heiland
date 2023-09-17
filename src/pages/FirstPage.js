@@ -1,6 +1,5 @@
 import React from "react";
-// import main1 from "../img/p1_main1.jpg";
-import main2 from "../img/p1_main2.jpg";
+import main2 from "../img/p1_main2.webp";
 
 import { MCarousel } from "../components/Carousel/MCarousel";
 

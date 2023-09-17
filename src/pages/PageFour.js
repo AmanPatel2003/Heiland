@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import img1 from "../img/story_img1.png";
-import img2 from "../img/story_img22.png";
-import img3 from "../img/story-33.jpg";
+import img1 from "../img/story_img1.webp";
+import img2 from "../img/story_img22.webp";
+import img3 from "../img/story-33.webp";
 
 export default function PageFour() {
   const [border, setBorder] = useState(false);

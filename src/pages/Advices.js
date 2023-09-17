@@ -1,7 +1,7 @@
 import React from "react";
-import supplement from "../img/advices/supplement.jpg";
-import tea from "../img/advices/tea.jpg";
-import beauty from "../img/advices/beuty.jpg";
+import supplement from "../img/advices/supplement.webp";
+import tea from "../img/advices/tea.webp";
+import beauty from "../img/advices/beuty.webp";
 
 export const Advices = () => {
   return (
