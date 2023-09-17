@@ -1,5 +1,5 @@
 import React from "react";
-import { Subscribe } from "./Subscribe";
+import { Subscribe } from "../components/Subscribe";
 import { BiCalendar } from "react-icons/bi";
 
 export default function PageThree() {
@@ -20,7 +20,7 @@ export default function PageThree() {
           />
         </a>
       </div>
-      <div className="pr-[35%] py-[3%]">
+      {/* <div className="pr-[35%] py-[3%]">
         <p className="py-[2%] font-semibold ">
           Your 20s and 30s are a pivoatal time both in life and for your body.
           As you age, you change- and so do your nutritional needs. But choosing
@@ -34,9 +34,9 @@ export default function PageThree() {
           can help to give you a more personalized pecommendation for which
           supplements you should be taking.{" "}
         </p>
-      </div>
+      </div> */}
       <div className="pb-[1%]">
-        <h1 className="text-xl font-bold mb-[3%]">
+        <h1 className="text-xl font-bold my-[3%]">
           VITAMINS YOU SHOULD TAKE IN YOUR 20S &amp; 30S
         </h1>
         <h3 className="text-base font-bold mb-[2%]">1. VITAMIN D</h3>

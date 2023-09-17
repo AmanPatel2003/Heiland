@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
+import logo1 from "../img/logo.png";
 
 export default function Navbar() {
   const [productsDropdownOpen, setProductsDropdownOpen] = useState(false);
@@ -25,16 +26,16 @@ export default function Navbar() {
 
   return (
     <div className="w-full  ">
-      <div className="fixed  top-0 left-0 bg-[#f3ffed]  w-full">
+      <div className="fixed  top-0 left-0 bg-[#f3ffed] bg-whit  w-full">
         <div className="h-full flex justify-between w-full">
           <div className="ml-[10%]  ">
             <a className="flex" href="/">
               <img
-                src="/photos/logo.png"
+                src={logo1}
                 alt=""
-                className="h-full w-[50px] mt-[13%] xs:mt-[12%] xs:w-[50px]"
+                className="h-full w-[50px] mt-[9%] xs:mt-[12%] xs:w-[50px]"
               />
-              <h1 className="font-semibold text-4xl py-[9%] xs:text-3xl">
+              <h1 className="font-semibold text-5xl py-[6%] pl-[2%] xs:text-3xl">
                 HEILAND
               </h1>
             </a>
@@ -68,7 +69,7 @@ export default function Navbar() {
                       <a
                         href="/products"
                         onClick={toggleProductsDropdown}
-                        className="bg-[#d2e7c7]  pr-[40%] pl-[6%]"
+                        className="bg-[#d2e7c7]  pr-[40%] pl-[4%]"
                       >
                         Products
                       </a>
@@ -76,19 +77,20 @@ export default function Navbar() {
                     <li>
                       <a
                         onClick={toggleProductsDropdown}
-                        href="/1"
+                        href="/blog1"
                         className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
                       >
-                        PageTwo
+                        ARTICLE
+                        
                       </a>
                     </li>
                     <li>
                       <a
                         onClick={toggleProductsDropdown}
-                        href="/about"
-                        className="bg-[#d2e7c7] pr-[40%]  pl-[6%]"
+                        href="/mission"
+                        className="bg-[#d2e7c7]  pl-[4%]"
                       >
-                        About
+                        OUR MISSION
                       </a>
                     </li>
                   </ul>
@@ -138,6 +140,15 @@ export default function Navbar() {
                 )}
               </li>
               {/* Repeat this pattern for Company and Learn dropdowns */}
+            </ul>
+            <ul className="flex justify-between h-full  w-full mr-[1%]">
+              <li className="relative w-full h-full text-center hover:bg-[#d2e7c7]">
+                <button className=" text-black h-full w-full">
+                  <a href="/advice" className="">
+                    ADVICES
+                  </a>
+                </button>
+              </li>
             </ul>
             <ul className="flex justify-between w-full h-full mr-[1%]">
               <li className="relative w-full text-center h-full hover:bg-[#d2e7c7]">
@@ -192,7 +203,7 @@ export default function Navbar() {
           <div className="w-[9%] flex justify-center items-center mr-[7%] lg:hidden md:hidden sm:hidden xs:hidden">
             <a
               href="/WhereToBuy"
-              className="text-lg m-auto pl-[4%] text-white w-full bg-green-400"
+              className="text-lg m-auto pl-[4%] text-white w-full bg-[#097969]"
             >
               Where To Buy
             </a>
@@ -212,8 +223,10 @@ export default function Navbar() {
                     PRODUCTS
                   </button>
                   {productsDropdownOpen && (
-                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[95%] text-left
-                    ">
+                    <ul
+                      className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[95%] text-left
+                    "
+                    >
                       <li>
                         <a
                           href="/products"

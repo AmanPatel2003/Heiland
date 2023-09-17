@@ -12,7 +12,7 @@ export default function Footer() {
                   <li className="w-[170px] lg:w-[150px] md:w-[35%] sm:w-[40%] xs:w-[40%]">
                     <a
                       href="/"
-                      className="text-[14px] text-[#6fc073] font-semibold mb-[15%]"
+                      className="text-[14px] text-[#e4d00a] font-semibold mb-[15%]"
                     >
                       PRODUCTS
                     </a>
@@ -52,7 +52,7 @@ export default function Footer() {
                   <li className="w-[170px] lg:w-[150px] md:w-[35% sm:w-[40%] xs:w-[40%]">
                     <a
                       href="/"
-                      className="text-[14px] text-[#6fc073] font-semibold mb-[8%]"
+                      className="text-[14px] text-[#e4d00a] font-semibold mb-[8%]"
                     >
                       PRODUCTS
                     </a>
@@ -94,7 +94,7 @@ export default function Footer() {
                   <li className="w-[170px] lg:w-[150px]  sm:w-[40%] xs:w-[40%] ">
                     <a
                       href="/"
-                      className="text-[14px] text-[#6fc073] font-semibold -[8%]"
+                      className="text-[14px] text-[#e4d00a] font-semibold -[8%]"
                     >
                       SOLOGAR
                     </a>
@@ -134,7 +134,7 @@ export default function Footer() {
                   <li className=" w-[170px] lg:w-[150px] md:w-[35% sm:w-[40%] xs:w-[40%]">
                     <a
                       href="/"
-                      className="text-[14px] text-[#6fc073] font-semibold "
+                      className="text-[14px] text-[#e4d00a] font-semibold "
                     >
                       FOLLOW US
                     </a>
@@ -185,9 +185,9 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="flex justify-around md:pt-[10%] xs:pt-[5%] sm:pt-[5%] xl:pt-[3%]">
+            <div className="flex justify-around md:pt-[10%] xs:pt-[5%] sm:pt-[5%] xl:pt-[1%]">
               <div className=" w-[35%] md:w-[90%] xs:w-[90%] sm:w-[90%] lg:w-[85%] xl:w-[90%] xl:pl-[3%] h-full ">
-                <h6 className="text-[#6fc073] mb-[6%] xl:mb-[3%] xs:mb-[4%] sm:mb-[4%] text-[16px] ">
+                <h6 className="text-[#e4d00a] mb-[6%] xl:mb-[3%] xs:mb-[4%] sm:mb-[4%] text-[16px] ">
                   JOIN OUR COMMUNITY
                 </h6>
                 <p className="text-[#387576] text-[13px] mb-[3%]">
@@ -203,7 +203,7 @@ export default function Footer() {
                 <div className="">
                   <button
                     type="submit"
-                    className="w-full bg-[#6fc073] text-white"
+                    className="w-full bg-[#e4d00a] text-white"
                   >
                     SUBSCRIBE
                   </button>

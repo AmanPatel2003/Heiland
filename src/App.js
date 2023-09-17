@@ -1,19 +1,20 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FirstPage from "./components/FirstPage";
+import FirstPage from "./pages/FirstPage";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import PageTwo from "./components/PageTwo";
-import PageThree from "./components/PageThree";
-import PageFour from "./components/PageFour";
-import PageFive from "./components/PageFive";
-import Pagesix from "./components/Pagesix";
-import Pageseven from "./components/Pageseven";
-import PageEight from "./components/PageEight";
-import { PageNine } from "./components/PageNine";
-import Pageeleven from "./components/Pageeleven";
+import PageTwo from "./pages/PageTwo";
+import PageThree from "./pages/PageThree";
+import PageFour from "./pages/PageFour";
+import PageFive from "./pages/PageFive";
+import Pagesix from "./pages/Pagesix";
+import Pageseven from "./pages/Pageseven";
+import PageEight from "./pages/PageEight";
+import { PageNine } from "./pages/PageNine";
+import Pageeleven from "./pages/Pageeleven";
 import { WhereToBay } from "./components/WhereToBay";
+import { Advices } from "./pages/Advices";
 
 function App() {
   return (
@@ -22,8 +23,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<FirstPage />} />
-          <Route path="/1" element={<PageThree />} />
-          <Route path="/about" element={<PageTwo />} />
+          <Route path="/blog1" element={<PageThree />} />
+          <Route path="/mission" element={<PageTwo />} />
           <Route path="/story" element={<PageFour />} />
           <Route path="/articles" element={<PageFive />} />
           <Route path="/shop" element={<Pagesix />} />
@@ -31,7 +32,8 @@ function App() {
           <Route path="/contact" element={<PageEight />} />
           <Route path="/impact" element={<PageNine />} />
           <Route path="/products" element={<Pageeleven />} />
-          <Route path="/WhereToBuy" element={<WhereToBay   />} />
+          <Route path="/whereToBuy" element={<WhereToBay />} />
+          <Route path="/advice" element={<Advices />} />
         </Routes>
         <Footer />
       </div>

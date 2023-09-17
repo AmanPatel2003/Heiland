@@ -1,5 +1,5 @@
 import React from "react";
-import { Subscribe } from "./Subscribe";
+import { Subscribe } from "../components/Subscribe";
 
 export default function PageFive() {
   return (
