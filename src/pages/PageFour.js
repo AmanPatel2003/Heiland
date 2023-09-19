@@ -1,28 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 import img1 from "../img/story_img1.webp";
 import img2 from "../img/story_img22.webp";
 import img3 from "../img/story-33.webp";
 
 export default function PageFour() {
-  const [border, setBorder] = useState(false);
-  const SetBorder = () => {
-    setBorder = true;
-  };
+ 
   return (
     <div className="py-[8%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%]  bg-[#fcfce4] ">
-      <section className="flex justify-between px-[30%] mb-[3%]">
-        <a href="/story" onClick={SetBorder}>
-          <p className="font-semibold text-lg">OUR STORY</p>
-        </a>
-        <a href="/" onClick={SetBorder}>
-          <p className="font-semibold text-lg ">OUR MISSION</p>
-        </a>
-        <a href="/impact" onClick={SetBorder}>
-          <p className="font-semibold text-lg">OUR IMPACT</p>
-        </a>
-        <a href="/contact" onClick={SetBorder}>
-          <p className="font-semibold text-lg">CONTACT US</p>
-        </a>
+      <section className=" px-[30%] xs:px-[8%] sm:px-[8%] md:px-[10%] lg:px-[20%] mb-[3%] w-full">
+        <div className="w-full flex justify-between">
+          <a href="/mission">
+            <p className="font-semibold text-lg">OUR MISSION</p>
+          </a>
+          <a href="/">
+            <p className="font-semibold text-lg border-black border-b-2">
+              ABOUT US
+            </p>
+          </a>
+          <a href="/impact">
+            <p className="font-semibold text-lg">OUR IMPACT</p>
+          </a>
+          <a href="/contact">
+            <p className="font-semibold text-lg">CONTACT US</p>
+          </a>
+        </div>
       </section>
       <hr />
       <section className="flex justify-center font-bold text-6xl py-[10%]">
@@ -32,12 +33,12 @@ export default function PageFour() {
         <div className="w-[30%] sm:w-[40%] md:w-[35%] xs:w-full xs:h-[230px] ">
           <img src={img1} alt="" className="h-full w-full" />
         </div>
-        <div className="w-[70%] sm:w-[60%] md:w-[65%] xs:w-full  px-[12%] sm:px-[8%] md:px-[9%] py-[7%]">
-          <h3 className="font-bold text-xl text-white">
+        <div className="w-[70%] sm:w-[60%] md:w-[65%] xs:w-full  px-[12%] sm:px-[8%] md:px-[9%] py-[10%]">
+          <h3 className="font-bold text-2xl pb-[3%] text-white">
             FROM A STRONG HERITAGE, BUILDING AN EVEN STRONGER FUTURE
           </h3>
 
-          <p className="text-white">
+          <p className="text-white text-bold">
             Under every gold metal Solgar cap, there’s an amber glass bottle
             containing the stories of decades of diligent research, pioneering
             science, and an unwavering commitment to wellness.
@@ -52,7 +53,7 @@ export default function PageFour() {
           {/* <p className="font-semibold text-sm py-[2%] ">
             This has been our north star for 75 years.
           </p> */}
-          <p className="font-semibold text-sm py-[1%]">
+          <p className="font-semibold  py-[1%] text-green-800 text-justify">
             Our purpose in the world of herbal products is to nurture health and
             harmony through the gifts of nature. We are driven by a deep respect
             for ancient wisdom and a commitment to modern well-being. By
@@ -70,16 +71,16 @@ export default function PageFour() {
           <img src={img2} alt="" className="h-full w-full" />
         </div>
       </section>
-      <section className="flex xs:block bg-[#fcfce4] ">
-        <div className="xs:h-[250px] w-[40%] h-[500px] xs:w-full ">
+      <section className="flex xs:block bg-[#fcfce4 bg-[#87a786] ">
+        <div className="xs:h-[250px] w-[40%] lg:w-[50%] h-[500px] xs:w-full ">
           <img src={img3} alt="" className="h-full w-full" />
         </div>
-        <div className="w-[60%] xs:w-full px-[5%] sm:pl-[8%]  sm:pr-[8%] md:pr-[15%] lg:pr-[15%]  pt-[7%] pb-[11%] md:pb-[8%] lg:pb-[8%]">
-          <h3 className="text-xl font-bold text-green-800 mb-[2%]">
+        <div className="w-[60%] lg:w-[50%] xs:w-full px-[5%]   py-[9%] lg:py-[5%] ">
+          <h3 className="text-2xl font-bold text-green-80 text-white mb-[3%]">
             EMPOWERING LIVES, ENRICHING FUTURES.
           </h3>
 
-          <p className="text-green-800 font-semibold">
+          <p className="text-green-80 text-white font-semibold">
             Our Belief is to empower lives and enrich futures. We are driven by
             a deep commitment to make a positive impact on the world, touching
             the lives of individuals and communities. Through innovation and

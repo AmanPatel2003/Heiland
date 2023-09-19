@@ -7,17 +7,11 @@ export default function FirstPage() {
   return (
     <div className="w-full bg-[#fcfce4] ">
       <section
-        className="pt-[18%] pb-[15%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%] w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-full bg-[#f3ffed bg-cover bg-center "
-        // style={{
-        //   backgroundImage:
-        //   "/public/photos/1.jpg"
-        //     "url('https://ayurvedamegastore.com/image/catalog/Blog%20Post/xDabur,P20blog.jpg.pagespeed.ic.nmT1YSN5ch.jpg')",
-        // }}
-        // style={{ backgroundImage: `url(${main1})` }}
+        className="mt-[5%] xs:mt-[1%] py-[13%]  w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-full bg-[#f3ffed bg-cover md:bg-inherit sm:bg-inherit  bg-center  "
         style={{ backgroundImage: `url(${main2})` }}
       >
-        <div className="mr-[50%] xs:mr-[0%] sm:mr-[0%]">
-          <h1 className="text-3xl font-bold  xs:pb-[3%] sm:pb-[3%] pb-[4%] text-white ">
+        <div className="mr-[50%] xs:mr-[0%] sm:mr-[0%] md:mr-[0%]">
+          <h1 className="text-3xl xs:text-[xl] sm:text-[2xl] font-bold  xs:pb-[3%] sm:pb-[3%] pb-[4%] text-white ">
             EMBRACE NATURE FOR A HEALTHIER YOU WITH HEILAND
           </h1>
           <p className="font-medium xs:pb-[4%] sm:pb-[3%] pb-[4%] text-white">
@@ -33,16 +27,16 @@ export default function FirstPage() {
       </section>
       <section className=" pt-[3%] pb-[3%] px-[20%] lg:px-[15%] md:px-[10%] sm:px-[10%] xs:px-[5%]  text-center h-full bg-[#f3ffed">
         <div className="">
-          <h1 className=" font-bold text-xl xs:my-[2%] sm:my-[2%]">
+          <h1 className=" font-bold text-3xl xs:my-[2%] sm:my-[2%] ">
             INNOVATIVE HERBAL SOLUTION CRAFTED JUST FOR YOU
           </h1>
-          <p className="font-medium mt-[1%] mb-[3%] xs:mb-[4%] sm:mb-[4%]">
+          <p className="font-medium text-lg mt-[2%] mb-[3%] xs:mb-[4%] sm:mb-[4%]">
             Our unique blends harness nature's wisdom to enhance your well-being
             naturally. Discover personalized wellness with our herbal products.
           </p>
-          <div className="w-full h-[60%] flex xs:block sm:block  justify-between">
+          <div className="w-full h-[60%] flex xs:block sm:block  justify-between pt-[2%]">
             <div className="w-[32%] xs:w-[70%] sm:w-[70%] sm:m-auto xs:m-auto   h-[350px] py-[2%]">
-              <div className="h-[60%] w-full border-2 ">
+              <div className="h-[60%] w-full border-2 mb-[5%]">
                 <a href="/contact" className="">
                   <img
                     src="https://i.ytimg.com/vi/HYDfqSTUV1o/maxresdefault.jpg"
@@ -53,14 +47,14 @@ export default function FirstPage() {
                 </a>
               </div>
               <div className="py-[4%] xs:py-[6%] sm:py-[6%]">
-                <h1 className="font-bold text-sm">HARBAL SUPPLEMENTS</h1>
-                <p className="text-sm font-semibold pt-[5%]">
+                <h1 className="font-bold text-xl">HARBAL SUPPLEMENTS</h1>
+                <p className="text-base font-semibold pt-[1%]">
                   Nature's Healing Secrets
                 </p>
               </div>
             </div>
             <div className="w-[32%] h-[350px] py-[2%] xs:w-[70%] sm:w-[70%] sm:m-auto xs:m-auto">
-              <div className="h-[60%] w-full border-2 bg-white">
+              <div className="h-[60%] w-full border-2 bg-white mb-[5%]">
                 <a href="/contact" className="">
                   <img
                     src="https://i.ytimg.com/vi/HYDfqSTUV1o/maxresdefault.jpg"
@@ -70,14 +64,14 @@ export default function FirstPage() {
                 </a>
               </div>
               <div className="py-[4%] xs:py-[6%] sm:py-[6%]">
-                <h1 className="font-bold text-sm">HARBAL TEA</h1>
-                <p className="text-sm font-semibold pt-[5%]">
+                <h1 className="font-bold text-xl">HARBAL TEA</h1>
+                <p className="text-base font-semibold pt-[1%]">
                   Sip Nature's Goodness
                 </p>
               </div>
             </div>
             <div className="w-[32%] h-[350px] py-[2%] xs:w-[70%] sm:w-[70%] sm:m-auto xs:m-auto">
-              <div className="h-[60%] w-full border-2 bg-white">
+              <div className="h-[60%] w-full border-2 bg-white mb-[5%]">
                 <a href="/contact" className="">
                   <img
                     src="https://i.ytimg.com/vi/HYDfqSTUV1o/maxresdefault.jpg"
@@ -87,8 +81,8 @@ export default function FirstPage() {
                 </a>
               </div>
               <div className="py-[4%] xs:py-[6%] sm:py-[6%]">
-                <h1 className="font-bold text-sm">Herbal Beauty</h1>
-                <p className="text-sm font-semibold pt-[5%]">
+                <h1 className="font-bold text-xl">HARBAL BEAUTY</h1>
+                <p className="text-base font-semibold pt-[1%]">
                   Redefining your radiant aura with herbal beauty care
                 </p>
               </div>
@@ -137,33 +131,17 @@ export default function FirstPage() {
               DAIRY-FREE
             </h1>
           </div>
-          {/* <div className="h-[80px] w-[80px]">
-            <img
-              src="https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180png"
-              alt=""
-              className="h-full w-full rounded-full"
-            />
-            <h1 className="text-xs font-bold py-[10%] text-white">KOSHER</h1>
-          </div>
-          <div className="h-[80px] w-[80px]">
-            <img
-              src="https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180"
-              alt=""
-              className="h-full w-full rounded-full"
-            />
-            <h1 className="text-xs font-bold py-[10%] text-white">HALAL</h1>
-          </div> */}
+         
         </div>
       </section>
 
-      <div className="h-[10%]">
+      <div className="h-[10%] ">
         <MCarousel />
       </div>
-      {/* <div className="h-full bg-[#f3ffed] "> */}
 
       <hr />
       <section className="px-[5%] md:px-[10%] sm:px-[10%] xs:px-[5%] text-center py-[3%] xs:py-[6%] sm:py-[6%] bg-[#fcfce4">
-        <h1 className="font-bold pb-[1%]">LATEST ARTICLES</h1>
+        <h1 className="font-bold text-3xl pb-[1%]">LATEST ARTICLES</h1>
         <div className="w-full h-[60%] flex xs:block sm:block  justify-between">
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] xs:m-auto sm:m-auto h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="h-[60%] w-full border-2 bg-white ">

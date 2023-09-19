@@ -2,19 +2,105 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import carousel styles
 import { Carousel } from "react-responsive-carousel"; // Import the Carousel component
 import { CarouselComp } from "./CarouselComp";
+import {  AiFillCaretLeft,  AiFillCaretRight} from "react-icons/ai"
 
 
 export const MCarousel = () => {
+  const arrowStyles= {
+    position: "absolute",
+    zIndex: 2,
+    top: "calc(50% - 15px)",
+    width: 30,
+    height: 30,
+    cursor: "pointer",
+  };
+  
+
+  const indicatorStyles = {
+    background: "#fff",
+    width: 8,
+    height: 8,
+    display: "inline-block",
+    margin: "0 8px",
+  };
   return (
     <div className="">
       <Carousel
-        showArrows={true} // Customize carousel settings as needed
+      style={{zIndex:"-1"}}
+        statusFormatter={(current, total) =>
+          `Current slide: ${current} / Total: ${total}`
+        }
+        renderArrowPrev={(onClickHandler, hasPrev, label) =>
+          hasPrev && (
+            <button
+              type="button"
+              onClick={onClickHandler}
+              title={label}
+              style={{ ...arrowStyles, left: 15 }}
+            >
+              <AiFillCaretLeft />
+            </button>
+          )
+        }
+        renderArrowNext={(onClickHandler, hasNext, label) =>
+          hasNext && (
+            <button
+              type="button"
+              onClick={onClickHandler}
+              title={label}
+              style={{ ...arrowStyles, right: 15 }}
+            >
+              <AiFillCaretRight />
+            </button>
+          )
+        }
+        renderIndicator={(onClickHandler, isSelected, index, label) => {
+          if (isSelected) {
+            return (
+              <li
+                style={{ ...indicatorStyles, background: "#000" ,borderRadius:"50%" }}
+                aria-label={`Selected: ${label} ${index + 1}`}
+                title={`Selected: ${label} ${index + 1}`}
+              />
+            );
+            
+          }
+        else{ return (
+          <li
+            style={{
+              ...indicatorStyles,
+              background: "red",
+              borderRadius: "50%",
+            }}
+            onClick={onClickHandler}
+                onKeyDown={onClickHandler}
+                value={index}
+                key={index}
+                role="button"
+                tabIndex={0}
+                title={`${label} ${index + 1}`}
+                aria-label={`${label} ${index + 1}`}
+          />
+        );
+        }
+         
+          // return (
+          //   <li
+          //     style={indicatorStyles}
+          //     onClick={onClickHandler}
+          //     onKeyDown={onClickHandler}
+          //     value={index}
+          //     key={index}
+          //     role="button"
+          //     tabIndex={0}
+          //     title={`${label} ${index + 1}`}
+          //     aria-label={`${label} ${index + 1}`}
+          //   />
+          // );
+        }}
+        showArrows={true}
         showStatus={false}
-        // showThumbs={true}
-        autoPlay={true} // Set to true for automatic slideshow
-        interval={7000} // Adjust the interval between slides (in milliseconds)
         infiniteLoop={true}
-        // // useKeyboardArrows={true} // Enable keyboard navigation
         stopOnHover={true}
       >
         <CarouselComp

@@ -25,17 +25,17 @@ export default function Navbar() {
   };
 
   return (
-    <div className="w-full  ">
-      <div className="fixed  top-0 left-0 bg-[#f3ffed] bg-whit  w-full">
+    <div className="w-full ">
+      <div className="fixed  top-0 left-0 bg-[#f3ffed] bg-whit  w-full z-50">
         <div className="h-full flex justify-between w-full">
           <div className="ml-[10%]  ">
             <a className="flex" href="/">
               <img
                 src={logo1}
                 alt=""
-                className="h-full w-[50px] mt-[9%] xs:mt-[12%] xs:w-[50px]"
+                className="h-full w-[50px] mt-[9%] xs:mt-[7%] xs:w-[50px]"
               />
-              <h1 className="font-semibold text-5xl py-[6%] pl-[2%] xs:text-3xl">
+              <h1 className="font-semibold text-5xl py-[6%] pl-[2%] xs:text-4xl">
                 HEILAND
               </h1>
             </a>
@@ -67,17 +67,17 @@ export default function Navbar() {
                   <ul className="absolute bg-[#d2e7c7] top-full left-0 pt-2 w-full text-left">
                     <li className="w-full ">
                       <a
-                        href="/products"
+                        href="/shop"
                         onClick={toggleProductsDropdown}
                         className="bg-[#d2e7c7]  pr-[40%] pl-[4%]"
                       >
-                        Products
+                        SHOP
                       </a>
                     </li>
                     <li>
                       <a
                         onClick={toggleProductsDropdown}
-                        href="/blog1"
+                        href="/artical1"
                         className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
                       >
                         ARTICLE
@@ -111,29 +111,29 @@ export default function Navbar() {
                   <ul className="absolute bg-[#d2e7c7] top-full left-0 pt-2 w-full text-left">
                     <li>
                       <a
-                        href="/story"
+                        href="/about"
                         onClick={toggleCompanyDropdown}
                         className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
                       >
-                        Story
+                        ABOUT
                       </a>
                     </li>
                     <li>
                       <a
                         onClick={toggleCompanyDropdown}
-                        href="/articles"
+                        href="/posts"
                         className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
                       >
-                        Articles
+                        POSTS
                       </a>
                     </li>
                     <li>
                       <a
                         onClick={toggleCompanyDropdown}
-                        href="/shop"
-                        className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
+                        href="/products"
+                        className="bg-[#d2e7c7] pr-[20%] pl-[6%]"
                       >
-                        Shop
+                        PRODUCTS
                       </a>
                     </li>
                   </ul>
@@ -168,18 +168,18 @@ export default function Navbar() {
                         <a
                           href="/privacy"
                           onClick={toggleLearnDropdown}
-                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
+                          className="bg-[#d2e7c7] pr-[30%] pl-[6%] "
                         >
-                          Privacy
+                          PRIVACY
                         </a>
                       </li>
                       <li>
                         <a
                           onClick={toggleLearnDropdown}
                           href="/contact"
-                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
+                          className="bg-[#d2e7c7] pr-[30%] pl-[6%] "
                         >
-                          Contact
+                          CONTACT
                         </a>
                       </li>
                       <li>
@@ -189,7 +189,7 @@ export default function Navbar() {
                           href="/impact"
                           className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
                         >
-                          Impact
+                          IMPACT
                         </a>
                       </li>
                     </ul>

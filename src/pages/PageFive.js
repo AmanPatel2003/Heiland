@@ -87,7 +87,7 @@ export default function PageFive() {
             </div>
           </div>
           <div className="w-[28%] xs:w-[95%] sm:w-[60%] md:w-[60%]  m-auto">
-            <div className="w-full h-[50%]">
+            <div className="w-full h-[60%]">
               <Subscribe />
             </div>
             <div className="px-[4%]">

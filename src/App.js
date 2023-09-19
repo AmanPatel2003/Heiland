@@ -23,15 +23,15 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<FirstPage />} />
-          <Route path="/blog1" element={<PageThree />} />
+          <Route path="/artical1" element={<PageThree />} />
           <Route path="/mission" element={<PageTwo />} />
-          <Route path="/story" element={<PageFour />} />
-          <Route path="/articles" element={<PageFive />} />
-          <Route path="/shop" element={<Pagesix />} />
+          <Route path="/about" element={<PageFour />} />
+          <Route path="/posts" element={<PageFive />} />
+          <Route path="/products" element={<Pagesix />} />
           <Route path="/privacy" element={<Pageseven />} />
           <Route path="/contact" element={<PageEight />} />
           <Route path="/impact" element={<PageNine />} />
-          <Route path="/products" element={<Pageeleven />} />
+          <Route path="/shop" element={<Pageeleven />} />
           <Route path="/whereToBuy" element={<WhereToBay />} />
           <Route path="/advice" element={<Advices />} />
         </Routes>
