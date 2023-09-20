@@ -3,19 +3,19 @@ import logo from "../img/logo2.png";
 
 export default function PageTwo() {
   return (
-    <div className="pt-[9%] h-full w-full bg-[#fcfce4]">
-      <section className="flex justify-center h-[300px] w-full mb-[3%]">
-        <img src={logo} alt="" className="h-full" />
+    <div className="pt-[9%] xs:pt-[15%] h-full w-full bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
+      <section className="flex justify-center h-[300px] xs:h-[200px] w-full xs:mb-[10%] sm:mb-[10%]  mb-[5%] ">
+        <img src={logo} alt="" className="h-full " />
       </section>
       <section className="px-[15%] pb-[5%]">
-        <p className="font-semibold text-lg pb-[2%]">
+        <p className="font-semibold text-lg xs:text-base sm:text-base pb-[2%] xs:pb-[5%] sm:pb-[5%]">
           Heiland is commited to connect the world with nature and harness the
           incredible power of herbs. However, we recognize that this mission
           extends far beyond just providing natural remedies to our customers;
           it also involves giving the utmost importance to the unsung heroes of
           this journey – our farmers.
         </p>
-        <p className="font-semibold text-lg pb-[2%]">
+        <p className="font-semibold text-lg xs:text-base sm:text-base pb-[2%] xs:pb-[5%] sm:pb-[5%]">
           Farmers are the custodians of nature's bounty, nurturing and
           cultivating herbs that have been passed down through generations. They
           toil under the sun and weather the storms to ensure that the world can
@@ -23,7 +23,7 @@ export default function PageTwo() {
           not only uphold the integrity of our products but also honor the
           wisdom and traditions deeply rooted in herbalism.
         </p>
-        <p className="font-semibold text-lg pb-[2%]">
+        <p className="font-semibold text-lg xs:text-base sm:text-base pb-[2%]  xs:pb-[5%] sm:pb-[5%]">
           Our commitment to farmers goes beyond fair wages; it encompasses
           sustainable farming practices, ethical sourcing, and long-term
           partnerships. We strive to empower these farmers, providing them with
@@ -31,7 +31,7 @@ export default function PageTwo() {
           we not only elevate their livelihoods but also preserve the delicate
           ecosystems that are vital to the growth of these healing herbs.
         </p>
-        <p className="font-semibold text-lg pb-[2%]">
+        <p className="font-semibold text-lg xs:text-base sm:text-base pb-[2%] xs:pb-[5%]">
           By placing farmers at the center of our mission, we not only promote
           the sustainable use of nature's gifts but also foster a deeper
           connection between people and the planet. We believe that when we

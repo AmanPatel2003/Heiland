@@ -4,7 +4,7 @@ import { BiCalendar } from "react-icons/bi";
 
 export default function PageThree() {
   return (
-    <div className="py-[10%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%] px-[27%] lg:px-[20%] md:px-[10%] sm:px-[10%] xs:px-[10%] bg-[#f3ffed]">
+    <div className="py-[10%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%] px-[27%] lg:px-[20%] md:px-[10%] sm:px-[10%] xs:px-[10%] bg-[#f3ffed] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
       <h1 className="text-2xl font-bold  ">
         VITAMINS YOU NEED IN YOUR 20S $ 30S
       </h1>
@@ -127,7 +127,7 @@ export default function PageThree() {
             Accusantium pariatur
           </p>
         </div>
-        <div className="w-[46%] sm:w-[80%] xs:w-[80%] sm:m-auto xs:m-auto">
+        <div className="w-[46%] sm:w-[80%] xs:w-[100%] sm:m-auto xs:m-auto">
           <Subscribe />
         </div>
       </div>

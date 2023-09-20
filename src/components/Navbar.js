@@ -33,9 +33,9 @@ export default function Navbar() {
               <img
                 src={logo1}
                 alt=""
-                className="h-full w-[50px] mt-[9%] xs:mt-[7%] xs:w-[50px]"
+                className="h-full w-[50px] mt-[12%] xs:mt-[10%]"
               />
-              <h1 className="font-semibold text-5xl py-[6%] pl-[2%] xs:text-4xl">
+              <h1 className="font-semibold text-3xl py-[12%] xs:py-[10%] pl-[4%] ">
                 HEILAND
               </h1>
             </a>
@@ -81,7 +81,6 @@ export default function Navbar() {
                         className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
                       >
                         ARTICLE
-                        
                       </a>
                     </li>
                     <li>
@@ -211,9 +210,9 @@ export default function Navbar() {
         </div>
         <hr />
 
-        <div className="   xl:hidden 2xl:hidden px-[20%] xs:px-[10%] sm:px-[10%] md:px-[10%] h-full bg-[#f3ffed] ">
+        <div className="   xl:hidden 2xl:hidden px-[20%] xs:px-[3%] sm:px-[4%] md:px-[10%] h-full bg-[#f3ffed] ">
           {open ? (
-            <div className="flex pt-[20px w-full h-full ">
+            <div className="flex pt-[20px w-full h-full justify-between ">
               <ul className="flex justify-between h-full  w-full">
                 <li className="relative w-full h-full text-center hover:bg-[#d2e7c7]">
                   <button
@@ -224,14 +223,14 @@ export default function Navbar() {
                   </button>
                   {productsDropdownOpen && (
                     <ul
-                      className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[95%] text-left
+                      className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[100%] text-left
                     "
                     >
                       <li>
                         <a
                           href="/products"
                           onClick={toggleProductsDropdown}
-                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
+                          className="bg-[#d2e7c7] block "
                         >
                           Products
                         </a>
@@ -240,7 +239,7 @@ export default function Navbar() {
                         <a
                           onClick={toggleProductsDropdown}
                           href="/1"
-                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
+                          className="bg-[#d2e7c7] block "
                         >
                           PateTwo
                         </a>
@@ -249,7 +248,7 @@ export default function Navbar() {
                         <a
                           onClick={toggleProductsDropdown}
                           href="/about"
-                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
+                          className="bg-[#d2e7c7] block "
                         >
                           About
                         </a>
@@ -266,12 +265,12 @@ export default function Navbar() {
                 <li className="relative w-full text-center hover:bg-[#d2e7c7]">
                   <button className=" text-black">COMPANY</button>
                   {companyDropdownOpen && (
-                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[95%] text-left">
+                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[100%] text-left">
                       <li>
                         <a
                           onClick={toggleCompanyDropdown}
                           href="/story"
-                          className="bg-[#d2e7c7] pr-[40%] pl-[6%]  "
+                          className="bg-[#d2e7c7] block  "
                         >
                           Story
                         </a>
@@ -280,7 +279,7 @@ export default function Navbar() {
                         <a
                           onClick={toggleCompanyDropdown}
                           href="/articles"
-                          className="bg-[#d2e7c7] pr-[40%] pl-[6%] "
+                          className="bg-[#d2e7c7] block "
                         >
                           Articles
                         </a>
@@ -289,7 +288,7 @@ export default function Navbar() {
                         <a
                           onClick={toggleCompanyDropdown}
                           href="/shop"
-                          className="bg-[#d2e7c7] pr-[40%] pl-[6%]  "
+                          className="bg-[#d2e7c7] block  "
                         >
                           Shop
                         </a>
@@ -299,6 +298,15 @@ export default function Navbar() {
                 </li>
                 {/* Repeat this pattern for Company and Learn dropdowns */}
               </ul>
+              <ul className="flex justify-between h-full  w-full ">
+                <li className="relative w-full h-full text-center hover:bg-[#d2e7c7]">
+                  <button className=" text-black h-full w-full">
+                    <a href="/advice" className="">
+                      ADVICES
+                    </a>
+                  </button>
+                </li>
+              </ul>
               <ul
                 onClick={toggleLearnDropdown}
                 className="flex justify-between w-full"
@@ -306,12 +314,12 @@ export default function Navbar() {
                 <li className="relative w-full text-center hover:bg-[#d2e7c7]">
                   <button className=" text-black w-full ">LEARN</button>
                   {learnDropdownOpen && (
-                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[95%] text-left">
-                      <li>
+                    <ul className="absolute bg-[#d2e7c7] top-full left-0 mt-2 w-[100%] text-left ">
+                      <li className="w-full">
                         <a
                           onClick={toggleLearnDropdown}
                           href="/privacy"
-                          className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
+                          className="bg-[#d2e7c7]  block "
                         >
                           Privacy
                         </a>
@@ -320,7 +328,7 @@ export default function Navbar() {
                         <a
                           onClick={toggleLearnDropdown}
                           href="/contact"
-                          className="bg-[#d2e7c7] pr-[40%] pl-[6%]"
+                          className="bg-[#d2e7c7] block"
                         >
                           Contact
                         </a>
@@ -329,7 +337,7 @@ export default function Navbar() {
                         <a
                           onClick={toggleLearnDropdown}
                           href="/impact"
-                          className="bg-[#d2e7c7]pr-[40%] pl-[6%]"
+                          className="bg-[#d2e7c7] block"
                         >
                           Impact
                         </a>

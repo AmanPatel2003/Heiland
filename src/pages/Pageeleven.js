@@ -4,7 +4,7 @@ import { FaAmazon } from "react-icons/fa";
 export default function Pageeleven() {
   return (
     <div className="">
-      <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full bg-[#f3ffed]">
+      <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full bg-[#f3ffed] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
         <div className="flex xs:block sm:block pb-[10%]">
           <div className="w-[60%] md:w-[55%] sm:w-full xs:w-full px-[10%] md:px-[5%] sm:px-[15%] xs:px-[15%] ">
             <img

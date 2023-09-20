@@ -24,7 +24,7 @@ export const MCarousel = () => {
     margin: "0 8px",
   };
   return (
-    <div className="">
+    <div className="h-full">
       <Carousel
       style={{zIndex:"-1"}}
         statusFormatter={(current, total) =>

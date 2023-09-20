@@ -2,7 +2,7 @@ import React from "react";
 export default function Pagesix() {
   return (
     <>
-      <div className="bg-[#f3ffed] px-[15%]  md:px-[10%] sm:px-[10%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] ">
+      <div className="bg-[#f3ffed] px-[15%]  md:px-[10%] sm:px-[10%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
         <div className="flex h-full">
           <div className="w-[30%] xs:hidden sm:hidden md:hidden pt-[8%]">
             <ul className="">
@@ -142,7 +142,9 @@ export default function Pagesix() {
           </div>
           <div className=" h-full w-[70%] xs:w-full sm:w-full md:w-full pt-[8%]">
             <div>
-              <h2 className="text-3xl font-bold  xs:text-2xl xs:pl-[6%] ">PRODUCTS</h2>
+              <h2 className="text-3xl font-bold  xs:text-2xl xs:pl-[6%] ">
+                PRODUCTS
+              </h2>
             </div>
             <section className="h-full bg-[#f3ffed]">
               <div className="flex justify-between xs:block pt-[4%] pb-[40px]">

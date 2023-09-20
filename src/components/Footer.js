@@ -9,7 +9,8 @@ export default function Footer() {
             <div className="h-full w-full flex xl:justify-around">
               <ul className="flex sm:w-full xs:w-full  sm:block xs:block ">
                 <div className="flex justify-around xs:w-full">
-                  <li className="w-[170px] lg:w-[150px] md:w-[35%] sm:w-[40%] xs:w-[40%]">
+                  <li className="w-[170px] lg:w-[150px] md:w-[35%
+                     sm:w-[40%] xs:w-[40%]">
                     <a
                       href="/"
                       className="text-[14px] text-[#e4d00a] font-semibold mb-[15%]"

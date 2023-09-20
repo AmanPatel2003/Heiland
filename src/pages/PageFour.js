@@ -6,22 +6,28 @@ import img3 from "../img/story-33.webp";
 export default function PageFour() {
  
   return (
-    <div className="py-[8%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%]  bg-[#fcfce4] ">
-      <section className=" px-[30%] xs:px-[8%] sm:px-[8%] md:px-[10%] lg:px-[20%] mb-[3%] w-full">
+    <div className="pb-[10%]   bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%] ">
+      <section className=" px-[30%] xs:px-[3%] sm:px-[8%] md:px-[10%] lg:px-[20%] py-[5%] xs:pt-[13%]  w-full">
         <div className="w-full flex justify-between">
           <a href="/mission">
-            <p className="font-semibold text-lg">OUR MISSION</p>
+            <p className="font-semibold text-lg xs:text-sm sm:text-sm">
+              OUR MISSION
+            </p>
           </a>
           <a href="/">
-            <p className="font-semibold text-lg border-black border-b-2">
+            <p className="font-semibold text-lg border-black border-b-2 xs:text-sm sm:text-sm">
               ABOUT US
             </p>
           </a>
           <a href="/impact">
-            <p className="font-semibold text-lg">OUR IMPACT</p>
+            <p className="font-semibold text-lg xs:text-sm sm:text-sm">
+              OUR IMPACT
+            </p>
           </a>
           <a href="/contact">
-            <p className="font-semibold text-lg">CONTACT US</p>
+            <p className="font-semibold text-lg xs:text-sm sm:text-sm">
+              CONTACT US
+            </p>
           </a>
         </div>
       </section>
@@ -30,7 +36,7 @@ export default function PageFour() {
         ABOUT US
       </section>
       <section className="flex xs:block  h-full bg-[#789977] ">
-        <div className="w-[30%] sm:w-[40%] md:w-[35%] xs:w-full xs:h-[230px] ">
+        <div className="w-[30%] sm:w-[40%] md:w-[35%] xs:w-full xs:h-[300px] ">
           <img src={img1} alt="" className="h-full w-full" />
         </div>
         <div className="w-[70%] sm:w-[60%] md:w-[65%] xs:w-full  px-[12%] sm:px-[8%] md:px-[9%] py-[10%]">
@@ -46,8 +52,8 @@ export default function PageFour() {
         </div>
       </section>
       <section className=" flex xs:block bg-[#e2f3e2]  ">
-        <div className="w-[60%] xs:w-full px-[8%] xs:px-[2%] md:px-[5%] sm:px-[4%] py-[7%] md:py-[6%] sm:py-[6%] xs:py-[8%]">
-          <h2 className="text-2xl font-bold text-green-800 pb-[3%]">
+        <div className="w-[60%] xs:w-full px-[8%]   sm:px-[8%] md:px-[9%]   py-[7%] md:py-[6%] sm:py-[6%] xs:py-[8%]">
+          <h2 className="text-2xl  font-bold text-green-800 pb-[3%]">
             DISCOVER OUR PURPOSE
           </h2>
           {/* <p className="font-semibold text-sm py-[2%] ">
@@ -67,15 +73,15 @@ export default function PageFour() {
           </p>
         </div>
 
-        <div className="w-[40%] h-[460px] xs:w-full xs:h-[250px] ">
+        <div className="w-[40%] h-[460px] xs:w-full xs:h-[300px] ">
           <img src={img2} alt="" className="h-full w-full" />
         </div>
       </section>
       <section className="flex xs:block bg-[#fcfce4 bg-[#87a786] ">
-        <div className="xs:h-[250px] w-[40%] lg:w-[50%] h-[500px] xs:w-full ">
+        <div className="xs:h-[300px] w-[40%] lg:w-[50%] h-[500px] xs:w-full ">
           <img src={img3} alt="" className="h-full w-full" />
         </div>
-        <div className="w-[60%] lg:w-[50%] xs:w-full px-[5%]   py-[9%] lg:py-[5%] ">
+        <div className="w-[60%] lg:w-[50%] xs:w-full px-[8%]   sm:px-[8%] md:px-[9%]   py-[9%] lg:py-[5%] ">
           <h3 className="text-2xl font-bold text-green-80 text-white mb-[3%]">
             EMPOWERING LIVES, ENRICHING FUTURES.
           </h3>
