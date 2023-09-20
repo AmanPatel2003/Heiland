@@ -39,7 +39,7 @@ export default function FirstPage() {
             Our unique blends harness nature's wisdom to enhance your well-being
             naturally. Discover personalized wellness with our herbal products.
           </p>
-          <div className="w-full h-[60%] flex xs:block sm:block  justify-between pt-[2%]">
+          <div className="w-full h-[60%] flex xs:block sm:block  justify-between pt-[2%] xs:pt-[10%] sm:pt-[8%] md:pt-[5%] ">
             <div className="w-[32%] xs:w-[70%] sm:w-[70%] sm:m-auto xs:m-auto text-center  h-[350px] py-[2%]">
               <div className="h-[60%] w-full border-2 mb-[5%]">
                 <a href="/contact" className="">
@@ -51,7 +51,7 @@ export default function FirstPage() {
                   />
                 </a>
               </div>
-              <div className="py-[4%] xs:py-[6%] sm:py-[6%]">
+              <div className="py-[4%] xs:py-[3%] sm:py-[3%]">
                 <h1 className="font-bold text-xl">HERBAL SUPPLEMENTS</h1>
                 <p className="text-base font-semibold pt-[1%]">
                   Nature's Healing Secrets
@@ -68,7 +68,7 @@ export default function FirstPage() {
                   />
                 </a>
               </div>
-              <div className="py-[4%] xs:py-[6%] sm:py-[6%]">
+              <div className="py-[4%] xs:py-[3%] sm:py-[3%]">
                 <h1 className="font-bold text-xl">HERBAL TEA'S</h1>
                 <p className="text-base font-semibold pt-[1%]">
                   Sip Nature's Goodness
@@ -85,7 +85,7 @@ export default function FirstPage() {
                   />
                 </a>
               </div>
-              <div className="py-[4%] xs:py-[6%] sm:py-[6%]">
+              <div className="py-[4%] xs:py-[3%] sm:py-[3%]">
                 <h1 className="font-bold text-xl">HERBAL BEAUTY</h1>
                 <p className="text-base font-semibold pt-[1%]">
                   Redefining your radiant aura with herbal beauty care
