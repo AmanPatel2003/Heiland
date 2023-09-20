@@ -52,7 +52,7 @@ export default function FirstPage() {
                 </a>
               </div>
               <div className="py-[4%] xs:py-[6%] sm:py-[6%]">
-                <h1 className="font-bold text-xl">HARBAL SUPPLEMENTS</h1>
+                <h1 className="font-bold text-xl">HERBAL SUPPLEMENTS</h1>
                 <p className="text-base font-semibold pt-[1%]">
                   Nature's Healing Secrets
                 </p>
@@ -69,7 +69,7 @@ export default function FirstPage() {
                 </a>
               </div>
               <div className="py-[4%] xs:py-[6%] sm:py-[6%]">
-                <h1 className="font-bold text-xl">HARBAL TEA</h1>
+                <h1 className="font-bold text-xl">HERBAL TEA'S</h1>
                 <p className="text-base font-semibold pt-[1%]">
                   Sip Nature's Goodness
                 </p>
@@ -86,7 +86,7 @@ export default function FirstPage() {
                 </a>
               </div>
               <div className="py-[4%] xs:py-[6%] sm:py-[6%]">
-                <h1 className="font-bold text-xl">HARBAL BEAUTY</h1>
+                <h1 className="font-bold text-xl">HERBAL BEAUTY</h1>
                 <p className="text-base font-semibold pt-[1%]">
                   Redefining your radiant aura with herbal beauty care
                 </p>
