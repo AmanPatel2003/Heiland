@@ -7,7 +7,9 @@ export default function PageEight() {
       <div className="px-[10%] lg:px-[3%] md:px-[0%] sm:px-[0%] xs:px-[0%] pt-[10%] pb-[20%] sm:pb-[10%] bg-[#f3ffed] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
         <div className="flex sm:block xs:block  sm:px-[3%] xs:px-[3%] sm:mt-[5%] xs:mt-[1%]">
           <div className="w-[50%] sm:w-full xs:w-full pt-[3%] pl-[9%] sm:mb-[8%] xs:mb-[8%]">
-            <h3 className="font-bold text-3xl pb-[7%]">CONTACT US</h3>
+            <h3 className="font-bold text-3xl pb-[7%]">
+              {/* CONTACT US  */}
+            Contact Us</h3>
             <p className="text-[15px] font-semibold">
               500 Willow Tree Road <br />
               Leonia, NJ 0705 <br />
@@ -24,7 +26,9 @@ export default function PageEight() {
           </div>
           <div className=" w-[50%]  sm:w-full xs:w-full p-[3%] bg-[#79b9bb] mx-[7%] sm:mx-[0%] xs:mx-[0%]">
             <div className="text-white">
-              <h3 className="font-bold text-xl">SEND A MESSAGE</h3>
+              <h3 className="font-bold text-xl">
+                {/* SEND A MESSAGE */}
+                Send a Message</h3>
               <p>
                 At Solgar,we respect your privacy . Unless you instruct us
                 otherwise, we'll use the information you provide below only to
@@ -42,7 +46,8 @@ export default function PageEight() {
                 </label>
                 <br />
                 <button className="w-full text-left mb-[8%]  bg-white text-black font-medium pl-[2%] py-[1%] ">
-                  SELECT A CATEGORY
+                  {/* SELECT A CATEGORY */}
+                  Select a Category
                   {/* <select name="" className="">
                       <option value="" />
                       <option value="">1</option>

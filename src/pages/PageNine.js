@@ -6,7 +6,8 @@ export const PageNine = () => {
       <section className="h-full flex mt-[7%] bg-[#f3ffed]">
         <div className="w-[50%] sm:w-full xs:w-full pl-[7%] pr-[9%] pb-[5%] pt-[10%]">
           <h1 className="text-3xl font-bold mb-[5%]">
-            A DIFFERENT KIND OF NUTRITIONAL SUPPORT
+            {/* A DIFFERENT KIND OF NUTRITIONAL SUPPORT */}
+            A Different Kind Of Nutritional Support
           </h1>
           <p className="font-semibold  ">
             At Solgar, one of our core values has always been a commitment to

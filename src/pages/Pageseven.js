@@ -6,7 +6,8 @@ export default function Pageseven() {
       <div className="py-[10%] xs:pt-[23%] sm:pt-[20%] md:pt-[15%] px-[23%] md:px-[12%] sm:px-[4%]   xs:px-[2%] bg-[#f3ffed] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
         <div className="">
           <h1 className="text-center font-bold text-2xl text-green-800 mb-[5%]">
-            PRIVACY POLICY
+            {/* PRIVACY POLICY */}
+            Privacy Policy
           </h1>
           <div className="">
             <p className=" font-semibold py-[2%]">Last Updated: May 27, 2022</p>
@@ -60,7 +61,8 @@ export default function Pageseven() {
               </a>
             </p>
             <h2 className=" py-[2%] font-bold text-xl">
-              INFORMATION WE COLLECT
+              {/* INFORMATION WE COLLECT */}
+              Information We Collect
             </h2>
             <p className="  font-semibold py-[2%]">
               For the purposes of this Privacy Policy, personal information

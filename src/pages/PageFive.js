@@ -8,7 +8,8 @@ export default function PageFive() {
         <div className="flex xs:block sm:block md:block">
           <div className="w-[72%] xs:w-full sm:w-full md:w-full ">
             <h2 className="font-bold text-2xl text-green-800 mb-[2%] pl-[1%]">
-              ALL POSTS
+              {/* ALL POSTS */}
+              All Posts
             </h2>
             <div className="flex justify-between mb-[2%] xs:block sm:block">
               <div className="w-[40%] xs:w-full sm:w-full xs:h-[250px] sm:h-[250px] border-4 bg-white">
@@ -19,7 +20,7 @@ export default function PageFive() {
                 />
               </div>
               <div className="w-[58%] xs:w-full sm:w-full pb-[8%] pr-[2%]">
-                <h1 className="mb-[1%] xs:mt-[3%] sm:mt-[3%]">NUTRITION</h1>
+                <h1 className="mb-[1%] xs:mt-[3%] font-bold sm:mt-[3%]">NUTRITION</h1>
                 <h5 className="font-semibold py-[2%]">
                   MULTI-STRAIN VS. SINGLE-STRAIN PROBIOTICS: WHICH IS BETTER?
                 </h5>
@@ -44,7 +45,7 @@ export default function PageFive() {
                 />
               </div>
               <div className="w-[58%] xs:w-full sm:w-full  pb-[8%] pr-[2%]">
-                <h1 className="mb-[1%] xs:mt-[3%] sm:mt-[3%]">NUTRITION</h1>
+                <h1 className="mb-[1%] xs:mt-[3%] font-bold sm:mt-[3%]">NUTRITION</h1>
                 <h5 className="font-semibold py-[2%]">
                   MULTI-STRAIN VS. SINGLE-STRAIN PROBIOTICS: WHICH IS BETTER?
                 </h5>
@@ -69,7 +70,7 @@ export default function PageFive() {
                 />
               </div>
               <div className="w-[58%] xs:w-full sm:w-full pb-[8%] pr-[2%]">
-                <h1 className="mb-[1%] xs:mt-[3%] sm:mt-[3%]">NUTRITION</h1>
+                <h1 className="mb-[1%] xs:mt-[3%] font-bold sm:mt-[3%]">NUTRITION</h1>
                 <h5 className="font-semibold py-[2%]">
                   MULTI-STRAIN VS. SINGLE-STRAIN PROBIOTICS: WHICH IS BETTER?
                 </h5>

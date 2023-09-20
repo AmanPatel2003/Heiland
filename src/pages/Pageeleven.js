@@ -1,5 +1,8 @@
 import React from "react";
 import { FaAmazon } from "react-icons/fa";
+import logo1 from "../img/logos/logo1.png";
+import logo2 from "../img/logos/logo2.png";
+import logo3 from "../img/logos/logo3.png";
 
 export default function Pageeleven() {
   return (
@@ -15,40 +18,29 @@ export default function Pageeleven() {
           </div>
           <div className="w-[40%] md:w-[45%]  sm:w-full xs:w-full   h-full pr-[10%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
-              VITAMIN D3 <br />
+              {/* VITAMIN D3 <br />
               (CHOKECALCIFROL)250 <br />
-              MCG (10,00 IU) SOFTGELS
+              MCG (10,00 IU) SOFTGELS */}
+              Vitamin D3 (Chokecalcifrol)250 MCG (10,00 IU) Softgels
             </h1>
-            <div className="flex mt-[4%] sm:justify-center xs:justify-center">
-              <div className="w-[20% px-[3%]">
-                <img
-                  className="h-[50px] w-[50px] rounded-3xl"
-                  src="	https://tse2.mm.bing.net/th?id=OIP.ImmrkgATgNztf4RXyUBb8wHaFj&pid=Api&P=0&h=180"
-                  alt=""
-                />
-                <span className="text-xs text-center w-[50px] text-green-600 flex  font-semibold">
+            <div className="flex pb-[5%] sm:justify-center xs:justify-center">
+              <div className=" mt-[2%] h-[95px] w-[95px] text-center">
+                <img src={logo1} alt="" className="h-ful w-ful   " />
+                <h1 className="text-xs font-bold py-[17%] text-green-700">
                   NON-GMO
-                </span>
+                </h1>
               </div>
-              <div className="w-[20% px-[3%]">
-                <img
-                  className="h-[50px] w-[50px] rounded-3xl"
-                  src="	https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180"
-                  alt=""
-                />
-                <span className="text-xs text-center w-[50px] text-green-600 flex  font-semibold">
+              <div className="h-[120px] w-[120px] text-center">
+                <img src={logo2} alt="" className="h-full w-full " />
+                <h1 className="text-xs font-bold py-[10% text-green-700">
+                  VEGAN
+                </h1>
+              </div>
+              <div className="h-[120px] w-[120px] text-center">
+                <img src={logo3} alt="" className="h-full w-full " />
+                <h1 className="text-xs font-bold py-[10% text-green-700">
                   GLUTEN-FREE
-                </span>
-              </div>
-              <div className="w-[20% px-[3%] ">
-                <img
-                  className="h-[50px] w-[50px] rounded-3xl"
-                  src="	https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180photos/logo.png"
-                  alt=""
-                />
-                <span className="text-xs text-center w-[50px] text-green-600 flex  font-semibold">
-                  FAIRY-FREE
-                </span>
+                </h1>
               </div>
             </div>
             <p className="text-sm font-semibold mt-[4%]">

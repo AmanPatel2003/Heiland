@@ -11,7 +11,7 @@ export const MCarousel = () => {
     zIndex: 2,
     top: "calc(50% - 15px)",
     width: 30,
-    height: 30,
+    height: 100,
     cursor: "pointer",
   };
   

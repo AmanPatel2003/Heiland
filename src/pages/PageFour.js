@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../img/story_img1.webp";
 import img2 from "../img/story_img22.webp";
-import img3 from "../img/story-33.webp";
+import img3 from "../img/story-33.png";
 
 export default function PageFour() {
  
@@ -41,7 +41,8 @@ export default function PageFour() {
         </div>
         <div className="w-[70%] sm:w-[60%] md:w-[65%] xs:w-full  px-[12%] sm:px-[8%] md:px-[9%] py-[10%]">
           <h3 className="font-bold text-2xl pb-[3%] text-white">
-            FROM A STRONG HERITAGE, BUILDING AN EVEN STRONGER FUTURE
+            {/* FROM A STRONG HERITAGE, BUILDING AN EVEN STRONGER FUTURE */}
+            From a Strong Heritage Building An Even Stronger Future
           </h3>
 
           <p className="text-white text-bold">
@@ -54,7 +55,8 @@ export default function PageFour() {
       <section className=" flex xs:block bg-[#e2f3e2]  ">
         <div className="w-[60%] xs:w-full px-[8%]   sm:px-[8%] md:px-[9%]   py-[7%] md:py-[6%] sm:py-[6%] xs:py-[8%]">
           <h2 className="text-2xl  font-bold text-green-800 pb-[3%]">
-            DISCOVER OUR PURPOSE
+            {/* DISCOVER OUR PURPOSE */}
+            Discover Our Perpose
           </h2>
           {/* <p className="font-semibold text-sm py-[2%] ">
             This has been our north star for 75 years.
@@ -83,7 +85,8 @@ export default function PageFour() {
         </div>
         <div className="w-[60%] lg:w-[50%] xs:w-full px-[8%]   sm:px-[8%] md:px-[9%]   py-[9%] lg:py-[5%] ">
           <h3 className="text-2xl font-bold text-green-80 text-white mb-[3%]">
-            EMPOWERING LIVES, ENRICHING FUTURES.
+            {/* EMPOWERING LIVES, ENRICHING FUTURES. */}
+            Empowering Lives, Enriching Futures.
           </h3>
 
           <p className="text-green-80 text-white font-semibold">

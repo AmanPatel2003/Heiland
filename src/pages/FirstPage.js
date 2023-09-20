@@ -1,9 +1,11 @@
 import React from "react";
 import main2 from "../img/p1_main2.jpg";
-import logo1 from "../img/logos/logo1.png"
-import logo2 from "../img/logos/logo2.png"
-import logo3 from "../img/logos/logo3.png"
-import logo4 from "../img/logos/logo4.png"
+import logo1 from "../img/logos/logo1.png";
+import logo2 from "../img/logos/logo2.png";
+import logo3 from "../img/logos/logo3.png";
+import logo4 from "../img/logos/logo4.png";
+import logo5 from "../img/logos/logo5.png";
+import logo6 from "../img/logos/logo6.png";
 
 import { MCarousel } from "../components/Carousel/MCarousel";
 
@@ -14,26 +16,32 @@ export default function FirstPage() {
         className="  py-[13%]  w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-full bg-[#f3ffed bg-cover   "
         style={{ backgroundImage: `url(${main2})` }}
       >
-        <div className="mr-[50%] xs:mr-[0%] sm:mr-[0%] md:mr-[0%] mt-[4%]">
-          <h1 className="text-3xl xs:text-2xl font-bold  xs:pb-[3%] sm:pb-[3%] pb-[4%] text-white ">
-            EMBRACE NATURE FOR A HEALTHIER YOU WITH HEILAND
+        <div className="mr-[50%] h-full xs:mr-[40%] sm:mr-[40%] md:mr-[40% ">
+          <h1 className="text-3xl xs:text-2xl font-bold   pb-[4%] text-white ">
+            {/* EMBRACE NATURE FOR A HEALTHIER YOU WITH HEILAND */}
+            Embrace Nature For a Healthier You With Heiland
           </h1>
-          <p className="font-medium xs:pb-[4%] sm:pb-[3%] pb-[4%] text-white xs:text-sm">
+          <p className="font-medium  pb-[4%] text-white xs:text-sm">
             Experience the true essence of wellness with Heiland. Our diverse
             range of herbal products, from teas and supplements to face and body
             masks, allows you to unlock your inner vitality the natural way.
             Embrace a healthier, more vibrant you with the power of nature
           </p>
-          <button className="mt-[2%] py-[1%] px-[2%] bg-transparen bg-gray-700  text font-medium border border-white text-white">
-            BROWSE PRODUCTS
-          </button>
+          <div className="mt-[2%] xs:mt-[3%]  ">
+            <a
+              href="/"
+              className="px-[3%] py-[1%] bg-transparen bg-gray-700  text font-medium border  text-white"
+            >
+              BROWSE PRODUCTS
+            </a>
+          </div>
         </div>
       </section>
       <section className=" pt-[3%] pb-[3%] px-[20%] lg:px-[15%] md:px-[10%] sm:px-[10%] xs:px-[5%]  text-cente h-full bg-[#f3ffed">
         <div className="">
           <h1 className=" font-bold text-3xl xs:text-2xl sm:text-2xl xs:my-[2%] sm:my-[2%] ">
             {/* INNOVATIVE HERBAL SOLUTION CRAFTED JUST FOR YOU */}
-            Innovative Herbal Solution Crarted Just For You
+            Innovative Herbal Solutions Crarted Just For You
           </h1>
           <p className="font-medium text-lg xs:text-base sm:text-base mt-[2%] mb-[3%] xs:mb-[4%] sm:mb-[4%]">
             Our unique blends harness nature's wisdom to enhance your well-being
@@ -108,17 +116,29 @@ export default function FirstPage() {
           </div>
           <div className="h-[130px] w-[130px]">
             <img src={logo2} alt="" className="h-full w-full " />
-            <h1 className="text-xs font-bold py-[10% text-green-700">VEGAN</h1>
+            <h1 className="text-xs font-bold  text-green-700">VEGAN</h1>
           </div>
           <div className="h-[130px] w-[130px]">
             <img src={logo3} alt="" className="h-full w-full " />
-            <h1 className="text-xs font-bold py-[10% text-green-700">
+            <h1 className="text-xs font-bold  text-green-700">
               GLUTEN-FREE
             </h1>
           </div>
-          <div className="h-[130px] w-[130px]">
+          <div className="h-[120px] w-[120px]">
             <img src={logo4} alt="" className=" h-full w-full" />
-            <h1 className="text-xs font-bold py-[10% text-green-700">
+            <h1 className="text-xs font-bold  text-green-700">
+              DAIRY-FREE
+            </h1>
+          </div>
+          <div className="h-[120px] w-[120px]">
+            <img src={logo5} alt="" className=" h-full w-full" />
+            <h1 className="text-xs font-bold  text-green-700">
+              DAIRY-FREE
+            </h1>
+          </div>
+          <div className="h-[120px] w-[120px]">
+            <img src={logo6} alt="" className=" h-full w-full" />
+            <h1 className="text-xs font-bold  text-green-700">
               DAIRY-FREE
             </h1>
           </div>
@@ -131,7 +151,7 @@ export default function FirstPage() {
 
       <hr />
       <section className="px-[5%] md:px-[10%] sm:px-[10%] xs:px-[5%] text-center py-[3%] xs:py-[6%] sm:py-[6%] bg-[#fcfce4">
-        <h1 className="font-bold text-3xl pb-[1%]">LATEST ARTICLES</h1>
+        <h1 className="font-bold text-3xl pb-[1%]">Latest Articles</h1>
         <div className="w-full h-[60%] flex xs:block sm:block md:block  justify-between">
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] xs:m-auto sm:m-auto md:m-auto h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="h-[60%] w-full border-2 bg-white ">
