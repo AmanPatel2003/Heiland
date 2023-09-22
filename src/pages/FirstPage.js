@@ -5,9 +5,9 @@ import logo2 from "../img/logos/logo2.png";
 import logo3 from "../img/logos/logo3.png";
 import logo4 from "../img/logos/logo4.png";
 import logo5 from "../img/logos/logo5.png";
-import logo6 from "../img/logos/logo6.png";
-
-import { MCarousel } from "../components/Carousel/MCarousel";
+// import { MCarousel } from "../components/Carousel/MCarousel";
+import Corusel from "../components/Carousel/Corusel"
+import people from "../components/Carousel/data"
 
 export default function FirstPage() {
   return (
@@ -19,7 +19,7 @@ export default function FirstPage() {
         <div className="mr-[50%] h-full xs:mr-[40%] sm:mr-[40%] md:mr-[40% ">
           <h1 className="text-3xl xs:text-2xl font-bold   pb-[4%] text-white ">
             {/* EMBRACE NATURE FOR A HEALTHIER YOU WITH HEILAND */}
-            Embrace Nature For a Healthier You With Heiland
+            Embrace nature for a healthier you with heiland
           </h1>
           <p className="font-medium  pb-[4%] text-white xs:text-sm">
             Experience the true essence of wellness with Heiland. Our diverse
@@ -41,7 +41,7 @@ export default function FirstPage() {
         <div className="">
           <h1 className=" font-bold text-3xl xs:text-2xl sm:text-2xl xs:my-[2%] sm:my-[2%] ">
             {/* INNOVATIVE HERBAL SOLUTION CRAFTED JUST FOR YOU */}
-            Innovative Herbal Solutions Crarted Just For You
+            Innovative herbal solutions crarted just for you
           </h1>
           <p className="font-medium text-lg xs:text-base sm:text-base mt-[2%] mb-[3%] xs:mb-[4%] sm:mb-[4%]">
             Our unique blends harness nature's wisdom to enhance your well-being
@@ -60,7 +60,7 @@ export default function FirstPage() {
                 </a>
               </div>
               <div className="py-[4%] xs:py-[3%] sm:py-[3%]">
-                <h1 className="font-bold text-xl">HERBAL SUPPLEMENTS</h1>
+                <h1 className="font-bold text-xl">Herbal Supplements</h1>
                 <p className="text-base font-semibold pt-[1%]">
                   Nature's Healing Secrets
                 </p>
@@ -77,7 +77,7 @@ export default function FirstPage() {
                 </a>
               </div>
               <div className="py-[4%] xs:py-[3%] sm:py-[3%]">
-                <h1 className="font-bold text-xl">HERBAL TEA'S</h1>
+                <h1 className="font-bold text-xl"> Herbal Tea's</h1>
                 <p className="text-base font-semibold pt-[1%]">
                   Sip Nature's Goodness
                 </p>
@@ -94,7 +94,7 @@ export default function FirstPage() {
                 </a>
               </div>
               <div className="py-[4%] xs:py-[3%] sm:py-[3%]">
-                <h1 className="font-bold text-xl">HERBAL BEAUTY</h1>
+                <h1 className="font-bold text-xl"> Herbal Beauty Care</h1>
                 <p className="text-base font-semibold pt-[1%]">
                   Redefining your radiant aura with herbal beauty care
                 </p>
@@ -103,50 +103,41 @@ export default function FirstPage() {
           </div>
         </div>
       </section>
-      <section className="px-[20%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]  text-center bg-[#5f8575 bg-[#f3ffed]  h-full">
-        <h1 className="font-bold text-2xl pt-[5%] text-green-700">
+      <section className="px-[20%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] text-center bg-[#5f8575 bg-[#f3ffed bg-[#d3e8c9]  h-full">
+        <h1 className="font-bold text-2xl  text-green-700">
           MANY OF OUR PRODUCTS ARE
         </h1>
         <div className="pb-[5%] pt-[2%] flex flex-wrap  justify-around sm:justify-around px-[4%]  sm:px-[1%]">
           <div className=" mt-[1%] h-[105px] w-[105px]">
             <img src={logo1} alt="" className="h-ful w-ful   " />
             <h1 className="text-xs font-bold py-[17%] text-green-700">
-              NON-GMO
+              CHEMICAL FREE
             </h1>
           </div>
           <div className="h-[130px] w-[130px]">
             <img src={logo2} alt="" className="h-full w-full " />
-            <h1 className="text-xs font-bold  text-green-700">VEGAN</h1>
+            <h1 className="text-xs font-bold  text-green-700">GLUTEN-FREE</h1>
           </div>
           <div className="h-[130px] w-[130px]">
             <img src={logo3} alt="" className="h-full w-full " />
-            <h1 className="text-xs font-bold  text-green-700">
-              GLUTEN-FREE
-            </h1>
+            <h1 className="text-xs font-bold  text-green-700">SUGAR FREE</h1>
           </div>
           <div className="h-[120px] w-[120px]">
             <img src={logo4} alt="" className=" h-full w-full" />
             <h1 className="text-xs font-bold  text-green-700">
-              DAIRY-FREE
+               VEGAN
             </h1>
           </div>
           <div className="h-[120px] w-[120px]">
             <img src={logo5} alt="" className=" h-full w-full" />
-            <h1 className="text-xs font-bold  text-green-700">
-              DAIRY-FREE
-            </h1>
-          </div>
-          <div className="h-[120px] w-[120px]">
-            <img src={logo6} alt="" className=" h-full w-full" />
-            <h1 className="text-xs font-bold  text-green-700">
-              DAIRY-FREE
-            </h1>
+            <h1 className="text-xs font-bold  text-green-700">CRUELTY FREE</h1>
           </div>
         </div>
       </section>
 
       <div className="h-full ">
-        <MCarousel />
+        {/* <MCarousel /> */}
+        <Corusel data={people} />
       </div>
 
       <hr />

@@ -1,17 +1,17 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { BsStarFill } from "react-icons/bs";
 import { FaAmazon } from "react-icons/fa";
-import logo1 from "../img/logos/logo1.png";
-import logo2 from "../img/logos/logo2.png";
-import logo3 from "../img/logos/logo3.png";
-import logo4 from "../img/logos/logo4.png";
-import logo5 from "../img/logos/logo5.png";
 
-export default function Pageeleven() {
+import logo1 from "../logos/logo1.png";
+import logo2 from "../logos/logo2.png";
+import logo3 from "../logos/logo3.png";
+import logo4 from "../logos/logo4.png";
+import logo5 from "../logos/logo5.png";
 
-  const [slider1, setSlider1] = useState(0)
-  const [slider2, setSlider2] = useState(0)
-  const [slider3, setSlider3] = useState(0)
+export const Ambrosia = () => {
+  const [slider1, setSlider1] = useState(0);
+  const [slider2, setSlider2] = useState(0);
+  const [slider3, setSlider3] = useState(0);
 
   return (
     <div className="">
@@ -32,7 +32,11 @@ export default function Pageeleven() {
 
             <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
               <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
-                <img src={logo1} alt="" className="h-full w-[90%  mt-[8%] md:my-[10%] " />
+                <img
+                  src={logo1}
+                  alt=""
+                  className="h-full w-[90%  mt-[8%] md:my-[10%] "
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   CHEMICAL FREE
                 </h1>
@@ -83,7 +87,7 @@ export default function Pageeleven() {
             </ul>
 
             <p className="text-sm font-semibold mt-[4%]">
-              Boosting Liver is a mojor advantage of Ambrosia
+              Boosting Liver is a major advantage of Ambrosia
             </p>
 
             <div className="">
@@ -311,4 +315,4 @@ export default function Pageeleven() {
       </section>
     </div>
   );
-}
+};

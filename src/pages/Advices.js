@@ -22,11 +22,17 @@ export const Advices = () => {
 
   return (
     <div className=" bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
-      <h1 className="flex justify-center py-[5%] xs:pt-[15%] sm:py-[8%] text-5xl md:text-4xl sm:text-3xl xs:text-xl font-semibold xs:font-bold">
-        HEALTH WELLNESS BODY AND SOUL
+      <h1
+        className=" flex justify-center pb-[3%] pt-[5%] xs:pt-[15%] sm:py-[8%] text-5xl md:text-4xl sm:text-3xl xs:text-xl font-semibold xs:font-bold"
+        style={{ fontFamily: "Times New Roman" }}
+      >
+        HEALTH, WELLNESS, BODY AND SOUL
       </h1>
       <section className="px-[20%] xs:px-[15%] sm:px-[15%] pb-[5%]">
-        <p className=" text-justify  xs:text-sm  font-semibold">
+        <p
+          className=" text-justify  xs:text-sm  text-[18px] font-semibold"
+          style={{ fontFamily: "Times New Roman" }}
+        >
           Incorporating herbal products like tea, skincare, and supplements into
           your daily routine can enhance your overall health. A balanced diet
           supplemented with herbal teas such as chamomile or Hibiscus tea
@@ -43,21 +49,25 @@ export const Advices = () => {
         <div className="w-[31%] xs:w-full sm:w-full xs:py-[5%] sm:py-[5%]">
           <img src={supple} alt="" className="w-full h-[250px] mb-[5%]" />
           <button onClick={supplementSet} className="font-bold text-xl mb-[2%]">
-            HERBAL SUPPLEMENTS
+            Herbal Supplements
           </button>
           <div className="">
             {supplement ? (
               <div className="">
                 <p className="font-semibold xs:text-sm mb-[2%]">
                   For lasting relief in gut and digestive care, it's recommended
-                  to consume Ambrosia Herbal Supplements for a minimum of three
-                  months. To amplify their effectiveness, consider incorporating
-                  daily yoga or abdominal exercises into your routine."
-                </p>
+                  to consume <b>Ambrosia</b> Herbal Supplements for a minimum of{" "}
+                  <b>three months</b>. <br /> 
+                  To amplify Ambrosia effectiveness,
+                  consider incorporating daily yoga or abdominal exercises into
+                  your routine. <br />
                 <p className="font-semibold xs:text-sm mb-[2%]">
                   For immediate relief from acid reflux and burning sensations,
                   try placing a small piece of ginger in your mouth and allow
                   the juice to slowly trickle down your throat.
+                </p>
+                  Ashwagandha and shatavari must be comsumed with Milk (It can be vegan or normal milk) <br />
+                  Ashwagandha is more effective if comsumed at night before sleep "
                 </p>
               </div>
             ) : null}
@@ -66,7 +76,7 @@ export const Advices = () => {
         <div className="w-[31%] xs:w-full sm:w-full xs:py-[5%] sm:py-[5%]">
           <img src={teaimg} alt="" className="w-full  h-[250px] mb-[5%]" />
           <button onClick={teaSet} className="font-bold text-xl mb-[2%]">
-            HERBAL TEA
+            Herbal Tea's
           </button>
           <div className="">
             {tea ? (
@@ -80,16 +90,17 @@ export const Advices = () => {
                   peppermint to kickstart your day with a burst of energy.
                 </p>
                 <p className="font-semibold xs:text-sm mb-[2%]">
-                  Midday Relaxation: Chamomile, Rose or teas can help you unwind
-                  and reduce stress in the afternoon.
+                  Midday Relaxation: Chamomile, Rose or Ginger tea can help you
+                  unwind and reduce stress in the afternoon.
                 </p>
                 <p className="font-semibold xs:text-sm mb-[2%]">
-                  Digestive Aid: After meals hibiscus herbal teas can assist
+                  Digestive Aid: After meals hibiscus or Ginger tea can assist
                   with digestion and reduce bloating.
                 </p>
                 <p className="font-semibold xs:text-sm mb-[2%]">
                   Evening Calm: Before bedtime, try soothing herbal choices like
-                  valerian or chamomile to promote relaxation and improve sleep.
+                  Rose ,Hibiscus chamomile to promote relaxation and improve
+                  sleep.
                 </p>
               </div>
             ) : null}
@@ -98,7 +109,7 @@ export const Advices = () => {
         <div className="w-[31%] xs:w-full sm:w-full xs:py-[5%] sm:py-[5%]">
           <img src={beautyimg} alt="" className="w-full  h-[250px] mb-[5%]" />
           <button onClick={beautySet} className="font-bold text-xl mb-[2%]">
-            HERBAL BEAUTY
+            Herbal Beauty Care
           </button>
           <div className="">
             {beauty ? (

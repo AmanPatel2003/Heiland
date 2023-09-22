@@ -7,7 +7,7 @@ export default function PageFour() {
  
   return (
     <div className="pb-[10%]   bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%] ">
-      <section className=" px-[30%] xs:px-[3%] sm:px-[8%] md:px-[10%] lg:px-[20%] py-[5%] xs:pt-[13%]  w-full">
+      {/* <section className=" px-[30%] xs:px-[3%] sm:px-[8%] md:px-[10%] lg:px-[20%] py-[5%] xs:pt-[13%]  w-full">
         <div className="w-full flex justify-between">
           <a href="/mission">
             <p className="font-semibold text-lg xs:text-sm sm:text-sm">
@@ -30,33 +30,40 @@ export default function PageFour() {
             </p>
           </a>
         </div>
-      </section>
+      </section> */}
       <hr />
       <section className="flex justify-center font-bold text-6xl py-[10%]">
         ABOUT US
       </section>
-      <section className="flex xs:block  h-full bg-[#789977] ">
-        <div className="w-[30%] sm:w-[40%] md:w-[35%] xs:w-full xs:h-[300px] ">
+      <section className="flex xs:block sm:block  h-full bg-[#789977] xs:pt-[10%] sm:pt-[10%]">
+        <div className="w-[30%]  md:w-[40%] sm:w-full xs:w-full sm:h-[400px] sm:px-[15%] xs:px-[10%] ">
           <img src={img1} alt="" className="h-full w-full" />
         </div>
-        <div className="w-[70%] sm:w-[60%] md:w-[65%] xs:w-full  px-[12%] sm:px-[8%] md:px-[9%] py-[10%]">
+        <div className="w-[70%]  md:w-[60%] sm:w-full xs:w-full  px-[12%] sm:px-[8%] md:px-[9%] py-[7%]">
           <h3 className="font-bold text-2xl pb-[3%] text-white">
             {/* FROM A STRONG HERITAGE, BUILDING AN EVEN STRONGER FUTURE */}
-            From a Strong Heritage Building An Even Stronger Future
+            From a strong heritage building an even stronger future
           </h3>
 
           <p className="text-white text-bold">
-            Under every gold metal Solgar cap, there’s an amber glass bottle
-            containing the stories of decades of diligent research, pioneering
-            science, and an unwavering commitment to wellness.
+            In a Keshkal valley, a wise herbalist, unearthed a mystical herb,
+            kindling a legacy of wellness. Heiland, a premium herbal brand,
+            emerged from the herbalist family's reverence for nature's healing
+            gifts. Crafted with care, their herbal teas, supplements, face
+            masks, and skincare products harnessed the valley's potent herbs.
+            "Nature's Wisdom, Your Wellness" became their motto, resonating with
+            people worldwide. Their sustainable practices and commitment to
+            preserving nature's beauty made Heiland a household name. For
+            generations, Heiland's products have touched countless lives,
+            sharing the magic of nature and the enduring legacy.
           </p>
         </div>
       </section>
-      <section className=" flex xs:block bg-[#e2f3e2]  ">
-        <div className="w-[60%] xs:w-full px-[8%]   sm:px-[8%] md:px-[9%]   py-[7%] md:py-[6%] sm:py-[6%] xs:py-[8%]">
+      <section className=" flex xs:block sm:block bg-[#d3e8c9] xs:pb-[10%] sm:pb-[10%]  ">
+        <div className="w-[60%] md:w-[55%] xs:w-full px-[8%] sm:w-full  sm:px-[8%] md:px-[9%]   py-[7%] md:py-[6%] sm:py-[6%] xs:py-[8%]">
           <h2 className="text-2xl  font-bold text-green-800 pb-[3%]">
             {/* DISCOVER OUR PURPOSE */}
-            Discover Our Perpose
+            Discover our purpose
           </h2>
           {/* <p className="font-semibold text-sm py-[2%] ">
             This has been our north star for 75 years.
@@ -75,18 +82,18 @@ export default function PageFour() {
           </p>
         </div>
 
-        <div className="w-[40%] h-[460px] xs:w-full xs:h-[300px] ">
+        <div className="w-[40%] md:w-[45%] sm:w-full  xs:w-full sm:h-[400px] sm:px-[15%] xs:px-[10%] ">
           <img src={img2} alt="" className="h-full w-full" />
         </div>
       </section>
-      <section className="flex xs:block bg-[#fcfce4 bg-[#87a786] ">
-        <div className="xs:h-[300px] w-[40%] lg:w-[50%] h-[500px] xs:w-full ">
+      <section className="flex xs:block sm:block bg-[#fcfce4 bg-[#87a786] xs:pt-[10%] sm:pt-[10%]">
+        <div className="xs:h-[300px w-[40%] lg:w-[45%] sm:w-full md:w-[50%] sm:h-[400px] sm:px-[15%] xs:px-[10%]   xs:w-full ">
           <img src={img3} alt="" className="h-full w-full" />
         </div>
-        <div className="w-[60%] lg:w-[50%] xs:w-full px-[8%]   sm:px-[8%] md:px-[9%]   py-[9%] lg:py-[5%] ">
+        <div className="w-[60%] lg:w-[50%] md:w-[55%] sm:w-full xs:w-full px-[8%]   sm:px-[8%] md:px-[9%]   py-[9%] lg:py-[5%] ">
           <h3 className="text-2xl font-bold text-green-80 text-white mb-[3%]">
             {/* EMPOWERING LIVES, ENRICHING FUTURES. */}
-            Empowering Lives, Enriching Futures.
+            Empowering Lives, Enriching Futures
           </h3>
 
           <p className="text-green-80 text-white font-semibold">

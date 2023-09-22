@@ -1,17 +1,17 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { BsStarFill } from "react-icons/bs";
 import { FaAmazon } from "react-icons/fa";
-import logo1 from "../img/logos/logo1.png";
-import logo2 from "../img/logos/logo2.png";
-import logo3 from "../img/logos/logo3.png";
-import logo4 from "../img/logos/logo4.png";
-import logo5 from "../img/logos/logo5.png";
 
-export default function Pageeleven() {
+import logo1 from "../logos/logo1.png";
+import logo2 from "../logos/logo2.png";
+import logo3 from "../logos/logo3.png";
+import logo4 from "../logos/logo4.png";
+import logo5 from "../logos/logo5.png";
 
-  const [slider1, setSlider1] = useState(0)
-  const [slider2, setSlider2] = useState(0)
-  const [slider3, setSlider3] = useState(0)
+export const Ashwagandha = () => {
+  const [slider1, setSlider1] = useState(0);
+  const [slider2, setSlider2] = useState(0);
+  const [slider3, setSlider3] = useState(0);
 
   return (
     <div className="">
@@ -26,13 +26,17 @@ export default function Pageeleven() {
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
-              Ambrosia
+              Ashwagandha
             </h1>
-            <span className=" text-xl">(Empowering Gut)</span>
+            <span className=" text-xl">(Reignite Your Inner Strength)</span>
 
             <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
               <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
-                <img src={logo1} alt="" className="h-full w-[90%  mt-[8%] md:my-[10%] " />
+                <img
+                  src={logo1}
+                  alt=""
+                  className="h-full w-[90%  mt-[8%] md:my-[10%] "
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   CHEMICAL FREE
                 </h1>
@@ -66,31 +70,37 @@ export default function Pageeleven() {
               Supports in delivering a long term solution for all
               <b> Gastrointestinal </b> issues such as:
             </p>
-            <ul className="pl-[6%]">
-              <li className="list-disc mt-[4%]">Acid Reflux </li>
-              <li className="list-disc mt-[4%]">Indigestion</li>
-              <li className="list-disc mt-[4%]">
-                Irritable bowel syndrome (IBS)
-              </li>
-              <li className="list-disc mt-[4%]">Constipation</li>
-              <li className="list-disc mt-[4%]">Ulcer</li>
-              <li className="list-disc mt-[4%]">
-                Gastroesophageal reflux disease (GERD)
-              </li>
-              <li className="list-disc mt-[4%]">Gastroenteritis</li>
-              <li className="list-disc mt-[4%]">Gastric</li>
-              <li className="list-disc mt-[4%]">Gastroenteritis</li>
-            </ul>
+            <div className=" flex justify-between px-[6%]">
+              <ul className="">
+                <li className="list-disc mt-[4%]">Enhanced Mental Clarity</li>
+                <li className="list-disc mt-[4%]">Balanced Hormones</li>
+                <li className="list-disc mt-[4%]">Better Sleep</li>
+                <li className="list-disc mt-[4%]">Immune Support</li>
+                <li className="list-disc mt-[4%]">Anti-Inflammatory</li>
+                <li className="list-disc mt-[4%]">Benefits Joint Health</li>
+                <li className="list-disc mt-[4%]">Adaptogenic Benefits</li>
+                <li className="list-disc mt-[4%]">Overall Wellness</li>
+              </ul>
+              <ul className="">
+                <li className="list-disc mt-[4%]">Stress Reduction </li>
+                <li className="list-disc mt-[4%]">improves fertility</li>
+                <li className="list-disc mt-[4%]">improves sperm counts</li>
+                <li className="list-disc mt-[4%]">reduce PMS</li>
+                <li className="list-disc mt-[4%]">improves testosterone</li>
+                <li className="list-disc mt-[4%]">helps in Building muscles</li>
+                <li className="list-disc mt-[4%]">Improved Energy Levels</li>
+              </ul>
+            </div>
 
             <p className="text-sm font-semibold mt-[4%]">
-              Boosting Liver is a mojor advantage of Ambrosia
+              Boosting Liver is a major advantage of Ambrosia
             </p>
 
             <div className="">
               <h1 className="text-lg font-bold">How to comsume?</h1>
               <p className="">
-                1-2 capsules after each meal depending upon the severity consume
-                with normal to lukewarm water
+                1 capsule consist of 600 Mg of Ashwagandha powder (Withania
+                somnifra)
               </p>
             </div>
             <div className="">
@@ -311,4 +321,4 @@ export default function Pageeleven() {
       </section>
     </div>
   );
-}
+};

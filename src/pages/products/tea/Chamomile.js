@@ -1,17 +1,17 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { BsStarFill } from "react-icons/bs";
 import { FaAmazon } from "react-icons/fa";
-import logo1 from "../img/logos/logo1.png";
-import logo2 from "../img/logos/logo2.png";
-import logo3 from "../img/logos/logo3.png";
-import logo4 from "../img/logos/logo4.png";
-import logo5 from "../img/logos/logo5.png";
 
-export default function Pageeleven() {
+import logo1 from "../logos/logo1.png";
+import logo2 from "../logos/logo2.png";
+import logo3 from "../logos/logo3.png";
+import logo4 from "../logos/logo4.png";
+import logo5 from "../logos/logo5.png";
 
-  const [slider1, setSlider1] = useState(0)
-  const [slider2, setSlider2] = useState(0)
-  const [slider3, setSlider3] = useState(0)
+export const Chamomile = () => {
+  const [slider1, setSlider1] = useState(0);
+  const [slider2, setSlider2] = useState(0);
+  const [slider3, setSlider3] = useState(0);
 
   return (
     <div className="">
@@ -26,13 +26,17 @@ export default function Pageeleven() {
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
-              Ambrosia
+              Chamomile Tea
             </h1>
-            <span className=" text-xl">(Empowering Gut)</span>
+            <span className=" text-xl">(“Sip Stress away”)</span>
 
             <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
               <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
-                <img src={logo1} alt="" className="h-full w-[90%  mt-[8%] md:my-[10%] " />
+                <img
+                  src={logo1}
+                  alt=""
+                  className="h-full w-[90%  mt-[8%] md:my-[10%] "
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   CHEMICAL FREE
                 </h1>
@@ -67,19 +71,16 @@ export default function Pageeleven() {
               <b> Gastrointestinal </b> issues such as:
             </p>
             <ul className="pl-[6%]">
-              <li className="list-disc mt-[4%]">Acid Reflux </li>
-              <li className="list-disc mt-[4%]">Indigestion</li>
               <li className="list-disc mt-[4%]">
-                Irritable bowel syndrome (IBS)
+                Stress reduction and relaxation{" "}
               </li>
-              <li className="list-disc mt-[4%]">Constipation</li>
-              <li className="list-disc mt-[4%]">Ulcer</li>
-              <li className="list-disc mt-[4%]">
-                Gastroesophageal reflux disease (GERD)
-              </li>
-              <li className="list-disc mt-[4%]">Gastroenteritis</li>
-              <li className="list-disc mt-[4%]">Gastric</li>
-              <li className="list-disc mt-[4%]">Gastroenteritis</li>
+              <li className="list-disc mt-[4%]"> Improves Sleep</li>
+              <li className="list-disc mt-[4%]">improve digestion</li>
+              <li className="list-disc mt-[4%]">Anti-Inflammatory</li>
+              <li className="list-disc mt-[4%]">Enhance Skin Health</li>
+              <li className="list-disc mt-[4%]">Support Immune</li>
+              <li className="list-disc mt-[4%]">Menstrual Pain Relief</li>
+              <li className="list-disc mt-[4%]"> Mental Clarity</li>
             </ul>
 
             <p className="text-sm font-semibold mt-[4%]">
@@ -89,13 +90,17 @@ export default function Pageeleven() {
             <div className="">
               <h1 className="text-lg font-bold">How to comsume?</h1>
               <p className="">
-                1-2 capsules after each meal depending upon the severity consume
-                with normal to lukewarm water
+                Use 1 teaspoon (approximately 1.5 grams) of dried tea powder for
+                each 8-ounce (about 240 ml) cup of Hot Water. Cover the teapot
+                or cup with a lid or a saucer to trap the steam and let the
+                chamomile steep for about 5 minutes. After steeping, strain the
+                tea. our chamomile tea is ready to drink. Take small sips and
+                savor the soothing flavor. It's best enjoyed warm.
               </p>
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content-60 Primium Capsules
+                Net content 250 Grms
               </h1>
             </div>
 
@@ -311,4 +316,4 @@ export default function Pageeleven() {
       </section>
     </div>
   );
-}
+};
