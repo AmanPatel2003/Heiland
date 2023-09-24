@@ -18,18 +18,20 @@ import { Advices } from "./pages/Advices";
 import { Supplement } from "./pages/productCategory/Supplement";
 import { Tea } from "./pages/productCategory/Tea";
 import { Beauty } from "./pages/productCategory/Beauty";
-import {Ambrosia} from "./pages/products/supplements/Ambrosia"
-import {Ashwagandha} from "./pages/products/supplements/Ashwagandha"
-import {Satavari} from "./pages/products/supplements/Satavari"
-import {Chamomile} from "./pages/products/tea/Chamomile"
-import {Ginger} from "./pages/products/tea/Ginger"
-import {Hibiscus} from "./pages/products/tea/Hibiscus"
-import {Peppermint} from "./pages/products/tea/Peppermint"
-import {Rose} from "./pages/products/tea/Rose"
-import {Clayglow} from "./pages/products/beauty/Clayglow"
-import {Golden} from "./pages/products/beauty/Golden"
-import {ScarletGlow} from "./pages/products/beauty/ScarletGlow"
-
+import { Ambrosia } from "./pages/products/supplements/Ambrosia";
+import { Ashwagandha } from "./pages/products/supplements/Ashwagandha";
+import { Satavari } from "./pages/products/supplements/Satavari";
+import { Chamomile } from "./pages/products/tea/Chamomile";
+import { Ginger } from "./pages/products/tea/Ginger";
+import { Hibiscus } from "./pages/products/tea/Hibiscus";
+import { Peppermint } from "./pages/products/tea/Peppermint";
+import { Rose } from "./pages/products/tea/Rose";
+import { Clayglow } from "./pages/products/beauty/Clayglow";
+import { Golden } from "./pages/products/beauty/Golden";
+import { ScarletGlow } from "./pages/products/beauty/ScarletGlow";
+import { SupplementsAdvice } from "./pages/advicePages/SupplementsAdvice";
+import { TeaAdvice } from "./pages/advicePages/TeaAdvice";
+import { BeautyAdvice } from "./pages/advicePages/BeautyAdvice";
 
 function App() {
   return (
@@ -48,29 +50,33 @@ function App() {
           <Route path="/impact" element={<PageNine />} />
           {/* <Route path="/shop" element={<Pageeleven />} /> */}
           <Route path="/whereToBuy" element={<WhereToBay />} />
+          {/* -------------------------------------------------------------------------ACVICE  ------------------------------------------------------------------------- */}
           <Route path="/advice" element={<Advices />} />
-          {/* PRODUCT_CATEGORY ------------------------------------------------------------------- */}
+          {/* ------------------------------------------------------------------------ ADVICES PAGES----------------------------------------------------------------------- */}
+          <Route path="/suppleAdvice" element={<SupplementsAdvice />} />{" "}
+          <Route path="/teaAdvice" element={<TeaAdvice />} />{" "}
+          <Route path="/beautyAdvice" element={<BeautyAdvice />} />
+          {/* -------------------------------------------------------------------------PRODUCT_CATEGORY ------------------------------------------------------------------- */}
           <Route path="/supplement" element={<Supplement />} />
           <Route path="/tea" element={<Tea />} />
           <Route path="/beauty" element={<Beauty />} />
-          {/* SUPPLEMENT PRODUCTS ------------------------------------------------------------------------- */}
+          {/*------------------------------------------------------------------------- SUPPLEMENT PRODUCTS ------------------------------------------------------------------------- */}
           <Route path="/ambrosia" element={<Ambrosia />} />
           <Route path="/ashwagandha" element={<Ashwagandha />} />
           <Route path="/satavari" element={<Satavari />} />
-          {/* TEA'S PRODUCTS ------------------------------------------------------------------------------- */}
+          {/* --------------------------------------------------------------------------TEA'S PRODUCTS ------------------------------------------------------------------------------- */}
           <Route path="/chamomile" element={<Chamomile />} />
           <Route path="/ginger" element={<Ginger />} />
           <Route path="/hibiscus" element={<Hibiscus />} />
           <Route path="/peppermint" element={<Peppermint />} />
           <Route path="/rose" element={<Rose />} />
-          {/* BEAUTY PRODUCTS --------------------------------------------------------------------------------------- */}
+          {/*---------------------------------------------------------------------------- BEAUTY PRODUCTS --------------------------------------------------------------------------------------- */}
           <Route path="/clayglow" element={<Clayglow />} />{" "}
-          <Route path="/golden" element={<Golden/>} />{" "}
+          <Route path="/golden" element={<Golden />} />{" "}
           <Route path="/scarletglow" element={<ScarletGlow />} />
         </Routes>
         <Footer />
       </div>
-
     </Router>
   );
 }

@@ -80,7 +80,7 @@ export default function Navbar() {
                   <a
                     href="/supplement"
                     onClick={toggleProductsDropdown}
-                    className="bg-[#d2e7c7] font-bold   "
+                    className="bg-[#d2e7c7] font-bold text-lg  "
                   >
                     Herbal supplements
                   </a>
@@ -89,7 +89,7 @@ export default function Navbar() {
                   <a
                     onClick={toggleProductsDropdown}
                     href="/tea"
-                    className="bg-[#d2e7c7] font-bold "
+                    className="bg-[#d2e7c7] font-bold  text-lg "
                   >
                     Herbal tea's
                   </a>
@@ -98,7 +98,7 @@ export default function Navbar() {
                   <a
                     onClick={toggleProductsDropdown}
                     href="/beauty"
-                    className="bg-[#d2e7c7]  font-bold"
+                    className="bg-[#d2e7c7]  font-bold  text-lg"
                   >
                     Herbal Beauty care
                   </a>
@@ -123,7 +123,7 @@ export default function Navbar() {
                   <a
                     href="/about"
                     onClick={toggleCompanyDropdown}
-                    className="bg-[#d2e7c7] font-bold "
+                    className="bg-[#d2e7c7] font-bold  text-lg"
                   >
                     About Us
                   </a>
@@ -132,7 +132,7 @@ export default function Navbar() {
                   <a
                     onClick={toggleCompanyDropdown}
                     href="/mission"
-                    className="bg-[#d2e7c7] font-bold"
+                    className="bg-[#d2e7c7] font-bold  text-lg"
                   >
                     Ous Mission
                   </a>
@@ -141,7 +141,7 @@ export default function Navbar() {
                   <a
                     onClick={toggleCompanyDropdown}
                     href="/article1"
-                    className="bg-[#d2e7c7] font-bold"
+                    className="bg-[#d2e7c7] font-bold  text-lg"
                   >
                     Article
                   </a>
@@ -150,7 +150,7 @@ export default function Navbar() {
                   <a
                     onClick={toggleCompanyDropdown}
                     href="/posts"
-                    className="bg-[#d2e7c7] font-bold"
+                    className="bg-[#d2e7c7] font-bold  text-lg"
                   >
                     Posts
                   </a>
@@ -187,7 +187,7 @@ export default function Navbar() {
                     <a
                       href="/privacy"
                       onClick={toggleLearnDropdown}
-                      className="bg-[#d2e7c7] font-bold "
+                      className="bg-[#d2e7c7] font-bold  text-lg"
                     >
                       Privacy
                     </a>
@@ -196,7 +196,7 @@ export default function Navbar() {
                     <a
                       onClick={toggleLearnDropdown}
                       href="/contact"
-                      className="bg-[#d2e7c7] font-bold "
+                      className="bg-[#d2e7c7] font-bold  text-lg"
                     >
                       Contact
                     </a>
@@ -206,7 +206,7 @@ export default function Navbar() {
                       onClick={toggleLearnDropdown}
                       // onMouseLeave={toggleLearnDropdown}
                       href="/impact"
-                      className="bg-[#d2e7c7] font-bold"
+                      className="bg-[#d2e7c7] font-bold  text-lg"
                     >
                       Impact
                     </a>
@@ -256,7 +256,7 @@ export default function Navbar() {
                     <a
                       href="/supplement"
                       onClick={toggleProductsDropdown}
-                      className="bg-[#d2e7c7] font-semibold text-lg  xs:font-bold xs:text-sm "
+                      className="bg-[#d2e7c7] font-semibold text-lg  xs:font-bold  "
                     >
                       Herbal supplements
                     </a>
@@ -265,7 +265,7 @@ export default function Navbar() {
                     <a
                       onClick={toggleProductsDropdown}
                       href="/tea"
-                      className="bg-[#d2e7c7] font-semibold  text-lg xs:font-bold xs:text-sm "
+                      className="bg-[#d2e7c7] font-semibold  text-lg xs:font-bold  "
                     >
                       Herbal tea's
                     </a>
@@ -274,7 +274,7 @@ export default function Navbar() {
                     <a
                       onClick={toggleProductsDropdown}
                       href="/beauty"
-                      className="bg-[#d2e7c7]  font-semibold text-lg xs:font-bold xs:text-sm"
+                      className="bg-[#d2e7c7]  font-semibold text-lg xs:font-bold "
                     >
                       Herbal Beauty Care
                     </a>
@@ -296,7 +296,7 @@ export default function Navbar() {
                     <a
                       href="/about"
                       onClick={toggleCompanyDropdown}
-                      className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold xs:text-sm "
+                      className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold "
                     >
                       About Us
                     </a>
@@ -305,7 +305,7 @@ export default function Navbar() {
                     <a
                       onClick={toggleCompanyDropdown}
                       href="/mission"
-                      className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold xs:text-sm"
+                      className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold "
                     >
                       Our Mission
                     </a>
@@ -314,7 +314,7 @@ export default function Navbar() {
                     <a
                       onClick={toggleCompanyDropdown}
                       href="/article1"
-                      className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold xs:text-sm"
+                      className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold "
                     >
                       Article
                     </a>
@@ -323,7 +323,7 @@ export default function Navbar() {
                     <a
                       onClick={toggleCompanyDropdown}
                       href="/posts"
-                      className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold xs:text-sm"
+                      className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold "
                     >
                       Posts
                     </a>
@@ -351,7 +351,7 @@ export default function Navbar() {
                       <a
                         href="/privacy"
                         onClick={toggleLearnDropdown}
-                        className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold xs:text-sm"
+                        className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold "
                       >
                         Privacy
                       </a>
@@ -360,7 +360,7 @@ export default function Navbar() {
                       <a
                         onClick={toggleLearnDropdown}
                         href="/contact"
-                        className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold xs:text-sm"
+                        className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold "
                       >
                         Contact
                       </a>
@@ -370,7 +370,7 @@ export default function Navbar() {
                         onClick={toggleLearnDropdown}
                         // onMouseLeave={toggleLearnDropdown}
                         href="/impact"
-                        className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold xs:text-sm"
+                        className="bg-[#d2e7c7] font-semibold text-lg xs:font-bold "
                       >
                         Impact
                       </a>

@@ -26,9 +26,11 @@ export const Golden = () => {
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
-              Ambrosia
+              Golden Zest
             </h1>
-            <span className=" text-xl">(Empowering Gut)</span>
+            <span className=" text-xl">
+              ("Nourish Skin Naturally with Citrus and Turmeric brilliance")
+            </span>
 
             <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
               <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
@@ -71,19 +73,18 @@ export const Golden = () => {
               <b> Gastrointestinal </b> issues such as:
             </p>
             <ul className="pl-[6%]">
-              <li className="list-disc mt-[4%]">Acid Reflux </li>
-              <li className="list-disc mt-[4%]">Indigestion</li>
+              <li className="list-disc mt-[4%]">Brightening </li>
               <li className="list-disc mt-[4%]">
-                Irritable bowel syndrome (IBS)
+                helping to even out skin tone and reduce the appearance of dark
+                spots and blemishes
               </li>
-              <li className="list-disc mt-[4%]">Constipation</li>
-              <li className="list-disc mt-[4%]">Ulcer</li>
               <li className="list-disc mt-[4%]">
-                Gastroesophageal reflux disease (GERD)
+                reduce redness and puffiness
               </li>
-              <li className="list-disc mt-[4%]">Gastroenteritis</li>
-              <li className="list-disc mt-[4%]">Gastric</li>
-              <li className="list-disc mt-[4%]">Gastroenteritis</li>
+              <li className="list-disc mt-[4%]">exfoliation</li>
+              <li className="list-disc mt-[4%]">Acne control</li>
+              <li className="list-disc mt-[4%]">skin hydration</li>
+              <li className="list-disc mt-[4%]">Natural Glow</li>
             </ul>
 
             <p className="text-sm font-semibold mt-[4%]">
@@ -93,13 +94,22 @@ export const Golden = () => {
             <div className="">
               <h1 className="text-lg font-bold">How to comsume?</h1>
               <p className="">
-                1-2 capsules after each meal depending upon the severity consume
-                with normal to lukewarm water
+                For Face take 1 tea spoon of powder add Rose water or Honey or
+                Yogurt depending on skin type (for detailed info on please visit
+                Advice -Herbal beauty care section of our website
+                www.heiland.shop) mix the ingredients and prepare Smooth paste.
+              </p>
+              <p className="">
+                Cleanse your face, apply the paste and relax for 10-15 minutes
+                You may feel a slight tingling sensation, which is normal, but
+                if you experience any discomfort or burning, remove the mask
+                immediately. Rinse off with Water. Apply moisturizer as per your
+                preference.{" "}
               </p>
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content-60 Primium Capsules
+                Net content 200Grms
               </h1>
             </div>
 

@@ -26,9 +26,9 @@ export const ScarletGlow = () => {
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
-              Ambrosia
+              ScarletGlow
             </h1>
-            <span className=" text-xl">(Empowering Gut)</span>
+            <span className=" text-xl">("Complexion Refinement")</span>
 
             <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
               <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
@@ -67,23 +67,23 @@ export const ScarletGlow = () => {
 
             <h1 className="text-lg font-bold">What does it do for you?</h1>
             <p className="text-sm font-semibold mt-[4%]">
-              Supports in delivering a long term solution for all
-              <b> Gastrointestinal </b> issues such as:
+              It consists of natural skin-brightening properties, which can help
+              reduce the appearance of dark spots and uneven skin tone it
+              removes:
             </p>
             <ul className="pl-[6%]">
-              <li className="list-disc mt-[4%]">Acid Reflux </li>
-              <li className="list-disc mt-[4%]">Indigestion</li>
+              <li className="list-disc mt-[4%]">dead skin </li>
+              <li className="list-disc mt-[4%]">oil and impurities</li>
               <li className="list-disc mt-[4%]">
-                Irritable bowel syndrome (IBS)
+                leaving it feeling fresh and rejuvenated
               </li>
-              <li className="list-disc mt-[4%]">Constipation</li>
-              <li className="list-disc mt-[4%]">Ulcer</li>
               <li className="list-disc mt-[4%]">
-                Gastroesophageal reflux disease (GERD)
+                {" "}
+                The mask may contribute to a natural
               </li>
-              <li className="list-disc mt-[4%]">Gastroenteritis</li>
-              <li className="list-disc mt-[4%]">Gastric</li>
-              <li className="list-disc mt-[4%]">Gastroenteritis</li>
+              <li className="list-disc mt-[4%]">
+                healthy glow and a revitalized complexion
+              </li>
             </ul>
 
             <p className="text-sm font-semibold mt-[4%]">
@@ -93,13 +93,27 @@ export const ScarletGlow = () => {
             <div className="">
               <h1 className="text-lg font-bold">How to comsume?</h1>
               <p className="">
-                1-2 capsules after each meal depending upon the severity consume
-                with normal to lukewarm water
+                For Face take 1 tea spoon of powder add Rose water or Yogurt
+                depending on skin type (for detailed info on please visit Advice
+                -Herbal beauty care section of our website www.heiland.shop) mix
+                the ingredients and prepare Smooth paste.
+              </p>
+              <p className="">
+                Cleanse your face, apply the paste and relax for 10-15 minutes.
+                if you experience any discomfort or burning, remove the mask
+                immediately.
+              </p>
+              <p className="">
+                Rinse off with Water. Apply moisturizer as per your preference.
+              </p>
+              <p className="">
+                For Body Take the appropriate amount of Powder and rest of the
+                process is specified as above
               </p>
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content-60 Primium Capsules
+                Net content 200Grms
               </h1>
             </div>
 
