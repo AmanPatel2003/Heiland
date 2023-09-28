@@ -4,8 +4,20 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FirstPage from "./pages/FirstPage";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import PageTwo from "./pages/PageTwo";
-import PageThree from "./pages/PageThree";
+// import PageTwo from "./pages/PageTwo";
+// import PageThree from "./pages/blogs/PageThree";
+// -------------------------------------------------------------------------BLOGS----------------------------------------------------------------------------------
+import Blog1 from "./pages/blogs/Blog1";
+import Blog2 from "./pages/blogs/Blog2";
+import Blog3 from "./pages/blogs/Blog3";
+import Blog4 from "./pages/blogs/Blog4";
+import Blog5 from "./pages/blogs/Blog5";
+import Blog6 from "./pages/blogs/Blog6";
+import Blog7 from "./pages/blogs/Blog7";
+// import PageThree from "./pages/blogs/Blog1";
+
+
+
 import PageFour from "./pages/PageFour";
 import PageFive from "./pages/PageFive";
 // import Pagesix from "./pages/Pagesix";
@@ -40,8 +52,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<FirstPage />} />
-          <Route path="/article1" element={<PageThree />} />
-          <Route path="/mission" element={<PageTwo />} />
+          {/* <Route path="/mission" element={<PageTwo />} /> */}
           <Route path="/about" element={<PageFour />} />
           <Route path="/posts" element={<PageFive />} />
           {/* <Route path="/products" element={<Pagesix />} /> */}
@@ -50,6 +61,16 @@ function App() {
           <Route path="/impact" element={<PageNine />} />
           {/* <Route path="/shop" element={<Pageeleven />} /> */}
           <Route path="/whereToBuy" element={<WhereToBay />} />
+{/* -----------------------------------------------------------------------------------BLOGS--------------------------------------------------------------------------------- */}
+          <Route path="/blog1" element={<Blog1 />} />
+          <Route path="/blog2" element={<Blog2 />} />
+          <Route path="/blog3" element={<Blog3 />} />
+          <Route path="/blog4" element={<Blog4 />} />
+          <Route path="/blog5" element={<Blog5 />} />
+          <Route path="/blog6" element={<Blog6 />} />
+          <Route path="/blog7" element={<Blog7 />} />
+
+
           {/* -------------------------------------------------------------------------ACVICE  ------------------------------------------------------------------------- */}
           <Route path="/advice" element={<Advices />} />
           {/* ------------------------------------------------------------------------ ADVICES PAGES----------------------------------------------------------------------- */}

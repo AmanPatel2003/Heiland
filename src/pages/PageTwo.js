@@ -3,8 +3,8 @@ import logo from "../img/logo2.png";
 
 export default function PageTwo() {
   return (
-    <div className="pt-[9%] xs:pt-[15%] h-full w-full bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
-      <section className="flex justify-center h-[300px] xs:h-[200px] w-full xs:mb-[10%] sm:mb-[10%]  mb-[5%] ">
+    <div className="w-full bg-[#fcfce4] mt-[73px] ]">
+      <section className="flex justify-center h-[500px] xs:h-[200px] sm:h-[300px] md:h-[350px] lg:h-[400px] xl:h-[450px] w-full py-[5%]  ">
         <img src={logo} alt="" className="h-full " />
       </section>
       <section className="px-[15%] pb-[5%]">

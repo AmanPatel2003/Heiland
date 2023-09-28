@@ -1,7 +1,7 @@
 const people = [
   {
     id: 1,
-    h1: "WHAT PEOPLE ARE AMAN",
+    h1: "WHAT PEOPLE  THINK ABOUT US",
     h2: "GREAT MAGNESIUM SOURCE",
     p1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloribus ipsum voluptatibus rerum nulla magnam laudantium, reiciendis obcaecati fugit molestias ullam.",
     p2: "An Amwon Customer",
@@ -10,7 +10,7 @@ const people = [
   },
   {
     id: 2,
-    h1: "WHAT PEOPLE ARE ANKIT",
+    h1: "WHAT PEOPLE  THINK ABOUT US",
     h2: "GREAT MAGNESIUM SOURCE",
     p1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloribus ipsum voluptatibus rerum nulla magnam laudantium, reiciendis obcaecati fugit molestias ullam.",
     p2: "An Amwon Customer",
@@ -19,7 +19,7 @@ const people = [
   },
   {
     id: 3,
-    h1: "WHAT PEOPLE ARE ANURAG",
+    h1: "WHAT PEOPLE A  THINK ABOUT US",
     h2: "GREAT MAGNESIUM SOURCE",
     p1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloribus ipsum voluptatibus rerum nulla magnam laudantium, reiciendis obcaecati fugit molestias ullam.",
     p2: "An Amwon Customer",
@@ -29,7 +29,7 @@ const people = [
   },
   {
     id: 4,
-    h1: "WHAT PEOPLE ARE NAITIK",
+    h1: "WHAT PEOPLE A  THINK ABOUT US",
     h2: "GREAT MAGNESIUM SOURCE",
     p1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident doloribus ipsum voluptatibus rerum nulla magnam laudantium, reiciendis obcaecati fugit molestias ullam.",
     p2: "An Amwon Customer",

@@ -4,7 +4,7 @@ import { Subscribe } from "../components/Subscribe";
 export default function PageFive() {
   return (
     <>
-      <div className="px-[10%] lg:px-[5%] md:px-[8%] sm:px-[5%] py-[10%] xs:py-[25%] sm:py-[15%] bg-[#f3ffed] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
+      <div className="px-[10%] lg:px-[5%] md:px-[8%] sm:px-[5%] py-[10%] xs:py-[25%] sm:py-[15%] bg-[#f3ffed] mt-[73px]">
         <div className="flex xs:block sm:block md:block">
           <div className="w-[72%] xs:w-full sm:w-full md:w-full ">
             <h2 className="font-bold text-2xl text-green-800 mb-[2%] pl-[1%]">

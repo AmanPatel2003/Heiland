@@ -6,7 +6,7 @@ import img3 from "../img/story-33.png";
 export default function PageFour() {
  
   return (
-    <div className="pb-[10%]   bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%] ">
+    <div className="pb-[10%]   bg-[#fcfce4] mt-[73px]  ">
       {/* <section className=" px-[30%] xs:px-[3%] sm:px-[8%] md:px-[10%] lg:px-[20%] py-[5%] xs:pt-[13%]  w-full">
         <div className="w-full flex justify-between">
           <a href="/mission">
@@ -32,7 +32,7 @@ export default function PageFour() {
         </div>
       </section> */}
       <hr />
-      <section className="flex justify-center font-bold text-6xl py-[10%]">
+      <section className="flex justify-center font-bold text-6xl xs:text-4xl sm:text-5xl py-[10%]">
         ABOUT US
       </section>
       <section className="flex xs:block sm:block  h-full bg-[#789977] xs:pt-[10%] sm:pt-[10%]">

@@ -3,9 +3,9 @@ import img from "./images/adviceBeauty.jpg";
 
 export const BeautyAdvice = () => {
   return (
-    <div className="w-full bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
-      <div className="text-5xl font-semibold text-center py-[3%] xs:py-[9%] border-b-4 border-[#097969]">
-        Herbal Beauty Cate
+    <div className="w-full bg-[#fcfce4] mt-[73px] ">
+      <div className="text-5xl xs:text-4xl font-semibold text-center py-[3%] xs:py-[9%] xs:pt-[15%] border-b-4 border-[#097969]">
+        Herbal Beauty Care
       </div>
       <div className="flex py-[5%] md:block sm:block xs:block md:px-[10%] sm:px-[10%] xs:px-[10%] ">
         <div className="w-[50%] md:w-full sm:w-full xs:w-full   px-[5%] lg:px-[3%] md:px-[2%] py-[3%]">

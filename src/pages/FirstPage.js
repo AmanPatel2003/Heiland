@@ -11,7 +11,7 @@ import people from "../components/Carousel/data"
 
 export default function FirstPage() {
   return (
-    <div className="w-full bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%] ">
+    <div className="w-full bg-[#fcfce4] mt-[73px] ">
       <section
         className="  py-[13%]  w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-full bg-[#f3ffed bg-cover   "
         style={{ backgroundImage: `url(${main2})` }}
@@ -50,7 +50,7 @@ export default function FirstPage() {
           <div className="w-full h-[60%] flex xs:block sm:block  justify-between pt-[2%] xs:pt-[10%] sm:pt-[8%] md:pt-[5%] ">
             <div className="w-[32%] xs:w-[70%] sm:w-[70%] sm:m-auto xs:m-auto text-center  h-[350px] py-[2%]">
               <div className="h-[60%] w-full border-2 mb-[5%]">
-                <a href="/contact" className="">
+                <a href="/supplement" className="">
                   <img
                     src="https://i.ytimg.com/vi/HYDfqSTUV1o/maxresdefault.jpg"
                     // src="/photos/1.jpg"
@@ -68,7 +68,7 @@ export default function FirstPage() {
             </div>
             <div className="w-[32%] h-[350px] py-[2%] xs:w-[70%] sm:w-[70%] text-center sm:m-auto xs:m-auto">
               <div className="h-[60%] w-full border-2 bg-white mb-[5%]">
-                <a href="/contact" className="">
+                <a href="/tea" className="">
                   <img
                     src="https://i.ytimg.com/vi/HYDfqSTUV1o/maxresdefault.jpg"
                     alt=""
@@ -85,7 +85,7 @@ export default function FirstPage() {
             </div>
             <div className="w-[32%] h-[350px] py-[2%] xs:w-[70%] sm:w-[70%] text-center sm:m-auto xs:m-auto">
               <div className="h-[60%] w-full border-2 bg-white mb-[5%]">
-                <a href="/contact" className="">
+                <a href="/beauty" className="">
                   <img
                     src="https://i.ytimg.com/vi/HYDfqSTUV1o/maxresdefault.jpg"
                     alt=""
@@ -146,7 +146,7 @@ export default function FirstPage() {
         <div className="w-full h-[60%] flex xs:block sm:block md:block  justify-between">
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] xs:m-auto sm:m-auto md:m-auto h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="h-[60%] w-full border-2 bg-white ">
-              <a href="/blog1" className="">
+              <a href="/article1" className="">
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.2BczbIPBVireVZ0HXintDwHaDu&pid=Api&P=0&h=180"
                   alt=""
@@ -165,7 +165,7 @@ export default function FirstPage() {
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto  h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="h-[60%] w-full border-2 bg-white ">
-              <a href="/blog1" className="">
+              <a href="/article1" className="">
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.4b_888yCr2cc1L7cc7pI7QHaEK&pid=Api&P=0&h=180"
                   alt=""
@@ -184,7 +184,7 @@ export default function FirstPage() {
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto  h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="h-[60%] w-full border-2 bg-white ">
-              <a href="/blog1" className="">
+              <a href="/article1" className="">
                 <img
                   src="https://tse2.mm.bing.net/th?id=OIP.mmD7isqR_suJYMD7PCl-8wHaEH&pid=Api&P=0&h=180"
                   alt=""
@@ -203,7 +203,7 @@ export default function FirstPage() {
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="h-[60%] w-full border-2 bg-white ">
-              <a href="/blog1" className="">
+              <a href="/article1" className="">
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.2BczbIPBVireVZ0HXintDwHaDu&pid=Api&P=0&h=180"
                   alt=""
@@ -222,7 +222,7 @@ export default function FirstPage() {
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto  h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="h-[60%] w-full border-2 bg-white ">
-              <a href="/blog1" className="">
+              <a href="/article1" className="">
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.4b_888yCr2cc1L7cc7pI7QHaEK&pid=Api&P=0&h=180"
                   alt=""

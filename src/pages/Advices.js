@@ -8,8 +8,8 @@ export const Advices = () => {
  
 
   return (
-    <div className=" bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:pt-[6%] sm:mt-[10%] xs:mt-[11%]">
-      <h1 className=" flex justify-center pb-[3%] pt-[5%] xs:pt-[15%] sm:py-[8%] text-5xl md:text-4xl sm:text-3xl xs:text-xl font-semibold xs:font-bold">
+    <div className=" bg-[#fcfce4] mt-[73px] ">
+      <h1 className=" flex justify-center pb-[3%] pt-[5%] xs:pt-[15%] xs:px-[10%] sm:py-[8%] text-5xl md:text-4xl sm:text-3xl xs:text-xl font-semibold xs:font-bold">
         HEALTH, WELLNESS, BODY AND SOUL
       </h1>
       <section className="px-[20%] xs:px-[15%] sm:px-[15%] pb-[5%]">

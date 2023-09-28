@@ -4,7 +4,7 @@ import img from "./images/adviceTea.webp";
 
 export const TeaAdvice = () => {
   return (
-    <div className="w-full bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
+    <div className="w-full bg-[#fcfce4] mt-[5%] xl:mt-[73px] ">
       <div className="text-5xl font-semibold text-center py-[3%] xs:py-[9%] border-b-4 border-[#097969]">
         Herbal Tea's
       </div>

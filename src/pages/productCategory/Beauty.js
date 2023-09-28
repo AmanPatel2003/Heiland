@@ -3,9 +3,9 @@ import React from "react";
 export const Beauty = () => {
   return (
     <>
-      <div className="bg-[#f3ffed] px-[15%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
+      <div className="bg-[#f3ffed] px-[20%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[73px] ">
         <div className="flex h-full">
-          <div className="w-[30%] xs:hidde sm:hidde md:hidde xs:w-[40%] pt-[8%]">
+          {/* <div className="w-[30%] xs:hidde sm:hidde md:hidde xs:w-[40%] pt-[8%]">
             <ul className="">
               <li className="mb-[4%]">
                 <input
@@ -152,8 +152,9 @@ export const Beauty = () => {
                 </label>
               </li>
             </ul>
-          </div>
-          <div className=" h-full w-[70%] xs:w-[60%]  pt-[8%] xs-px-[3%] sm:px-[4%] md:px-[5%]">
+          </div> */}
+          {/* <div className=" h-full w-[70%] xs:w-[60%]  pt-[8%] xs-px-[3%] sm:px-[4%] md:px-[5%]"> */}
+          <div className=" h-full w-full   pt-[8%] xs-px-[3%] sm:px-[4%] md:px-[5%]">
             <div>
               <h2 className="text-3xl font-bold  xs:text-2xl xs:pl-[6%] pl-[10%] pb-[5%] ">
                 Herbal Beauty Care

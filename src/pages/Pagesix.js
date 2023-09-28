@@ -2,7 +2,7 @@ import React from "react";
 export default function Pagesix() {
   return (
     <>
-      <div className="bg-[#f3ffed] px-[15%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
+      <div className="bg-[#f3ffed] px-[15%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[73px]">
         <div className="flex h-full">
           <div className="w-[30%] xs:hidde sm:hidde md:hidde xs:w-[40%] pt-[8%]">
             <ul className="">

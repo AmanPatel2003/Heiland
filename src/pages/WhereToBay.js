@@ -2,8 +2,8 @@ import React from "react";
 
 export const WhereToBay = () => {
   return (
-    <div className="h-screen w-full pt-[10%] xs:pt-[25%] sm:pt-[20%] md:pt-[20%] lg:pt-[15%] px-[15%] xs:px-[5%] sm:px-[5%] bg-[#fcfce4]">
-      <h1 className=" w-full text-3xl font-bold mb-[5%] xs:mb-[15%] sm:mb-[15%] md:mb-[10%] lg:mb-[10%]">
+    <div className="w-full bg-[#fcfce4] mt-[73px] " style={{height:"100vh"}}>
+      <h1 className=" w-full text-3xl font-bold py-[5%]">
         WHERE TO BUY
       </h1>
       <div className=" w-full">

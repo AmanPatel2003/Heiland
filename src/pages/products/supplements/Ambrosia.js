@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsStarFill } from "react-icons/bs";
+// import { BsStarFill } from "react-icons/bs";
 import { FaAmazon } from "react-icons/fa";
 
 import logo1 from "../logos/logo1.png";
@@ -9,13 +9,20 @@ import logo4 from "../logos/logo4.png";
 import logo5 from "../logos/logo5.png";
 
 export const Ambrosia = () => {
-  const [slider1, setSlider1] = useState(0);
-  const [slider2, setSlider2] = useState(0);
-  const [slider3, setSlider3] = useState(0);
+  // const [slider1, setSlider1] = useState(0);
+  // const [slider2, setSlider2] = useState(0);
+  // const [slider3, setSlider3] = useState(0);
+
+  const [reviews, setReviews] = useState(false)
+
+  const reviewSet = ()=>{
+    setReviews(!reviews)
+  }
+  
 
   return (
     <div className="">
-      <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full bg-[#f3ffed bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
+      <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full bg-[#f3ffed bg-[#fcfce4] mt-[73px] ">
         <div className="flex xs:block sm:block pb-[10%]">
           <div className="w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[15%] ">
             <img
@@ -103,7 +110,7 @@ export const Ambrosia = () => {
               </h1>
             </div>
 
-            <div className="flex w-full h-full  py-[5%] border-y-2 border-[#097969]">
+            {/* <div className="flex w-full h-full  py-[5%] border-y-2 border-[#097969]">
               <div className="w-[40%] h-full text-center">
                 <h1 className="font-bold text-lg mb-[10%]">Rating & Reviews</h1>
                 <h1 className="">
@@ -167,30 +174,82 @@ export const Ambrosia = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className=" py-[4%] border-b-2 border-[#097969]">
+            </div> */}
+            <div className=" py-[4%] border-y-2 border-[#097969]">
               <div className="flex justify-between">
-                <div className="">
-                  <h1 className="text-lg font-bold">Customer Reviews</h1>
-                  <p className="my-[5%] font-semibold">I Love the fragrance</p>
-                  <div className="flex  items-center mb-[5%]">
-                    <span className="">Plyush</span>
-                    <BsStarFill className="text-[#097969] ml-[4%]" />
-                    <p className="ml-[5px]">4</p>
+                <div className="w-full">
+                  <div className="flex justify-between">
+                    <div className="">
+                      <h1 className="text-lg font-bold">Customer Reviews</h1>
+                      <p className="my-[5%] font-semibold">
+                        I Love the Ambrosia
+                      </p>
+                    </div>
+                    <div className="block">
+                      {!reviews ? (
+                        <button
+                          onClick={reviewSet}
+                          className="text-right font-semibold block text-[#097969] "
+                        >
+                          View More
+                        </button>
+                      ) : null}
+                      {reviews ? (
+                        <button
+                          onClick={reviewSet}
+                          className="text-right font-semibold block text-[#097969] "
+                        >
+                          View less
+                        </button>
+                      ) : null}
+                      <button className="border-2 border-[#097969] rounded w-[100px] px-[4%] py-[5%] my-[15%] font-semibold block ">
+                        {" "}
+                        Report This
+                      </button>
+                    </div>
+                  </div>
+                  <div className=" items-center mb-[5%] mt-[2%]">
+                    <p className="pt-[1%]">
+                      <b>Emily Thompson :</b>"I've been using Ambrosia for a few
+                      weeks now, and it's made a significant difference in my
+                      bloating and discomfort after meals. It's become a staple
+                      in my daily routine, and I feel much better overall."
+                    </p>{" "}
+                    {reviews ? (
+                      <div className="">
+                        <p className="pt-[1%]">
+                          <b>David Patel :</b>"I've struggled with digestive
+                          issues for years, but Ambrosia has been a
+                          game-changer. It's gentle on my stomach, and I've
+                          noticed a reduction in acid reflux and indigestion.
+                          Highly recommended!"
+                        </p>{" "}
+                        <p className="pt-[1%]">
+                          <b>Sarah Walker :</b>"I was a bit skeptical about
+                          herbal supplements at first, but this one pleasantly
+                          surprised me. It's been easy on my sensitive stomach,
+                          and I've experienced less gas and discomfort. I
+                          appreciate the natural approach to digestive health."
+                        </p>{" "}
+                        <p className="pt-[1%]">
+                          <b>James O'Connor :</b>"As someone who enjoys spicy
+                          foods, I often have digestive issues. Ambrosia has
+                          helped me manage those issues effectively. I've
+                          noticed less heartburn and a smoother overall
+                          digestion process."
+                        </p>
+                        <p className="pt-[1%]">
+                          <b>Charlotte Hughes :</b>"I lead a busy life, and
+                          stress can take a toll on my digestion. Ambrosia has
+                          become my go-to solution for maintaining a healthy
+                          gut. It's soothing and has improved my overall
+                          digestive comfort."
+                        </p>
+                      </div>
+                    ) : null}
                   </div>
                 </div>
-                <div className="">
-                  <h1 className="text-right font-semibold ">View More</h1>
-                  <button className="border-2 border-[#097969] rounded w-[100px] px-[4%] py-[5%] my-[15%] font-semibold ">
-                    {" "}
-                    Report This
-                  </button>
-                </div>
               </div>
-              <p className="">
-                It's fragrance is so good. I'm just fan of it and it makes
-                screen so smooth. Loving it.
-              </p>
             </div>
 
             <div className="flex mt-[4%]">

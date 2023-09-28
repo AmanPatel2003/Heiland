@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsStarFill } from "react-icons/bs";
+
 import { FaAmazon } from "react-icons/fa";
 
 import logo1 from "../logos/logo1.png";
@@ -9,13 +9,15 @@ import logo4 from "../logos/logo4.png";
 import logo5 from "../logos/logo5.png";
 
 export const Hibiscus = () => {
-   const [slider1, setSlider1] = useState(0);
-   const [slider2, setSlider2] = useState(0);
-   const [slider3, setSlider3] = useState(0);
+  const [reviews, setReviews] = useState(false);
+
+  const reviewSet = () => {
+    setReviews(!reviews);
+  };
 
    return (
      <div className="">
-       <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full bg-[#f3ffed bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
+       <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full bg-[#f3ffed bg-[#fcfce4] mt-[73px]">
          <div className="flex xs:block sm:block pb-[10%]">
            <div className="w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[15%] ">
              <img
@@ -112,96 +114,59 @@ export const Hibiscus = () => {
                </h1>
              </div>
 
-             <div className="flex w-full h-full  py-[5%] border-y-2 border-[#097969]">
-               <div className="w-[40%] h-full text-center">
-                 <h1 className="font-bold text-lg mb-[10%]">
-                   Rating & Reviews
-                 </h1>
-                 <h1 className="">
-                   <span className="font-bold text-2xl">4.6</span>
-                   <span className="font-semibold text-lg">/5</span>
-                 </h1>
-                 <div className="flex py-[4%] justify-between px-[20%] ">
-                   <BsStarFill className="text-[#097969]" />
-                   <BsStarFill className="text-[#097969]" />
-                   <BsStarFill className="text-[#097969]" />
-                   <BsStarFill className="text-[#097969]" />
-                   <BsStarFill className="text-[#097969]" />
-                 </div>
-                 <p className="">322 verified users</p>
-               </div>
-
-               <div className="w-[60%] h-full border-l-2 border-[#097969] m-auto py-[5%] px-[5%]">
-                 <div className="mb-[5%]">
-                   <h1 className="">Performance</h1>
-                   <div className="flex items-center mt-[2%]">
-                     <input
-                       className="h-[5px] bg-[#097969]  w-[80%]"
-                       type="range"
-                       min="0"
-                       max="100"
-                       step="1"
-                       value={slider1}
-                       onChange={(e) => setSlider1(e.target.value)}
-                     />
-                     <h1 className="ml-[4%]">{slider1}%</h1>
-                   </div>
-                 </div>
-                 <div className="mb-[5%]">
-                   <h1 className="">Quality</h1>
-                   <div className="flex items-center">
-                     <input
-                       className="h-[5px] w-[80%]"
-                       type="range"
-                       min="0"
-                       max="100"
-                       step="1"
-                       value={slider2}
-                       onChange={(e) => setSlider2(e.target.value)}
-                     />
-                     <h1 className="ml-[4%]">{slider2}%</h1>
-                   </div>
-                 </div>
-                 <div className="">
-                   <h1 className="">Value</h1>
-                   <div className="flex items-center">
-                     <input
-                       className="h-[5px] w-[80%]"
-                       type="range"
-                       min="0"
-                       max="100"
-                       step="1"
-                       value={slider3}
-                       onChange={(e) => setSlider3(e.target.value)}
-                     />
-                     <h1 className="ml-[4%]">{slider3}%</h1>
-                   </div>
-                 </div>
-               </div>
-             </div>
-             <div className=" py-[4%] border-b-2 border-[#097969]">
+             <div className=" py-[4%] border-y-2 border-[#097969]">
                <div className="flex justify-between">
-                 <div className="">
-                   <h1 className="text-lg font-bold">Customer Reviews</h1>
-                   <p className="my-[5%] font-semibold">I Love the fragrance</p>
-                   <div className="flex  items-center mb-[5%]">
-                     <span className="">Plyush</span>
-                     <BsStarFill className="text-[#097969] ml-[4%]" />
-                     <p className="ml-[5px]">4</p>
+                 <div className="w-full">
+                   <div className="flex justify-between">
+                     <div className="">
+                       <h1 className="text-lg font-bold">Customer Reviews</h1>
+                       <p className="my-[5%] font-semibold">
+                         I Love the Ambrosia
+                       </p>
+                     </div>
+                     <div className="block">
+                       {!reviews ? (
+                         <button
+                           onClick={reviewSet}
+                           className="text-right font-semibold block text-[#097969] "
+                         >
+                           View More
+                         </button>
+                       ) : null}
+                       {reviews ? (
+                         <button
+                           onClick={reviewSet}
+                           className="text-right font-semibold block text-[#097969] "
+                         >
+                           View less
+                         </button>
+                       ) : null}
+                       <button className="border-2 border-[#097969] rounded w-[100px] px-[4%] py-[5%] my-[15%] font-semibold block ">
+                         {" "}
+                         Report This
+                       </button>
+                     </div>
+                   </div>
+                   <div className=" items-center mb-[5%] mt-[2%]">
+                     <p className="">
+                       <b>Lily:</b> "Hibiscus tea is a vibrant, tangy delight.
+                       Its bright red color is a visual treat, and the tart,
+                       fruity flavor is refreshing. It's a great alternative to
+                       sugary drinks."
+                     </p>
+                     {reviews ? (
+                       <div className="">
+                         <p className="pt-[1%]">
+                           <b>William :</b> "I tried hibiscus tea expecting a
+                           sweeter taste, but it's quite tart. It's not my
+                           personal favorite, but I can see how some might enjoy
+                           its unique flavor profile"
+                         </p>{" "}
+                       </div>
+                     ) : null}
                    </div>
                  </div>
-                 <div className="">
-                   <h1 className="text-right font-semibold ">View More</h1>
-                   <button className="border-2 border-[#097969] rounded w-[100px] px-[4%] py-[5%] my-[15%] font-semibold ">
-                     {" "}
-                     Report This
-                   </button>
-                 </div>
                </div>
-               <p className="">
-                 It's fragrance is so good. I'm just fan of it and it makes
-                 screen so smooth. Loving it.
-               </p>
              </div>
 
              <div className="flex mt-[4%]">
