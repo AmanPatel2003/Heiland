@@ -27,42 +27,56 @@ const reviewSet = () => {
            />
          </div>
          <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
-           <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
+           <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">
              Clayglow
            </h1>
-           <span className=" text-xl">
+           <span className="">
              ("Fuller's Earth will Unearth Your Natural Radiance.")
            </span>
 
-           <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
-             <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
+           <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-full w-full  sm:justify-center xs:justify-center">
+             <div className=" h-full w-full text-center items-center flex-col">
                <img
                  src={logo1}
                  alt=""
-                 className="h-full w-[90%  mt-[8%] md:my-[10%] "
+                 className=" h-[95px] xs:h-[75px] w-[90px] xs:w-[75px] md:h-[65px] md:w-[60px] mb-[5px] pt-[5px] m-auto"
                />
                <h1 className="text-xs font-bold  text-green-700">
                  CHEMICAL FREE
                </h1>
              </div>
-             <div className="h-full w-[20%] text-center">
-               <img src={logo2} alt="" className="h-full w-full " />
+             <div className="h-full w-full text-center">
+               <img
+                 src={logo2}
+                 alt=""
+                 className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[80px] m-auto"
+               />
                <h1 className="text-xs font-bold  text-green-700">
                  GLUTEN-FREE
                </h1>
              </div>
-             <div className="h-full w-[20%] text-center">
-               <img src={logo3} alt="" className="h-full w-full " />
-               <h1 className="text-xs font-bold  text-green-700">
-                 GLUTEN-FREE
-               </h1>
+             <div className="h-full w-full text-center">
+               <img
+                 src={logo3}
+                 alt=""
+                 className=" h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+               />
+               <h1 className="text-xs font-bold  text-green-700">SUGAR-FREE</h1>
              </div>
-             <div className="h-full w-[20%] text-center">
-               <img src={logo4} alt="" className="h-full w-full " />
+             <div className="h-full w-full text-center">
+               <img
+                 src={logo4}
+                 alt=""
+                 className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+               />
                <h1 className="text-xs font-bold  text-green-700">VEGAN</h1>
              </div>
-             <div className="h-full w-[20%] text-center">
-               <img src={logo5} alt="" className="h-full w-full " />
+             <div className="h-full w-full text-center">
+               <img
+                 src={logo5}
+                 alt=""
+                 className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+               />
                <h1 className="text-xs font-bold  text-green-700">
                  CRUELTY FREE
                </h1>
@@ -88,11 +102,11 @@ const reviewSet = () => {
              <li className="list-disc mt-[4%]">Natural Glow</li>
            </ul>
 
-           <p className="text-sm font-semibold mt-[4%]">
+           {/* <p className="text-sm font-semibold mt-[4%]">
              Boosting Liver is a mojor advantage of Ambrosia
-           </p>
+           </p> */}
 
-           <div className="">
+           <div className=" mt-[4%]">
              <h1 className="text-lg font-bold">How to comsume?</h1>
              <p className="">
                For Face take 1 tea spoon of powder add Rose water or Yogurt
@@ -145,44 +159,71 @@ const reviewSet = () => {
                        </button>
                      ) : null}
                      <button className="border-2 border-[#097969] rounded w-[100px] px-[4%] py-[5%] my-[15%] font-semibold block ">
-                       
                        Report This
                      </button>
                    </div>
                  </div>
                  <div className=" items-center mb-[5%] mt-[2%]">
-                   <p className="">
-                     <b>Mia:</b>"Clayglow mask is a miracle worker for my
-                     acne-prone skin. It absorbs excess oil, tightens pores, and
-                     leaves my skin feeling clean and rejuvenated. I can't
-                     recommend it enough!"
-                   </p>
+                   <div className="">
+                     <p className="pb-[1%]">
+                       {" "}
+                       <b>Mia:</b>
+                     </p>{" "}
+                     <p className="">
+                       <b>Review :</b> "Clayglow mask is a miracle worker for my
+                       acne-prone skin. It absorbs excess oil, tightens pores,
+                       and leaves my skin feeling clean and rejuvenated. I can't
+                       recommend it enough!"
+                     </p>
+                   </div>
                    {reviews ? (
                      <div className="">
-                       <p className="pt-[1%]">
-                         <b>Liam :</b> "I've heard great things about Clayglow
-                         masks, but I found it a bit too drying for my sensitive
-                         skin. It did help with oil control, but I needed to use
-                         a heavy moisturizer afterward."
-                       </p>
-                       <p className="pt-[1%]">
-                         <b>Grace :</b> " Clayglow mask is a reliable choice for
-                         a deep cleanse. It's especially effective for removing
-                         impurities and reducing acne breakouts. I like to mix
-                         it with rose water for added benefits."
-                       </p>
-                       <p className="pt-[1%]">
-                         <b>David :</b>"Clayglow mask is my go-to solution for
-                         acne and oily skin. It's natural, affordable, and
-                         incredibly effective. I use it regularly, and it's
-                         never let me down."
-                       </p>
-                       <p className="pt-[1%]">
-                         <b>Olivia :</b> "Clayglow mask is a classic for a
-                         reason. It's a simple yet powerful treatment for
-                         clearer skin. I appreciate that it's versatile and can
-                         be customized with other ingredients."
-                       </p>
+                       <div className="pt-[2%]">
+                         <p className="pb-[1%]">
+                           {" "}
+                           <b>Liam :</b>{" "}
+                         </p>{" "}
+                         <p className="">
+                           <b>Review :</b> "I've heard great things about
+                           Clayglow masks, but I found it a bit too drying for
+                           my sensitive skin. It did help with oil control, but
+                           I needed to use a heavy moisturizer afterward."
+                         </p>
+                       </div>
+                       <div className="pt-[2%]">
+                         <p className="pb-[1%]">
+                           {" "}
+                           <b>Grace :</b>
+                         </p>{" "}
+                         <p className="">
+                           <b>Review :</b> " Clayglow mask is a reliable choice
+                           for a deep cleanse. It's especially effective for
+                           removing impurities and reducing acne breakouts. I
+                           like to mix it with rose water for added benefits."
+                         </p>
+                       </div>
+                       <div className="pt-[2%]">
+                         <p className="pb-[1%]">
+                           <b>David :</b>
+                         </p>{" "}
+                         <p className="">
+                           <b>Review :</b>" Clayglow mask is my go-to solution
+                           for acne and oily skin. It's natural, affordable, and
+                           incredibly effective. I use it regularly, and it's
+                           never let me down."
+                         </p>
+                       </div>
+                       <div className="pt-[2%]">
+                         <p className="pb-[1%]">
+                           <b>Olivia :</b>
+                         </p>{" "}
+                         <p className="">
+                           <b>Review :</b> "Clayglow mask is a classic for a
+                           reason. It's a simple yet powerful treatment for
+                           clearer skin. I appreciate that it's versatile and
+                           can be customized with other ingredients."
+                         </p>
+                       </div>
                      </div>
                    ) : null}
                  </div>
@@ -283,7 +324,6 @@ const reviewSet = () => {
            </div>
            <div className=" text-center">
              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-               
                <img
                  src="https://tse2.mm.bing.net/th?id=OIP.ImmrkgATgNztf4RXyUBb8wHaFj&pid=Api&P=0&h=180"
                  alt=""

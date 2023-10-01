@@ -28,40 +28,56 @@ export const Chamomile = () => {
             />
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
-            <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
+            <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">
               Chamomile Tea
             </h1>
-            <span className=" text-xl">(“Sip Stress away”)</span>
+            <span className="">(“Sip Stress away”)</span>
 
-            <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
-              <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
+            <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-full w-full  sm:justify-center xs:justify-center">
+              <div className=" h-full w-full text-center items-center flex-col">
                 <img
                   src={logo1}
                   alt=""
-                  className="h-full w-[90%  mt-[8%] md:my-[10%] "
+                  className=" h-[95px] xs:h-[75px] w-[90px] xs:w-[75px] md:h-[65px] md:w-[60px] mb-[5px] pt-[5px] m-auto"
                 />
                 <h1 className="text-xs font-bold  text-green-700">
                   CHEMICAL FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo2} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo2}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[80px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   GLUTEN-FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo3} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo3}
+                  alt=""
+                  className=" h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
-                  GLUTEN-FREE
+                  SUGAR-FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo4} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo4}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">VEGAN</h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo5} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo5}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   CRUELTY FREE
                 </h1>
@@ -86,11 +102,11 @@ export const Chamomile = () => {
               <li className="list-disc mt-[4%]"> Mental Clarity</li>
             </ul>
 
-            <p className="text-sm font-semibold mt-[4%]">
+            {/* <p className="text-sm font-semibold mt-[4%]">
               Boosting Liver is a mojor advantage of Ambrosia
-            </p>
+            </p> */}
 
-            <div className="">
+            <div className="mt-[4%]">
               <h1 className="text-lg font-bold">How to comsume?</h1>
               <p className="">
                 Use 1 teaspoon (approximately 1.5 grams) of dried tea powder for
@@ -141,29 +157,45 @@ export const Chamomile = () => {
                     </div>
                   </div>
                   <div className=" items-center mb-[5%] mt-[2%] ">
-                    <p className="">
-                      <b>Alice:</b> "Chamomile tea is my go-to bedtime drink. It
-                      has a soothing, calming effect that helps me relax and
-                      sleep better. The gentle, floral taste is comforting, and
-                      I wouldn't want to end my day without it."
-                    </p>
+                    <div className="">
+                      <p className="pb-[1%]">
+                        <b>Alice:</b>
+                      </p>{" "}
+                      <p className="">
+                        <b>Review :</b> "Chamomile tea is my go-to bedtime
+                        drink. It has a soothing, calming effect that helps me
+                        relax and sleep better. The gentle, floral taste is
+                        comforting, and I wouldn't want to end my day without
+                        it."
+                      </p>
+                    </div>
                     {reviews ? (
                       <div className="">
-                        <p className="pt-[1%]">
-                          <b>Peter :</b>"I recently started drinking chamomile
-                          tea for its potential health benefits. While it hasn't
-                          worked miracles, I do notice a subtle improvement in
-                          my digestion and overall sense of calm. Plus, it's a
-                          lovely, caffeine-free option."
+                        <div className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            {" "}
+                            <b>Peter :</b>
+                          </p>{" "}
+                          <p className="">
+                            <b>Review :</b> "I recently started drinking
+                            chamomile tea for its potential health benefits.
+                            While it hasn't worked miracles, I do notice a
+                            subtle improvement in my digestion and overall sense
+                            of calm. Plus, it's a lovely, caffeine-free option."
+                          </p>
+                        </div>{" "}
+                        <p className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            <b>Sarah :</b>
+                          </p>{" "}
+                          <p className="">
+                            <b>Review :</b> "Chamomile tea is my secret weapon
+                            against stress. It's become a part of my daily
+                            routine, and I find it incredibly soothing. The only
+                            reason I'm not giving it a perfect score is that I
+                            wish the flavor were a bit stronger."
+                          </p>
                         </p>{" "}
-                        <p className="pt-[1%]">
-                          <b>Sarah :</b>"Chamomile tea is my secret weapon
-                          against stress. It's become a part of my daily
-                          routine, and I find it incredibly soothing. The only
-                          reason I'm not giving it a perfect score is that I
-                          wish the flavor were a bit stronger."
-                        </p>{" "}
-                       
                       </div>
                     ) : null}
                   </div>

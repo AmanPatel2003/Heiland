@@ -3,9 +3,8 @@ import img from "./images/adviceSupplement.jpg";
 
 export const SupplementsAdvice = () => {
   return (
-    // <div className="w-full bg-[#fcfce4] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]">
     <div className="w-full bg-[#fcfce4] mt-[73px] ]">
-      <div className="text-5xl xs:text-4xl font-semibold  text-center py-[5%] border-b-4 border-[#097969]">
+      <div className="text-5xl xs:text-4xl font-semibold  text-center py-[4%] border-b-4 border-[#097969]">
        Herbal supplements
       </div>
       <div className="flex py-[5%] md:block sm:block xs:block md:px-[10%] sm:px-[10%] xs:px-[10%] ">

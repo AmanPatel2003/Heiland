@@ -26,40 +26,56 @@ export const ScarletGlow = () => {
             />
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
-            <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
+            <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">
               ScarletGlow
             </h1>
-            <span className=" text-xl">("Complexion Refinement")</span>
+            <span className=" ">("Complexion Refinement")</span>
 
-            <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
-              <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
+            <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-full w-full  sm:justify-center xs:justify-center">
+              <div className=" h-full w-full text-center items-center flex-col">
                 <img
                   src={logo1}
                   alt=""
-                  className="h-full w-[90%  mt-[8%] md:my-[10%] "
+                  className=" h-[95px] xs:h-[75px] w-[90px] xs:w-[75px] md:h-[65px] md:w-[60px] mb-[5px] pt-[5px] m-auto"
                 />
                 <h1 className="text-xs font-bold  text-green-700">
                   CHEMICAL FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo2} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo2}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[80px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   GLUTEN-FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo3} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo3}
+                  alt=""
+                  className=" h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
-                  GLUTEN-FREE
+                  SUGAR-FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo4} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo4}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">VEGAN</h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo5} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo5}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   CRUELTY FREE
                 </h1>
@@ -87,11 +103,11 @@ export const ScarletGlow = () => {
               </li>
             </ul>
 
-            <p className="text-sm font-semibold mt-[4%]">
+            {/* <p className="text-sm font-semibold mt-[4%]">
               Boosting Liver is a mojor advantage of Ambrosia
-            </p>
+            </p> */}
 
-            <div className="">
+            <div className="mt-[4%]">
               <h1 className="text-lg font-bold">How to comsume?</h1>
               <p className="">
                 For Face take 1 tea spoon of powder add Rose water or Yogurt
@@ -150,22 +166,32 @@ export const ScarletGlow = () => {
                     </div>
                   </div>
                   <div className=" items-center mb-[5%] mt-[2%]">
-                    <p className="">
-                      <b>Sophie:</b>"The ScarletGlow mask left my skin feeling
-                      soft and refreshed. It's gentle and didn't irritate my
-                      sensitive skin. I noticed a subtle improvement in my
-                      skin's texture."
-                    </p>
+                    <div className="">
+                      <p className="pb-[1%]">
+                        {" "}
+                        <b>Sophie:</b>
+                      </p>{" "}
+                      <p className="">
+                        <b>Review :</b> "The ScarletGlow mask left my skin
+                        feeling soft and refreshed. It's gentle and didn't
+                        irritate my sensitive skin. I noticed a subtle
+                        improvement in my skin's texture."
+                      </p>
+                    </div>
                     {reviews ? (
                       <div className="">
-                        <p className="pt-[1%]">
-                          <b>Ethan :</b>"I tried the ScarletGlow mask after
-                          hearing about its exfoliating properties, but it
-                          didn't have a significant impact on my skin. It's a
-                          decent option for a gentle scrub, but I expected
-                          more."
-                        </p>{" "}
-                       
+                        <div className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            <b>Ethan :</b>
+                          </p>{" "}
+                          <p className="">
+                            <b>Review :</b> "I tried the ScarletGlow mask after
+                            hearing about its exfoliating properties, but it
+                            didn't have a significant impact on my skin. It's a
+                            decent option for a gentle scrub, but I expected
+                            more."
+                          </p>
+                        </div>{" "}
                       </div>
                     ) : null}
                   </div>

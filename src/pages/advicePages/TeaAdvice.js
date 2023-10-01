@@ -4,8 +4,8 @@ import img from "./images/adviceTea.webp";
 
 export const TeaAdvice = () => {
   return (
-    <div className="w-full bg-[#fcfce4] mt-[5%] xl:mt-[73px] ">
-      <div className="text-5xl font-semibold text-center py-[3%] xs:py-[9%] border-b-4 border-[#097969]">
+    <div className="w-full bg-[#fcfce4] mt-[73px] ">
+      <div className="text-5xl font-semibold text-center py-[4%]  border-b-4 border-[#097969]">
         Herbal Tea's
       </div>
       <div className="flex py-[5%] md:block sm:block xs:block md:px-[10%] sm:px-[10%] xs:px-[10%] ">

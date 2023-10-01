@@ -29,42 +29,56 @@ export const Satavari = () => {
             />
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
-            <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
+            <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">
               Shatavari
             </h1>
-            <span className=" text-xl">
-              (Nourishing life, Gift to wellness)
-            </span>
+            <span className=" ">(Nourishing life, Gift to wellness)</span>
 
-            <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
-              <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
+            <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-full w-full  sm:justify-center xs:justify-center">
+              <div className=" h-full w-full text-center items-center flex-col">
                 <img
                   src={logo1}
                   alt=""
-                  className="h-full w-[90%  mt-[8%] md:my-[10%] "
+                  className=" h-[95px] xs:h-[75px] w-[90px] xs:w-[75px] md:h-[65px] md:w-[60px] mb-[5px] pt-[5px] m-auto"
                 />
                 <h1 className="text-xs font-bold  text-green-700">
                   CHEMICAL FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo2} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo2}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[80px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   GLUTEN-FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo3} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo3}
+                  alt=""
+                  className=" h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
-                  GLUTEN-FREE
+                  SUGAR-FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo4} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo4}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">VEGAN</h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo5} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo5}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   CRUELTY FREE
                 </h1>
@@ -84,11 +98,11 @@ export const Satavari = () => {
               <li className="list-disc mt-[4%]">treat endometriosis</li>
             </ul>
 
-            <p className="text-sm font-semibold mt-[4%]">
+            {/* <p className="text-sm font-semibold mt-[4%]">
               Boosting Liver is a mojor advantage of Ambrosia
-            </p>
+            </p> */}
 
-            <div className="">
+            <div className="mt-[4%]">
               <h1 className="text-lg font-bold">How to comsume?</h1>
               <p className="">
                 1-2 capsules after each meal depending upon the severity consume
@@ -129,48 +143,67 @@ export const Satavari = () => {
                         </button>
                       ) : null}
                       <button className="border-2 border-[#097969] rounded w-[100px] px-[4%] py-[5%] my-[15%] font-semibold block ">
-                        
                         Report This
                       </button>
                     </div>
                   </div>
                   <div className=" items-center mb-[5%] mt-[2%]">
-                    <p className="">
-                      <b>Aisha :</b> "Shatavari capsules have been a lifesaver
-                      during my postpartum journey. They've helped me maintain
-                      hormonal balance, increase my breast milk supply, and
-                      manage fatigue. The only reason I'm not giving it a
-                      perfect score is the mild aftertaste, but the benefits far
-                      outweigh that."
-                    </p>
+                    <div className="">
+                      <p className="pb-[1%]">
+                        <b>Aisha :</b>
+                      </p>{" "}
+                      <p className="">
+                        <b>Review :</b> "Shatavari capsules have been a
+                        lifesaver during my postpartum journey. They've helped
+                        me maintain hormonal balance, increase my breast milk
+                        supply, and manage fatigue. The only reason I'm not
+                        giving it a perfect score is the mild aftertaste, but
+                        the benefits far outweigh that."
+                      </p>
+                    </div>
                     {reviews ? (
                       <div className="">
-                        <p className="pt-[1%]">
-                          <b> David :</b>"I tried Shatavari capsules
-                          for a few weeks to address digestive issues and
-                          enhance overall wellness. While I did experience some
-                          improvement in digestion, the effects weren't as
-                          pronounced as I had hoped. It might work better for
-                          others with different needs."
-                        </p>
-                        <p className="pt-[1%]">
-                          <b>Sophie :</b> "Shatavari capsules have become a
-                          staple in my self-care routine. I've noticed a
-                          significant improvement in my skin's hydration, and my
-                          menstrual cycles have become more regular and less
-                          painful. I feel more balanced overall, and I highly
-                          recommend giving them a try."
-                        </p>
-                        <p className="pt-[1%]">
-                          <b>Michael:</b> "I've been taking Shatavari capsules
-                          for a while now to support my overall vitality and
-                          energy levels. While I can't say I've experienced a
-                          dramatic boost in energy, I do feel a subtle
-                          improvement in my overall well-being. It's a gentle
-                          and natural way to promote health."
-                        </p>
-                     
-                     
+                        <div className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            {" "}
+                            <b> David :</b>
+                          </p>{" "}
+                          <p className="">
+                            <b>Review :</b> "I tried Shatavari capsules for a
+                            few weeks to address digestive issues and enhance
+                            overall wellness. While I did experience some
+                            improvement in digestion, the effects weren't as
+                            pronounced as I had hoped. It might work better for
+                            others with different needs."
+                          </p>
+                        </div>
+                        <div className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            {" "}
+                            <b>Sophie :</b>
+                          </p>{" "}
+                          <p className="">
+                            <b>Review :</b> "Shatavari capsules have become a
+                            staple in my self-care routine. I've noticed a
+                            significant improvement in my skin's hydration, and
+                            my menstrual cycles have become more regular and
+                            less painful. I feel more balanced overall, and I
+                            highly recommend giving them a try."
+                          </p>
+                        </div>
+                        <div className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            <b>Michael:</b>
+                          </p>{" "}
+                          <p className="">
+                            <b>Review :</b> "I've been taking Shatavari capsules
+                            for a while now to support my overall vitality and
+                            energy levels. While I can't say I've experienced a
+                            dramatic boost in energy, I do feel a subtle
+                            improvement in my overall well-being. It's a gentle
+                            and natural way to promote health."
+                          </p>
+                        </div>
                       </div>
                     ) : null}
                   </div>
@@ -271,7 +304,6 @@ export const Satavari = () => {
             </div>
             <div className=" text-center">
               <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-                
                 <img
                   src="https://tse2.mm.bing.net/th?id=OIP.ImmrkgATgNztf4RXyUBb8wHaFj&pid=Api&P=0&h=180"
                   alt=""

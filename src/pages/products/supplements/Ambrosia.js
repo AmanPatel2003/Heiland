@@ -32,40 +32,56 @@ export const Ambrosia = () => {
             />
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
-            <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
+            <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">
               Ambrosia
             </h1>
-            <span className=" text-xl">(Empowering Gut)</span>
+            <span className=" ">(Empowering Gut)</span>
 
-            <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
-              <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
+            <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-full w-full  sm:justify-center xs:justify-center">
+              <div className=" h-full w-full text-center ">
                 <img
                   src={logo1}
                   alt=""
-                  className="h-full w-[90%  mt-[8%] md:my-[10%] "
+                  className=" h-[95px] xs:h-[75px] w-[90px] xs:w-[75px] md:h-[65px] md:w-[60px] mb-[5px] pt-[5px] m-auto"
                 />
                 <h1 className="text-xs font-bold  text-green-700">
                   CHEMICAL FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo2} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo2}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[80px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   GLUTEN-FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo3} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo3}
+                  alt=""
+                  className=" h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
-                  GLUTEN-FREE
+                  SUGAR-FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo4} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo4}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">VEGAN</h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo5} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo5}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   CRUELTY FREE
                 </h1>
@@ -209,42 +225,72 @@ export const Ambrosia = () => {
                     </div>
                   </div>
                   <div className=" items-center mb-[5%] mt-[2%]">
-                    <p className="pt-[1%]">
-                      <b>Emily Thompson :</b>"I've been using Ambrosia for a few
-                      weeks now, and it's made a significant difference in my
-                      bloating and discomfort after meals. It's become a staple
-                      in my daily routine, and I feel much better overall."
-                    </p>{" "}
+                    <div className="pt-[1%]">
+                      <p className="pb-[1%]">
+                        <b>Emily Thompson :</b>
+                      </p>
+                      <p className="">
+                        <b>Review :</b> "I've been using Ambrosia for a few
+                        weeks now, and it's made a significant difference in my
+                        bloating and discomfort after meals. It's become a
+                        staple in my daily routine, and I feel much better
+                        overall."
+                      </p>
+                    </div>{" "}
                     {reviews ? (
                       <div className="">
-                        <p className="pt-[1%]">
-                          <b>David Patel :</b>"I've struggled with digestive
-                          issues for years, but Ambrosia has been a
-                          game-changer. It's gentle on my stomach, and I've
-                          noticed a reduction in acid reflux and indigestion.
-                          Highly recommended!"
-                        </p>{" "}
-                        <p className="pt-[1%]">
-                          <b>Sarah Walker :</b>"I was a bit skeptical about
-                          herbal supplements at first, but this one pleasantly
-                          surprised me. It's been easy on my sensitive stomach,
-                          and I've experienced less gas and discomfort. I
-                          appreciate the natural approach to digestive health."
-                        </p>{" "}
-                        <p className="pt-[1%]">
-                          <b>James O'Connor :</b>"As someone who enjoys spicy
-                          foods, I often have digestive issues. Ambrosia has
-                          helped me manage those issues effectively. I've
-                          noticed less heartburn and a smoother overall
-                          digestion process."
-                        </p>
-                        <p className="pt-[1%]">
-                          <b>Charlotte Hughes :</b>"I lead a busy life, and
-                          stress can take a toll on my digestion. Ambrosia has
-                          become my go-to solution for maintaining a healthy
-                          gut. It's soothing and has improved my overall
-                          digestive comfort."
-                        </p>
+                        <div className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            <b>David Patel :</b>
+                          </p>
+                          <p className="">
+                            <b>Review :</b> "I've struggled with digestive
+                            issues for years, but Ambrosia has been a
+                            game-changer. It's gentle on my stomach, and I've
+                            noticed a reduction in acid reflux and indigestion.
+                            Highly recommended!"
+                          </p>
+                        </div>{" "}
+                        <div className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            {" "}
+                            <b>Sarah Walker :</b>
+                          </p>
+                          <p className="">
+                            <b>Review :</b> "I was a bit skeptical about herbal
+                            supplements at first, but this one pleasantly
+                            surprised me. It's been easy on my sensitive
+                            stomach, and I've experienced less gas and
+                            discomfort. I appreciate the natural approach to
+                            digestive health."
+                          </p>
+                        </div>{" "}
+                        <div className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            {" "}
+                            <b>James O'Connor :</b>
+                          </p>
+                          <p className="">
+                            <b>Review :</b> "As someone who enjoys spicy foods,
+                            I often have digestive issues. Ambrosia has helped
+                            me manage those issues effectively. I've noticed
+                            less heartburn and a smoother overall digestion
+                            process."
+                          </p>
+                        </div>
+                        <div className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            {" "}
+                            <b>Charlotte Hughes :</b>
+                          </p>
+                          <p className="">
+                            <b>Review :</b> "I lead a busy life, and stress can
+                            take a toll on my digestion. Ambrosia has become my
+                            go-to solution for maintaining a healthy gut. It's
+                            soothing and has improved my overall digestive
+                            comfort."
+                          </p>
+                        </div>
                       </div>
                     ) : null}
                   </div>

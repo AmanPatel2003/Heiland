@@ -26,42 +26,58 @@ export const Golden = () => {
             />
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
-            <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px]">
+            <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">
               Golden Zest Mask
             </h1>
-            <span className=" text-xl">
+            <span className="">
               ("Nourish Skin Naturally with Citrus and Turmeric brilliance")
             </span>
 
-            <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-[130px] md:h-[95px]  sm:justify-center xs:justify-center">
-              <div className=" h-[90%] md:h-[85%]  w-[20%] text-center">
+            <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-full w-full  sm:justify-center xs:justify-center">
+              <div className=" h-full w-full text-center items-center flex-col">
                 <img
                   src={logo1}
                   alt=""
-                  className="h-full w-[90%  mt-[8%] md:my-[10%] "
+                  className=" h-[95px] xs:h-[75px] w-[90px] xs:w-[75px] md:h-[65px] md:w-[60px] mb-[5px] pt-[5px] m-auto"
                 />
                 <h1 className="text-xs font-bold  text-green-700">
                   CHEMICAL FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo2} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo2}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[80px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   GLUTEN-FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo3} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo3}
+                  alt=""
+                  className=" h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
-                  GLUTEN-FREE
+                  SUGAR-FREE
                 </h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo4} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo4}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">VEGAN</h1>
               </div>
-              <div className="h-full w-[20%] text-center">
-                <img src={logo5} alt="" className="h-full w-full " />
+              <div className="h-full w-full text-center">
+                <img
+                  src={logo5}
+                  alt=""
+                  className="h-[100px] xs:h-[80px] w-[100px] xs:w-[80px] md:h-[70px] md:w-[90px] m-auto"
+                />
                 <h1 className="text-xs font-bold  text-green-700">
                   CRUELTY FREE
                 </h1>
@@ -88,11 +104,11 @@ export const Golden = () => {
               <li className="list-disc mt-[4%]">Natural Glow</li>
             </ul>
 
-            <p className="text-sm font-semibold mt-[4%]">
+            {/* <p className="text-sm font-semibold mt-[4%]">
               Boosting Liver is a mojor advantage of Ambrosia
-            </p>
+            </p> */}
 
-            <div className="">
+            <div className="mt-[4%]">
               <h1 className="text-lg font-bold">How to comsume?</h1>
               <p className="">
                 For Face take 1 tea spoon of powder add Rose water or Honey or
@@ -146,27 +162,45 @@ export const Golden = () => {
                     </div>
                   </div>
                   <div className=" items-center mb-[5%] mt-[2%]">
-                    <p className="">
-                      <b>Sarah:</b>"The Golden Zest mask gave my skin a
-                      noticeable glow. It's refreshing and has a pleasant citrus
-                      scent. My only concern is that it can be a bit drying, so
-                      make sure to moisturize well afterward."
-                    </p>
+                    <div className="">
+                      <p className="pb-[1%]">
+                      <b>Sarah:</b>
+                      </p>{" "}
+                      <p className="">
+                        <b>Review :</b> "The Golden Zest mask gave my skin a
+                        noticeable glow. It's refreshing and has a pleasant
+                        citrus scent. My only concern is that it can be a bit
+                        drying, so make sure to moisturize well afterward."
+                      </p>
+                    </div>
                     {reviews ? (
                       <div className="">
-                        <p className="pt-[1%]">
-                          <b>Emily :</b> "I was excited to try the Golden Zest
-                          mask, but it didn't quite meet my expectations. While
-                          it smelled great and felt refreshing, I didn't see any
-                          significant improvements in my skin tone or texture."
-                        </p>{" "}
-                        <p className="pt-[1%]">
-                          <b>Daniel :</b> "I've been using the Golden Zest mask
-                          for a few weeks now, and it's become a staple in my
-                          skincare routine. My skin feels smoother and looks
-                          brighter. It's especially nice for combating oily
-                          skin."
-                        </p>{" "}
+                        <div className="pt-[2%]">
+                          <p className="pb-[1%]">
+                            {" "}
+                            <b>Emily :</b>
+                          </p>{" "}
+                          <p className="">
+                            <b>Review :</b> "I was excited to try the Golden
+                            Zest mask, but it didn't quite meet my expectations.
+                            While it smelled great and felt refreshing, I didn't
+                            see any significant improvements in my skin tone or
+                            texture."
+                          </p>
+                        </div>{" "}
+                        <div className="pt-[2%]">
+                          <p className="">
+                            {" "}
+                            <b>Daniel :</b>{" "}
+                          </p>{" "}
+                          <p className="">
+                            <b>Review :</b> "I've been using the Golden Zest
+                            mask for a few weeks now, and it's become a staple
+                            in my skincare routine. My skin feels smoother and
+                            looks brighter. It's especially nice for combating
+                            oily skin."
+                          </p>
+                        </div>{" "}
                       </div>
                     ) : null}
                   </div>
