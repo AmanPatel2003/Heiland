@@ -42,7 +42,7 @@ export const Rose = () => {
                   alt=""
                   className=" h-[95px] xs:h-[75px] w-[90px] xs:w-[75px] md:h-[65px] md:w-[60px] mb-[5px] pt-[5px] m-auto"
                 />
-                <h1 className="text-xs font-bold  text-green-700">
+                <h1 className="text-xs font-bold  text-green-700 mt-[5px]">
                   CHEMICAL FREE
                 </h1>
               </div>
@@ -104,7 +104,7 @@ export const Rose = () => {
               vitamin C content in rose tea may boost the immune system and help
               the body defend against infections. Cultural and Culinary Delight.
             </p>
-{/* 
+            {/* 
             <p className="text-sm font-semibold mt-[4%]">
               Boosting Liver is a mojor advantage of Ambrosia
             </p> */}

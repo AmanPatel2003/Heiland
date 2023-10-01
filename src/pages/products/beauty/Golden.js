@@ -40,7 +40,7 @@ export const Golden = () => {
                   alt=""
                   className=" h-[95px] xs:h-[75px] w-[90px] xs:w-[75px] md:h-[65px] md:w-[60px] mb-[5px] pt-[5px] m-auto"
                 />
-                <h1 className="text-xs font-bold  text-green-700">
+                <h1 className="text-xs font-bold  text-green-700 mt-[5px]">
                   CHEMICAL FREE
                 </h1>
               </div>
@@ -164,7 +164,7 @@ export const Golden = () => {
                   <div className=" items-center mb-[5%] mt-[2%]">
                     <div className="">
                       <p className="pb-[1%]">
-                      <b>Sarah:</b>
+                        <b>Sarah:</b>
                       </p>{" "}
                       <p className="">
                         <b>Review :</b> "The Golden Zest mask gave my skin a
