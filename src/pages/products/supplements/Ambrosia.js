@@ -122,7 +122,7 @@ export const Ambrosia = () => {
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content-60 Primium Capsules
+                Net content-60 Premium Capsules
               </h1>
             </div>
 
@@ -197,9 +197,7 @@ export const Ambrosia = () => {
                   <div className="flex justify-between">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                      <p className="my-[5%] font-semibold">
-                        I Love the Ambrosia
-                      </p>
+                
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -230,11 +228,11 @@ export const Ambrosia = () => {
                         <b>Emily Thompson :</b>
                       </p>
                       <p className="">
-                        <b>Review :</b> "I've been using Ambrosia for a few
+                        I've been using Ambrosia for a few
                         weeks now, and it's made a significant difference in my
                         bloating and discomfort after meals. It's become a
                         staple in my daily routine, and I feel much better
-                        overall."
+                        overall.
                       </p>
                     </div>{" "}
                     {reviews ? (
@@ -244,11 +242,11 @@ export const Ambrosia = () => {
                             <b>David Patel :</b>
                           </p>
                           <p className="">
-                            <b>Review :</b> "I've struggled with digestive
+                            I've struggled with digestive
                             issues for years, but Ambrosia has been a
                             game-changer. It's gentle on my stomach, and I've
                             noticed a reduction in acid reflux and indigestion.
-                            Highly recommended!"
+                            Highly recommended!
                           </p>
                         </div>{" "}
                         <div className="pt-[2%]">
@@ -257,12 +255,12 @@ export const Ambrosia = () => {
                             <b>Sarah Walker :</b>
                           </p>
                           <p className="">
-                            <b>Review :</b> "I was a bit skeptical about herbal
+                            I was a bit skeptical about herbal
                             supplements at first, but this one pleasantly
                             surprised me. It's been easy on my sensitive
                             stomach, and I've experienced less gas and
                             discomfort. I appreciate the natural approach to
-                            digestive health."
+                            digestive health.
                           </p>
                         </div>{" "}
                         <div className="pt-[2%]">
@@ -271,11 +269,11 @@ export const Ambrosia = () => {
                             <b>James O'Connor :</b>
                           </p>
                           <p className="">
-                            <b>Review :</b> "As someone who enjoys spicy foods,
+                            As someone who enjoys spicy foods,
                             I often have digestive issues. Ambrosia has helped
                             me manage those issues effectively. I've noticed
                             less heartburn and a smoother overall digestion
-                            process."
+                            process.
                           </p>
                         </div>
                         <div className="pt-[2%]">
@@ -284,11 +282,11 @@ export const Ambrosia = () => {
                             <b>Charlotte Hughes :</b>
                           </p>
                           <p className="">
-                            <b>Review :</b> "I lead a busy life, and stress can
+                          I lead a busy life, and stress can
                             take a toll on my digestion. Ambrosia has become my
                             go-to solution for maintaining a healthy gut. It's
                             soothing and has improved my overall digestive
-                            comfort."
+                            comfort.
                           </p>
                         </div>
                       </div>

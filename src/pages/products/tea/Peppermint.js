@@ -88,8 +88,8 @@ export const Peppermint = () => {
               Improves Digestion Specifically Miraculous herb for:
             </p>
             <ul className="pl-[6%]">
-              <li className="list-disc mt-[4%]">reliving IBS </li>
-              <li className="list-disc mt-[4%]"> indigestion</li>
+              <li className="list-disc mt-[4%]">Reliving IBS </li>
+              <li className="list-disc mt-[4%]"> Indigestion</li>
               <li className="list-disc mt-[4%]">Bloating and gastric</li>
               <li className="list-disc mt-[4%]">
                 Headache and Migraine Relief
@@ -114,10 +114,13 @@ export const Peppermint = () => {
                 tea. your Peppermint tea is ready to drink. Take small sips and
                 savor the soothing flavor. It's best enjoyed warm.
               </p>
+              <p className="py-[5px]">
+                <b> Optional:</b> honey or a slice of lemon for added flavor.
+              </p>
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content 250 Grms
+                Net content: 250 Grams
               </h1>
             </div>
 
@@ -127,9 +130,6 @@ export const Peppermint = () => {
                   <div className="flex justify-between">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                      <p className="my-[5%] font-semibold">
-                        I Love the Peppermint tea
-                      </p>
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -160,10 +160,10 @@ export const Peppermint = () => {
                         <b>Daniel:</b>
                       </p>{" "}
                       <p className="">
-                        <b>Review</b> "Peppermint tea is my all-time favorite.
-                        It's like a breath of fresh air in a cup. It's soothing
-                        for my stomach, and the minty flavor is invigorating. I
-                        can't get enough of it!"
+                        Peppermint tea is my all-time favorite. It's like a
+                        breath of fresh air in a cup. It's soothing for my
+                        stomach, and the minty flavor is invigorating. I can't
+                        get enough of it!
                       </p>
                     </div>
                     {reviews ? (
@@ -174,10 +174,10 @@ export const Peppermint = () => {
                             <b>Grace :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I turn to peppermint tea whenever I
-                            need relief from indigestion or nausea. It works
-                            like a charm. The cool, refreshing taste is a bonus,
-                            and it's a staple in my pantry."
+                            I turn to peppermint tea whenever I need relief from
+                            indigestion or nausea. It works like a charm. The
+                            cool, refreshing taste is a bonus, and it's a staple
+                            in my pantry."
                           </p>
                         </div>
                         <div className="pt-[2%]">
@@ -186,10 +186,10 @@ export const Peppermint = () => {
                             <b>Michael :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "Peppermint tea is a classic for a
-                            reason. It's incredibly soothing and has a natural,
-                            invigorating quality. It's my go-to choice for
-                            unwinding after a long day."
+                            Peppermint tea is a classic for a reason. It's
+                            incredibly soothing and has a natural, invigorating
+                            quality. It's my go-to choice for unwinding after a
+                            long day.
                           </p>
                         </div>
                       </div>

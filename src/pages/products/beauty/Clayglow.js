@@ -84,10 +84,7 @@ const reviewSet = () => {
            </div>
 
            <h1 className="text-lg font-bold">What does it do for you?</h1>
-           <p className="text-sm font-semibold mt-[4%]">
-             Supports in delivering a long term solution for all
-             <b> Gastrointestinal </b> issues such as:
-           </p>
+         
            <ul className="pl-[6%]">
              <li className="list-disc mt-[4%]">Deep cleansing </li>
              <li className="list-disc mt-[4%]">
@@ -97,17 +94,15 @@ const reviewSet = () => {
              </li>
              <li className="list-disc mt-[4%]">Acne control</li>
              <li className="list-disc mt-[4%]">Tightening Pores</li>
-             <li className="list-disc mt-[4%]">improving skin tone</li>
-             <li className="list-disc mt-[4%]">, Smoothening Irritable skin</li>
+             <li className="list-disc mt-[4%]">Improving skin tone</li>
+             <li className="list-disc mt-[4%]">Smoothening Irritable skin</li>
              <li className="list-disc mt-[4%]">Natural Glow</li>
            </ul>
 
-           {/* <p className="text-sm font-semibold mt-[4%]">
-             Boosting Liver is a mojor advantage of Ambrosia
-           </p> */}
+         
 
            <div className=" mt-[4%]">
-             <h1 className="text-lg font-bold">How to comsume?</h1>
+             <h1 className="text-lg font-bold">How to apply?</h1>
              <p className="">
                For Face take 1 tea spoon of powder add Rose water or Yogurt
                depending on skin type (for detailed info on please visit Advice
@@ -128,7 +123,7 @@ const reviewSet = () => {
              </p>
            </div>
            <div className="">
-             <h1 className="text-lg font-bold mb-[4%]">Net content 200Grms</h1>
+             <h1 className="text-lg font-bold mb-[4%]">Net content: 200 Grams</h1>
            </div>
 
            <div className=" py-[4%] border-y-2 border-[#097969]">
@@ -137,9 +132,7 @@ const reviewSet = () => {
                  <div className="flex justify-between">
                    <div className="">
                      <h1 className="text-lg font-bold">Customer Reviews</h1>
-                     <p className="my-[5%] font-semibold">
-                       I Love the Ambrosia
-                     </p>
+                   
                    </div>
                    <div className="block">
                      {!reviews ? (
@@ -170,10 +163,10 @@ const reviewSet = () => {
                        <b>Mia:</b>
                      </p>{" "}
                      <p className="">
-                       <b>Review :</b> "Clayglow mask is a miracle worker for my
+                       Clayglow mask is a miracle worker for my
                        acne-prone skin. It absorbs excess oil, tightens pores,
                        and leaves my skin feeling clean and rejuvenated. I can't
-                       recommend it enough!"
+                       recommend it enough!
                      </p>
                    </div>
                    {reviews ? (
@@ -184,10 +177,10 @@ const reviewSet = () => {
                            <b>Liam :</b>{" "}
                          </p>{" "}
                          <p className="">
-                           <b>Review :</b> "I've heard great things about
+                           I've heard great things about
                            Clayglow masks, but I found it a bit too drying for
                            my sensitive skin. It did help with oil control, but
-                           I needed to use a heavy moisturizer afterward."
+                           I needed to use a heavy moisturizer afterward.
                          </p>
                        </div>
                        <div className="pt-[2%]">
@@ -196,10 +189,10 @@ const reviewSet = () => {
                            <b>Grace :</b>
                          </p>{" "}
                          <p className="">
-                           <b>Review :</b> " Clayglow mask is a reliable choice
+                         Clayglow mask is a reliable choice
                            for a deep cleanse. It's especially effective for
                            removing impurities and reducing acne breakouts. I
-                           like to mix it with rose water for added benefits."
+                           like to mix it with rose water for added benefits.
                          </p>
                        </div>
                        <div className="pt-[2%]">
@@ -207,10 +200,10 @@ const reviewSet = () => {
                            <b>David :</b>
                          </p>{" "}
                          <p className="">
-                           <b>Review :</b>" Clayglow mask is my go-to solution
+                   Clayglow mask is my go-to solution
                            for acne and oily skin. It's natural, affordable, and
                            incredibly effective. I use it regularly, and it's
-                           never let me down."
+                           never let me down.
                          </p>
                        </div>
                        <div className="pt-[2%]">
@@ -218,10 +211,10 @@ const reviewSet = () => {
                            <b>Olivia :</b>
                          </p>{" "}
                          <p className="">
-                           <b>Review :</b> "Clayglow mask is a classic for a
+                Clayglow mask is a classic for a
                            reason. It's a simple yet powerful treatment for
                            clearer skin. I appreciate that it's versatile and
-                           can be customized with other ingredients."
+                           can be customized with other ingredients.
                          </p>
                        </div>
                      </div>

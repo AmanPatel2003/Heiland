@@ -89,26 +89,25 @@ export const Ginger = () => {
               nausea, indigestion, bloating, and gas. It is especially effective
               for motion sickness and morning sickness during pregnancy
             </p>
+            <p className="py-[5px]">
+              <b> Optional:</b> honey or a slice of lemon for added flavor.
+            </p>
             <ul className="pl-[6%]">
               <li className="list-disc mt-[4%]">Anti-Inflammatory </li>
               <li className="list-disc mt-[4%]">Supports immune</li>
               <li className="list-disc mt-[4%]">
-                help your body fight off infections and colds
+                Help your body fight off infections and colds
               </li>
               <li className="list-disc mt-[4%]">
-                infused with antimicrobial components
+                Infused with antimicrobial components
               </li>
               <li className="list-disc mt-[4%]">Pain management</li>
               <li className="list-disc mt-[4%]">
-                regulates respiratory health
+                Regulates respiratory health
               </li>
               <li className="list-disc mt-[4%]">Stress Management</li>
-              <li className="list-disc mt-[4%]">, improve blood circulation</li>
+              <li className="list-disc mt-[4%]">Improve blood circulation</li>
             </ul>
-
-            {/* <p className="text-sm font-semibold mt-[4%]">
-              Boosting Liver is a mojor advantage of Ambrosia
-            </p> */}
 
             <div className="mt-[4%]">
               <h1 className="text-lg font-bold">How to comsume?</h1>
@@ -123,7 +122,7 @@ export const Ginger = () => {
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content 259 Grms
+                Net content: 250 Grams
               </h1>
             </div>
 
@@ -133,9 +132,6 @@ export const Ginger = () => {
                   <div className="flex justify-between">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                      <p className="my-[5%] font-semibold">
-                        I Love the Ambrosia
-                      </p>
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -166,11 +162,10 @@ export const Ginger = () => {
                         <b>Mia:</b>
                       </p>{" "}
                       <p className="">
-                        <b>Review :</b> "Ginger tea is my go-to remedy for upset
-                        stomachs and colds. It has a warming, invigorating
-                        quality that I love. It's both soothing and energizing,
-                        making it the perfect pick-me-up when I'm feeling under
-                        the weather."
+                        Ginger tea is my go-to remedy for upset stomachs and
+                        colds. It has a warming, invigorating quality that I
+                        love. It's both soothing and energizing, making it the
+                        perfect pick-me-up when I'm feeling under the weather.
                       </p>
                     </div>
                     {reviews ? (
@@ -181,11 +176,10 @@ export const Ginger = () => {
                             <b>James :</b>
                           </p>
                           <p className="">
-                            <b>Review :</b> "Ginger tea has become my daily
-                            ritual. I appreciate its spicy kick and its
-                            potential digestive benefits. It's a great
-                            caffeine-free alternative to other beverages, and I
-                            enjoy it both hot and cold."
+                            Ginger tea has become my daily ritual. I appreciate
+                            its spicy kick and its potential digestive benefits.
+                            It's a great caffeine-free alternative to other
+                            beverages, and I enjoy it both hot and cold.
                           </p>
                         </p>
                         <div className="pt-[2%]">
@@ -194,11 +188,10 @@ export const Ginger = () => {
                             <b>Olivia :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I've been exploring herbal teas,
-                            and ginger tea has caught my attention. It's
-                            pleasantly spicy and has a zingy flavor. I find it
-                            refreshing and soothing, especially after a heavy
-                            meal."
+                            I've been exploring herbal teas, and ginger tea has
+                            caught my attention. It's pleasantly spicy and has a
+                            zingy flavor. I find it refreshing and soothing,
+                            especially after a heavy meal.
                           </p>
                         </div>
                       </div>

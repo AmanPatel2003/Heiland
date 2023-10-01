@@ -94,17 +94,13 @@ export const Chamomile = () => {
                 Stress reduction and relaxation{" "}
               </li>
               <li className="list-disc mt-[4%]"> Improves Sleep</li>
-              <li className="list-disc mt-[4%]">improve digestion</li>
+              <li className="list-disc mt-[4%]">Improve digestion</li>
               <li className="list-disc mt-[4%]">Anti-Inflammatory</li>
               <li className="list-disc mt-[4%]">Enhance Skin Health</li>
               <li className="list-disc mt-[4%]">Support Immune</li>
               <li className="list-disc mt-[4%]">Menstrual Pain Relief</li>
               <li className="list-disc mt-[4%]"> Mental Clarity</li>
             </ul>
-
-            {/* <p className="text-sm font-semibold mt-[4%]">
-              Boosting Liver is a mojor advantage of Ambrosia
-            </p> */}
 
             <div className="mt-[4%]">
               <h1 className="text-lg font-bold">How to comsume?</h1>
@@ -116,10 +112,14 @@ export const Chamomile = () => {
                 tea. our chamomile tea is ready to drink. Take small sips and
                 savor the soothing flavor. It's best enjoyed warm.
               </p>
+              <p className="py-[5px]">
+                <b> Optional: </b>honey, lemon, or a slice of fresh ginger for
+                added flavor.
+              </p>
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content 250 Grms
+                Net content: 250 Grams
               </h1>
             </div>
 
@@ -129,9 +129,6 @@ export const Chamomile = () => {
                   <div className="flex justify-between ">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                      <p className="my-[5%] font-semibold">
-                        I Love the Ambrosia
-                      </p>
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -162,11 +159,10 @@ export const Chamomile = () => {
                         <b>Alice:</b>
                       </p>{" "}
                       <p className="">
-                        <b>Review :</b> "Chamomile tea is my go-to bedtime
-                        drink. It has a soothing, calming effect that helps me
-                        relax and sleep better. The gentle, floral taste is
-                        comforting, and I wouldn't want to end my day without
-                        it."
+                        Chamomile tea is my go-to bedtime drink. It has a
+                        soothing, calming effect that helps me relax and sleep
+                        better. The gentle, floral taste is comforting, and I
+                        wouldn't want to end my day without it.
                       </p>
                     </div>
                     {reviews ? (
@@ -177,11 +173,11 @@ export const Chamomile = () => {
                             <b>Peter :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I recently started drinking
-                            chamomile tea for its potential health benefits.
-                            While it hasn't worked miracles, I do notice a
-                            subtle improvement in my digestion and overall sense
-                            of calm. Plus, it's a lovely, caffeine-free option."
+                            I recently started drinking chamomile tea for its
+                            potential health benefits. While it hasn't worked
+                            miracles, I do notice a subtle improvement in my
+                            digestion and overall sense of calm. Plus, it's a
+                            lovely, caffeine-free option.
                           </p>
                         </div>{" "}
                         <p className="pt-[2%]">
@@ -189,11 +185,11 @@ export const Chamomile = () => {
                             <b>Sarah :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "Chamomile tea is my secret weapon
-                            against stress. It's become a part of my daily
-                            routine, and I find it incredibly soothing. The only
-                            reason I'm not giving it a perfect score is that I
-                            wish the flavor were a bit stronger."
+                            Chamomile tea is my secret weapon against stress.
+                            It's become a part of my daily routine, and I find
+                            it incredibly soothing. The only reason I'm not
+                            giving it a perfect score is that I wish the flavor
+                            were a bit stronger.
                           </p>
                         </p>{" "}
                       </div>

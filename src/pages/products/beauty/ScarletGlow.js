@@ -89,26 +89,24 @@ export const ScarletGlow = () => {
               removes:
             </p>
             <ul className="pl-[6%]">
-              <li className="list-disc mt-[4%]">dead skin </li>
-              <li className="list-disc mt-[4%]">oil and impurities</li>
+              <li className="list-disc mt-[4%]">Dead skin </li>
+              <li className="list-disc mt-[4%]">Oil and impurities</li>
               <li className="list-disc mt-[4%]">
-                leaving it feeling fresh and rejuvenated
+                Leaving it feeling fresh and rejuvenated
               </li>
               <li className="list-disc mt-[4%]">
                 {" "}
                 The mask may contribute to a natural
               </li>
               <li className="list-disc mt-[4%]">
-                healthy glow and a revitalized complexion
+                Healthy glow and a revitalized complexion
               </li>
             </ul>
 
-            {/* <p className="text-sm font-semibold mt-[4%]">
-              Boosting Liver is a mojor advantage of Ambrosia
-            </p> */}
+          
 
             <div className="mt-[4%]">
-              <h1 className="text-lg font-bold">How to comsume?</h1>
+              <h1 className="text-lg font-bold">How to apply?</h1>
               <p className="">
                 For Face take 1 tea spoon of powder add Rose water or Yogurt
                 depending on skin type (for detailed info on please visit Advice
@@ -129,7 +127,7 @@ export const ScarletGlow = () => {
               </p>
             </div>
             <div className="">
-              <h1 className="text-lg font-bold mb-[4%]">Net content 200Grms</h1>
+              <h1 className="text-lg font-bold mb-[4%]">Net content: 200 Grams</h1>
             </div>
 
             <div className=" py-[4%] border-y-2 border-[#097969]">
@@ -138,9 +136,7 @@ export const ScarletGlow = () => {
                   <div className="flex justify-between">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                      <p className="my-[5%] font-semibold">
-                        I Love the ScarletGlow Mask
-                      </p>
+                      
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -172,10 +168,10 @@ export const ScarletGlow = () => {
                         <b>Sophie:</b>
                       </p>{" "}
                       <p className="">
-                        <b>Review :</b> "The ScarletGlow mask left my skin
+                        The ScarletGlow mask left my skin
                         feeling soft and refreshed. It's gentle and didn't
                         irritate my sensitive skin. I noticed a subtle
-                        improvement in my skin's texture."
+                        improvement in my skin's texture.
                       </p>
                     </div>
                     {reviews ? (
@@ -185,11 +181,11 @@ export const ScarletGlow = () => {
                             <b>Ethan :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I tried the ScarletGlow mask after
+                          I tried the ScarletGlow mask after
                             hearing about its exfoliating properties, but it
                             didn't have a significant impact on my skin. It's a
                             decent option for a gentle scrub, but I expected
-                            more."
+                            more.
                           </p>
                         </div>{" "}
                       </div>

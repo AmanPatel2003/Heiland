@@ -98,16 +98,11 @@ export const Rose = () => {
               <li className="list-disc mt-[4%]">Weight Management</li>
             </ul>
             <p className="">
-              {" "}
               The antioxidants in rose tea may contribute to heart health by
               reducing oxidative stress and inflammation, Menstrual comfort. The
               vitamin C content in rose tea may boost the immune system and help
               the body defend against infections. Cultural and Culinary Delight.
             </p>
-            {/* 
-            <p className="text-sm font-semibold mt-[4%]">
-              Boosting Liver is a mojor advantage of Ambrosia
-            </p> */}
 
             <div className="">
               <h1 className="text-lg font-bold">How to comsume?</h1>
@@ -119,10 +114,13 @@ export const Rose = () => {
                 Rose tea is ready to drink. Take small sips and savor the
                 soothing flavor. It's best enjoyed warm.
               </p>
+              <p className="py-[5px]">
+                <b> Optional:</b> honey or a slice of lemon for added flavor.
+              </p>
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content 250 Grms
+                Net content: 250 Grams
               </h1>
             </div>
 
@@ -166,11 +164,10 @@ export const Rose = () => {
                         <b>Emma:</b>
                       </p>{" "}
                       <p className="">
-                        <b>Review :</b> "Rose tea is a delightful, fragrant
-                        experience. It's perfect for those times when I want a
-                        subtle, floral flavor. It's not overly strong, which I
-                        appreciate, and it's become a favorite for special
-                        occasions."
+                        Rose tea is a delightful, fragrant experience. It's
+                        perfect for those times when I want a subtle, floral
+                        flavor. It's not overly strong, which I appreciate, and
+                        it's become a favorite for special occasions.
                       </p>
                     </div>
                     {reviews ? (
@@ -181,11 +178,11 @@ export const Rose = () => {
                             <b>Liam :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I tried rose tea out of curiosity,
-                            and while it's a unique flavor, it didn't quite
-                            match my taste preferences. It's a bit too floral
-                            for my liking, but I can see how others might enjoy
-                            its delicate aroma."
+                            I tried rose tea out of curiosity, and while it's a
+                            unique flavor, it didn't quite match my taste
+                            preferences. It's a bit too floral for my liking,
+                            but I can see how others might enjoy its delicate
+                            aroma.
                           </p>
                         </div>{" "}
                       </div>

@@ -27,7 +27,7 @@ export const Golden = () => {
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">
-              Golden Zest Mask
+              Golden Zest 
             </h1>
             <span className="">
               ("Nourish Skin Naturally with Citrus and Turmeric brilliance")
@@ -85,31 +85,25 @@ export const Golden = () => {
             </div>
 
             <h1 className="text-lg font-bold">What does it do for you?</h1>
-            <p className="text-sm font-semibold mt-[4%]">
-              Supports in delivering a long term solution for all
-              <b> Gastrointestinal </b> issues such as:
-            </p>
+            
             <ul className="pl-[6%]">
               <li className="list-disc mt-[4%]">Brightening </li>
               <li className="list-disc mt-[4%]">
-                helping to even out skin tone and reduce the appearance of dark
+                Helping to even out skin tone and reduce the appearance of dark
                 spots and blemishes
               </li>
               <li className="list-disc mt-[4%]">
-                reduce redness and puffiness
+                Reduce redness and puffiness
               </li>
-              <li className="list-disc mt-[4%]">exfoliation</li>
+              <li className="list-disc mt-[4%]">Exfoliation</li>
               <li className="list-disc mt-[4%]">Acne control</li>
-              <li className="list-disc mt-[4%]">skin hydration</li>
+              <li className="list-disc mt-[4%]">Skin hydration</li>
               <li className="list-disc mt-[4%]">Natural Glow</li>
             </ul>
 
-            {/* <p className="text-sm font-semibold mt-[4%]">
-              Boosting Liver is a mojor advantage of Ambrosia
-            </p> */}
-
+        
             <div className="mt-[4%]">
-              <h1 className="text-lg font-bold">How to comsume?</h1>
+              <h1 className="text-lg font-bold">How to apply?</h1>
               <p className="">
                 For Face take 1 tea spoon of powder add Rose water or Honey or
                 Yogurt depending on skin type (for detailed info on please visit
@@ -125,7 +119,7 @@ export const Golden = () => {
               </p>
             </div>
             <div className="">
-              <h1 className="text-lg font-bold mb-[4%]">Net content 200Grms</h1>
+              <h1 className="text-lg font-bold mb-[4%]">Net content: 200 Grams</h1>
             </div>
 
             <div className=" py-[4%] border-y-2 border-[#097969]">
@@ -134,9 +128,7 @@ export const Golden = () => {
                   <div className="flex justify-between">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                      <p className="my-[5%] font-semibold">
-                        I Love the Ambrosia
-                      </p>
+                     
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -167,10 +159,10 @@ export const Golden = () => {
                         <b>Sarah:</b>
                       </p>{" "}
                       <p className="">
-                        <b>Review :</b> "The Golden Zest mask gave my skin a
+                        The Golden Zest mask gave my skin a
                         noticeable glow. It's refreshing and has a pleasant
                         citrus scent. My only concern is that it can be a bit
-                        drying, so make sure to moisturize well afterward."
+                        drying, so make sure to moisturize well afterward.
                       </p>
                     </div>
                     {reviews ? (
@@ -181,11 +173,11 @@ export const Golden = () => {
                             <b>Emily :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I was excited to try the Golden
+                            I was excited to try the Golden
                             Zest mask, but it didn't quite meet my expectations.
                             While it smelled great and felt refreshing, I didn't
                             see any significant improvements in my skin tone or
-                            texture."
+                            texture.
                           </p>
                         </div>{" "}
                         <div className="pt-[2%]">
@@ -194,11 +186,11 @@ export const Golden = () => {
                             <b>Daniel :</b>{" "}
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I've been using the Golden Zest
+                            I've been using the Golden Zest
                             mask for a few weeks now, and it's become a staple
                             in my skincare routine. My skin feels smoother and
                             looks brighter. It's especially nice for combating
-                            oily skin."
+                            oily skin.
                           </p>
                         </div>{" "}
                       </div>

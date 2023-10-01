@@ -91,27 +91,23 @@ export const Satavari = () => {
               muscle strength:
             </p>
             <ul className="pl-[6%]">
-              <li className="list-disc mt-[4%]">boost immunity </li>
-              <li className="list-disc mt-[4%]">balance hormones </li>
-              <li className="list-disc mt-[4%]">aids in relieving menopause</li>
-              <li className="list-disc mt-[4%]">support lactation</li>
-              <li className="list-disc mt-[4%]">treat endometriosis</li>
+              <li className="list-disc mt-[4%]">Boost immunity </li>
+              <li className="list-disc mt-[4%]">Balance hormones </li>
+              <li className="list-disc mt-[4%]">Aids in relieving menopause</li>
+              <li className="list-disc mt-[4%]">Support lactation</li>
+              <li className="list-disc mt-[4%]">Treat endometriosis</li>
             </ul>
-
-            {/* <p className="text-sm font-semibold mt-[4%]">
-              Boosting Liver is a mojor advantage of Ambrosia
-            </p> */}
 
             <div className="mt-[4%]">
               <h1 className="text-lg font-bold">How to comsume?</h1>
               <p className="">
-                1-2 capsules after each meal depending upon the severity consume
-                with normal to lukewarm water
+                2 capsules daily after the meal consume with Normal to Lukewarm
+                Milk
               </p>
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content-60 Primium Capsules
+                Net content-60 Premium Capsules
               </h1>
             </div>
 
@@ -121,9 +117,7 @@ export const Satavari = () => {
                   <div className="flex justify-between">
                     <div className="w-full">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                      <p className="my-[5%] font-semibold">
-                        I Love the Satavari
-                      </p>
+                     
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -153,12 +147,12 @@ export const Satavari = () => {
                         <b>Aisha :</b>
                       </p>{" "}
                       <p className="">
-                        <b>Review :</b> "Shatavari capsules have been a
+                        Shatavari capsules have been a
                         lifesaver during my postpartum journey. They've helped
                         me maintain hormonal balance, increase my breast milk
                         supply, and manage fatigue. The only reason I'm not
                         giving it a perfect score is the mild aftertaste, but
-                        the benefits far outweigh that."
+                        the benefits far outweigh that.
                       </p>
                     </div>
                     {reviews ? (
@@ -169,12 +163,12 @@ export const Satavari = () => {
                             <b> David :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I tried Shatavari capsules for a
+                            I tried Shatavari capsules for a
                             few weeks to address digestive issues and enhance
                             overall wellness. While I did experience some
                             improvement in digestion, the effects weren't as
                             pronounced as I had hoped. It might work better for
-                            others with different needs."
+                            others with different needs.
                           </p>
                         </div>
                         <div className="pt-[2%]">
@@ -183,12 +177,12 @@ export const Satavari = () => {
                             <b>Sophie :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "Shatavari capsules have become a
+                            Shatavari capsules have become a
                             staple in my self-care routine. I've noticed a
                             significant improvement in my skin's hydration, and
                             my menstrual cycles have become more regular and
                             less painful. I feel more balanced overall, and I
-                            highly recommend giving them a try."
+                            highly recommend giving them a try.
                           </p>
                         </div>
                         <div className="pt-[2%]">
@@ -196,12 +190,12 @@ export const Satavari = () => {
                             <b>Michael:</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I've been taking Shatavari capsules
+                            I've been taking Shatavari capsules
                             for a while now to support my overall vitality and
                             energy levels. While I can't say I've experienced a
                             dramatic boost in energy, I do feel a subtle
                             improvement in my overall well-being. It's a gentle
-                            and natural way to promote health."
+                            and natural way to promote health.
                           </p>
                         </div>
                       </div>

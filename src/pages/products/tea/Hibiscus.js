@@ -84,10 +84,7 @@ export const Hibiscus = () => {
             </div>
 
             <h1 className="text-lg font-bold">What does it do for you?</h1>
-            {/* <p className="text-sm font-semibold mt-[4%]">
-              Supports in delivering a long term solution for all
-              <b> Gastrointestinal </b> issues such as:
-            </p> */}
+
             <ul className="pl-[6%]">
               <li className="list-disc mt-[4%]">Anti-Oxidants powder </li>
               <li className="list-disc mt-[4%]">
@@ -95,10 +92,10 @@ export const Hibiscus = () => {
                 improved cholesterol levels
               </li>
               <li className="list-disc mt-[4%]">
-                potentially reducing the risk of heart disease
+                Potentially reducing the risk of heart disease
               </li>
               <li className="list-disc mt-[4%]">Weight Management</li>
-              <li className="list-disc mt-[4%]"> improves digestion</li>
+              <li className="list-disc mt-[4%]"> Improves digestion</li>
               <li className="list-disc mt-[4%]">
                 Supports Liver and Kidney health
               </li>
@@ -106,10 +103,6 @@ export const Hibiscus = () => {
               <li className="list-disc mt-[4%]"> Menstrual comforts</li>
               <li className="list-disc mt-[4%]">Hydrate skin</li>
             </ul>
-
-            {/* <p className="text-sm font-semibold mt-[4%]">
-              Boosting Liver is a mojor advantage of Ambrosia
-            </p> */}
 
             <div className="mt-[4%]">
               <h1 className="text-lg font-bold">How to comsume?</h1>
@@ -121,10 +114,13 @@ export const Hibiscus = () => {
                 tea. our hibiscus tea is ready to drink. Take small sips and
                 savor the soothing flavor. It's best enjoyed warm.
               </p>
+              <p className="py-[5px]">
+                <b> Optional:</b> honey or a slice of lemon for added flavor.
+              </p>
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content 250 Grms
+                Net content: 250 Grams
               </h1>
             </div>
 
@@ -134,9 +130,6 @@ export const Hibiscus = () => {
                   <div className="flex justify-between">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                      <p className="my-[5%] font-semibold">
-                        I Love the Ambrosia
-                      </p>
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -167,10 +160,9 @@ export const Hibiscus = () => {
                         <b>Lily:</b>{" "}
                       </p>{" "}
                       <p className="">
-                        <b>Review :</b> "Hibiscus tea is a vibrant, tangy
-                        delight. Its bright red color is a visual treat, and the
-                        tart, fruity flavor is refreshing. It's a great
-                        alternative to sugary drinks."
+                        Hibiscus tea is a vibrant, tangy delight. Its bright red
+                        color is a visual treat, and the tart, fruity flavor is
+                        refreshing. It's a great alternative to sugary drinks.
                       </p>
                     </div>
                     {reviews ? (
@@ -181,10 +173,10 @@ export const Hibiscus = () => {
                             <b>William :</b>{" "}
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I tried hibiscus tea expecting a
-                            sweeter taste, but it's quite tart. It's not my
-                            personal favorite, but I can see how some might
-                            enjoy its unique flavor profile"
+                            I tried hibiscus tea expecting a sweeter taste, but
+                            it's quite tart. It's not my personal favorite, but
+                            I can see how some might enjoy its unique flavor
+                            profile
                           </p>
                         </div>{" "}
                       </div>

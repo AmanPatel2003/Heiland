@@ -112,13 +112,13 @@ export const Ashwagandha = () => {
             <div className="mt-[4%]">
               <h1 className="text-lg font-bold">How to comsume?</h1>
               <p className="">
-                1 capsule consist of 600 Mg of Ashwagandha powder (Withania
-                somnifra)
+                2 capsules at Night Before sleep. Consume with lukewarm or
+                Normal Milk.
               </p>
             </div>
             <div className="">
               <h1 className="text-lg font-bold mb-[4%]">
-                Net content-60 Primium Capsules
+                Net content-60 Premium Capsules
               </h1>
             </div>
 
@@ -128,9 +128,7 @@ export const Ashwagandha = () => {
                   <div className="flex justify-between">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                      <p className="my-[5%] font-semibold">
-                        I Love the Ashwagandha
-                      </p>
+                    
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -161,13 +159,13 @@ export const Ashwagandha = () => {
                         <b>Emma :</b>{" "}
                       </p>{" "}
                       <p className="">
-                        <b>Review :</b> "I started taking Ashwagandha capsules
+                       I started taking Ashwagandha capsules
                         to help with my mood swings and occasional sleep
                         disturbances. While I did notice some positive effects
                         on my mood, I didn't experience significant improvements
                         in my sleep quality. It's worth trying if you're looking
                         for a natural way to manage stress, but it may not work
-                        the same for everyone."
+                        the same for everyone.
                       </p>
                     </div>
                     {reviews ? (
@@ -177,13 +175,13 @@ export const Ashwagandha = () => {
                             <b>John :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "I've been using Ashwagandha
+                           've been using Ashwagandha
                             capsules for a couple of months now, and I've seen
                             improvements in my energy levels and focus. It's
                             been particularly helpful during busy workdays. The
                             only reason I'm not giving it a full 5 stars is
                             because the taste can be a bit bitter, but the
-                            benefits are worth it."
+                            benefits are worth it.
                           </p>
                         </div>
                         <div className="pt-[2%]">
@@ -191,13 +189,13 @@ export const Ashwagandha = () => {
                             <b>Sarah :</b>
                           </p>{" "}
                           <p className="">
-                            <b>Review :</b> "Ashwagandha capsules have been a
+                            Ashwagandha capsules have been a
                             game-changer for my stress and anxiety. As a working
                             mom, I often felt overwhelmed, but since starting
                             these capsules, I've noticed a significant reduction
                             in my stress levels. I feel calmer and more in
                             control, and I've even been sleeping better. Highly
-                            recommend!"
+                            recommend!
                           </p>
                         </div>
                       </div>

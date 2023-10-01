@@ -142,7 +142,7 @@ export default function FirstPage() {
 
       <hr />
       <section className="px-[5%] md:px-[10%] sm:px-[10%] xs:px-[5%] text-center py-[3%] xs:py-[6%] sm:py-[6%] bg-[#fcfce4">
-        <h1 className="font-bold text-3xl pb-[1%]">Latest Articles</h1>
+        <h1 className="font-bold text-3xl pb-[1%]">Latest Blogs</h1>
         <div className="w-full h-[60%] flex xs:block sm:block md:block  justify-between">
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] xs:m-auto sm:m-auto md:m-auto h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="h-[60%] w-full border-2 bg-white ">

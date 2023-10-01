@@ -156,7 +156,7 @@ export const Beauty = () => {
           {/* <div className=" h-full w-[70%] xs:w-[60%]  pt-[8%] xs-px-[3%] sm:px-[4%] md:px-[5%]"> */}
           <div className=" h-full w-full   pt-[8%] xs-px-[3%] sm:px-[4%] md:px-[5%]">
             <div>
-              <h2 className="text-3xl font-bold  xs:text-2xl xs:pl-[6%] pl-[10%] pb-[5%] ">
+              <h2 className="text-5xl font-bold  xs:text-4xl xs:pl-[6%] pl-[10%] pb-[5%] ">
                 Herbal Beauty Care
               </h2>
             </div>
