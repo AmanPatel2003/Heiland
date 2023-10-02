@@ -35,18 +35,18 @@ export default function PageEight() {
                 respond to your inquiry. To learn more about how we use and
                 store the information we collect from you, please read our
               </p>
-              <a href="/" className="text-[#88d888] underline">
+              <a href="/privacy" className="text-[#88d888] underline">
                 Privacy Policy
               </a>
             </div>
             <div className="px-[5%]">
-              <form action="">
-                <label htmlFor="" className="text-white font-semibold">
+              <form action="POST" data-netlify="true">
+                {/* <label htmlFor="" className="text-white font-semibold">
                   What Best Describes Your Question?*
                 </label>
                 <br />
                 <button className="w-full text-left mb-[8%]  bg-white text-black font-medium pl-[2%] py-[1%] ">
-                  {/* SELECT A CATEGORY */}
+                
                   Select a Category
                   <select name="" className="h-full border-none">
                       <option value="" />
@@ -57,13 +57,15 @@ export default function PageEight() {
                       <option value="">1</option>
                       <option value="">1</option>
                     </select>
-                </button>
+                </button> */}
                 <br />
                 <label htmlFor="" className="text-white font-semibold  mt-[3%]">
                   First Name*
                 </label>
                 <br />
                 <input
+                name="name"
+                id="name"
                   type="text"
                   className="w-full h-[35px] font-medium pl-[5%] mb-[8%]"
                 />
@@ -74,8 +76,8 @@ export default function PageEight() {
                 <br />
                 <input
                   type="email"
-                  name=""
-                  id=""
+                  name="email"
+                  id="email"
                   className="w-full h-[35px] font-medium pl-[5%] mb-[8%]"
                 />
                 <br />
@@ -84,6 +86,8 @@ export default function PageEight() {
                 </label>
                 <br />
                 <input
+                name="number"
+                id="number"
                   type="number"
                   className="w-full h-[35px] font-medium pl-[5%] mb-[8%]"
                 />
@@ -94,16 +98,17 @@ export default function PageEight() {
                 <br />
                 <textarea
                   className="w-full mb-[8%]"
-                  name=""
-                  id=""
+                  name="message"
+                  id="message"
+                  placeholder="Message"
                   cols={30}
                   rows={5}
                   defaultValue={""}
                 />
                 <br />
-                <button className="w-[90%] h-[40px] mb-[8%] rounded mt-[4%] mx-[5%] bg-green-900 font-bold text-white">
+                <input  className="w-[90%] h-[40px] mb-[8%] rounded mt-[4%] mx-[5%] bg-green-900 font-bold text-white">
                   SEND MESSAGE
-                </button>
+                </input>
               </form>
             </div>
           </div>
