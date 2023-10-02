@@ -155,7 +155,7 @@ export const Supplement = () => {
             </ul>
           </div> */}
           <div className=" h-full w-full   pt-[8%] xs-px-[3%] sm:px-[4%] md:px-[5%]">
-          {/* <div className=" h-full w-full  pt-[8%] xs-px-[3%] sm:px-[4%] md:px-[5%]"> */}
+            {/* <div className=" h-full w-full  pt-[8%] xs-px-[3%] sm:px-[4%] md:px-[5%]"> */}
             <div>
               <h2 className="text-5xl font-bold  xs:text-4xl xs:pl-[6%] pl-[10%] pb-[5%] ">
                 Herbal supplements
@@ -165,62 +165,44 @@ export const Supplement = () => {
               <div className="flex justify-between xs:block pt-[4%] pb-[40px]">
                 <div className="flex xs:flex-wrap sm:flex-wrap md:flex-wrap justify-between lg:flex-wrap w-full xs:w-full xs:mt-[8%]">
                   <div className="w-[32%] xs:w-[50%] sm:w-[50%] md:w-[50%] ">
-                  {/* <div className="w-[20%] xs:w-[50%] sm:w-[32%] md:w-[25%]  md:pt-[5%] sm:pt-[5%] "> */}
+                    {/* <div className="w-[20%] xs:w-[50%] sm:w-[32%] md:w-[25%]  md:pt-[5%] sm:pt-[5%] "> */}
                     <a href="/ambrosia">
                       <img
                         src="	https://www.solgar.com/wp-content/uploads/product_photos/SO_358720/SO_358720_F-300x300.png"
                         alt=""
                       />
+                    <p className="text-center text-2xl font-semibold mt-[10px]">
+                      Ambrosia
+                    </p>
                     </a>
-                    <p className="mt-[5%] text-center text-xs text-green-500 font-semibold block ">
-                      IMMUNE SUPPORT
-                    </p>
-                    <h5 className="text-center text-xs text-green-500 font-medium  underline decoration-dotted">
-                      SEE ALL CATEGORIES
-                    </h5>
-                    <p className="text-center font-semibold text-sm mt-[1%]">
-                      Vitamin D3 (Cholecalciferol) 250 MCG (10,000 IU) Softgels
-                    </p>
                   </div>
 
                   <div className="w-[32%]  xs:w-[50%] sm:w-[50%] md:w-[50%]">
-                  {/* <div className="w-[20%] xs:w-[50%] sm:w-[32%] md:w-[25%]  md:pt-[5%] sm:pt-[5%] "> */}
+                    {/* <div className="w-[20%] xs:w-[50%] sm:w-[32%] md:w-[25%]  md:pt-[5%] sm:pt-[5%] "> */}
                     <a href="/ashwagandha">
                       <img
                         src="	https://www.solgar.com/wp-content/uploads/product_photos/SO_011519/SO_011519_F-300x300.png"
                         alt=""
                       />
+                    <p className="text-center text-2xl font-semibold mt-[10px]">
+                      Ashwagandha
+                    </p>
                     </a>
-                    <p className="text-xs text-center text-green-500 font-semibold block mt-[5%]">
-                      GENERAL HEALTH
-                    </p>
-                    <h5 className="text-xs text-center text-green-500 font-medium  underline decoration-dotted">
-                      SEE ALL CATEGORIES
-                    </h5>
-                    <p className="text-center font-semibold text-sm mt-[1%]">
-                      B-Complex "100" Vegetable Capsules
-                    </p>
                   </div>
                   {/* </div> */}
 
                   {/* <div className="flex w-[50%] xs:w-full xs:mt-[8%]"> */}
                   <div className="w-[32%]  xs:w-[50%] sm:w-[50%] md:w-[50%] xs:mt-[10%] sm:mt-[10%] md:mt-[10%]">
-                  {/* <div className="w-[20%] xs:w-[50%] sm:w-[32%] md:w-[25%]  md:pt-[5%] sm:pt-[5%] "> */}
+                    {/* <div className="w-[20%] xs:w-[50%] sm:w-[32%] md:w-[25%]  md:pt-[5%] sm:pt-[5%] "> */}
                     <a href="/satavari">
                       <img
                         src="		https://www.solgar.com/wp-content/uploads/product_photos/SO_012493/SO_012493_F-300x300.png"
                         alt=""
                       />
+                    <p className="text-center text-2xl font-semibold mt-[10px]">
+                      Shatavari
+                    </p>
                     </a>
-                    <p className="text-xs text-center text-green-500 font-semibold block mt-[5%]">
-                      GENERAL HEALTH
-                    </p>
-                    <h5 className="text-xs text-center text-green-500 font-medium  underline decoration-dotted">
-                      SEE ALL CATEGORIES
-                    </h5>
-                    <p className="text-center font-semibold text-sm mt-[1%]">
-                      Gentle Iron® Vegetable Capsules**
-                    </p>
                   </div>
                 </div>
               </div>

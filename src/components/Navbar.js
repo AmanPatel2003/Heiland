@@ -41,7 +41,7 @@ export default function Navbar() {
               <img
                 src={logo1}
                 alt=""
-                className="h-full w-[50px] mt-[12%] xs:mt-[10%]"
+                className="h-full w-[50px] mt-[11%] xs:mt-[9%]"
               />
               <h1 className="font-semibold text-3xl py-[12%] xs:py-[10%] pl-[4%] ">
                 HEILAND

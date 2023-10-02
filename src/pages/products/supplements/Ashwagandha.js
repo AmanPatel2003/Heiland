@@ -128,7 +128,6 @@ export const Ashwagandha = () => {
                   <div className="flex justify-between">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                    
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -159,13 +158,13 @@ export const Ashwagandha = () => {
                         <b>Emma :</b>{" "}
                       </p>{" "}
                       <p className="">
-                       I started taking Ashwagandha capsules
-                        to help with my mood swings and occasional sleep
-                        disturbances. While I did notice some positive effects
-                        on my mood, I didn't experience significant improvements
-                        in my sleep quality. It's worth trying if you're looking
-                        for a natural way to manage stress, but it may not work
-                        the same for everyone.
+                        I started taking Ashwagandha capsules to help with my
+                        mood swings and occasional sleep disturbances. While I
+                        did notice some positive effects on my mood, I didn't
+                        experience significant improvements in my sleep quality.
+                        It's worth trying if you're looking for a natural way to
+                        manage stress, but it may not work the same for
+                        everyone.
                       </p>
                     </div>
                     {reviews ? (
@@ -175,13 +174,12 @@ export const Ashwagandha = () => {
                             <b>John :</b>
                           </p>{" "}
                           <p className="">
-                           've been using Ashwagandha
-                            capsules for a couple of months now, and I've seen
-                            improvements in my energy levels and focus. It's
-                            been particularly helpful during busy workdays. The
-                            only reason I'm not giving it a full 5 stars is
-                            because the taste can be a bit bitter, but the
-                            benefits are worth it.
+                            've been using Ashwagandha capsules for a couple of
+                            months now, and I've seen improvements in my energy
+                            levels and focus. It's been particularly helpful
+                            during busy workdays. The only reason I'm not giving
+                            it a full 5 stars is because the taste can be a bit
+                            bitter, but the benefits are worth it.
                           </p>
                         </div>
                         <div className="pt-[2%]">
@@ -189,13 +187,12 @@ export const Ashwagandha = () => {
                             <b>Sarah :</b>
                           </p>{" "}
                           <p className="">
-                            Ashwagandha capsules have been a
-                            game-changer for my stress and anxiety. As a working
-                            mom, I often felt overwhelmed, but since starting
-                            these capsules, I've noticed a significant reduction
-                            in my stress levels. I feel calmer and more in
-                            control, and I've even been sleeping better. Highly
-                            recommend!
+                            Ashwagandha capsules have been a game-changer for my
+                            stress and anxiety. As a working mom, I often felt
+                            overwhelmed, but since starting these capsules, I've
+                            noticed a significant reduction in my stress levels.
+                            I feel calmer and more in control, and I've even
+                            been sleeping better. Highly recommend!
                           </p>
                         </div>
                       </div>
@@ -219,110 +216,43 @@ export const Ashwagandha = () => {
         className="h-full px-[22%] md:px-[3%] sm:px-[3%] xs:px-[3%] py-[8%]   bg-[#d3e8c9]
        "
       >
-        <div className="">
+        <div className="h-full">
           <h1 className="text-2xl font-bold pb-[6%]  text-center ">
             YOU MIGHT ALSO LIKE
           </h1>
-          <div className="w-full flex xs:flex-wrap sm:flex-wrap justify-center">
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
+          <div className="w-full h-full flex xs:flex-wrap sm:flex-wrap justify-between">
+            <div className=" text-center h-full w-[48%] xs:w-full sm:w-full">
+              <a
+                href="/ambrosia"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-2xl font-semibold mt-[10px]">
+                  Ambrosia
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white ">
+            <div className=" text-center h-full w-[48%] xs:w-full sm:w-full">
+              <a
+                href="/satavari"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%] "
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-2xl font-semibold mt-[10px]">
+                  Satavari
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
-            </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-                <img
-                  src="https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180"
-                  alt=""
-                  className="h-full w-full"
-                />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
-              </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
-            </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-                <img
-                  src="https://tse2.mm.bing.net/th?id=OIP.ImmrkgATgNztf4RXyUBb8wHaFj&pid=Api&P=0&h=180"
-                  alt=""
-                  className="h-full w-full"
-                />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
-              </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
           </div>
         </div>
-        <div class="flex"></div>
       </section>
     </div>
   );

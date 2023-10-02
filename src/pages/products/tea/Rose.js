@@ -32,7 +32,7 @@ export const Rose = () => {
               Rose Tea
             </h1>
             <span className=" ">
-              ("Sip the Romance of Roses to Blossom your day")
+              ("Sip blossoming tranquility")
             </span>
 
             <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-full w-full  sm:justify-center xs:justify-center">
@@ -203,114 +203,76 @@ export const Rose = () => {
       </section>
 
       <section
-        className="h-full px-[22%] md:px-[3%] sm:px-[3%] xs:px-[3%] py-[8%]   bg-[#d3e8c9]
+        className="h-full px-[10%] md:px-[3%] sm:px-[3%] xs:px-[3%] py-[8%]   bg-[#d3e8c9]
        "
       >
-        <div className="">
+        <div className="h-full">
           <h1 className="text-2xl font-bold pb-[6%]  text-center ">
             YOU MIGHT ALSO LIKE
           </h1>
-          <div className="w-full flex xs:flex-wrap sm:flex-wrap justify-center">
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
+          <div className="w-full h-full flex xs:flex-wrap sm:flex-wrap justify-between">
+            <div className=" text-center h-full w-[24%] xs:w-full sm:w-full">
+              <a
+                href="/ginger"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-xl font-semibold mt-[10px]">
+                  Ginger Tea
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white ">
+            <div className=" text-center h-full w-[24%] xs:w-full sm:w-full">
+              <a
+                href="/hibiscus"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%] "
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-xl font-semibold mt-[10px]">
+                  Hibiscus Tea
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
+            <div className=" text-center h-full w-[24%] xs:w-full sm:w-full">
+              <a
+                href="/peppermint"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
-                  src="https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180"
+                  src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-xl font-semibold mt-[10px]">
+                  Peppermint Tea
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-                {" "}
+            <div className=" text-center h-full w-[24%] xs:w-full sm:w-full">
+              <a
+                href="/chamomile"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
-                  src="https://tse2.mm.bing.net/th?id=OIP.ImmrkgATgNztf4RXyUBb8wHaFj&pid=Api&P=0&h=180"
+                  src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-xl font-semibold mt-[10px]">
+                  Chamomile Tea
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
           </div>
         </div>
-        <div class="flex"></div>
       </section>
     </div>
   );

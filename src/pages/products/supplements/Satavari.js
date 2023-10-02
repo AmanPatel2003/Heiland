@@ -117,7 +117,6 @@ export const Satavari = () => {
                   <div className="flex justify-between">
                     <div className="w-full">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                     
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -147,12 +146,12 @@ export const Satavari = () => {
                         <b>Aisha :</b>
                       </p>{" "}
                       <p className="">
-                        Shatavari capsules have been a
-                        lifesaver during my postpartum journey. They've helped
-                        me maintain hormonal balance, increase my breast milk
-                        supply, and manage fatigue. The only reason I'm not
-                        giving it a perfect score is the mild aftertaste, but
-                        the benefits far outweigh that.
+                        Shatavari capsules have been a lifesaver during my
+                        postpartum journey. They've helped me maintain hormonal
+                        balance, increase my breast milk supply, and manage
+                        fatigue. The only reason I'm not giving it a perfect
+                        score is the mild aftertaste, but the benefits far
+                        outweigh that.
                       </p>
                     </div>
                     {reviews ? (
@@ -163,12 +162,12 @@ export const Satavari = () => {
                             <b> David :</b>
                           </p>{" "}
                           <p className="">
-                            I tried Shatavari capsules for a
-                            few weeks to address digestive issues and enhance
-                            overall wellness. While I did experience some
-                            improvement in digestion, the effects weren't as
-                            pronounced as I had hoped. It might work better for
-                            others with different needs.
+                            I tried Shatavari capsules for a few weeks to
+                            address digestive issues and enhance overall
+                            wellness. While I did experience some improvement in
+                            digestion, the effects weren't as pronounced as I
+                            had hoped. It might work better for others with
+                            different needs.
                           </p>
                         </div>
                         <div className="pt-[2%]">
@@ -177,12 +176,12 @@ export const Satavari = () => {
                             <b>Sophie :</b>
                           </p>{" "}
                           <p className="">
-                            Shatavari capsules have become a
-                            staple in my self-care routine. I've noticed a
-                            significant improvement in my skin's hydration, and
-                            my menstrual cycles have become more regular and
-                            less painful. I feel more balanced overall, and I
-                            highly recommend giving them a try.
+                            Shatavari capsules have become a staple in my
+                            self-care routine. I've noticed a significant
+                            improvement in my skin's hydration, and my menstrual
+                            cycles have become more regular and less painful. I
+                            feel more balanced overall, and I highly recommend
+                            giving them a try.
                           </p>
                         </div>
                         <div className="pt-[2%]">
@@ -190,12 +189,12 @@ export const Satavari = () => {
                             <b>Michael:</b>
                           </p>{" "}
                           <p className="">
-                            I've been taking Shatavari capsules
-                            for a while now to support my overall vitality and
-                            energy levels. While I can't say I've experienced a
-                            dramatic boost in energy, I do feel a subtle
-                            improvement in my overall well-being. It's a gentle
-                            and natural way to promote health.
+                            I've been taking Shatavari capsules for a while now
+                            to support my overall vitality and energy levels.
+                            While I can't say I've experienced a dramatic boost
+                            in energy, I do feel a subtle improvement in my
+                            overall well-being. It's a gentle and natural way to
+                            promote health.
                           </p>
                         </div>
                       </div>
@@ -219,110 +218,43 @@ export const Satavari = () => {
         className="h-full px-[22%] md:px-[3%] sm:px-[3%] xs:px-[3%] py-[8%]   bg-[#d3e8c9]
        "
       >
-        <div className="">
+        <div className="h-full">
           <h1 className="text-2xl font-bold pb-[6%]  text-center ">
             YOU MIGHT ALSO LIKE
           </h1>
-          <div className="w-full flex xs:flex-wrap sm:flex-wrap justify-center">
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
+          <div className="w-full h-full flex xs:flex-wrap sm:flex-wrap justify-between">
+            <div className=" text-center h-full w-[48%] xs:w-full sm:w-full">
+              <a
+                href="/ambrosia"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-2xl font-semibold mt-[10px]">
+                  Ambrosia
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white ">
+            <div className=" text-center h-full w-[48%] xs:w-full sm:w-full">
+              <a
+                href="/ashwagandha"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%] "
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-2xl font-semibold mt-[10px]">
+                  Ashwagandha
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
-            </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-                <img
-                  src="https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180"
-                  alt=""
-                  className="h-full w-full"
-                />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
-              </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
-            </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-                <img
-                  src="https://tse2.mm.bing.net/th?id=OIP.ImmrkgATgNztf4RXyUBb8wHaFj&pid=Api&P=0&h=180"
-                  alt=""
-                  className="h-full w-full"
-                />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
-              </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
           </div>
         </div>
-        <div class="flex"></div>
       </section>
     </div>
   );

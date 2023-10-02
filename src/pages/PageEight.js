@@ -48,7 +48,7 @@ export default function PageEight() {
                 <button className="w-full text-left mb-[8%]  bg-white text-black font-medium pl-[2%] py-[1%] ">
                   {/* SELECT A CATEGORY */}
                   Select a Category
-                  {/* <select name="" className="">
+                  <select name="" className="h-full border-none">
                       <option value="" />
                       <option value="">1</option>
                       <option value="">1</option>
@@ -56,7 +56,7 @@ export default function PageEight() {
                       <option value="">1</option>
                       <option value="">1</option>
                       <option value="">1</option>
-                    </select> */}
+                    </select>
                 </button>
                 <br />
                 <label htmlFor="" className="text-white font-semibold  mt-[3%]">

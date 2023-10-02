@@ -20,12 +20,11 @@ const people = [
   {
     id: 3,
     h1: "WHAT PEOPLE A  THINK ABOUT US",
-    h2: "Aisha -",
-    p1: "Shatavari capsules have been a lifesaver during my postpartum journey. They've helped me maintain hormonal balance, increase my breast milk supply, and manage fatigue. The only reason I'm not giving it a perfect score is the mild aftertaste, but the benefits far outweigh that.",
+    h2: "Emma -",
+    p1: "Rose tea is a delightful, fragrant experience. It's perfect for those times when I want a subtle, floral flavor. It's not overly strong, which I appreciate, and it's become a favorite for special occasions.",
     p2: "An Amwon Customer",
     p3: "about Magnesium Citrate",
-    image:
-      "https://media.istockphoto.com/id/1192284372/photo/composition-of-natural-alternative-medicine-with-capsules-essence-and-plants.jpg?s=612x612&w=0&k=20&c=AOZISN4jnN4hGm59us3hyR0BMymkyxkzTPM8CxsBWZI=",
+    image: "https://www.asbestos.com/wp-content/uploads/herbal-medicine-1.png",
   },
   {
     id: 4,

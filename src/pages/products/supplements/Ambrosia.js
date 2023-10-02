@@ -197,7 +197,6 @@ export const Ambrosia = () => {
                   <div className="flex justify-between">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -228,11 +227,10 @@ export const Ambrosia = () => {
                         <b>Emily Thompson :</b>
                       </p>
                       <p className="">
-                        I've been using Ambrosia for a few
-                        weeks now, and it's made a significant difference in my
-                        bloating and discomfort after meals. It's become a
-                        staple in my daily routine, and I feel much better
-                        overall.
+                        I've been using Ambrosia for a few weeks now, and it's
+                        made a significant difference in my bloating and
+                        discomfort after meals. It's become a staple in my daily
+                        routine, and I feel much better overall.
                       </p>
                     </div>{" "}
                     {reviews ? (
@@ -242,11 +240,10 @@ export const Ambrosia = () => {
                             <b>David Patel :</b>
                           </p>
                           <p className="">
-                            I've struggled with digestive
-                            issues for years, but Ambrosia has been a
-                            game-changer. It's gentle on my stomach, and I've
-                            noticed a reduction in acid reflux and indigestion.
-                            Highly recommended!
+                            I've struggled with digestive issues for years, but
+                            Ambrosia has been a game-changer. It's gentle on my
+                            stomach, and I've noticed a reduction in acid reflux
+                            and indigestion. Highly recommended!
                           </p>
                         </div>{" "}
                         <div className="pt-[2%]">
@@ -255,12 +252,11 @@ export const Ambrosia = () => {
                             <b>Sarah Walker :</b>
                           </p>
                           <p className="">
-                            I was a bit skeptical about herbal
-                            supplements at first, but this one pleasantly
-                            surprised me. It's been easy on my sensitive
-                            stomach, and I've experienced less gas and
-                            discomfort. I appreciate the natural approach to
-                            digestive health.
+                            I was a bit skeptical about herbal supplements at
+                            first, but this one pleasantly surprised me. It's
+                            been easy on my sensitive stomach, and I've
+                            experienced less gas and discomfort. I appreciate
+                            the natural approach to digestive health.
                           </p>
                         </div>{" "}
                         <div className="pt-[2%]">
@@ -269,11 +265,10 @@ export const Ambrosia = () => {
                             <b>James O'Connor :</b>
                           </p>
                           <p className="">
-                            As someone who enjoys spicy foods,
-                            I often have digestive issues. Ambrosia has helped
-                            me manage those issues effectively. I've noticed
-                            less heartburn and a smoother overall digestion
-                            process.
+                            As someone who enjoys spicy foods, I often have
+                            digestive issues. Ambrosia has helped me manage
+                            those issues effectively. I've noticed less
+                            heartburn and a smoother overall digestion process.
                           </p>
                         </div>
                         <div className="pt-[2%]">
@@ -282,11 +277,10 @@ export const Ambrosia = () => {
                             <b>Charlotte Hughes :</b>
                           </p>
                           <p className="">
-                          I lead a busy life, and stress can
-                            take a toll on my digestion. Ambrosia has become my
-                            go-to solution for maintaining a healthy gut. It's
-                            soothing and has improved my overall digestive
-                            comfort.
+                            I lead a busy life, and stress can take a toll on my
+                            digestion. Ambrosia has become my go-to solution for
+                            maintaining a healthy gut. It's soothing and has
+                            improved my overall digestive comfort.
                           </p>
                         </div>
                       </div>
@@ -310,111 +304,43 @@ export const Ambrosia = () => {
         className="h-full px-[22%] md:px-[3%] sm:px-[3%] xs:px-[3%] py-[8%]   bg-[#d3e8c9]
        "
       >
-        <div className="">
+        <div className="h-full">
           <h1 className="text-2xl font-bold pb-[6%]  text-center ">
             YOU MIGHT ALSO LIKE
           </h1>
-          <div className="w-full flex xs:flex-wrap sm:flex-wrap justify-center">
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
+          <div className="w-full h-full flex xs:flex-wrap sm:flex-wrap justify-between">
+            <div className=" text-center h-full w-[48%] xs:w-full sm:w-full">
+              <a
+                href="/ashwagandha"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-2xl font-semibold mt-[10px]">
+                  Ashwagandha
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white ">
+            <div className=" text-center h-full w-[48%] xs:w-full sm:w-full">
+              <a
+                href="/satavari"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%] "
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-2xl font-semibold mt-[10px]">
+                  Satavari
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
-            </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-                <img
-                  src="https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180"
-                  alt=""
-                  className="h-full w-full"
-                />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
-              </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
-            </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-                {" "}
-                <img
-                  src="https://tse2.mm.bing.net/th?id=OIP.ImmrkgATgNztf4RXyUBb8wHaFj&pid=Api&P=0&h=180"
-                  alt=""
-                  className="h-full w-full"
-                />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
-              </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
           </div>
         </div>
-        <div class="flex"></div>
       </section>
     </div>
   );

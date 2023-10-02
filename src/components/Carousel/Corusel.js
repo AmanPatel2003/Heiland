@@ -48,7 +48,7 @@ const Corusel = ({ data }) => {
   };
 
   return (
-    <div className="text-center relative">
+    <div className="text-center relative ">
       {data.map((item, index) => {
         return (
           <div
@@ -59,7 +59,7 @@ const Corusel = ({ data }) => {
               <div
                 onMouseLeave={start}
                 onMouseOver={stop}
-                className="w-[50%] xs:w-[70%] xs:m-auto h-full items-start "
+                className="w-[50%] xs:w-[70%] xs:m-auto h-full items-start pr-[5px]"
               >
                 <h1 className=" text-start font-bold my-[3%] text-xl ">
                   {item.h1}
@@ -89,25 +89,20 @@ const Corusel = ({ data }) => {
                   />
                 </a>
               </div>
-              {/* <img className="h-full"
-              onMouseLeave={start}
-              onMouseOver={stop}
-              src={item.image}
-              alt={item.title}
-            ></img> */}
+            
             </section>
           </div>
         );
       })}
 
       <button
-        className="prev top-[50%] left-0 cursor-pointer absolute p-[10px] outline-none text-[20px] border-none text-black"
+        className="prev top-[50%] left-0 cursor-pointer absolute p-[10px] outline-none font-extrabold text-[30px] border-none text-black"
         onClick={prevSlide}
       >
         &lt;
       </button>
       <button
-        className="next top-[50%] right-0 cursor-pointer absolute p-[10px] outline-none text-[20px] border-none text-black"
+        className="next top-[50%] right-0 cursor-pointer absolute p-[10px] outline-none font-extrabold text-[30px] border-none text-black"
         onClick={nextSlide}
       >
         &gt;

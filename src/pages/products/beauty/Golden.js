@@ -27,10 +27,10 @@ export const Golden = () => {
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">
-              Golden Zest 
+              Golden Zest
             </h1>
             <span className="">
-              ("Nourish Skin Naturally with Citrus and Turmeric brilliance")
+              ("Nourish Skin with Citrus & Turmeric brilliance")
             </span>
 
             <div className="flex pb-[5%] md:mb-[7%] lg:mb-[7%] h-full w-full  sm:justify-center xs:justify-center">
@@ -85,7 +85,7 @@ export const Golden = () => {
             </div>
 
             <h1 className="text-lg font-bold">What does it do for you?</h1>
-            
+
             <ul className="pl-[6%]">
               <li className="list-disc mt-[4%]">Brightening </li>
               <li className="list-disc mt-[4%]">
@@ -101,7 +101,6 @@ export const Golden = () => {
               <li className="list-disc mt-[4%]">Natural Glow</li>
             </ul>
 
-        
             <div className="mt-[4%]">
               <h1 className="text-lg font-bold">How to apply?</h1>
               <p className="">
@@ -119,7 +118,9 @@ export const Golden = () => {
               </p>
             </div>
             <div className="">
-              <h1 className="text-lg font-bold mb-[4%]">Net content: 200 Grams</h1>
+              <h1 className="text-lg font-bold mb-[4%]">
+                Net content: 200 Grams
+              </h1>
             </div>
 
             <div className=" py-[4%] border-y-2 border-[#097969]">
@@ -128,7 +129,6 @@ export const Golden = () => {
                   <div className="flex justify-between">
                     <div className="">
                       <h1 className="text-lg font-bold">Customer Reviews</h1>
-                     
                     </div>
                     <div className="block">
                       {!reviews ? (
@@ -159,10 +159,10 @@ export const Golden = () => {
                         <b>Sarah:</b>
                       </p>{" "}
                       <p className="">
-                        The Golden Zest mask gave my skin a
-                        noticeable glow. It's refreshing and has a pleasant
-                        citrus scent. My only concern is that it can be a bit
-                        drying, so make sure to moisturize well afterward.
+                        The Golden Zest mask gave my skin a noticeable glow.
+                        It's refreshing and has a pleasant citrus scent. My only
+                        concern is that it can be a bit drying, so make sure to
+                        moisturize well afterward.
                       </p>
                     </div>
                     {reviews ? (
@@ -173,11 +173,10 @@ export const Golden = () => {
                             <b>Emily :</b>
                           </p>{" "}
                           <p className="">
-                            I was excited to try the Golden
-                            Zest mask, but it didn't quite meet my expectations.
-                            While it smelled great and felt refreshing, I didn't
-                            see any significant improvements in my skin tone or
-                            texture.
+                            I was excited to try the Golden Zest mask, but it
+                            didn't quite meet my expectations. While it smelled
+                            great and felt refreshing, I didn't see any
+                            significant improvements in my skin tone or texture.
                           </p>
                         </div>{" "}
                         <div className="pt-[2%]">
@@ -186,11 +185,10 @@ export const Golden = () => {
                             <b>Daniel :</b>{" "}
                           </p>{" "}
                           <p className="">
-                            I've been using the Golden Zest
-                            mask for a few weeks now, and it's become a staple
-                            in my skincare routine. My skin feels smoother and
-                            looks brighter. It's especially nice for combating
-                            oily skin.
+                            I've been using the Golden Zest mask for a few weeks
+                            now, and it's become a staple in my skincare
+                            routine. My skin feels smoother and looks brighter.
+                            It's especially nice for combating oily skin.
                           </p>
                         </div>{" "}
                       </div>
@@ -214,111 +212,43 @@ export const Golden = () => {
         className="h-full px-[22%] md:px-[3%] sm:px-[3%] xs:px-[3%] py-[8%]   bg-[#d3e8c9]
        "
       >
-        <div className="">
+        <div className="h-full">
           <h1 className="text-2xl font-bold pb-[6%]  text-center ">
             YOU MIGHT ALSO LIKE
           </h1>
-          <div className="w-full flex xs:flex-wrap sm:flex-wrap justify-center">
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
+          <div className="w-full h-full flex xs:flex-wrap sm:flex-wrap justify-between">
+            <div className=" text-center h-full w-[48%] xs:w-full sm:w-full">
+              <a
+                href="/clayglow"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-2xl font-semibold mt-[10px]">
+                  Clayglow
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white ">
+            <div className=" text-center h-full w-[48%] xs:w-full sm:w-full">
+              <a
+                href="/scarletglow"
+                className="h-[180px]  mx-[5%]  border-2 bg-white "
+              >
                 <img
                   src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
                   alt=""
                   className="h-full w-full"
                 />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%] "
-              >
-                BONE & JOINT SUPPORT
+                <p className="text-center text-2xl font-semibold mt-[10px]">
+                  ScarletGlow
+                </p>
               </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
-            </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-                <img
-                  src="https://tse1.mm.bing.net/th?id=OIP.0ZLl5yRJVVvr_xOn_K9QUgHaGn&pid=Api&P=0&h=180"
-                  alt=""
-                  className="h-full w-full"
-                />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
-              </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm  mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
-            </div>
-            <div className=" text-center">
-              <div className="h-[180px]  mx-[5%]  border-2 bg-white">
-                {" "}
-                <img
-                  src="https://tse2.mm.bing.net/th?id=OIP.ImmrkgATgNztf4RXyUBb8wHaFj&pid=Api&P=0&h=180"
-                  alt=""
-                  className="h-full w-full"
-                />
-              </div>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-semibold block mt-[2%]"
-              >
-                BONE & JOINT SUPPORT
-              </a>
-              <a
-                href="/"
-                className="text-xs text-green-500 font-medium  underline decoration-dotted"
-              >
-                SEE ALL CATEGORIES
-              </a>
-              <p className="font-medium text-sm mt-[1%] px-[2%]">
-                Solgar* No.7 Vegetable Capsules
-              </p>
             </div>
           </div>
         </div>
-        <div class="flex"></div>
       </section>
     </div>
   );
