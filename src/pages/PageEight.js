@@ -9,7 +9,8 @@ export default function PageEight() {
           <div className="w-[50%] sm:w-full xs:w-full pt-[3%] pl-[9%] sm:mb-[8%] xs:mb-[8%]">
             <h3 className="font-bold text-3xl pb-[7%]">
               {/* CONTACT US  */}
-            Contact Us</h3>
+              Contact Us
+            </h3>
             <p className="text-[15px] font-semibold">
               500 Willow Tree Road <br />
               Leonia, NJ 0705 <br />
@@ -28,7 +29,8 @@ export default function PageEight() {
             <div className="text-white">
               <h3 className="font-bold text-xl">
                 {/* SEND A MESSAGE */}
-                Send a Message</h3>
+                Send a Message
+              </h3>
               <p>
                 At Solgar,we respect your privacy . Unless you instruct us
                 otherwise, we'll use the information you provide below only to
@@ -64,8 +66,8 @@ export default function PageEight() {
                 </label>
                 <br />
                 <input
-                name="name"
-                id="name"
+                  name="name"
+                  id="name"
                   type="text"
                   className="w-full h-[35px] font-medium pl-[5%] mb-[8%]"
                 />
@@ -86,8 +88,8 @@ export default function PageEight() {
                 </label>
                 <br />
                 <input
-                name="number"
-                id="number"
+                  name="number"
+                  id="number"
                   type="number"
                   className="w-full h-[35px] font-medium pl-[5%] mb-[8%]"
                 />
@@ -95,6 +97,7 @@ export default function PageEight() {
                 <label htmlFor="" className="text-white font-semibold mt-[3%]">
                   message
                 </label>
+                <br />
                 <br />
                 <textarea
                   className="w-full mb-[8%]"
@@ -106,7 +109,7 @@ export default function PageEight() {
                   defaultValue={""}
                 />
                 <br />
-                <input  className="w-[90%] h-[40px] mb-[8%] rounded mt-[4%] mx-[5%] bg-green-900 font-bold text-white">
+                <input className="w-[90%] h-[40px] mb-[8%] rounded mt-[4%] mx-[5%] bg-green-900 font-bold text-white">
                   SEND MESSAGE
                 </input>
               </form>
