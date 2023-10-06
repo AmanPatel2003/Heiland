@@ -5,6 +5,7 @@ import FirstPage from "./pages/FirstPage";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import PageTwo from "./pages/PageTwo";
+import Error from "./components/Error";
 // import PageThree from "./pages/blogs/PageThree";
 // -------------------------------------------------------------------------BLOGS----------------------------------------------------------------------------------
 import Blog1 from "./pages/blogs/Blog1";
@@ -51,7 +52,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<FirstPage />} />
+          <Route exact path="/" element={<FirstPage />} />
           <Route path="/mission" element={<PageTwo />} />
           <Route path="/about" element={<PageFour />} />
           {/* <Route path="/posts" element={<PageFive />} /> */}
@@ -95,6 +96,7 @@ function App() {
           <Route path="/clayglow" element={<Clayglow />} />{" "}
           <Route path="/golden" element={<Golden />} />{" "}
           <Route path="/scarletglow" element={<ScarletGlow />} />
+          <Route exact path="*" element={<Error />} />
         </Routes>
         <Footer />
       </div>
