@@ -70,7 +70,7 @@ function App() {
           <Route path="/blog5" element={<Blog5 />} />
           <Route path="/blog6" element={<Blog6 />} />
           <Route path="/blog7" element={<Blog7 />} />
-
+          {/* <h1></h1> */}
 
           {/* -------------------------------------------------------------------------ACVICE  ------------------------------------------------------------------------- */}
           <Route path="/advice" element={<Advices />} />
