@@ -4,7 +4,8 @@ const Form = () => {
   return (
     <div>
       {" "}
-      <form action="POST" data-netlify="true">
+      {/* <form action="POST" data-netlify="true"> */}
+      <form name='Netlify Example Form' netlify>
         {/* <label htmlFor="" className="text-white font-semibold">
                   What Best Describes Your Question?*
                 </label>
