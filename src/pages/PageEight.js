@@ -42,7 +42,7 @@ export default function PageEight() {
                 Privacy Policy
               </a>
             </div>
-            <div className="px-[5%]">
+            <div className="px-[5%] xs:px-[1%]">
              <Form/>
             </div>
           </div>

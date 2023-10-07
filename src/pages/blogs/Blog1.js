@@ -10,7 +10,7 @@ const Blog1 = () => {
         Preservatives, No Chemicals.
       </h1>
       <p className="flex py-[2%]">
-        <BiCalendar size={20} className="mr-1" /> JULY 11, 2023
+        <BiCalendar size={20} className="mr-1" /> JANUARY 15, 2023
       </p>
       <div className="h-[280px] border bg-white ">
         <a href="/contact" className="">
@@ -21,26 +21,9 @@ const Blog1 = () => {
           />
         </a>
       </div>
-      {/* <div className="pr-[35%] py-[3%]">
-        <p className="py-[2%] font-semibold ">
-          Your 20s and 30s are a pivoatal time both in life and for your body.
-          As you age, you change- and so do your nutritional needs. But choosing
-          the right supplements often feels overwhelming. Let's take a look at
-          some important nutrients you need in your 20s and 30s
-        </p>
 
-        <p className="py-[2%] font-semibold ">
-          <strong>NOTE</strong>: Many of the following vitamins and supplements
-          are important for everyone at every age. Your healthcare practitioner
-          can help to give you a more personalized pecommendation for which
-          supplements you should be taking.{" "}
-        </p>
-      </div> */}
       <div className="pb-[1%]">
-        
-        
-        {/* <h3 className="text-base font-bold mb-[2%]">1. VITAMIN D</h3> */}
-        <p className="py-[1%] font-semibold mb-[2%] ">
+        <p className="pb-[1%] pt-[4%] text-lg  italic ">
           Do digestive problems like GERD, ulcers, acid reflux, bloating, and
           stomach burning make you tired? Do you frequently turn to
           over-the-counter or prescription pharmaceuticals for short-term
@@ -48,92 +31,64 @@ const Blog1 = () => {
           might want to have a look at Ambrosia, a natural supplement that
           offers a long-lasting fix for your digestive problems.
         </p>
-        <p className="py-[1%] font-semibold mb-[2%] ">
+        <p className="py-[1%]   ">
           Ambrosia is made from natural ingredients such as aloe vera, ajwain,
           amla, and chiraita. Together, these essential components reduce
           stomach discomfort and enhance liver function. Here is how each
           component aids:
         </p>
-        <p className="py-[1%] font-semibold mb-[2%] ">
-          Aloe vera: Due to its anti-inflammatory characteristics, aloe vera has
-          long been used as a natural treatment for digestive problems. It can
-          ease stomach discomfort and lessen inflammation, offering relief from
-          illnesses including GERD and acid reflux.
+        <p className="py-[1%]   ">
+          <b> Aloe vera:</b> Due to its anti-inflammatory characteristics, aloe
+          vera has long been used as a natural treatment for digestive problems.
+          It can ease stomach discomfort and lessen inflammation, offering
+          relief from illnesses including GERD and acid reflux.
         </p>
       </div>
       <div className=" ">
-        {/* <h4 className="font-bold py-[2%] mb-[2%]">
-          BEST VITAMIN D SUPPLEMENTS
-        </h4> */}
-
-        {/* <a
-          href="/"
-          className="underline font-bold text-base text-green-600 mb-[2%] "
-        >
-          Solgar* Vitamin D3 (Cholecalciferol) 250 mcg (10,00 IU) Softgels
-        </a> */}
-
-        <p className="py-[3%] font-semibold mb-[2%]">
-          Ajwain: Thymol is a substance found in ajwain, sometimes referred to
-          as carom seeds, that possesses antibacterial characteristics. It can
-          enhance digestion and lessen gas and bloating.
+        <p className="py-[1%]   ">
+          <b> Ajwain:</b> Thymol is a substance found in ajwain, sometimes
+          referred to as carom seeds, that possesses antibacterial
+          characteristics. It can enhance digestion and lessen gas and bloating.
         </p>
 
-        {/* <a
-          href="/"
-          className="font-bold text-base underline text-green-600 mb-[2%]"
-        >
-          Solgar* Vegan Vitamin D3 25 mcg(1000 IU)
-        </a> */}
-
-        <p className="py-[3%] font-semibold mb-[2%]">
-          Amla: Also known as Indian gooseberry, is a fruit that is high in
-          antioxidants and vitamin C, both of which can aid to preserve the
+        <p className="py-[1%]   ">
+          <b>Amla:</b> Also known as Indian gooseberry, is a fruit that is high
+          in antioxidants and vitamin C, both of which can aid to preserve the
           liver and support liver function. Additionally, it possesses
           anti-inflammatory qualities that might lessen digestive tract
           irritation.
         </p>
-        <p className="py-[3%] font-semibold mb-[2%] ">
-          Chiraita: Also called Swertia Chirata, is a herb that has been used to
-          treat digestive problems in traditional medicine. Digestion can be
-          improved and stomach acid reduced.
+        <p className="py-[1%]   ">
+          <b>Chiraita:</b> Also called Swertia Chirata, is a herb that has been
+          used to treat digestive problems in traditional medicine. Digestion
+          can be improved and stomach acid reduced.
         </p>
       </div>
       <div className=" flex sm:block xs:block pb-[5%]">
         <div className="w-[54%] sm:w-[100%] xs:w-[100%] ">
-          {/* <h2 className="font-bold text-xl">SUMMING IT UP</h2> */}
-
-          <p className="py-[3%] font-semibold ">
-            <a className="underline text-green-600" href="/">
-              Follow us on Instagram{""}
-            </a>
-            {"  "}
-            for quick and easy vitamin tips!
-          </p>
-
-          <p className="py-[3%] font-semibold ">
+          <p className="py-[2%] font-semibold  text-xl ">
             Here are some major benefits of ambrosia
           </p>
 
-          <p className="py-[3%] xs:pb-[8%] font-semibold ">
-            Permanent comfort - Unlike many over-the-counter drugs that only
-            provide short-term comfort, Ambrosia offers a long-lasting answer to
-            your digestive problems.
+          <p className="py-[3%] xs:pb-[8%] ">
+            <b> Permanent comfort -</b> Unlike many over-the-counter drugs that
+            only provide short-term comfort, Ambrosia offers a long-lasting
+            answer to your digestive problems.
           </p>
-          <p className="py-[3%] xs:pb-[8%] font-semibold ">
-            No Side Effects - Ambrosia has only natural ingredients, thus there
-            is little chance that it will have any negative side effects.
+          <p className="py-[3%] xs:pb-[8%]  ">
+            <b>No Side Effects -</b> Ambrosia has only natural ingredients, thus
+            there is little chance that it will have any negative side effects.
           </p>
-          <p className="py-[3%] xs:pb-[8%] font-semibold ">
-            No Preservatives - Ambrosia doesn't include any preservatives, so
-            you can be sure you're consuming a supplement devoid of dangerous
-            chemicals.
+          <p className="py-[3%] xs:pb-[8%]  ">
+            <b> No Preservatives -</b> Ambrosia doesn't include any
+            preservatives, so you can be sure you're consuming a supplement
+            devoid of dangerous chemicals.
           </p>
-          <p className="py-[3%] xs:pb-[8%] font-semibold ">
-            Improved Liver Health - Ambrosia contains nutrients that can support
-            better liver health and function. Ambrosia only contains natural
-            components, so you can be sure you're taking a supplement that won't
-            harm your health and is both safe and effective.
+          <p className="py-[3%] xs:pb-[8%]  ">
+            <b>Improved Liver Health -</b> Ambrosia contains nutrients that can
+            support better liver health and function. Ambrosia only contains
+            natural components, so you can be sure you're taking a supplement
+            that won't harm your health and is both safe and effective.
           </p>
         </div>
         <div className="w-[46%] sm:w-[80%] xs:w-[100%] sm:m-auto xs:m-auto">
@@ -156,11 +111,9 @@ const Blog1 = () => {
                     />
                   </a>
                 </div>
-                <p className="text-sm font-semibold">STRESS SUPPORT</p>
-                <h5 className="text-xs font-semibold">AND 1 MORE</h5>
-                <p className="text-base font-semibold">
-                  Magnesium Citrate Tablets
-                </p>
+                <p className="text-sm ">STRESS SUPPORT</p>
+                <h5 className="text-xs ">AND 1 MORE</h5>
+                <p className="text-base ">Magnesium Citrate Tablets</p>
                 <p className="">
                   <img src="star-img.png" alt="" />
                   (11)
@@ -177,9 +130,9 @@ const Blog1 = () => {
                     />
                   </a>
                 </div>
-                <p className="text-sm font-semibold">HEART HEALTH</p>
-                <h5 className="text-xs font-semibold">AND 1 MORE</h5>
-                <p className="text-base font-semibold">
+                <p className="text-sm ">HEART HEALTH</p>
+                <h5 className="text-xs ">AND 1 MORE</h5>
+                <p className="text-base ">
                   Triple Strength Omega-3 950 mg Softgels
                 </p>
                 <p className="">
@@ -198,9 +151,9 @@ const Blog1 = () => {
                     />
                   </a>
                 </div>
-                <p className="text-sm font-semibold">IMMUNE SUPPORT</p>
-                <h5 className="text-xs font-semibold">AND 2 MORE</h5>
-                <p className="text-base font-semibold">
+                <p className="text-sm ">IMMUNE SUPPORT</p>
+                <h5 className="text-xs ">AND 2 MORE</h5>
+                <p className="text-base ">
                   Vitamin D3 (Cholecalciferol)250 MCG (10,000 IU) Softgels
                 </p>
                 <p className="">
