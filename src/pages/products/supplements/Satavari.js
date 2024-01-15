@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 
 import { FaAmazon } from "react-icons/fa";
+import ShatavariImg from "../../../img/Heiland/2Suplements/4Shatavari/A3.jpg"
+import Ambrosia from "../../../img/Heiland/2Suplements/2Ambrosia/C,1.jpg";
+import Ashwagandha from "../../../img/Heiland/2Suplements/3Ashwagandha/B1.jpg";
 
 import logo1 from "../logos/logo1.png";
 import logo2 from "../logos/logo2.png";
@@ -21,12 +24,8 @@ export const Satavari = () => {
     <div className="">
       <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full bg-[#f3ffed bg-[#fcfce4] mt-[73px]">
         <div className="flex xs:block sm:block pb-[10%]">
-          <div className="w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[15%] ">
-            <img
-              src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/606d2082874849.5d2b473f01d4f.jpg"
-              className="h-[80%]"
-              alt=""
-            />
+          <div className="w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[8%] ">
+            <img src={ShatavariImg} className="h-[50%" alt="" />
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">
@@ -223,28 +222,24 @@ export const Satavari = () => {
             YOU MIGHT ALSO LIKE
           </h1>
           <div className="w-full h-full flex xs:flex-wrap sm:flex-wrap justify-between">
-            <div className=" text-center h-full w-[48%] xs:w-full sm:w-full">
+            <div className=" text-center h-full w-[48%]  xs:w-[80%] sm:w-[70%] m-auto">
               <a
                 href="/ambrosia"
                 className="h-[180px]  mx-[5%]  border-2 bg-white "
               >
-                <img
-                  src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
-                  alt=""
-                  className="h-full w-full"
-                />
+                <img src={Ambrosia} alt="" className="h-full w-full" />
                 <p className="text-center text-2xl font-semibold mt-[10px]">
                   Ambrosia
                 </p>
               </a>
             </div>
-            <div className=" text-center h-full w-[48%] xs:w-full sm:w-full">
+            <div className=" text-center h-full w-[48%]  xs:w-[80%] sm:w-[70%] m-auto">
               <a
                 href="/ashwagandha"
                 className="h-[180px]  mx-[5%]  border-2 bg-white "
               >
                 <img
-                  src="https://tse3.mm.bing.net/th?id=OIP.lmXNtfdMUZt2uE74z4gzEAHaEK&pid=Api&P=0&h=180"
+                  src={Ashwagandha}
                   alt=""
                   className="h-full w-full"
                 />

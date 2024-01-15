@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "./images/adviceTea.webp";
+import img from "../../img/Heiland/1Tea/1Multi Setup/M1.1M.jpg";
 
 
 export const TeaAdvice = () => {
@@ -10,9 +10,9 @@ export const TeaAdvice = () => {
       </div>
       <div className="flex py-[5%] md:block sm:block xs:block md:px-[10%] sm:px-[10%] xs:px-[10%] ">
         <div className="w-[50%] md:w-full sm:w-full xs:w-full   px-[5%] lg:px-[3%] md:px-[2%] py-[3%]">
-          <img src={img} alt="" className="w-full " />
+          <img src={img} alt="" className="w-full   " />
         </div>
-        <div className="w-[50%] items-center flex md:w-full sm:w-full xs:w-full px-[5%] lg:px-[3%] md:px-[5%] sm:px-[9%] xs:px-[10%] py-[3%] ">
+        <div className="w-[50%] items-center xl:text-lg 2xl:text-lg flex md:w-full sm:w-full xs:w-full px-[5%] lg:px-[3%] md:px-[5%] sm:px-[9%] xs:px-[10%] py-[3%] ">
           <ul className="list-disc">
             <li className="my-[2%]">
               Experiment with natural sweeteners like honey or stevia, if

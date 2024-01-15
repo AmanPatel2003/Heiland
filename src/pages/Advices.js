@@ -1,7 +1,7 @@
 import React from "react";
-import supple from "../img/advices/supplement.webp";
-import teaimg from "../img/advices/tea.webp";
-import beautyimg from "../img/advices/beuty.webp";
+import supple from "../img/Heiland/2Suplements/1Multi Setup/E1M.jpg";
+import teaimg from "../img/Heiland/1Tea/1Multi Setup/M3.1M.jpg";
+import beautyimg from "../img/Heiland/3Skin Products/1MultiSetup/A1M.jpg";
 
 export const Advices = () => {
  
@@ -27,25 +27,37 @@ export const Advices = () => {
         </p>
       </section>
       <section className="px-[5%] pb-[5%] lg:pb-[10%] md:pb-[20%] sm:block xs:block flex justify-between">
-        <div className="w-[31%] xs:w-full sm:w-full xs:py-[5%] sm:py-[5%]">
+        <div className="w-[31%] xs:w-full sm:w-[75%] m-auto xs:py-[5%] sm:py-[5%]">
           <a href="/suppleAdvice" className="">
-            <img src={supple} alt="" className="w-full h-[250px] mb-[5%]" />
+            <img
+              src={supple}
+              alt=""
+              className="w-full h-[250px] sm:h-[300px] 2xl:h-[300px] mb-[5%]"
+            />
           </a>
           <a href="/suppleAdvice" className="font-bold text-xl mb-[2%]">
             Herbal Supplements
           </a>
         </div>
-        <div className="w-[31%] xs:w-full sm:w-full xs:py-[5%] sm:py-[5%]">
+        <div className="w-[31%] xs:w-full sm:w-[75%] xs:py-[5%] sm:py-[5%] m-auto">
           <a href="/teaAdvice" className="">
-            <img src={teaimg} alt="" className="w-full  h-[250px] mb-[5%]" />
+            <img
+              src={teaimg}
+              alt=""
+              className="w-full  h-[250px] sm:h-[300px] 2xl:h-[300px] mb-[5%]"
+            />
           </a>
           <a href="/teaAdvice" className="font-bold text-xl mb-[2%]">
             Herbal Tea's
           </a>
         </div>
-        <div className="w-[31%] xs:w-full sm:w-full xs:py-[5%] sm:py-[5%]">
+        <div className="w-[31%] xs:w-full sm:w-[75%] xs:py-[5%] sm:py-[5%] m-auto">
           <a href="/beautyAdvice" className="">
-            <img src={beautyimg} alt="" className="w-full  h-[250px] mb-[5%]" />
+            <img
+              src={beautyimg}
+              alt=""
+              className="w-full  h-[250px] sm:h-[300px] 2xl:h-[300px] mb-[5%]"
+            />
           </a>
           <a href="/beautyAdvice" className="font-bold text-xl mb-[2%]">
             Herbal Beauty Care

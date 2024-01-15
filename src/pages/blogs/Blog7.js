@@ -4,9 +4,9 @@ import { BiCalendar } from "react-icons/bi";
 
 const Blog7 = () => {
   return (
-    <div className="py-[10%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%] px-[27%] lg:px-[20%] md:px-[10%] sm:px-[10%] xs:px-[10%] bg-[#f3ffed] mt-[73px]">
+    <div className="py-[10%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%] px-[27%] lg:px-[20%] md:px-[10%] sm:px-[10%] xs:px-[10%] bg-[#fcfce4] mt-[73px]">
       <h1 className="text-2xl font-bold  ">
-         Ambrosia's Role in Alleviating Acid Reflux: A Deep Dive
+        Ambrosia's Role in Alleviating Acid Reflux: A Deep Dive
       </h1>
       <p className="flex py-[2%]">
         <BiCalendar size={20} className="mr-1" /> JULY 11, 2023
@@ -21,8 +21,8 @@ const Blog7 = () => {
         </a>
       </div>
 
-      <div className="pb-[1%]">
-        <p className="py-[1%] font-semibold mb-[2%] ">
+      <div className="">
+        <p className="py-[2%]   ">
           Acid reflux, a common digestive disorder, can significantly impact
           your quality of life. The discomfort, burning sensation, and
           regurgitation of stomach acid into the esophagus can make even the
@@ -32,8 +32,8 @@ const Blog7 = () => {
           gaining recognition is Ambrosia, a natural supplement rooted in
           ancient Ayurvedic wisdom.
         </p>
-        <h1 className="text-xl font-bold">Understanding Acid Reflux</h1>
-        <p className="py-[1%] font-semibold mb-[2%] ">
+        <h1 className="text-lg font-semibold">Understanding Acid Reflux</h1>
+        <p className="mt-[1%] mb-[2%] ">
           Before we delve into how Ambrosia can help overcome acid reflux, it's
           essential to understand the condition itself. Acid reflux, also known
           as gastroesophageal reflux disease (GERD), occurs when the lower
@@ -42,10 +42,10 @@ const Blog7 = () => {
           irritation and discomfort. Common symptoms include heartburn,
           regurgitation, chest pain, and difficulty swallowing.
         </p>
-        <h1 className="text-xl font-bold">
+        <h1 className="text-lg font-semibold">
           Traditional Approaches vs. Natural Solutions
         </h1>
-        <p className="py-[1%] font-semibold mb-[2%] ">
+        <p className=" mb-[1%] ">
           Traditional treatments for acid reflux often involve medications that
           aim to reduce stomach acid production or neutralize it. While these
           medications can provide relief, they may come with side effects and
@@ -53,61 +53,55 @@ const Blog7 = () => {
         </p>
       </div>
       <div className=" ">
-        <p className="py-[3%] font-semibold mb-[2%]">
+        <p className="mt-[1%] mb-[1%]">
           In contrast, natural solutions like Ambrosia take a holistic approach
           to digestive health. Ambrosia is a unique blend of ancient Ayurvedic
           herbs and ingredients that have been used for centuries to promote
           healthy digestion and soothe gastrointestinal discomfort.
         </p>
       </div>
-      <div className=" flex sm:block xs:block pb-[5%]">
-        <div className="w-[54%] sm:w-[100%] xs:w-[100%] ">
-          <p className="py-[3%] font-semibold ">
-            <a className="underline text-green-600" href="/">
-              Follow us on Instagram{""}
-            </a>
-            {"  "}
-            for quick and easy vitamin tips!
-          </p>
-          <h1 className="text-xl font-bold">
+      <div className=" flex sm:block xs:block pb-[5%] ">
+        <div className="w-[54%] sm:w-[100%] xs:w-[100%] pr-[1%] ">
+          <h1 className="text-lg font-semibold">
             Let's explore how Ambrosia can help overcome acid reflux:
           </h1>
-          <p className="py-[3%] font-semibold mb-[2%]">
+          <p className=" my-[2%]">
             Soothing Inflammation: Ambrosia contains ingredients like aloe vera
             and turmeric, known for their anti-inflammatory properties. These
             ingredients can help soothe the irritation and inflammation in the
             esophagus caused by acid reflux, providing relief from discomfort.
           </p>
-          <p className="py-[3%] font-semibold mb-[2%] ">
+          <p className=" mb-[2%] ">
             Promoting Healthy Digestion: Herbs like ajwain (carom seeds) and
             amla in Ambrosia are recognized in Ayurveda for their digestive
             benefits. They can aid in proper digestion and reduce the likelihood
             of stomach acid flowing back into the esophagus.
           </p>
-          <p className="py-[3%] font-semibold ">
+          <p className=" ">
             Strengthening the Lower Esophageal Sphincter (LES): Certain
             ingredients in Ambrosia may contribute to strengthening the LES,
             which is crucial in preventing acid reflux episodes. A
             well-functioning LES helps keep stomach acid where it belongs – in
             the stomach.
           </p>
+          <p className="py-[1%] xs:pb-[8%]  ">
+            Protecting the Esophageal Lining: Ambrosia's natural ingredients,
+            such as amla, are rich in antioxidants that can help protect the
+            delicate lining of the esophagus from damage caused by stomach acid
+          </p>
         </div>
         <div className="w-[46%] sm:w-[80%] xs:w-[100%] sm:m-auto xs:m-auto">
           <Subscribe />
         </div>
       </div>
-      <p className="py-[3%] xs:pb-[8%] font-semibold ">
-        Protecting the Esophageal Lining: Ambrosia's natural ingredients, such
-        as amla, are rich in antioxidants that can help protect the delicate
-        lining of the esophagus from damage caused by stomach acid
-      </p>
-      <p className="py-[3%] xs:pb-[8%] font-semibold ">
+
+      {/* <p className="py-[3%] xs:pb-[8%] font-semibold ">
         Improving Overall Digestive Health: Ambrosia takes a holistic approach
         to digestive wellness, addressing not only the symptoms of acid reflux
         but also the overall health of the digestive system. This comprehensive
         approach can lead to long-term relief and a reduced likelihood of
         recurrent acid reflux
-      </p>
+      </p> */}
 
       <div className="border">
         <div className="">

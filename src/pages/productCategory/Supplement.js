@@ -1,10 +1,13 @@
 import React from 'react'
+import Ambrosia from "../../img/Heiland/2Suplements/2Ambrosia/Z1M1.png"
+import  Ashwagandha from "../../img/Heiland/2Suplements/3Ashwagandha/Y1M.png"
+import Shatavari from "../../img/Heiland/2Suplements/4Shatavari/Y3M.png"
 
 export const Supplement = () => {
   return (
     <>
       {/* <div className="bg-[#f3ffed] px-[15%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[5%] xl:mt-[5%] lg:mt-[6%] md:mt-[7%] sm:mt-[10%] xs:mt-[11%]"> */}
-      <div className="bg-[#f3ffed] px-[20%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[73px] ">
+      <div className="bg-[#fcfce4] px-[20%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[73px] ">
         <div className="flex h-full">
           {/* <div className="w-[30%] xs:hidde sm:hidde md:hidde xs:w-[40%] pt-[8%]">
             <ul className="">
@@ -161,14 +164,14 @@ export const Supplement = () => {
                 Herbal supplements
               </h2>
             </div>
-            <section className="h-full bg-[#f3ffed]   ">
+            <section className="h-full    ">
               <div className="flex justify-between xs:block pt-[4%] pb-[40px]">
                 <div className="flex xs:flex-wrap sm:flex-wrap md:flex-wrap justify-between lg:flex-wrap w-full xs:w-full xs:mt-[8%]">
                   <div className="w-[32%] xs:w-[50%] sm:w-[50%] md:w-[50%] ">
                     {/* <div className="w-[20%] xs:w-[50%] sm:w-[32%] md:w-[25%]  md:pt-[5%] sm:pt-[5%] "> */}
                     <a href="/ambrosia">
                       <img
-                        src="	https://www.solgar.com/wp-content/uploads/product_photos/SO_358720/SO_358720_F-300x300.png"
+                        src={Ambrosia}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">
@@ -181,7 +184,7 @@ export const Supplement = () => {
                     {/* <div className="w-[20%] xs:w-[50%] sm:w-[32%] md:w-[25%]  md:pt-[5%] sm:pt-[5%] "> */}
                     <a href="/ashwagandha">
                       <img
-                        src="	https://www.solgar.com/wp-content/uploads/product_photos/SO_011519/SO_011519_F-300x300.png"
+                        src={Ashwagandha}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">
@@ -196,7 +199,7 @@ export const Supplement = () => {
                     {/* <div className="w-[20%] xs:w-[50%] sm:w-[32%] md:w-[25%]  md:pt-[5%] sm:pt-[5%] "> */}
                     <a href="/satavari">
                       <img
-                        src="		https://www.solgar.com/wp-content/uploads/product_photos/SO_012493/SO_012493_F-300x300.png"
+                        src={Shatavari}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">

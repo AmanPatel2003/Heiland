@@ -137,7 +137,6 @@ ${message}
         />
         <br />
         <div className="text-center  flex w-full ">
-          {" "}
           <HCaptcha
             // sitekey={AppConfig.hCaptchaSiteToken}
             sitekey={"6181e7d8-51a3-4fab-bd63-af695604e71f"}

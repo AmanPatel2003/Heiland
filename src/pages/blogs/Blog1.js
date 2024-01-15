@@ -1,10 +1,15 @@
 import React from "react";
 import { Subscribe } from "../../components/Subscribe";
 import { BiCalendar } from "react-icons/bi";
+import AmbrosiaImg from "../../img/Heiland/2Suplements/2Ambrosia/C,1M.jpg"
+
+import Ambrosia from "../../img/Heiland/2Suplements/2Ambrosia/Z1M1.png"
+import Ashwagandha from "../../img/Heiland/2Suplements/3Ashwagandha/Y1M.png"
+import Shatavari from "../../img/Heiland/2Suplements/4Shatavari/Y3M.png"
 
 const Blog1 = () => {
   return (
-    <div className="py-[10%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%] px-[27%] lg:px-[20%] md:px-[10%] sm:px-[10%] xs:px-[10%] bg-[#f3ffed] mt-[73px]">
+    <div className="py-[10%] xs:pt-[25%] sm:pt-[20%] md:pt-[15%] px-[27%] lg:px-[20%] md:px-[10%] sm:px-[10%] xs:px-[10%] bg-[#fcfce4] mt-[73px]">
       <h1 className="text-2xl font-bold  ">
         Ambrosia - The Permanent Solution to Your Digestive Woes: No
         Preservatives, No Chemicals.
@@ -12,10 +17,10 @@ const Blog1 = () => {
       <p className="flex py-[2%]">
         <BiCalendar size={20} className="mr-1" /> JANUARY 15, 2023
       </p>
-      <div className="h-[280px] border bg-white ">
-        <a href="/contact" className="">
+      <div className="h-[380px] xs:h-[280px]  border bg-white ">
+        <a href="/supplement" className="">
           <img
-            src="https://tse3.mm.bing.net/th?id=OIP.2BczbIPBVireVZ0HXintDwHaDu&pid=Api&P=0&h=180"
+            src={AmbrosiaImg}
             alt=""
             className="h-full w-full"
           />
@@ -100,66 +105,63 @@ const Blog1 = () => {
           <h2 className="text-center py-[5%] font-bold text-xl text-green-900">
             PRODUCTS MENTIONED IN THIS ARTICLS
           </h2>
-          <div className="flex xs:block">
+          <div className="flex xs:block pb-3">
             <div className="w-[33%] xs:w-[80%] xs:m-auto text-center px-[4%]">
               <div>
                 <div className="w-full xs:pl-[6%]">
-                  <a href="/" className="px-[3%] xs:w-full ">
+                  <a href="/ambrosia" className="px-[3%] xs:w-full ">
                     <img
-                      src="	https:www.solgar.com/wp-content/uploads/product_photos/SO_358720/SO_358720_F-300x300.png"
+                      src={Ambrosia}
                       alt=""
                     />
                   </a>
                 </div>
-                <p className="text-sm ">STRESS SUPPORT</p>
-                <h5 className="text-xs ">AND 1 MORE</h5>
+                <p className="text-lg font-semibold">Ambrosia</p>
+                {/* <h5 className="text-xs ">AND 1 MORE</h5>
                 <p className="text-base ">Magnesium Citrate Tablets</p>
                 <p className="">
                   <img src="star-img.png" alt="" />
                   (11)
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="w-[33%] xs:w-[80%] xs:m-auto text-center px-[4%]">
               <div>
                 <div className="w-full xs:pl-[6%]">
-                  <a href="/" className="px-[3%]">
+                  <a href="/ashwagandha" className="px-[3%]">
                     <img
-                      src="	https:www.solgar.com/wp-content/uploads/product_photos/SO_011519/SO_011519_F-300x300.png"
+                      src={Ashwagandha}
                       alt=""
                     />
                   </a>
                 </div>
-                <p className="text-sm ">HEART HEALTH</p>
-                <h5 className="text-xs ">AND 1 MORE</h5>
+                <p className="text-lg font-semibold">Ashwagandha</p>
+                {/* <h5 className="text-xs ">AND 1 MORE</h5>
                 <p className="text-base ">
                   Triple Strength Omega-3 950 mg Softgels
                 </p>
                 <p className="">
                   <img src="star-img.png" alt="" />
                   (6)
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="w-[33%] xs:w-[80%] xs:m-auto text-center px-[4%]">
               <div>
                 <div className="w-full xs:pl-[6%]">
-                  <a href="/" className="px-[3%]">
+                  <a href="/satavari" className="px-[3%]">
                     <img
-                      src="		https:www.solgar.com/wp-content/uploads/product_photos/SO_012493/SO_012493_F-300x300.png"
+                      src={Shatavari}
                       alt=""
                     />
                   </a>
                 </div>
-                <p className="text-sm ">IMMUNE SUPPORT</p>
-                <h5 className="text-xs ">AND 2 MORE</h5>
+                <p className="text-lg m-auto font-semibold">Shatavari</p>
+                {/* <h5 className="text-xs ">AND 2 MORE</h5>
                 <p className="text-base ">
                   Vitamin D3 (Cholecalciferol)250 MCG (10,000 IU) Softgels
-                </p>
-                <p className="">
-                  <img src="star-img.png" alt="" />
-                  (0)
-                </p>
+                </p> */}
+               
               </div>
             </div>
           </div>

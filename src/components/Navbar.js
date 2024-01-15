@@ -229,7 +229,7 @@ export default function Navbar() {
 
         <div className="   xl:hidden 2xl:hidden px-[20%] xs:px-[4%] sm:px-[4%] md:px-[10%] h-full bg-[#d3e8c9] borde-b-2 ">
           {open ? (
-            <div className="flex justify-between py-[4%] w-full h-full justif">
+            <div className="flex justify-between py-[4%] w-full h-full ">
               <ul className=" h-full  ">
                 <li className="relative w-full h-full text-center hover:bg-[#d2e7c7]">
                   <button
@@ -359,15 +359,7 @@ export default function Navbar() {
                       Contact
                     </a>
                   </li>
-                  {/* <li>
-                    <a
-                      onClick={toggleLearnDropdown}
-                      href="/impact"
-                      className="bg-[#d2e7c7] font-semibold text-lg xs:text-base"
-                    >
-                      Impact
-                    </a>
-                  </li> */}
+                 
                 </ul>
               )}
             </div>

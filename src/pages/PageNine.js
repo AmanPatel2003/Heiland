@@ -2,7 +2,7 @@ import React from "react";
 
 export const PageNine = () => {
   return (
-    <div className="pt-[4%] bg-[#f3ffed] mt-[73px]">
+    <div className="pt-[4%] bg-[#fcfce4] mt-[73px]">
       <section className="h-full flex mt-[7%] bg-[#f3ffed]">
         <div className="w-[50%] sm:w-full xs:w-full pl-[7%] pr-[9%] pb-[5%] pt-[10%]">
           <h1 className="text-3xl font-bold mb-[5%]">

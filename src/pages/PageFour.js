@@ -6,7 +6,7 @@ import img3 from "../img/story-33.png";
 export default function PageFour() {
  
   return (
-    <div className="pb-[10%]   bg-[#fcfce4] mt-[73px]  ">
+    <div className="pb-[10%] bg-[#fcfce4] mt-[73px]  ">
       {/* <section className=" px-[30%] xs:px-[3%] sm:px-[8%] md:px-[10%] lg:px-[20%] py-[5%] xs:pt-[13%]  w-full">
         <div className="w-full flex justify-between">
           <a href="/mission">

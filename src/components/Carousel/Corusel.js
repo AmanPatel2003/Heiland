@@ -1,5 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { BsStarFill } from "react-icons/bs";
+import Ambrosia from "../../img/Heiland/2Suplements/2Ambrosia/C,1M.jpg"
+import Chamomile from "../../img/Heiland/1Tea/3Chamomile/C,1M.jpg"
+import Rose from "../../img/Heiland/1Tea/2Rose/D1M.jpg"
+import GoldenZest from "../../img/Heiland/3Skin Products/2Golden Zest/GZ1M.jpg"
 
 const Corusel = ({ data }) => {
   const [active, setActive] = useState(0);
@@ -64,7 +68,7 @@ const Corusel = ({ data }) => {
                 <h1 className=" text-start font-bold my-[3%] text-xl ">
                   {item.h1}
                 </h1>
-                <div className="flex py-[4%] ">
+                <div className="flex py-[4%] text-green-800">
                   <BsStarFill />
                   <BsStarFill />
                   <BsStarFill />
@@ -81,15 +85,14 @@ const Corusel = ({ data }) => {
                 </p> */}
               </div>
               <div className="w-[50%] xs:w-[70%] xs:m-auto  xs:h-[320px] xs:mb-[5%] bg-white border">
-                <a href="/contact" className="">
+                <a href={getLink(item.image)} className="">
                   <img
-                    src={item.image}
-                    alt=""
+                    src={getImageSource(item.image)}
+                    alt={`Person ${item.id}`}
                     className="h-full w-full object-cover"
                   />
                 </a>
               </div>
-            
             </section>
           </div>
         );
@@ -109,5 +112,34 @@ const Corusel = ({ data }) => {
       </button>
     </div>
   );
+};
+// Helper function to get local image source based on the image name
+const getImageSource = imageName => {
+  switch (imageName) {
+    case 'image1':
+      return Ambrosia;
+    case 'image2':
+      return Chamomile;
+    case 'image3':
+      return Rose;
+    case 'image4':
+      return GoldenZest;
+    default:
+      return imageName; // If the image is not recognized, use the original URL
+  }
+};
+const getLink = linkSorce => {
+  switch (linkSorce) {
+    case 'image1':
+      return "/supplement";
+    case 'image2':
+      return "/tea";
+    case 'image3':
+      return "/tea";
+    case 'image4':
+      return "/beauty";
+    default:
+      return linkSorce; // If the image is not recognized, use the original URL
+  }
 };
 export default Corusel;

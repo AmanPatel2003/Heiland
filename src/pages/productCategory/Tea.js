@@ -1,9 +1,15 @@
 import React from 'react'
+import Chamomile from "../../img/Heiland/1Tea/3Chamomile/Z1M.png"
+import Ginger from "../../img/Heiland/1Tea/4Ginger/Z1M.png"
+import Hibiscus from "../../img/Heiland/1Tea/5Hibiscus/Y1M.png"
+import Peppermint from "../../img/Heiland/1Tea/6Peppermint/Y1M.png"
+import Rose from "../../img/Heiland/1Tea/2Rose/Y1M.png"
+
 
 export const Tea = () => {
   return (
     <>
-      <div className="bg-[#f3ffed] px-[20%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[73px] ">
+      <div className="bg-[#fcfce4] px-[20%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[73px] ">
         <div className="flex h-full">
           {/* <div className="w-[30%] xs:hidde sm:hidde md:hidde xs:w-[40%] pt-[8%]">
             <ul className="">
@@ -160,13 +166,13 @@ export const Tea = () => {
                 Herbal tea's
               </h2>
             </div>
-            <section className="h-full bg-[#f3ffed]   ">
+            <section className="h-full  ">
               <div className="flex justify-between xs:block pt-[4%] pb-[40px]">
                 <div className="flex flex-wrap justify-cente lg:flex-wrap w-full xs:w-full xs:mt-[8%]">
                   <div className="w-[33%] xs:w-[50%] sm:w-[50%] md:w-[50%] ">
                     <a href="/chamomile">
                       <img
-                        src="	https://www.solgar.com/wp-content/uploads/product_photos/SO_358720/SO_358720_F-300x300.png"
+                        src={Chamomile}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">
@@ -178,7 +184,7 @@ export const Tea = () => {
                   <div className="w-[33%]  xs:w-[50%] sm:w-[50%] md:w-[50%]">
                     <a href="/ginger">
                       <img
-                        src="	https://www.solgar.com/wp-content/uploads/product_photos/SO_011519/SO_011519_F-300x300.png"
+                        src={Ginger}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">
@@ -192,7 +198,7 @@ export const Tea = () => {
                   <div className="w-[33%]  xs:w-[50%] sm:w-[50%] md:w-[50%] xs:mt-[10%] sm:mt-[10%] md:mt-[10%]">
                     <a href="/hibiscus">
                       <img
-                        src="		https://www.solgar.com/wp-content/uploads/product_photos/SO_012493/SO_012493_F-300x300.png"
+                        src={Hibiscus}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">
@@ -203,7 +209,7 @@ export const Tea = () => {
                   <div className="w-[33%]  xs:w-[50%] sm:w-[50%] md:w-[50%] mt-[10%]">
                     <a href="/peppermint">
                       <img
-                        src="		https://www.solgar.com/wp-content/uploads/product_photos/SO_012493/SO_012493_F-300x300.png"
+                        src={Peppermint}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">
@@ -214,7 +220,7 @@ export const Tea = () => {
                   <div className="w-[33%]  xs:w-[50%] sm:w-[50%] md:w-[50%]  mt-[10%]">
                     <a href="/rose">
                       <img
-                        src="		https://www.solgar.com/wp-content/uploads/product_photos/SO_012493/SO_012493_F-300x300.png"
+                        src={Rose}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">

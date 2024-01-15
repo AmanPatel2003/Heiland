@@ -17,8 +17,6 @@ import Blog6 from "./pages/blogs/Blog6";
 import Blog7 from "./pages/blogs/Blog7";
 // import PageThree from "./pages/blogs/Blog1";
 
-
-
 import PageFour from "./pages/PageFour";
 // import PageFive from "./pages/PageFive";
 // import Pagesix from "./pages/Pagesix";
@@ -55,14 +53,10 @@ function App() {
           <Route exact path="/" element={<FirstPage />} />
           <Route path="/mission" element={<PageTwo />} />
           <Route path="/about" element={<PageFour />} />
-          {/* <Route path="/posts" element={<PageFive />} /> */}
-          {/* <Route path="/products" element={<Pagesix />} /> */}
           <Route path="/privacy" element={<Pageseven />} />
           <Route path="/contact" element={<PageEight />} />
-          {/* <Route path="/impact" element={<PageNine />} /> */}
-          {/* <Route path="/shop" element={<Pageeleven />} /> */}
           <Route path="/whereToBuy" element={<WhereToBay />} />
-{/* -----------------------------------------------------------------------------------BLOGS--------------------------------------------------------------------------------- */}
+          {/* -----------------------------------------------------------------------------------BLOGS--------------------------------------------------------------------------------- */}
           <Route path="/blog1" element={<Blog1 />} />
           <Route path="/blog2" element={<Blog2 />} />
           <Route path="/blog3" element={<Blog3 />} />
@@ -70,8 +64,6 @@ function App() {
           <Route path="/blog5" element={<Blog5 />} />
           <Route path="/blog6" element={<Blog6 />} />
           <Route path="/blog7" element={<Blog7 />} />
-          {/* <h1></h1> */}
-
           {/* -------------------------------------------------------------------------ACVICE  ------------------------------------------------------------------------- */}
           <Route path="/advice" element={<Advices />} />
           {/* ------------------------------------------------------------------------ ADVICES PAGES----------------------------------------------------------------------- */}

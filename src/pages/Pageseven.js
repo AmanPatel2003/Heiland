@@ -3,7 +3,7 @@ import React from "react";
 export default function Pageseven() {
   return (
     <>
-      <div className="py-[10%] xs:pt-[23%] sm:pt-[20%] md:pt-[15%] px-[23%] md:px-[12%] sm:px-[4%]   xs:px-[2%] bg-[#f3ffed] mt-[73px]">
+      <div className="py-[10%] xs:pt-[23%] sm:pt-[20%] md:pt-[15%] px-[23%] md:px-[12%] sm:px-[4%]   xs:px-[2%] bg-[#fcfce4] mt-[73px]">
         <div className="">
           <h1 className="text-center font-bold text-2xl text-green-800 mb-[5%]">
             {/* PRIVACY POLICY */}

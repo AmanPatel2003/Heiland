@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "./images/adviceBeauty.jpg";
+import img from "../../img/Heiland/3Skin Products/1MultiSetup/A1M.jpg";
 
 export const BeautyAdvice = () => {
   return (
@@ -11,7 +11,7 @@ export const BeautyAdvice = () => {
         <div className="w-[50%] md:w-full sm:w-full xs:w-full   px-[5%] lg:px-[3%] md:px-[2%] py-[3%]">
           <img src={img} alt="" className="w-full " />
         </div>
-        <div className="w-[50%] items-center flex md:w-full sm:w-full xs:w-full px-[5%] lg:px-[3%] md:px-[5%] sm:px-[9%] xs:px-[10%] py-[3%] ">
+        <div className="w-[50%] items-center  xl:text-lg 2xl:text-lg flex md:w-full sm:w-full xs:w-full px-[5%] lg:px-[3%] md:px-[5%] sm:px-[9%] xs:px-[10%] py-[3%] ">
           <ul className="list-disc">
             <p className="font-semibold xs:text-sm mb-[3%]">
               Certainly, when preparing face and body masks , it's essential to
@@ -19,26 +19,26 @@ export const BeautyAdvice = () => {
               best results:
             </p>
             <li className="my-[2%]">
-              1. Normal Skin: For normal skin, you can mix Mask powder with
+               Normal Skin: For normal skin, you can mix Mask powder with
               plain water or rosewater. This combination can help rejuvenate and
               refresh the skin.
             </li>
             <li className="my-[2%]">
-              2. Oily Skin: To control excess oil and reduce acne, blend Mask
+               Oily Skin: To control excess oil and reduce acne, blend Mask
               powder with yogurt or lemon juice. The acidity in lemon juice can
               help balance oil production.
             </li>
             <li className="my-[2%]">
-              3. Dry Skin: For dry skin, combine Mask powder with honey or milk.
+               Dry Skin: For dry skin, combine Mask powder with honey or milk.
               Honey provides moisture, while milk adds a creamy texture and
               hydration.
             </li>
             <li className="my-[2%]">
-              4. Sensitive Skin: Sensitive skin benefits from a mixture of Mask
+               Sensitive Skin: Sensitive skin benefits from a mixture of Mask
               powder and aloe vera gel. Aloe vera soothes and calms irritation.
             </li>
             <li className="my-[2%]">
-              5. Combination Skin: If you have combination skin, Mask powder
+               Combination Skin: If you have combination skin, Mask powder
               with yogurt. This combination can address both oily and dry areas
               on the face.
             </li>

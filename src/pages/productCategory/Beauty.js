@@ -1,9 +1,12 @@
 import React from "react";
+import GoldenZest from "../../img/Heiland/3Skin Products/2Golden Zest/Z11.png"
+import ClayGlow from "../../img/Heiland/3Skin Products/3Clay Glow/Y1M.png"
+import ScarletGlow from "../../img/Heiland/3Skin Products/4Scarlet Glow/Y1M.png"
 
 export const Beauty = () => {
   return (
     <>
-      <div className="bg-[#f3ffed] px-[20%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[73px] ">
+      <div className="bg-[#fcfce4] px-[20%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[73px] ">
         <div className="flex h-full">
           {/* <div className="w-[30%] xs:hidde sm:hidde md:hidde xs:w-[40%] pt-[8%]">
             <ul className="">
@@ -160,13 +163,13 @@ export const Beauty = () => {
                 Herbal Beauty Care
               </h2>
             </div>
-            <section className="h-full bg-[#f3ffed]   ">
+            <section className="h-full bg-[#f3ffed   ">
               <div className="flex justify-between xs:block pt-[4%] pb-[40px]">
                 <div className="flex xs:flex-wrap sm:flex-wrap md:flex-wrap justify-between lg:flex-wrap w-full xs:w-full xs:mt-[8%]">
                   <div className="w-[32%] xs:w-[50%] sm:w-[50%] md:w-[50%] ">
                     <a href="/clayglow">
                       <img
-                        src="	https://www.solgar.com/wp-content/uploads/product_photos/SO_358720/SO_358720_F-300x300.png"
+                        src={ClayGlow}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">
@@ -178,7 +181,7 @@ export const Beauty = () => {
                   <div className="w-[32%]  xs:w-[50%] sm:w-[50%] md:w-[50%]">
                     <a href="/golden">
                       <img
-                        src="	https://www.solgar.com/wp-content/uploads/product_photos/SO_011519/SO_011519_F-300x300.png"
+                        src={GoldenZest}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">
@@ -192,11 +195,11 @@ export const Beauty = () => {
                   <div className="w-[32%]  xs:w-[50%] sm:w-[50%] md:w-[50%] xs:mt-[10%] sm:mt-[10%] md:mt-[10%]">
                     <a href="/scarletglow">
                       <img
-                        src="		https://www.solgar.com/wp-content/uploads/product_photos/SO_012493/SO_012493_F-300x300.png"
+                        src={ScarletGlow}
                         alt=""
                       />
                     <p className="text-center text-2xl font-semibold mt-[10px]">
-                      ScarletGlow
+                      Scarlet Glow
                     </p>
                     </a>
                   </div>

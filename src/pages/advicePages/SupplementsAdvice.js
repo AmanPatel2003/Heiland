@@ -1,17 +1,17 @@
 import React from "react";
-import img from "./images/adviceSupplement.jpg";
+import img from "../../img/Heiland/2Suplements/1Multi Setup/E11M.jpg";
 
 export const SupplementsAdvice = () => {
   return (
     <div className="w-full bg-[#fcfce4] mt-[73px] ]">
       <div className="text-5xl xs:text-4xl font-semibold  text-center py-[4%] border-b-4 border-[#097969]">
-       Herbal supplements
+        Herbal supplements
       </div>
       <div className="flex py-[5%] md:block sm:block xs:block md:px-[10%] sm:px-[10%] xs:px-[10%] ">
         <div className="w-[50%] md:w-full sm:w-full xs:w-full   px-[5%] lg:px-[3%] md:px-[2%] py-[3%]">
           <img src={img} alt="" className="w-full " />
         </div>
-        <div className="w-[50%] items-center flex md:w-full sm:w-full xs:w-full px-[5%] lg:px-[3%] md:px-[5%] sm:px-[9%] xs:px-[10%] py-[3%] ">
+        <div className="w-[50%] items-center  xl:text-lg 2xl:text-lg flex md:w-full sm:w-full xs:w-full px-[5%] lg:px-[3%] md:px-[5%] sm:px-[9%] xs:px-[10%] py-[3%] ">
           <ul className="list-disc">
             <li className="my-[2%]">
               For lasting relief in gut and digestive care, it's recommended to
