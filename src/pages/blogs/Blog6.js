@@ -23,7 +23,7 @@ const Blog6 = () => {
       </div>
 
       <div className="">
-        {/* <h3 className="text-base font-bold mb-[2%]">1. VITAMIN D</h3> */}
+      
         <p className="mt-[3%]  mb-[1%] ">
           A common digestive condition that can be uncomfortable and have an
           effect on your general quality of life is acid reflux, often known as
@@ -126,12 +126,7 @@ const Blog6 = () => {
                   </a>
                 </div>
                 <p className="text-lg font-semibold">Ambrosia</p>
-                {/* <h5 className="text-xs ">AND 1 MORE</h5>
-                <p className="text-base ">Magnesium Citrate Tablets</p>
-                <p className="">
-                  <img src="star-img.png" alt="" />
-                  (11)
-                </p> */}
+               
               </div>
             </div>
             <div className="w-[33%] xs:w-[80%] xs:m-auto text-center px-[4%]">
@@ -142,14 +137,7 @@ const Blog6 = () => {
                   </a>
                 </div>
                 <p className="text-lg font-semibold">Ashwagandha</p>
-                {/* <h5 className="text-xs ">AND 1 MORE</h5>
-                <p className="text-base ">
-                  Triple Strength Omega-3 950 mg Softgels
-                </p>
-                <p className="">
-                  <img src="star-img.png" alt="" />
-                  (6)
-                </p> */}
+              
               </div>
             </div>
             <div className="w-[33%] xs:w-[80%] xs:m-auto text-center px-[4%]">
@@ -160,10 +148,7 @@ const Blog6 = () => {
                   </a>
                 </div>
                 <p className="text-lg m-auto font-semibold">Shatavari</p>
-                {/* <h5 className="text-xs ">AND 2 MORE</h5>
-                <p className="text-base ">
-                  Vitamin D3 (Cholecalciferol)250 MCG (10,000 IU) Softgels
-                </p> */}
+               
               </div>
             </div>
           </div>

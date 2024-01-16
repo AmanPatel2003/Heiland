@@ -2,9 +2,9 @@ import React, { useState } from "react";
 // import { BsStarFill } from "react-icons/bs";
 import { FaAmazon } from "react-icons/fa";
 
-import AmbrosiaImg from "../../../img/Heiland/2Suplements/2Ambrosia/C,3.jpg"
-import Ashwagandha from "../../../img/Heiland/2Suplements/3Ashwagandha/B1.jpg"
-import Shatavari from "../../../img/Heiland/2Suplements/4Shatavari/A1.jpg"
+import AmbrosiaImg from "../../../img/Heiland/2Suplements/2Ambrosia/C,3.jpg";
+import Ashwagandha from "../../../img/Heiland/2Suplements/3Ashwagandha/B1.jpg";
+import Shatavari from "../../../img/Heiland/2Suplements/4Shatavari/A1.jpg";
 
 import logo1 from "../logos/logo1.png";
 import logo2 from "../logos/logo2.png";
@@ -13,16 +13,11 @@ import logo4 from "../logos/logo4.png";
 import logo5 from "../logos/logo5.png";
 
 export const Ambrosia = () => {
-  // const [slider1, setSlider1] = useState(0);
-  // const [slider2, setSlider2] = useState(0);
-  // const [slider3, setSlider3] = useState(0);
+  const [reviews, setReviews] = useState(false);
 
-  const [reviews, setReviews] = useState(false)
-
-  const reviewSet = ()=>{
-    setReviews(!reviews)
-  }
-  
+  const reviewSet = () => {
+    setReviews(!reviews);
+  };
 
   return (
     <div className="">
@@ -126,71 +121,6 @@ export const Ambrosia = () => {
               </h1>
             </div>
 
-            {/* <div className="flex w-full h-full  py-[5%] border-y-2 border-[#097969]">
-              <div className="w-[40%] h-full text-center">
-                <h1 className="font-bold text-lg mb-[10%]">Rating & Reviews</h1>
-                <h1 className="">
-                  <span className="font-bold text-2xl">4.6</span>
-                  <span className="font-semibold text-lg">/5</span>
-                </h1>
-                <div className="flex py-[4%] justify-between px-[20%] ">
-                  <BsStarFill className="text-[#097969]" />
-                  <BsStarFill className="text-[#097969]" />
-                  <BsStarFill className="text-[#097969]" />
-                  <BsStarFill className="text-[#097969]" />
-                  <BsStarFill className="text-[#097969]" />
-                </div>
-                <p className="">322 verified users</p>
-              </div>
-
-              <div className="w-[60%] h-full border-l-2 border-[#097969] m-auto py-[5%] px-[5%]">
-                <div className="mb-[5%]">
-                  <h1 className="">Performance</h1>
-                  <div className="flex items-center mt-[2%]">
-                    <input
-                      className="h-[5px] bg-[#097969]  w-[80%]"
-                      type="range"
-                      min="0"
-                      max="100"
-                      step="1"
-                      value={slider1}
-                      onChange={(e) => setSlider1(e.target.value)}
-                    />
-                    <h1 className="ml-[4%]">{slider1}%</h1>
-                  </div>
-                </div>
-                <div className="mb-[5%]">
-                  <h1 className="">Quality</h1>
-                  <div className="flex items-center">
-                    <input
-                      className="h-[5px] w-[80%]"
-                      type="range"
-                      min="0"
-                      max="100"
-                      step="1"
-                      value={slider2}
-                      onChange={(e) => setSlider2(e.target.value)}
-                    />
-                    <h1 className="ml-[4%]">{slider2}%</h1>
-                  </div>
-                </div>
-                <div className="">
-                  <h1 className="">Value</h1>
-                  <div className="flex items-center">
-                    <input
-                      className="h-[5px] w-[80%]"
-                      type="range"
-                      min="0"
-                      max="100"
-                      step="1"
-                      value={slider3}
-                      onChange={(e) => setSlider3(e.target.value)}
-                    />
-                    <h1 className="ml-[4%]">{slider3}%</h1>
-                  </div>
-                </div>
-              </div>
-            </div> */}
             <div className=" py-[4%] border-y-2 border-[#097969]">
               <div className="flex justify-between">
                 <div className="w-full">
@@ -325,11 +255,7 @@ export const Ambrosia = () => {
                 href="/satavari"
                 className="h-[180px]  mx-[5%]  border-2 bg-white "
               >
-                <img
-                  src={Shatavari}
-                  alt=""
-                  className="h-full w-full"
-                />
+                <img src={Shatavari} alt="" className="h-full w-full" />
                 <p className="text-center text-2xl font-semibold mt-[10px]">
                   Shatavari
                 </p>

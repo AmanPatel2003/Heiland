@@ -4,33 +4,8 @@ import img2 from "../img/story_img22.webp";
 import img3 from "../img/story-33.png";
 
 export default function PageFour() {
- 
   return (
     <div className="pb-[10%] bg-[#fcfce4] mt-[73px]  ">
-      {/* <section className=" px-[30%] xs:px-[3%] sm:px-[8%] md:px-[10%] lg:px-[20%] py-[5%] xs:pt-[13%]  w-full">
-        <div className="w-full flex justify-between">
-          <a href="/mission">
-            <p className="font-semibold text-lg xs:text-sm sm:text-sm">
-              OUR MISSION
-            </p>
-          </a>
-          <a href="/">
-            <p className="font-semibold text-lg border-black border-b-2 xs:text-sm sm:text-sm">
-              ABOUT US
-            </p>
-          </a>
-          <a href="/impact">
-            <p className="font-semibold text-lg xs:text-sm sm:text-sm">
-              OUR IMPACT
-            </p>
-          </a>
-          <a href="/contact">
-            <p className="font-semibold text-lg xs:text-sm sm:text-sm">
-              CONTACT US
-            </p>
-          </a>
-        </div>
-      </section> */}
       <hr />
       <section className="flex justify-center font-bold text-6xl xs:text-4xl sm:text-5xl py-[10%]">
         ABOUT US
@@ -65,9 +40,7 @@ export default function PageFour() {
             {/* DISCOVER OUR PURPOSE */}
             Discover our purpose
           </h2>
-          {/* <p className="font-semibold text-sm py-[2%] ">
-            This has been our north star for 75 years.
-          </p> */}
+         
           <p className="font-semibold  py-[1%] text-green-800 text-justify">
             Our purpose in the world of herbal products is to nurture health and
             harmony through the gifts of nature. We are driven by a deep respect
@@ -110,33 +83,6 @@ export default function PageFour() {
           </p>
         </div>
       </section>
-      {/* <section className="flex xs:block bg-[#fcfce4] ">
-        <div className="w-[50%] xs:w-full  py-[10%] pl-[11%] pr-[7%]">
-          <h2 className="font-bold text-xl mb-[1%]">IT'S ABOUT YOU</h2>
-
-          <p className="text-sm font-semibold mb-[2%]">
-            <span>
-              Whether you have been with us for decades or have just joined us
-              on your journey of health and wellness, we will continue to uphold
-              the gold standard for you and your family.
-            </span>
-          </p>
-
-          <p className="text-sm font-semibold">
-            <span>
-              And to everyone who has given the gold cap and amber glass bottle
-              a space in their cabinet, we thank you.
-            </span>
-          </p>
-        </div>
-        <div className="w-[50%] xs:w-full  xs:h-[250px]  border-4 bg-white">
-          <img
-            src="https://tse4.mm.bing.net/th?id=OIP.Nm0f-eM-ZU6GmVJifGwJgwHaE8&pid=Api&P=0&h=180"
-            alt=""
-            className="h-full w-full"
-          />
-        </div>
-      </section> */}
     </div>
   );
 }

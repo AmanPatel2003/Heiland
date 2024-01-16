@@ -150,10 +150,7 @@ export default function FirstPage() {
                 Ambrosia - The Permanent Solution to Your Digestive Woes: No
                 Preservatives, No Chemicals.
               </h1>
-              {/* <p className="text-sm font-semibold pt-[5%]">
-                Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
-                facere iure!
-              </p> */}
+            
             </div>
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto  h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
@@ -167,10 +164,7 @@ export default function FirstPage() {
                 No More Bloating and Discomfort: Ambrosia - The Natural Way to
                 Relieve Fatty Acid and Improve Liver Health
               </h1>
-              {/* <p className="text-sm font-semibold pt-[5%]">
-                Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
-                facere iure!
-              </p> */}
+              
             </div>
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto  h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
@@ -184,10 +178,7 @@ export default function FirstPage() {
                 Unleash the Magic of Heiland: Your Path to a Healthier, Happier
                 You
               </h1>
-              {/* <p className="text-sm font-semibold pt-[5%]">
-                Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
-                facere iure!
-              </p> */}
+             
             </div>
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
@@ -200,10 +191,7 @@ export default function FirstPage() {
               <h1 className="font-bold text-lg">
                 Tummy Troubles? Try These 5 Foods for Bloating Relief
               </h1>
-              {/* <p className="text-sm font-semibold pt-[5%]">
-                Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
-                facere iure!
-              </p> */}
+            
             </div>
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto  h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
@@ -220,10 +208,7 @@ export default function FirstPage() {
               <h1 className="font-bold text-lg">
                 Overcoming Acid Reflux: 3 Methods for Comfortable Living
               </h1>
-              {/* <p className="text-sm font-semibold pt-[5%]">
-                Lorem lorem30 ipsum dolor sit amet Ab natus eaque minima rerum
-                facere iure!
-              </p> */}
+             
             </div>
           </div>
         </div>

@@ -146,15 +146,7 @@ export default function Navbar() {
                     Blogs
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    onClick={toggleCompanyDropdown}
-                    href="/posts"
-                    className="bg-[#d2e7c7] font-bold  text-lg"
-                  >
-                    Posts
-                  </a>
-                </li> */}
+              
               </ul>
             )}
             <ul className="flex justify-between h-full  w-full mr-[1%]">
@@ -201,16 +193,7 @@ export default function Navbar() {
                       Contact
                     </a>
                   </li>
-                  {/* <li>
-                    <a
-                      onClick={toggleLearnDropdown}
-                      // onMouseLeave={toggleLearnDropdown}
-                      href="/impact"
-                      className="bg-[#d2e7c7] font-bold  text-lg"
-                    >
-                      Impact
-                    </a>
-                  </li> */}
+              
                 </ul>
               </div>
             )}

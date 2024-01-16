@@ -95,13 +95,7 @@ const Blog7 = () => {
         </div>
       </div>
 
-      {/* <p className="py-[3%] xs:pb-[8%] font-semibold ">
-        Improving Overall Digestive Health: Ambrosia takes a holistic approach
-        to digestive wellness, addressing not only the symptoms of acid reflux
-        but also the overall health of the digestive system. This comprehensive
-        approach can lead to long-term relief and a reduced likelihood of
-        recurrent acid reflux
-      </p> */}
+     
 
       <div className="border">
         <div className="">

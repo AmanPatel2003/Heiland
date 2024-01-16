@@ -77,12 +77,7 @@ const Corusel = ({ data }) => {
                 </div>
                 <h1 className=" text-start font-bold py-[3%]">{item.h2}</h1>
                 <p className=" font-medium my-[3%] text-start">{item.p1}</p>
-                {/* <p className="text-start pt-[4%] font-medium text-sm">
-                  {item.p2}
-                </p>
-                <p className="text-start font-medium text-sm xs:mb-[15px]">
-                  {item.p3}
-                </p> */}
+              
               </div>
               <div className="w-[50%] xs:w-[70%] xs:m-auto  xs:h-[320px] xs:mb-[5%] bg-white border">
                 <a href={getLink(item.image)} className="">

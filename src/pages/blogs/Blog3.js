@@ -104,14 +104,7 @@ const Blog3 = () => {
                   </a>
                 </div>
                 <p className="text-lg font-semibold">Chamomile</p>
-                {/* <h5 className="text-xs font-semibold">AND 1 MORE</h5>
-                <p className="text-base font-semibold">
-                  Magnesium Citrate Tablets
-                </p>
-                <p className="">
-                  <img src="star-img.png" alt="" />
-                  (11)
-                </p> */}
+               
               </div>
             </div>
             <div className="w-[33%] xs:w-[80%] xs:m-auto text-center px-[4%]">
@@ -125,14 +118,7 @@ const Blog3 = () => {
                   </a>
                 </div>
                 <p className="text-lg font-semibold">Hibiscus</p>
-                {/* <h5 className="text-xs font-semibold">AND 1 MORE</h5>
-                <p className="text-base font-semibold">
-                  Triple Strength Omega-3 950 mg Softgels
-                </p>
-                <p className="">
-                  <img src="star-img.png" alt="" />
-                  (6)
-                </p> */}
+               
               </div>
             </div>
             <div className="w-[33%] xs:w-[80%] xs:m-auto text-center px-[4%]">
