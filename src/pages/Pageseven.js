@@ -595,7 +595,7 @@ export default function Pageseven() {
               If you have any questions about this Privacy Policy, You can
               contact us:
             </p>
-            <ul className="">
+            <ul className="pl-5">
               <li className=" text-lg  list-disc py-[2%]">
                 By email: info@heiland.shop
               </li>
