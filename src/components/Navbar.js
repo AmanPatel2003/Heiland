@@ -22,15 +22,13 @@ export default function Navbar() {
   const toggleLearnDropdown = () => {
     setLearnDropdownOpen(!learnDropdownOpen);
     setCompanyDropdownOpen(false);
-      setProductsDropdownOpen(false);
+    setProductsDropdownOpen(false);
   };
 
   const handeleMenu = () => {
     setopen((prev) => !prev);
     // console.log(open);
   };
-
-
 
   return (
     <div className="w-full  ">
@@ -146,7 +144,6 @@ export default function Navbar() {
                     Blogs
                   </a>
                 </li>
-              
               </ul>
             )}
             <ul className="flex justify-between h-full  w-full mr-[1%]">
@@ -193,7 +190,15 @@ export default function Navbar() {
                       Contact
                     </a>
                   </li>
-              
+                  <li>
+                    <a
+                      onClick={toggleLearnDropdown}
+                      href="/terms&condition"
+                      className="bg-[#d2e7c7] font-bold  text-lg"
+                    >
+                      Terms & Conditions
+                    </a>
+                  </li>
                 </ul>
               </div>
             )}
@@ -342,7 +347,16 @@ export default function Navbar() {
                       Contact
                     </a>
                   </li>
-                 
+
+                  <li>
+                    <a
+                      onClick={toggleLearnDropdown}
+                      href="/terms&condition"
+                      className="bg-[#d2e7c7] font-bold  text-lg"
+                    >
+                      Terms & Conditions
+                    </a>
+                  </li>
                 </ul>
               )}
             </div>

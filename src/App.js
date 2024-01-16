@@ -9,6 +9,7 @@ import PageTwo from "./pages/PageTwo";
 import PageFour from "./pages/PageFour";
 import Pageseven from "./pages/Pageseven";
 import PageEight from "./pages/PageEight";
+import TermsConditions from "./pages/Terms&Conditions"
 import Error from "./components/Error";
 
 // -------------------------------------------------------------------------BLOGS----------------------------------------------------------------------------------
@@ -40,6 +41,7 @@ import { SupplementsAdvice } from "./pages/advicePages/SupplementsAdvice";
 import { TeaAdvice } from "./pages/advicePages/TeaAdvice";
 import { BeautyAdvice } from "./pages/advicePages/BeautyAdvice";
 
+
 function App() {
   return (
     <Router>
@@ -51,6 +53,7 @@ function App() {
           <Route path="/about" element={<PageFour />} />
           <Route path="/privacy" element={<Pageseven />} />
           <Route path="/contact" element={<PageEight />} />
+          <Route path="/terms&condition" element={<TermsConditions />} />
           <Route path="/whereToBuy" element={<WhereToBay />} />
           {/* -----------------------------------------------------------------------------------BLOGS--------------------------------------------------------------------------------- */}
           <Route path="/blog1" element={<Blog1 />} />

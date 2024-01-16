@@ -29,7 +29,7 @@ module.exports = {
 
     extend: {
       screens: {
-        xs: { min: "350px", max: "640px" },
+        xs: { min: "0px", max: "640px" },
         // => @media (min-width: 992px) { ... }
       },
     },

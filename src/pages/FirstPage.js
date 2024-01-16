@@ -1,36 +1,63 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+import classNames from "classnames";
 // import main2 from "../img/p1_main2.jpg";
-import main2 from "../../src/img/Heiland/4MultiSetup/Full1M.jpg"
-import Tea from "../img/Heiland/1Tea/1Multi Setup/M4.01M.jpg"
-import Supplement from "../img/Heiland/2Suplements/1Multi Setup/E4M.jpg"
-import Beauty from "../img/Heiland/3Skin Products/1MultiSetup/A1M.jpg"
-import Blog1 from "../img/Heiland/2Suplements/2Ambrosia/D1M.jpg"
-import Blog3 from "../img/Heiland/1Tea/2Rose/D1-M.jpg"
-import Blog2 from "../img/advices/Blog2.jpg"
-import Blog4 from "../img/advices/Blog4.jpg"
-import Blog5 from "../img/advices/Blog5.jpg"
+import main2 from "../../src/img/Heiland/4MultiSetup/Full1M.jpg";
+import Tea from "../img/Heiland/1Tea/1Multi Setup/M4.01M.jpg";
+import Supplement from "../img/Heiland/2Suplements/1Multi Setup/E4M.jpg";
+import Beauty from "../img/Heiland/3Skin Products/1MultiSetup/A1M.jpg";
+import Blog1 from "../img/Heiland/2Suplements/2Ambrosia/D1M.jpg";
+import Blog3 from "../img/Heiland/1Tea/2Rose/D1-M.jpg";
+import Blog2 from "../img/advices/Blog2.jpg";
+import Blog4 from "../img/advices/Blog4.jpg";
+import Blog5 from "../img/advices/Blog5.jpg";
 import logo1 from "../img/logos/logo1.png";
 import logo2 from "../img/logos/logo2.png";
 import logo3 from "../img/logos/logo3.png";
 import logo4 from "../img/logos/logo4.png";
 import logo5 from "../img/logos/logo5.png";
 // import { MCarousel } from "../components/Carousel/MCarousel";
-import Corusel from "../components/Carousel/Corusel"
-import people from "../components/Carousel/data"
+import Corusel from "../components/Carousel/Corusel";
+import people from "../components/Carousel/data";
 
 export default function FirstPage() {
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Set visibility based on scroll position
+      setIsVisible(window.scrollY < 100); // Adjust the scroll threshold as needed
+    };
+
+    // Attach event listener for scroll
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="w-full bg-[#fcfce4] mt-[73px] ">
       <section
-        className="  py-[13%]  w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-full  bg-cover bg-no-repeat bg-center   "
+        className="   py-[13%]  w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-full  bg-cover bg-no-repeat bg-center   "
         style={{ backgroundImage: `url(${main2})` }}
       >
         <div className=" h-full xs:mr-[0%] sm:mr-[40%] mr-[50%] ">
           <h1 className="text-3xl xs:text-2xl font-bold   pb-[4%] text-white ">
-            {/* EMBRACE NATURE FOR A HEALTHIER YOU WITH HEILAND */}
             Embrace nature for a healthier you with heiland
           </h1>
-          <p className="font-medium  pb-[4%] text-white xs:text-sm">
+          <p
+            className={classNames(
+              "transition-opacity font-semibold text-lg pb-[4%] text-black xs:text-sm bg-[#f6ebbe]  ",
+              {
+                "opacity-40": !isVisible,
+                "opacity-80": isVisible,
+              }
+            )}
+            // className="font-semibold text-lg pb-[4%] text-black xs:text-sm bg-[#f6ebbe] opacity-70 "
+          >
             Experience the true essence of wellness with Heiland. Our diverse
             range of herbal products, from teas and supplements to face and body
             masks, allows you to unlock your inner vitality the natural way.
@@ -150,7 +177,6 @@ export default function FirstPage() {
                 Ambrosia - The Permanent Solution to Your Digestive Woes: No
                 Preservatives, No Chemicals.
               </h1>
-            
             </div>
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto  h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
@@ -164,7 +190,6 @@ export default function FirstPage() {
                 No More Bloating and Discomfort: Ambrosia - The Natural Way to
                 Relieve Fatty Acid and Improve Liver Health
               </h1>
-              
             </div>
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto  h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
@@ -178,7 +203,6 @@ export default function FirstPage() {
                 Unleash the Magic of Heiland: Your Path to a Healthier, Happier
                 You
               </h1>
-             
             </div>
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
@@ -191,24 +215,18 @@ export default function FirstPage() {
               <h1 className="font-bold text-lg">
                 Tummy Troubles? Try These 5 Foods for Bloating Relief
               </h1>
-            
             </div>
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto  h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="xs:h-[60%] sm:h-[70%] md:h-[90%] lg:h-[60%] xl:h-[60%] 2xl:h-[70%] w-full border-2 bg-white ">
               <a href="/blog5" className="">
-                <img
-                  src={Blog5}
-                  alt=""
-                  className="h-full w-full"
-                />
+                <img src={Blog5} alt="" className="h-full w-full" />
               </a>
             </div>
             <div className="py-[5%]">
               <h1 className="font-bold text-lg">
                 Overcoming Acid Reflux: 3 Methods for Comfortable Living
               </h1>
-             
             </div>
           </div>
         </div>
