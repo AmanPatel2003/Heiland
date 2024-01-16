@@ -1,12 +1,17 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FirstPage from "./pages/FirstPage";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+
+
+
+import FirstPage from "./pages/FirstPage";
 import PageTwo from "./pages/PageTwo";
+import PageFour from "./pages/PageFour";
+import Pageseven from "./pages/Pageseven";
+import PageEight from "./pages/PageEight";
 import Error from "./components/Error";
-// import PageThree from "./pages/blogs/PageThree";
 // -------------------------------------------------------------------------BLOGS----------------------------------------------------------------------------------
 import Blog1 from "./pages/blogs/Blog1";
 import Blog2 from "./pages/blogs/Blog2";
@@ -15,15 +20,7 @@ import Blog4 from "./pages/blogs/Blog4";
 import Blog5 from "./pages/blogs/Blog5";
 import Blog6 from "./pages/blogs/Blog6";
 import Blog7 from "./pages/blogs/Blog7";
-// import PageThree from "./pages/blogs/Blog1";
 
-import PageFour from "./pages/PageFour";
-// import PageFive from "./pages/PageFive";
-// import Pagesix from "./pages/Pagesix";
-import Pageseven from "./pages/Pageseven";
-import PageEight from "./pages/PageEight";
-// import { PageNine } from "./pages/PageNine";
-// import Pageeleven from "./pages/Pageeleven";
 import { WhereToBay } from "./pages/WhereToBay";
 import { Advices } from "./pages/Advices";
 import { Supplement } from "./pages/productCategory/Supplement";
