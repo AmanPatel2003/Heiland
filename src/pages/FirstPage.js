@@ -5,8 +5,8 @@ import Tea from "../img/Heiland/1Tea/1Multi Setup/M4.01M.jpg"
 import Supplement from "../img/Heiland/2Suplements/1Multi Setup/E4M.jpg"
 import Beauty from "../img/Heiland/3Skin Products/1MultiSetup/A1M.jpg"
 import Blog1 from "../img/Heiland/2Suplements/2Ambrosia/D1M.jpg"
-import Blog2 from "../img/advices/Blog2.jpg"
 import Blog3 from "../img/Heiland/1Tea/2Rose/D1.jpg"
+import Blog2 from "../img/advices/Blog2.jpg"
 import Blog4 from "../img/advices/Blog4.jpg"
 import Blog5 from "../img/advices/Blog5.jpg"
 import logo1 from "../img/logos/logo1.png";
@@ -183,7 +183,7 @@ export default function FirstPage() {
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="xs:h-[60%] sm:h-[70%] md:h-[90%] lg:h-[60%] xl:h-[60%] 2xl:h-[70%] w-full border-2 bg-white ">
-              <a href="/blog5" className="">
+              <a href="/blog4" className="">
                 <img src={Blog4} alt="" className="h-full w-full" />
               </a>
             </div>
@@ -196,7 +196,7 @@ export default function FirstPage() {
           </div>
           <div className="w-[19%] xs:w-[70%] sm:w-[70%] md:w-[70%] md:m-auto xs:m-auto sm:m-auto  h-[350px] py-[2%] xs:py-[4%] sm:py-[4%]">
             <div className="xs:h-[60%] sm:h-[70%] md:h-[90%] lg:h-[60%] xl:h-[60%] 2xl:h-[70%] w-full border-2 bg-white ">
-              <a href="/blog6" className="">
+              <a href="/blog5" className="">
                 <img
                   src={Blog5}
                   alt=""
