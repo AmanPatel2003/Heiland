@@ -23,7 +23,7 @@ export default function PageEight() {
             </p>
             <h5 className="font-bold my-[3%]">international inquires</h5>
             <a href="/" className="text-green-700 font-bold">
-              international@solgar.com
+              info@heiland.shop
             </a>
           </div>
           <div className=" w-[50%]  sm:w-full xs:w-full p-[3%] bg-[#79b9bb] mx-[7%] sm:mx-[0%] xs:mx-[0%]">

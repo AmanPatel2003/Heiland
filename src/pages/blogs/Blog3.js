@@ -2,7 +2,7 @@ import React from "react";
 import { Subscribe } from "../../components/Subscribe";
 import { BiCalendar } from "react-icons/bi";
 
-import BlogImg from "../../img/Heiland/1Tea/2Rose/D1.jpg"
+import BlogImg from "../../img/Heiland/1Tea/2Rose/D1-M.jpg"
 
 import Chamomile from "../../img/Heiland/1Tea/3Chamomile/Z1M.png"
 import Hibiscus from "../../img/Heiland/1Tea/5Hibiscus/Y1M.png"
