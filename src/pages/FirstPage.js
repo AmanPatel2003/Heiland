@@ -105,7 +105,7 @@ export default function FirstPage() {
         </h1>
         <div className="pb-[5%] pt-[2%] flex flex-wrap  justify-around sm:justify-around px-[4%]  sm:px-[1%]">
           <div className=" mt-[1%] h-[105px] w-[105px]">
-            <img src={logo1} alt="" className="h-ful w-ful   " />
+            <img src={logo1} alt="" className="h-full w-full   " />
             <h1 className="text-xs font-bold py-[17%] text-green-700">
               CHEMICAL FREE
             </h1>
