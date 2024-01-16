@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import HCaptcha from "@hcaptcha/react-hcaptcha";
-// import AppConfig from "./App.config";
+
 
 const Form = () => {
   const [name, setName] = useState("");
