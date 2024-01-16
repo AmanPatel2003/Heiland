@@ -259,7 +259,7 @@ export const Clayglow = () => {
               >
                 <img src={ScarletGlow} alt="" className="h-full w-full" />
                 <p className="text-center text-2xl font-semibold mt-[10px]">
-                  Scarlet Glow
+                  ScarletGlow
                 </p>
               </a>
             </div>
