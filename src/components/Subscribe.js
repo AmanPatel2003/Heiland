@@ -20,20 +20,19 @@ export const Subscribe = () => {
           </div>
           <p className="pl-[2%] font-semibold text-sm">
             By checking this box, I certify that the email address provided is
-            my personal email address, and I have read and agreed to the current{" "}
-            <span className=""> Terms of use</span> and{" "}
+            my personal email address, and I have read and agreed to the current
+            <span className=""> Terms of use</span> and
             <span className="">Privacy Policy.</span>
           </p>
         </div>
         <div className="pt-[3%] pb-[10%] flex">
           <div className="">
-            {" "}
             <input type="checkbox" className="mt-[1%] top-0" />
           </div>
           <p className="pl-[2%] font-semibold text-sm">
             By checking this box, I certify that I am located in the United
-            States and I agree to allow Solgar to use my email to send me all
-            news, offers,and announcements about Solgar.
+            Kingdom and I agree to allow Heiland to use my email to send me all
+            news, offers,and announcements about Heiland.
           </p>
         </div>
         <button

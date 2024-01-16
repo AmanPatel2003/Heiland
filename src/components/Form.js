@@ -28,7 +28,8 @@ const Form = () => {
         password: "BGI30r7ViaHz5pMhtMjkqw/GDeAD4S3McLoMJltIaaqF",
         server_addr: "email-smtp.eu-north-1.amazonaws.com",
         server_port: "587",
-        destination_email: "aman.catex@gmail.com",
+        destination_email: "oceanicherbs4@gmail.com",
+        // destination_email: "amanpatel22012003@gmail.com",
         sender_email: "HielandSupport@catax.me",
         subject: `${name} wants to contact with you`,
         body: `
