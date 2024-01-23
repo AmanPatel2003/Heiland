@@ -162,7 +162,7 @@ export default function Footer() {
                           className="text-white text-[14px]"
                           // target="_blank"
                           rel="noopener"
-                          href="https://www.facebook.com/Solgar/"
+                          href="https://www.facebook.com/profile.php?id=61551046019227&mibextid=opq0tG"
                         >
                           <i className="fa-brands fa-facebook" /> Facebook
                         </a>
@@ -172,7 +172,7 @@ export default function Footer() {
                           className="text-white text-[14px]"
                           // target="_blank"
                           rel="noopener"
-                          href="https://www.instagram.com/solgar/"
+                          href="https://www.instagram.com/heilandcares?igsh=MTByaDM5bGlleWdteA%3D%3D&utm_source=qr "
                         >
                           <i className="fab fa-instagram" /> Instagram
                         </a>
@@ -182,7 +182,7 @@ export default function Footer() {
                           className="text-white text-[14px]"
                           // target="_blank"
                           rel="noopener"
-                          href="https://www.youtube.com/channel/UCf1YYsT_ItQi07zGv_4IRZQ"
+                          href="/"
                         >
                           <i className="fab fa-youtube" /> YouTube
                         </a>
@@ -192,7 +192,7 @@ export default function Footer() {
                           className="text-white text-[14px]"
                           // target="_blank"
                           rel="noopener"
-                          href="https://www.tiktok.com/@solgarvitamins"
+                          href="/"
                         >
                           <i className="fab fa-tiktok" /> TikTok
                         </a>
