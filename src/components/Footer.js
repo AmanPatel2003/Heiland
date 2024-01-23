@@ -139,6 +139,14 @@ export default function Footer() {
                           Privacy Policy
                         </a>
                       </li>
+                      <li>
+                        <a
+                          href="/terms&condition"
+                          className="text-white text-[14px]"
+                        >
+                          Terms & Conditions
+                        </a>
+                      </li>
                     </ul>
                   </li>
                   <li className=" w-[170px] lg:w-[150px] md:w-[35% sm:w-[40%] xs:w-[40%]">
