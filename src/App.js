@@ -9,7 +9,7 @@ import PageTwo from "./pages/PageTwo";
 import PageFour from "./pages/PageFour";
 import Pageseven from "./pages/Pageseven";
 import PageEight from "./pages/PageEight";
-import TermsConditions from "./pages/Terms&Conditions"
+import TermsConditions from "./pages/Terms&Conditions";
 import Error from "./components/Error";
 
 // -------------------------------------------------------------------------BLOGS----------------------------------------------------------------------------------
@@ -40,8 +40,6 @@ import { ScarletGlow } from "./pages/products/beauty/ScarletGlow";
 import { SupplementsAdvice } from "./pages/advicePages/SupplementsAdvice";
 import { TeaAdvice } from "./pages/advicePages/TeaAdvice";
 import { BeautyAdvice } from "./pages/advicePages/BeautyAdvice";
-
-
 function App() {
   return (
     <Router>

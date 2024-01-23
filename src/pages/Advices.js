@@ -4,9 +4,7 @@ import teaimg from "../img/Heiland/1Tea/1Multi Setup/M3.1M.jpg";
 import beautyimg from "../img/Heiland/3Skin Products/1MultiSetup/A1M.jpg";
 
 export const Advices = () => {
- 
- 
-
+  
   return (
     <div className=" bg-[#fcfce4] mt-[73px] ">
       <h1 className=" flex justify-center pb-[3%] pt-[5%] xs:pt-[15%] xs:px-[10%] sm:py-[8%] text-5xl md:text-4xl sm:text-3xl xs:text-xl font-semibold xs:font-bold">
@@ -65,5 +63,6 @@ export const Advices = () => {
         </div>
       </section>
     </div>
+   
   );
 };

@@ -9,8 +9,10 @@ export default function Footer() {
             <div className="h-full w-full flex xl:justify-around">
               <ul className="flex sm:w-full xs:w-full  sm:block xs:block ">
                 <div className="flex justify-around xs:w-full">
-                  <li className="w-[170px] lg:w-[150px] md:w-[35%
-                     sm:w-[40%] xs:w-[40%]">
+                  <li
+                    className="w-[170px] lg:w-[150px] md:w-[35%
+                     sm:w-[40%] xs:w-[40%]"
+                  >
                     <a
                       href="/"
                       className="text-[14px] text-[#e4d00a] font-semibold mb-[15%]"
@@ -19,33 +21,36 @@ export default function Footer() {
                     </a>
                     <ul className="mt-[15px]">
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          General Health
+                        <a href="/ambrosia" className="text-white text-[14px]">
+                          Ambrosia
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Bone &amp; Joint Support
+                        <a
+                          href="/ashwagandha"
+                          className="text-white text-[14px]"
+                        >
+                          Ashwagandha
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Immune Support
+                        <a href="/satavari" className="text-white text-[14px]">
+                          Shatavari
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Sleep Support
+                        <a href="/chamomile" className="text-white text-[14px]">
+                          Chamomile Tea
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Stress Support
+                        <a href="/tea" className="text-white text-[14px]">
+                          Ginger Tea
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Energy Support
+                        <a href="/hibiscus" className="text-white text-[14px]">
+                          Hibiscus Tea
                         </a>
                       </li>
                     </ul>
@@ -59,33 +64,34 @@ export default function Footer() {
                     </a>
                     <ul className="mt-[15px]">
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          General Health
+                        <a
+                          href="/peppermint"
+                          className="text-white text-[14px]"
+                        >
+                          Peppermint Tea
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Bone &amp; Joint Support
+                        <a href="/rose" className="text-white text-[14px]">
+                          Rose Tea
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Immune Support
+                        <a href="/clayglow" className="text-white text-[14px]">
+                          Clayglow
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Sleep Support
+                        <a href="/golden" className="text-white text-[14px]">
+                          Golden Zest
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Stress Support
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Energy Support
+                        <a
+                          href="/scarletglow"
+                          className="text-white text-[14px]"
+                        >
+                          ScarletGlow
                         </a>
                       </li>
                     </ul>
@@ -97,36 +103,39 @@ export default function Footer() {
                       href="/"
                       className="text-[14px] text-[#e4d00a] font-semibold -[8%]"
                     >
-                      SOLOGAR
+                      HEILAND
                     </a>
                     <ul className="mt-[15px]">
-                      <li>
+                      {/* <li>
                         <a href="/" className="text-white text-[14px]">
                           Company
                         </a>
-                      </li>
+                      </li> */}
                       <li>
-                        <a href="/" className="text-white text-[14px]">
+                        <a href="/contact" className="text-white text-[14px]">
                           Contact
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="/" className="text-white text-[14px]">
                           Products
                         </a>
-                      </li>
+                      </li> */}
                       <li>
-                        <a href="/" className="text-white text-[14px]">
-                          Articles
+                        <a href="/blog1" className="text-white text-[14px]">
+                          Blogs
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
+                        <a
+                          href="/whereToBuy"
+                          className="text-white text-[14px]"
+                        >
                           Where To Buy
                         </a>
                       </li>
                       <li>
-                        <a href="/" className="text-white text-[14px]">
+                        <a href="/privacy" className="text-white text-[14px]">
                           Privacy Policy
                         </a>
                       </li>
@@ -192,19 +201,19 @@ export default function Footer() {
                   JOIN OUR COMMUNITY
                 </h6>
                 <p className="text-[#387576] text-[13px] mb-[3%]">
-                  Enter your email to join the solger community and redeive
-                  updates new and exciting things are happening with Solgar!
+                  Enter your email to join the heiland community and redeive
+                  updates new and exciting things are happening with Heiland!
                 </p>
                 <input
                   type="email"
-                  className="w-full  h-[30px] px-[13px] py-[8px] mb-[3%] hover:bg-[#144947]"
+                  className="w-full  h-[30px] px-[13px] py-[8px] mb-[3%] hover:bg-[#144947"
                   placeholder="YOUR EMAIL"
                 />
                 <br />
                 <div className="">
                   <button
                     type="submit"
-                    className="w-full bg-[#e4d00a] text-white"
+                    className="w-full bg-[#e4d00a] text-white hover:bg-[#6b673c] "
                   >
                     SUBSCRIBE
                   </button>
@@ -221,7 +230,7 @@ export default function Footer() {
                 Administration. These products are not intended to diagnose,
                 treat, cure or prevent any disease.
               </p>
-              <p className="text-[#4c8182] text-[14px]">© 2023 Solgar Inc.</p>
+              {/* <p className="text-[#4c8182] text-[14px]">© 2023 Solgar Inc.</p> */}
             </div>
           </div>
         </div>
