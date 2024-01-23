@@ -177,7 +177,7 @@ export default function Footer() {
                           <i className="fab fa-instagram" /> Instagram
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a
                           className="text-white text-[14px]"
                           // target="_blank"
@@ -196,7 +196,7 @@ export default function Footer() {
                         >
                           <i className="fab fa-tiktok" /> TikTok
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
                 </div>
