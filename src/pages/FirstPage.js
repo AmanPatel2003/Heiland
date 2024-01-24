@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
-import classNames from "classnames";
+// import classNames from "classnames";
 // import main2 from "../img/p1_main2.jpg";
 import main2 from "../../src/img/Heiland/4MultiSetup/Full1M.jpg";
 import Tea from "../img/Heiland/1Tea/1Multi Setup/M4.01M.jpg";
@@ -21,34 +21,34 @@ import Corusel from "../components/Carousel/Corusel";
 import people from "../components/Carousel/data";
 
 export default function FirstPage() {
-  const [isVisible, setIsVisible] = useState(true);
+  // const [isVisible, setIsVisible] = useState(true);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      // Set visibility based on scroll position
-      setIsVisible(window.scrollY < 100); // Adjust the scroll threshold as needed
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     // Set visibility based on scroll position
+  //     setIsVisible(window.scrollY < 100); // Adjust the scroll threshold as needed
+  //   };
 
-    // Attach event listener for scroll
-    window.addEventListener("scroll", handleScroll);
+  //   // Attach event listener for scroll
+  //   window.addEventListener("scroll", handleScroll);
 
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   // Clean up the event listener on component unmount
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   return (
     <div className="w-full bg-[#fcfce4] mt-[73px] ">
       <section
-        className="   py-[13%]  w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-full  bg-cover bg-no-repeat bg-center   "
+        className="   py-[19%]   w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-[100vh]  bg-cover bg-no-repeat bg-center   "
         style={{ backgroundImage: `url(${main2})` }}
       >
         <div className=" h-full xs:mr-[0%] sm:mr-[40%] mr-[50%] ">
           <h1 className="text-3xl xs:text-2xl font-bold   pb-[4%] text-white ">
             Embrace nature for a healthier you with heiland
           </h1>
-          <p
+          {/* <p
             className={classNames(
               "transition-opacity font-semibold text-lg pb-[4%] text-black xs:text-sm bg-[#f6ebbe]  ",
               {
@@ -62,10 +62,10 @@ export default function FirstPage() {
             range of herbal products, from teas and supplements to face and body
             masks, allows you to unlock your inner vitality the natural way.
             Embrace a healthier, more vibrant you with the power of nature
-          </p>
+          </p> */}
           <div className="mt-[2%] xs:mt-[3%]  ">
             <a
-              href="/"
+              href="/supplement"
               className="px-[3%] py-[1%] bg-transparen bg-gray-700  text font-medium border  text-white"
             >
               BROWSE PRODUCTS
