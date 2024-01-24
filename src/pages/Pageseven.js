@@ -1,8 +1,14 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 export default function Pageseven() {
   return (
     <>
+      <Helmet>
+        <title>My Page Title</title>
+        {/* <meta name="description" content="This is a description of my page" /> */}
+        <link rel="canonical" href="http://example.com/my-page" />
+      </Helmet>
       <div className="py-[8%] xs:pt-[23%] sm:pt-[20%] md:pt-[15%] px-[23%] md:px-[12%] sm:px-[4%]   xs:px-[2%] bg-[#fcfce4] mt-[73px]">
         <div className="">
           <h1 className="text-center font-bold text-3xl text-green-800 mb-[5%]">
@@ -129,9 +135,7 @@ export default function Pageseven() {
                 </a>{" "}
               </li>
               <li className="  text-lg pb-[1%] list-disc">
-                <strong className="text-green-800 text-lg text-lg">
-                  You
-                </strong>{" "}
+                <strong className="text-green-800 text-lg text-lg">You</strong>{" "}
                 means the individual accessing or using the Service, or the
                 company, or other legal entity on behalf of which such
                 individual is accessing or using the Service, as applicable.

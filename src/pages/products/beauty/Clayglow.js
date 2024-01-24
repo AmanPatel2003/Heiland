@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-
+import { Helmet } from "react-helmet-async";
 import { FaAmazon } from "react-icons/fa";
-import ClayGlow1 from "../../../img/Heiland/3Skin Products/3Clay Glow/Y1M.png";
-import ClayGlow2 from "../../../img/Heiland/3Skin Products/3Clay Glow/Y2M.png";
+import ClayGlow1 from "../../../img/Heiland/3Skin Products/3Clay Glow/CG2.jpg";
+import ClayGlow2 from "../../../img/Heiland/3Skin Products/3Clay Glow/Y1-M.png";
+import ClayGlow3 from "../../../img/Heiland/3Skin Products/3Clay Glow/Y2-M.png";
+import ClayGlow4 from "../../../img/Heiland/3Skin Products/3Clay Glow/Y3-M.png";
 import GoldenZest from "../../../img/Heiland/3Skin Products/2Golden Zest/GZ1M.jpg";
 import ScarletGlow from "../../../img/Heiland/3Skin Products/4Scarlet Glow/SG1.jpg";
 
@@ -12,8 +14,8 @@ import logo3 from "../logos/logo3.png";
 import logo4 from "../logos/logo4.png";
 import logo5 from "../logos/logo5.png";
 
-import { FaGreaterThan } from "react-icons/fa6";
-import { FaLessThan } from "react-icons/fa6";
+import { FaGreaterThan, FaLessThan } from "react-icons/fa6";
+
 
 export const Clayglow = () => {
   const [reviews, setReviews] = useState(false);
@@ -22,7 +24,7 @@ export const Clayglow = () => {
     setReviews(!reviews);
   };
 
-  const images = [ClayGlow1, ClayGlow2]; // Add more images to the array
+  const images = [ClayGlow1, ClayGlow2,ClayGlow3,ClayGlow4]; // Add more images to the array
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const showPreviousImage = () => {
@@ -39,6 +41,11 @@ export const Clayglow = () => {
 
   return (
     <div className="">
+      <Helmet>
+        <title>My Page Title</title>
+        {/* <meta name="description" content="This is a description of my page" /> */}
+        <link rel="canonical" href="http://example.com/my-page" />
+      </Helmet>
       <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full  bg-[#fcfce4] mt-[73px]">
         <div className="flex xs:block sm:block pb-[10%]">
           <div className="  w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[8%] ">

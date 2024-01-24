@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-
+import { Helmet } from "react-helmet-async";
 import { FaAmazon } from "react-icons/fa";
 
-import GoldenZest from "../../../img/Heiland/3Skin Products/2Golden Zest/GZ2.jpg"
+import GoldenZest1 from "../../../img/Heiland/3Skin Products/2Golden Zest/GZ2.jpg"
+import GoldenZest2 from "../../../img/Heiland/3Skin Products/2Golden Zest/Y1-M.png"
+import GoldenZest3 from "../../../img/Heiland/3Skin Products/2Golden Zest/Y2-M.png"
+import GoldenZest4 from "../../../img/Heiland/3Skin Products/2Golden Zest/Y3-M.png"
 import ClayGlow from "../../../img/Heiland/3Skin Products/3Clay Glow/CG1.jpg"
 import ScarletGlow from "../../../img/Heiland/3Skin Products/4Scarlet Glow/SG1.jpg"
 
@@ -11,19 +14,55 @@ import logo2 from "../logos/logo2.png";
 import logo3 from "../logos/logo3.png";
 import logo4 from "../logos/logo4.png";
 import logo5 from "../logos/logo5.png";
+import { FaGreaterThan, FaLessThan } from "react-icons/fa6";
 
 export const Golden = () => {
  const [reviews, setReviews] = useState(false);
 
  const reviewSet = () => {
    setReviews(!reviews);
+   
  };
+  const images = [GoldenZest1, GoldenZest2,GoldenZest3,GoldenZest4]; // Add more images to the array
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const showPreviousImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  const showNextImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
   return (
     <div className="">
+      <Helmet>
+        <title>My Page Title</title>
+        {/* <meta name="description" content="This is a description of my page" /> */}
+        <link rel="canonical" href="http://example.com/my-page" />
+      </Helmet>
       <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full bg-[#f3ffed bg-[#fcfce4] mt-[73px] ">
         <div className="flex xs:block sm:block pb-[10%]">
-          <div className="w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[8%] ">
-            <img src={GoldenZest} className="h-[50%" alt="" />
+          <div className="  w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[8%] ">
+            <div className="relative">
+              <img src={images[currentImageIndex]} className="h-[50%]" alt="" />
+
+              <button
+                className="absolute top-1/2 transform -translate-y-1/2 text-3xl   left-0"
+                onClick={showPreviousImage}
+              >
+                <FaLessThan />
+              </button>
+              <button
+                className="absolute top-1/2 transform -translate-y-1/2 text-3xl  right-0"
+                onClick={showNextImage}
+              >
+                <FaGreaterThan />
+              </button>
+            </div>
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">

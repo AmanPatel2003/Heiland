@@ -1,12 +1,16 @@
 import React, { useState } from "react";
-
+import { Helmet } from "react-helmet-async";
 import { FaAmazon } from "react-icons/fa";
-import GingerImg from "../../../img/Heiland/1Tea/4Ginger/A3.jpg"
+import GingerImg1 from "../../../img/Heiland/1Tea/4Ginger/A3.jpg"
+import GingerImg2 from "../../../img/Heiland/1Tea/4Ginger/Y1-M.png"
+import GingerImg3 from "../../../img/Heiland/1Tea/4Ginger/Y2-M.png"
+import GingerImg4 from "../../../img/Heiland/1Tea/4Ginger/Y3-M.png"
 
 import Hibiscus from "../../../img/Heiland/1Tea/5Hibiscus/E1.jpg";
 import Peppermint from "../../../img/Heiland/1Tea/6Peppermint/B1.jpg";
 import Rose from "../../../img/Heiland/1Tea/2Rose/D1M.jpg";
 import Chamomile from "../../../img/Heiland/1Tea/3Chamomile/C,1M.jpg"
+import { FaGreaterThan, FaLessThan } from "react-icons/fa6";
 
 import logo1 from "../logos/logo1.png";
 import logo2 from "../logos/logo2.png";
@@ -20,13 +24,47 @@ export const Ginger = () => {
   const reviewSet = () => {
     setReviews(!reviews);
   };
+  const images = [GingerImg1, GingerImg2,GingerImg3,GingerImg4]; // Add more images to the array
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const showPreviousImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  const showNextImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
 
   return (
     <div className="">
+      <Helmet>
+        <title>My Page Title</title>
+        {/* <meta name="description" content="This is a description of my page" /> */}
+        <link rel="canonical" href="http://example.com/my-page" />
+      </Helmet>
       <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full bg-[#f3ffed bg-[#fcfce4] mt-[73px] ">
         <div className="flex xs:block sm:block pb-[10%]">
-          <div className="w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[8%] ">
-            <img src={GingerImg} className="h-[50%" alt="" />
+          <div className="  w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[8%] ">
+            <div className="relative">
+              <img src={images[currentImageIndex]} className="h-[50%]" alt="" />
+
+              <button
+                className="absolute top-1/2 transform -translate-y-1/2 text-3xl text-gray-300  left-0"
+                onClick={showPreviousImage}
+              >
+                <FaLessThan />
+              </button>
+              <button
+                className="absolute top-1/2 transform -translate-y-1/2 text-3xl text-gray-300  right-0"
+                onClick={showNextImage}
+              >
+                <FaGreaterThan />
+              </button>
+            </div>
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">
@@ -260,11 +298,7 @@ export const Ginger = () => {
                 href="/rose"
                 className="h-[180px]  mx-[5%]  border-2 bg-white "
               >
-                <img
-                  src={Rose}
-                  alt=""
-                  className="h-full w-full"
-                />
+                <img src={Rose} alt="" className="h-full w-full" />
                 <p className="text-center text-xl font-semibold mt-[10px]">
                   Rose Tea
                 </p>

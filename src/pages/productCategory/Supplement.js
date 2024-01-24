@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import Ambrosia from "../../img/Heiland/2Suplements/2Ambrosia/Z1M1.png";
 import Ashwagandha from "../../img/Heiland/2Suplements/3Ashwagandha/Y1M.png";
 import Shatavari from "../../img/Heiland/2Suplements/4Shatavari/Y3M.png";
@@ -6,7 +7,13 @@ import Shatavari from "../../img/Heiland/2Suplements/4Shatavari/Y3M.png";
 export const Supplement = () => {
   return (
     <>
+       <Helmet>
+          <title>My Page Title</title>
+          {/* <meta name="description" content="This is a description of my page" /> */}
+          <link rel="canonical" href="http://example.com/my-page" />
+        </Helmet>
       <div className="bg-[#fcfce4] px-[20%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[73px] ">
+     
         <div className="flex h-full">
           <div className=" h-full w-full   pt-[8%] xs-px-[3%] sm:px-[4%] md:px-[5%]">
             <div>

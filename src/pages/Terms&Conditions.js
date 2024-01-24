@@ -1,8 +1,14 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 export default function TermsConditions() {
   return (
     <>
+      <Helmet>
+        <title>My Page Title</title>
+        {/* <meta name="description" content="This is a description of my page" /> */}
+        <link rel="canonical" href="http://example.com/my-page" />
+      </Helmet>
       <div className="py-[8%] xs:pt-[23%] sm:pt-[20%] md:pt-[15%] px-[23%] md:px-[12%] sm:px-[4%]   xs:px-[2%] bg-[#fcfce4] mt-[73px]">
         <div className="">
           <h1 className="text-center font-bold text-3xl text-green-800 mb-[5%]">

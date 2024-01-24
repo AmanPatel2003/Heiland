@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import Chamomile from "../../img/Heiland/1Tea/3Chamomile/Z1M.png";
 import Ginger from "../../img/Heiland/1Tea/4Ginger/Z1M.png";
 import Hibiscus from "../../img/Heiland/1Tea/5Hibiscus/Y1M.png";
@@ -8,6 +9,11 @@ import Rose from "../../img/Heiland/1Tea/2Rose/Y1M.png";
 export const Tea = () => {
   return (
     <>
+      <Helmet>
+        <title>My Page Title</title>
+        {/* <meta name="description" content="This is a description of my page" /> */}
+        <link rel="canonical" href="http://example.com/my-page" />
+      </Helmet>
       <div className="bg-[#fcfce4] px-[20%]  md:px-[10%] sm:px-[5%] xs:px-[5%] py-[5%] md:py-[8%] xs:py-[18%] mt-[73px] ">
         <div className="flex h-full">
           <div className=" h-full w-full  pt-[8%] xs-px-[3%] sm:px-[4%] md:px-[5%]">

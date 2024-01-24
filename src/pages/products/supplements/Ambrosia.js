@@ -1,10 +1,14 @@
 import React, { useState } from "react";
-// import { BsStarFill } from "react-icons/bs";
+import { Helmet } from "react-helmet-async";
 import { FaAmazon } from "react-icons/fa";
 
-import AmbrosiaImg from "../../../img/Heiland/2Suplements/2Ambrosia/C,3.jpg";
+import AmbrosiaImg1 from "../../../img/Heiland/2Suplements/2Ambrosia/C,3.jpg";
+import AmbrosiaImg2 from "../../../img/Heiland/2Suplements/2Ambrosia/Y1-M.png";
+import AmbrosiaImg3 from "../../../img/Heiland/2Suplements/2Ambrosia/Y2-M.png";
+import AmbrosiaImg4 from "../../../img/Heiland/2Suplements/2Ambrosia/Y3-M.png";
 import Ashwagandha from "../../../img/Heiland/2Suplements/3Ashwagandha/B1.jpg";
 import Shatavari from "../../../img/Heiland/2Suplements/4Shatavari/A1.jpg";
+import { FaGreaterThan, FaLessThan } from "react-icons/fa6";
 
 import logo1 from "../logos/logo1.png";
 import logo2 from "../logos/logo2.png";
@@ -19,12 +23,47 @@ export const Ambrosia = () => {
     setReviews(!reviews);
   };
 
+  const images = [AmbrosiaImg1, AmbrosiaImg2,AmbrosiaImg3,AmbrosiaImg4]; // Add more images to the array
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const showPreviousImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  const showNextImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
   return (
     <div className="">
+      <Helmet>
+        <title>My Page Title</title>
+        {/* <meta name="description" content="This is a description of my page" /> */}
+        <link rel="canonical" href="http://example.com/my-page" />
+      </Helmet>
       <section className="pt-[10%] xs:pt-[25%] sm:pt-[15%] md:pt-[15%] lg:pt-[15%] h-full bg-[#f3ffed bg-[#fcfce4] mt-[73px] ">
         <div className="flex xs:block sm:block pb-[10%]">
-          <div className="w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[8%] ">
-            <img src={AmbrosiaImg} className="h-[50%" alt="" />
+          <div className="  w-[60%] md:w-[55%] lg:w-[55%] sm:w-full xs:w-full px-[10%] lg:px-[5%] md:px-[5%] sm:px-[15%] xs:px-[8%] ">
+            <div className="relative">
+              <img src={images[currentImageIndex]} className="h-[50%]" alt="" />
+
+              <button
+                className="absolute top-1/2 transform -translate-y-1/2 text-3xl text-gray-300  left-0"
+                onClick={showPreviousImage}
+              >
+                <FaLessThan />
+              </button>
+              <button
+                className="absolute top-1/2 transform -translate-y-1/2 text-3xl text-gray-300  right-0"
+                onClick={showNextImage}
+              >
+                <FaGreaterThan />
+              </button>
+            </div>
           </div>
           <div className="w-[40%] md:w-[45%] lg:w-[45%]  sm:w-full xs:w-full   h-full pr-[5%] md:pr-[5%] sm:px-[4%] xs:px-[4%]">
             <h1 className="font-bold sm:font-semibold text-3xl sm:text-[27px] xs:mt-[15px] sm:mt-[15px]">

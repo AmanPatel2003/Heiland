@@ -40,6 +40,7 @@ export default function FirstPage() {
 
   return (
     <div className="w-full bg-[#fcfce4] mt-[73px] ">
+      
       <section
         className="   py-[19%]   w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-[100vh]  bg-cover bg-no-repeat bg-center   "
         style={{ backgroundImage: `url(${main2})` }}

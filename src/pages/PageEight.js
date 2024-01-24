@@ -1,10 +1,16 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import Form from "../components/Form";
 // import "./PageEight.css";
 
 export default function PageEight() {
   return (
     <>
+      <Helmet>
+        <title>My Page Title</title>
+        {/* <meta name="description" content="This is a description of my page" /> */}
+        <link rel="canonical" href="http://example.com/my-page" />
+      </Helmet>
       <div className="px-[10%] lg:px-[3%] md:px-[0%] sm:px-[0%] xs:px-[0%] pt-[10%] pb-[20%] sm:pb-[10%] bg-[#fcfce4] mt-[73px] ">
         <div className="flex sm:block xs:block  sm:px-[3%] xs:px-[3%] sm:mt-[5%] xs:mt-[1%]">
           <div className="w-[50%] sm:w-full xs:w-full pt-[3%] pl-[9%] sm:mb-[8%] xs:mb-[8%]">
@@ -43,7 +49,7 @@ export default function PageEight() {
               </a>
             </div>
             <div className="px-[5%] xs:px-[1%]">
-             <Form/>
+              <Form />
             </div>
           </div>
         </div>
