@@ -8,8 +8,8 @@ import Tea from "../img/Heiland/1Tea/1Multi Setup/M4.01M.jpg";
 import Supplement from "../img/Heiland/2Suplements/1Multi Setup/E4M.jpg";
 import Beauty from "../img/Heiland/3Skin Products/1MultiSetup/A1M.jpg";
 import Blog1 from "../img/Heiland/2Suplements/2Ambrosia/D1M.jpg";
+import Blog2 from "../img/Heiland/2Suplements/3Ashwagandha/B1.jpg";
 import Blog3 from "../img/Heiland/1Tea/2Rose/D1-M.jpg";
-import Blog2 from "../img/advices/Blog2.jpg";
 import Blog4 from "../img/advices/Blog4.jpg";
 import Blog5 from "../img/advices/Blog5.jpg";
 import logo1 from "../img/logos/logo1.png";
@@ -50,7 +50,7 @@ export default function FirstPage() {
         className="   py-[19%]   w-full  px-[15%] lg:px-[15%] md:px-[10%] sm:px-[5%] xs:px-[5%]   h-[100vh]  bg-cover bg-no-repeat bg-center   "
         style={{ backgroundImage: `url(${main2})` }}
       >
-        <div className=" h-full xs:mr-[0%] sm:mr-[40%] mr-[50%] ">
+        <div className=" h-full xs:mr-[0%] sm:mr-[40%] mr-[50%] flex flex-col justify-center ">
           <h1 className="text-3xl xs:text-2xl font-bold   pb-[4%] text-white ">
             Embrace nature for a healthier you with heiland
           </h1>
@@ -69,7 +69,7 @@ export default function FirstPage() {
             masks, allows you to unlock your inner vitality the natural way.
             Embrace a healthier, more vibrant you with the power of nature
           </p> */}
-          <div className="mt-[2%] xs:mt-[3%]  ">
+          <div className="mt-[10%] xs:mt-[11%]  ">
             <a
               href="/supplement"
               className="px-[3%] py-[1%] bg-transparen bg-gray-700  text font-medium border  text-white"

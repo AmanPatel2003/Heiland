@@ -19,13 +19,12 @@ export default function PageEight() {
               Contact Us
             </h3>
             <p className="text-[15px] font-semibold">
-              500 Willow Tree Road <br />
-              Leonia, NJ 0705 <br />
-              United States <br />
-              Phone: + 1201-944-2311
+              D/601, Avenue 144,
               <br />
-              Phone: + 1 877-765-4274 <br />
-              Fax: +1 201-944-7351
+              New Rajendra nagar, <br />
+              Raipur, Chhattisgarh <br />
+              India <br />
+          
             </p>
             <h5 className="font-bold my-[3%]">international inquires</h5>
             <a href="/" className="text-green-700 font-bold">

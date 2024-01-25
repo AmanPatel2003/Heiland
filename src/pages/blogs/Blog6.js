@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import { Subscribe } from "../../components/Subscribe";
+// import { Subscribe } from "../../components/Subscribe";
 import { BiCalendar } from "react-icons/bi";
 
 import BLogImg from "../../img/advices/Blog5.jpg"
@@ -88,7 +88,7 @@ const Blog6 = () => {
           </p>
         </div>
         <div className=" flex sm:block xs:block pb-[5%]">
-          <div className="w-[54%] sm:w-[100%] xs:w-[100%] ">
+          <div className="w-[54% sm:w-[100%] xs:w-[100%] ">
             {/* <h2 className="font-bold text-xl">SUMMING IT UP</h2> */}
 
             <p className="py-[1%]  ">
@@ -117,9 +117,9 @@ const Blog6 = () => {
               lessens acid reflux symptoms by neutralizing stomach acid.
             </p>
           </div>
-          <div className="w-[46%] sm:w-[80%] xs:w-[100%] sm:m-auto xs:m-auto">
+          {/* <div className="w-[46%] sm:w-[80%] xs:w-[100%] sm:m-auto xs:m-auto">
             <Subscribe />
-          </div>
+          </div> */}
         </div>
         <div className="border">
           <div className="">

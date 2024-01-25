@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import { Subscribe } from "../../components/Subscribe";
+// import { Subscribe } from "../../components/Subscribe";
 import { BiCalendar } from "react-icons/bi";
 
 import BlogImg from "../../img/Heiland/1Tea/2Rose/D1-M.jpg"
@@ -64,7 +64,7 @@ const Blog3 = () => {
         </div>
 
         <div className=" flex sm:block xs:block pb-[5%]">
-          <div className="w-[54%] sm:w-[100%] xs:w-[100%] ">
+          <div className="w-[54% sm:w-[100%] xs:w-[100%] ">
             <h1 className="text-xl font-bold">
               A Natural Symphony of Ingredients:
             </h1>
@@ -91,9 +91,9 @@ const Blog3 = () => {
               your happiness, and your connection to the world around you.
             </p>
           </div>
-          <div className="w-[46%] sm:w-[80%] xs:w-[100%] sm:m-auto xs:m-auto">
+          {/* <div className="w-[46%] sm:w-[80%] xs:w-[100%] sm:m-auto xs:m-auto">
             <Subscribe />
-          </div>
+          </div> */}
         </div>
         <div className="border">
           <div className="">

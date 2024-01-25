@@ -1,8 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import { Subscribe } from "../../components/Subscribe";
+// import { Subscribe } from "../../components/Subscribe";
 import { BiCalendar } from "react-icons/bi";
-import AmbrosiaImg from "../../img/Heiland/2Suplements/2Ambrosia/C,1M.jpg"
+import AmbrosiaImg from "../../img/Heiland/2Suplements/2Ambrosia/C,1-M.jpg"
 
 import Ambrosia from "../../img/Heiland/2Suplements/2Ambrosia/Z1M1.png"
 import Ashwagandha from "../../img/Heiland/2Suplements/3Ashwagandha/Y1M.png"
@@ -74,7 +74,7 @@ const Blog1 = () => {
           </p>
         </div>
         <div className=" flex sm:block xs:block pb-[5%]">
-          <div className="w-[54%] sm:w-[100%] xs:w-[100%] ">
+          <div className="w-[54% sm:w-[100%] xs:w-[100%] ">
             <p className="py-[2%] font-semibold  text-xl ">
               Here are some major benefits of ambrosia
             </p>
@@ -102,9 +102,9 @@ const Blog1 = () => {
               effective.
             </p>
           </div>
-          <div className="w-[46%] sm:w-[80%] xs:w-[100%] sm:m-auto xs:m-auto">
+          {/* <div className="w-[46%] sm:w-[80%] xs:w-[100%] sm:m-auto xs:m-auto">
             <Subscribe />
-          </div>
+          </div> */}
         </div>
         <div className="border">
           <div className="">
