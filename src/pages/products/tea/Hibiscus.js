@@ -44,7 +44,7 @@ export const Hibiscus = () => {
   return (
     <div className="">
       <Helmet>
-        <title>My Page Title</title>
+        <title>Hibiscus Tea</title>
         {/* <meta name="description" content="This is a description of my page" /> */}
         <link rel="canonical" href="http://example.com/my-page" />
       </Helmet>

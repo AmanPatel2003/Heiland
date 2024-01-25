@@ -10,7 +10,7 @@ export const Tea = () => {
   return (
     <>
       <Helmet>
-        <title>My Page Title</title>
+        <title>Tea Products</title>
         {/* <meta name="description" content="This is a description of my page" /> */}
         <link rel="canonical" href="http://example.com/my-page" />
       </Helmet>

@@ -40,7 +40,7 @@ export const Golden = () => {
   return (
     <div className="">
       <Helmet>
-        <title>My Page Title</title>
+        <title>Golden Zest</title>
         {/* <meta name="description" content="This is a description of my page" /> */}
         <link rel="canonical" href="http://example.com/my-page" />
       </Helmet>
